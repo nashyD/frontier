@@ -286,5 +286,53 @@
     ],
     "answer": 1,
     "why": "Self-testers predicted they'd do worse, because retrieval feels effortful and exposes gaps — while re-reading feels smooth and reassuring. The comfortable method is the weaker one."
+  },
+  {
+    "qid": "2026-06-13-pm#0",
+    "lessonId": "2026-06-13-pm",
+    "lessonTitle": "The AI that cracked a 50-year-old biology puzzle",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What is the 'protein folding problem' AlphaFold tackled?",
+    "choices": [
+      "Stopping proteins from breaking down",
+      "Predicting a protein's 3D shape from its amino-acid sequence",
+      "Counting how many proteins a cell makes",
+      "Translating DNA into amino acids"
+    ],
+    "answer": 1,
+    "why": "A protein's function comes from its folded 3D shape. Predicting that shape from just the order of amino acids — without measuring it in a lab — was a riddle biologists chased for about 50 years."
+  },
+  {
+    "qid": "2026-06-13-pm#1",
+    "lessonId": "2026-06-13-pm",
+    "lessonTitle": "The AI that cracked a 50-year-old biology puzzle",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "How did AlphaFold use evolution as a clue to the shape?",
+    "choices": [
+      "It evolved new proteins from scratch",
+      "It ignored other species entirely",
+      "Where two amino acids stayed in step across many related species, they're often touching in the folded shape",
+      "It measured how fast proteins mutate"
+    ],
+    "answer": 2,
+    "why": "AlphaFold gathers similar proteins from many species. Positions that changed together over evolution tend to be physically close in the 3D structure, which gives the model strong hints about how the chain folds."
+  },
+  {
+    "qid": "2026-06-13-pm#2",
+    "lessonId": "2026-06-13-pm",
+    "lessonTitle": "The AI that cracked a 50-year-old biology puzzle",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What is a real limitation of AlphaFold's predictions?",
+    "choices": [
+      "It only works on human proteins",
+      "Its shapes are guesses that need checking, and it's weak on floppy proteins and protein motion",
+      "It takes years to run",
+      "It can only predict one protein ever"
+    ],
+    "answer": 1,
+    "why": "AlphaFold outputs a confident predicted resting shape even when it should be uncertain, so results need validation. It's strongest on single well-folded proteins and weaker on disordered ones, on how proteins assemble, and on the motion they use to do their jobs."
   }
 ]

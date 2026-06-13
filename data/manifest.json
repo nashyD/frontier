@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-13-pm",
+    "date": "2026-06-13",
+    "slot": "pm",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "title": "The AI that cracked a 50-year-old biology puzzle",
+    "tldr": "Proteins are tiny chains that fold into intricate 3D shapes, and that shape is everything — but figuring it out used to take years in a lab. An AI called AlphaFold learned to predict the shape from the recipe in minutes, solving a problem biologists had chased for half a century.",
+    "readMinutes": 5,
+    "citation": "Jumper et al. (2021), \"Highly accurate protein structure prediction with AlphaFold,\" Nature 596(7873)",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-13-am",
     "date": "2026-06-13",
     "slot": "am",

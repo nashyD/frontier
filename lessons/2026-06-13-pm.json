@@ -1,0 +1,52 @@
+{
+  "id": "2026-06-13-pm",
+  "date": "2026-06-13",
+  "slot": "pm",
+  "topic": "ai",
+  "topicLabel": "Artificial Intelligence",
+  "title": "The AI that cracked a 50-year-old biology puzzle",
+  "study": {
+    "citation": "Jumper et al. (2021), \"Highly accurate protein structure prediction with AlphaFold,\" Nature 596(7873)",
+    "year": 2021,
+    "link": "https://doi.org/10.1038/s41586-021-03819-2"
+  },
+  "tldr": "Proteins are tiny chains that fold into intricate 3D shapes, and that shape is everything — but figuring it out used to take years in a lab. An AI called AlphaFold learned to predict the shape from the recipe in minutes, solving a problem biologists had chased for half a century.",
+  "readMinutes": 5,
+  "sections": [
+    { "h": "The question", "body": "Your body runs on proteins — the molecular machines that digest food, fight infection, and carry oxygen. Each one starts as a long chain of building blocks called amino acids, like beads on a string. The instant it's made, that string folds itself into a specific, intricate 3D shape, and the shape decides what the protein actually does. Here was the 50-year-old riddle: given just the order of beads on the string, could anyone predict the folded shape? Working it out in a lab took months or years and expensive equipment. Biologists wanted to do it from the sequence alone." },
+    { "h": "What they did", "body": "A team at DeepMind built AlphaFold, a system based on a neural network — a stack of math that learns patterns from many examples rather than following rules a person wrote by hand. They trained it on roughly 170,000 protein shapes that scientists had already measured the slow way. A key trick: for any target protein, AlphaFold also gathers similar proteins from other species. Where evolution kept two beads in step across many species, they're often touching in the folded shape — a quiet hint about the 3D structure. The system weighs all these hints to predict where every atom lands." },
+    { "h": "What they found", "body": "AlphaFold was tested in CASP, a every-other-year contest where teams predict shapes for proteins whose real structures are known to the judges but hidden from the contestants. In the 2020 round, its predictions were so close to the lab-measured truth that, for most proteins, the result was about as good as an experiment. On the contest's main accuracy scale, which runs to 100, AlphaFold scored a median near the low 90s — far ahead of every other method and a leap past anything before it. A problem people thought was decades from solved had largely fallen." },
+    { "h": "Why it's on the frontier", "body": "Shape is the gateway to function, and function is the gateway to medicine. Knowing a protein's structure helps researchers understand diseases and design drugs that fit it like a key in a lock. After the contest, DeepMind released predicted shapes for nearly every protein known to science — over 200 million of them — free for anyone to use. Work that once gated a PhD thesis now takes minutes on a laptop. It's one of the clearest cases yet of an AI system genuinely accelerating basic science rather than just automating a chore." },
+    { "h": "The catch", "body": "A prediction is a confident guess, and AlphaFold still gives one even when it should be unsure — so its shapes need checking, not blind trust. It's strongest on single, well-behaved proteins. It's shakier on floppy proteins that have no fixed shape, on exactly how proteins clump together into larger machines, and on predicting how a single-letter change in the recipe shifts the structure. It tells you the likely resting shape, but proteins also flex and move to do their jobs, and that motion isn't what this captures." }
+  ],
+  "terms": [
+    { "term": "Protein", "def": "A molecular machine in living things, built from a chain of amino acids that folds into a 3D shape which determines its job." },
+    { "term": "Protein folding", "def": "The process by which a freshly made chain of amino acids collapses into its specific 3D shape — and the puzzle of predicting that shape from the chain alone." },
+    { "term": "Neural network", "def": "A stack of math, loosely inspired by brain cells, that learns patterns from many examples instead of following hand-written rules." }
+  ],
+  "takeaways": [
+    "A protein's 3D shape decides what it does, and AlphaFold predicts that shape from the amino-acid sequence in minutes instead of years.",
+    "The clever fuel was evolution: beads that stayed in step across many species tend to touch in the folded structure, giving the AI hints about the shape.",
+    "It's a real example of AI compounding science — predicted shapes for 200M+ proteins are now free, but they're high-quality guesses that still need lab confirmation."
+  ],
+  "quiz": [
+    {
+      "q": "What is the 'protein folding problem' AlphaFold tackled?",
+      "choices": ["Stopping proteins from breaking down", "Predicting a protein's 3D shape from its amino-acid sequence", "Counting how many proteins a cell makes", "Translating DNA into amino acids"],
+      "answer": 1,
+      "why": "A protein's function comes from its folded 3D shape. Predicting that shape from just the order of amino acids — without measuring it in a lab — was a riddle biologists chased for about 50 years."
+    },
+    {
+      "q": "How did AlphaFold use evolution as a clue to the shape?",
+      "choices": ["It evolved new proteins from scratch", "It ignored other species entirely", "Where two amino acids stayed in step across many related species, they're often touching in the folded shape", "It measured how fast proteins mutate"],
+      "answer": 2,
+      "why": "AlphaFold gathers similar proteins from many species. Positions that changed together over evolution tend to be physically close in the 3D structure, which gives the model strong hints about how the chain folds."
+    },
+    {
+      "q": "What is a real limitation of AlphaFold's predictions?",
+      "choices": ["It only works on human proteins", "Its shapes are guesses that need checking, and it's weak on floppy proteins and protein motion", "It takes years to run", "It can only predict one protein ever"],
+      "answer": 1,
+      "why": "AlphaFold outputs a confident predicted resting shape even when it should be uncertain, so results need validation. It's strongest on single well-folded proteins and weaker on disordered ones, on how proteins assemble, and on the motion they use to do their jobs."
+    }
+  ]
+}
