@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Frontier</title>
+    <link>https://nashyd.github.io/frontier/</link>
+    <language>en-us</language>
+    <description>A short twice-daily audio walk through one landmark study — biohacking, AI, learning, cannabis, finance, and frontier tech, explained in plain language by two hosts.</description>
+    <itunes:author>Frontier</itunes:author>
+    <itunes:summary>A short twice-daily audio walk through one landmark study — biohacking, AI, learning, cannabis, finance, and frontier tech, explained in plain language by two hosts.</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://nashyd.github.io/frontier/assets/podcast-cover.png"/>
+    <image><url>https://nashyd.github.io/frontier/assets/podcast-cover.png</url><title>Frontier</title><link>https://nashyd.github.io/frontier/</link></image>
+    <itunes:category text="Science"/>
+    <itunes:owner><itunes:name>Frontier</itunes:name><itunes:email>nashdavis@tsd-ventures.com</itunes:email></itunes:owner>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://nashyd.github.io/frontier/podcast.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Frontier — Jun 13, 2026</title>
+      <description>A welcome tour of the first six studies: the testing effect, the Transformer, time-restricted eating, anandamide, prospect theory, and CRISPR.</description>
+      <itunes:summary>A welcome tour of the first six studies: the testing effect, the Transformer, time-restricted eating, anandamide, prospect theory, and CRISPR.</itunes:summary>
+      <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-13.mp3" length="2894733" type="audio/mpeg"/>
+      <guid isPermaLink="false">frontier-2026-06-13</guid>
+      <pubDate>Sat, 13 Jun 2026 12:00:00 GMT</pubDate>
+      <itunes:duration>4:01</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+{
+  "_README": "Ordered backlog of EXISTING landmark studies to teach, one per slot. The routine takes queue[0], writes the lesson, and moves that entry into done[]. Topics are interleaved so the cadence rotates. Add more any time; keep them real, well-documented, and teachable to a curious non-scientist. After the queue runs dry (or after a couple months), flip to surfacing NEW studies — see routines/.",
+  "mode": "existing",
+  "queue": [
+    { "topic": "ai", "topicLabel": "Artificial Intelligence", "study": "Jumper et al. (2021), 'Highly accurate protein structure prediction with AlphaFold', Nature", "angle": "AI solved a 50-year-old biology grand challenge (the protein-folding problem)." },
+    { "topic": "biohacking", "topicLabel": "Biohacking", "study": "Xie et al. (2013), 'Sleep Drives Metabolite Clearance from the Adult Brain', Science", "angle": "The brain has a plumbing system (the glymphatic system) that power-washes waste while you sleep." },
+    { "topic": "learning", "topicLabel": "Learning & Cognition", "study": "Kruger & Dunning (1999), 'Unskilled and Unaware of It', Journal of Personality and Social Psychology", "angle": "Why the least competent people are often the most confident — and what that means for learning." },
+    { "topic": "cannabis", "topicLabel": "Cannabis Science", "study": "Devinsky et al. (2017), 'Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome', NEJM", "angle": "The rigorous randomized trial that turned CBD from folk remedy into FDA-approved medicine." },
+    { "topic": "finance", "topicLabel": "Finance & Economics", "study": "Markowitz (1952), 'Portfolio Selection', Journal of Finance", "angle": "The idea that diversification is a free lunch — the math that founded modern investing." },
+    { "topic": "frontier", "topicLabel": "Frontier Tech", "study": "Abbott et al. / LIGO (2016), 'Observation of Gravitational Waves from a Binary Black Hole Merger', Physical Review Letters", "angle": "We heard two black holes collide a billion light-years away by detecting a ripple smaller than a proton." },
+
+    { "topic": "ai", "topicLabel": "Artificial Intelligence", "study": "Silver et al. (2016), 'Mastering the game of Go with deep neural networks and tree search', Nature", "angle": "How AlphaGo beat a game thought to be a decade away from machines." },
+    { "topic": "biohacking", "topicLabel": "Biohacking", "study": "Kox et al. (2014), 'Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans', PNAS", "angle": "The Wim Hof study: breathing and cold trained people to consciously dial down inflammation." },
+    { "topic": "learning", "topicLabel": "Learning & Cognition", "study": "Cepeda et al. (2006), 'Distributed practice in verbal recall tasks', Psychological Bulletin", "angle": "The spacing effect: the same study time spread out beats it crammed together, every time." },
+    { "topic": "cannabis", "topicLabel": "Cannabis Science", "study": "Matsuda et al. (1990), 'Structure of a cannabinoid receptor and functional expression of the cloned cDNA', Nature", "angle": "Finding the lock that THC fits — the receptor that proved the body was built to respond to cannabis." },
+    { "topic": "finance", "topicLabel": "Finance & Economics", "study": "Kahneman, Knetsch & Thaler (1990), 'Experimental Tests of the Endowment Effect and the Coase Theorem', Journal of Political Economy", "angle": "The coffee-mug experiment: why owning something instantly makes you value it more." },
+    { "topic": "frontier", "topicLabel": "Frontier Tech", "study": "Karikó & Weissman (2005), 'Suppression of RNA Recognition by Toll-like Receptors', Immunity", "angle": "The quiet 2005 fix that made mRNA vaccines possible — and won a Nobel 18 years later." },
+
+    { "topic": "ai", "topicLabel": "Artificial Intelligence", "study": "Krizhevsky, Sutskever & Hinton (2012), 'ImageNet Classification with Deep Convolutional Neural Networks' (AlexNet), NeurIPS", "angle": "The 2012 result that kicked off the entire deep-learning era." },
+    { "topic": "biohacking", "topicLabel": "Biohacking", "study": "Chang et al. (2015), 'Evening use of light-emitting eReaders negatively affects sleep', PNAS", "angle": "Hard evidence that screens before bed push your body clock later and blunt melatonin." },
+    { "topic": "learning", "topicLabel": "Learning & Cognition", "study": "Ericsson, Krampe & Tesch-Römer (1993), 'The Role of Deliberate Practice in the Acquisition of Expert Performance', Psychological Review", "angle": "The real study behind the (often-misquoted) '10,000 hours' idea." },
+    { "topic": "cannabis", "topicLabel": "Cannabis Science", "study": "Fuss et al. (2015), 'A runner's high depends on cannabinoid receptors in mice', PNAS", "angle": "The 'runner's high' may owe more to your endocannabinoids than to endorphins." },
+    { "topic": "finance", "topicLabel": "Finance & Economics", "study": "Shiller (1981), 'Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?', American Economic Review", "angle": "The evidence that markets are far more volatile than rational pricing can explain." },
+    { "topic": "frontier", "topicLabel": "Frontier Tech", "study": "Arute et al. (2019), 'Quantum supremacy using a programmable superconducting processor', Nature", "angle": "Google's claim that a quantum chip did in minutes what a supercomputer would take millennia to do." },
+
+    { "topic": "ai", "topicLabel": "Artificial Intelligence", "study": "Mnih et al. (2015), 'Human-level control through deep reinforcement learning', Nature", "angle": "One algorithm that learned to play dozens of Atari games from raw pixels and a score." },
+    { "topic": "biohacking", "topicLabel": "Biohacking", "study": "Colman et al. (2009), 'Caloric Restriction Delays Disease Onset and Mortality in Rhesus Monkeys', Science", "angle": "The decades-long monkey study at the heart of the eat-less-live-longer debate." },
+    { "topic": "learning", "topicLabel": "Learning & Cognition", "study": "Watts, Duncan & Quan (2018), 'Revisiting the Marshmallow Test', Psychological Science", "angle": "The famous willpower study gets re-run with 10x the kids — and the story changes." },
+    { "topic": "cannabis", "topicLabel": "Cannabis Science", "study": "Gaoni & Mechoulam (1964), 'Isolation, Structure, and Partial Synthesis of an Active Constituent of Hashish', JACS", "angle": "The moment a chemist finally pinned down what THC actually is." },
+    { "topic": "finance", "topicLabel": "Finance & Economics", "study": "Tversky & Kahneman (1974), 'Judgment under Uncertainty: Heuristics and Biases', Science", "angle": "The mental shortcuts that quietly run your decisions — anchoring, availability, representativeness." },
+    { "topic": "frontier", "topicLabel": "Frontier Tech", "study": "Watson & Crick (1953), 'Molecular Structure of Nucleic Acids', Nature", "angle": "One page in Nature that revealed the double helix and launched modern biology." },
+
+    { "topic": "ai", "topicLabel": "Artificial Intelligence", "study": "Goodfellow et al. (2014), 'Generative Adversarial Networks', NeurIPS", "angle": "Two neural networks playing a forgery game — the idea behind a decade of AI image generation." },
+    { "topic": "biohacking", "topicLabel": "Biohacking", "study": "Davidson et al. (2003), 'Alterations in Brain and Immune Function Produced by Mindfulness Meditation', Psychosomatic Medicine", "angle": "An 8-week meditation course left measurable marks on the brain and the immune response." },
+    { "topic": "learning", "topicLabel": "Learning & Cognition", "study": "Slamecka & Graf (1978), 'The Generation Effect', Journal of Experimental Psychology", "angle": "You remember words you generate yourself far better than words you simply read." },
+    { "topic": "cannabis", "topicLabel": "Cannabis Science", "study": "Volkow et al. (2014), 'Adverse Health Effects of Marijuana Use', NEJM", "angle": "A sober, evidence-based accounting of cannabis risks — especially for the developing brain." },
+    { "topic": "finance", "topicLabel": "Finance & Economics", "study": "Fama (1970), 'Efficient Capital Markets: A Review of Theory and Empirical Work', Journal of Finance", "angle": "The efficient-market hypothesis: the claim that you can't beat the market on public info." },
+    { "topic": "frontier", "topicLabel": "Frontier Tech", "study": "Mayor & Queloz (1995), 'A Jupiter-mass companion to a solar-type star', Nature", "angle": "The first planet found orbiting another sun-like star — and the method that found thousands more." }
+  ],
+  "done": [
+    "2026-06-13-am — learning — Roediger & Karpicke (2006), testing effect",
+    "2026-06-12-pm — ai — Vaswani et al. (2017), Attention Is All You Need",
+    "2026-06-12-am — biohacking — Hatori et al. (2012), time-restricted feeding",
+    "2026-06-11-pm — cannabis — Devane et al. (1992), anandamide",
+    "2026-06-11-am — finance — Kahneman & Tversky (1979), prospect theory",
+    "2026-06-10-pm — frontier — Jinek et al. (2012), CRISPR-Cas9"
+  ]
+}

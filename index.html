@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontier — studies from the edge</title>
+  <meta name="description" content="Twice a day, one landmark study explained in plain language — biohacking, AI, learning, cannabis, finance, and frontier tech. With a QuizMe mode and a daily podcast." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%238b7cff'/><text x='16' y='23' font-size='20' text-anchor='middle' fill='%230b0c12' font-family='Arial' font-weight='bold'>✦</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="assets/theme.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="./">
+        <span class="mark">✦</span>
+        <span><b>Frontier</b><small>studies from the edge</small></span>
+      </a>
+      <nav>
+        <a href="#library">Library</a>
+        <a href="quiz.html">QuizMe</a>
+        <a href="#podcast">Podcast</a>
+        <a class="cta" href="quiz.html">Quiz me ✦</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <span class="eyebrow"><span class="spark">✦</span> Twice daily · studies from the edge</span>
+      <h1>The cutting edge,<br /><span class="grad">explained like you're smart.</span></h1>
+      <p class="lede">Every morning and evening, one landmark study — in biohacking, AI, learning, cannabis, finance, or frontier tech — broken down in plain language. Then quiz yourself until it sticks.</p>
+      <div class="meta-row" id="hero-meta"></div>
+    </section>
+
+    <div id="podcast"></div>
+
+    <section>
+      <div class="section-head"><h2><span class="spark">✦</span> Quiz yourself</h2></div>
+      <div class="quiz-cta">
+        <div>
+          <h3>QuizMe</h3>
+          <p>Retrieval beats re-reading — it's the first lesson here for a reason. Pull from everything you've learned, or drill one topic. Your progress is tracked on this device.</p>
+        </div>
+        <a class="btn btn-mint btn-lg" href="quiz.html">Start a quiz ✦</a>
+      </div>
+    </section>
+
+    <div id="library"></div>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <span>✦ Frontier — built to learn, on purpose</span>
+      <span id="foot-stamp"></span>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+  <script>
+    let ALL = [];
+    let activeTopic = 'all';
+
+    function card(r, feature) {
+      const color = topicColor(r.topic);
+      const label = topicLabel(r.topic, r.topicLabel);
+      const read = r.readMinutes ? `${r.readMinutes} min read` : 'Lesson';
+      return `<a class="card${feature ? ' feature' : ''} reveal" href="lesson.html?id=${encodeURIComponent(r.id)}" style="--src:${esc(color)}">
+        <div class="${feature ? 'feat-body' : ''}">
+          <div class="card-top">
+            <span class="badge"><span class="dot"></span>${esc(label)}</span>
+            <span class="date">${fmtDate(r.date)}${r.slot ? ' · ' + slotLabel(r.slot) : ''}</span>
+          </div>
+          <h3>${esc(r.title)}</h3>
+          <p class="tldr">${esc(r.tldr || '')}</p>
+          <div class="card-foot">
+            <span>${read}${r.quizCount ? ' · ' + r.quizCount + ' Q' : ''}</span>
+            <span class="go">Read ${ARROW}</span>
+          </div>
+        </div>
+      </a>`;
+    }
+
+    function renderFilters() {
+      const present = [...new Set(ALL.map(r => r.topic))];
+      const chips = [`<button class="chip${activeTopic === 'all' ? ' active' : ''}" data-t="all" style="--src:var(--accent)"><span class="dot"></span>All topics</button>`]
+        .concat(present.map(t => `<button class="chip${activeTopic === t ? ' active' : ''}" data-t="${esc(t)}" style="--src:${esc(topicColor(t))}"><span class="dot"></span>${esc(topicLabel(t))}</button>`));
+      return `<div class="filters">${chips.join('')}</div>`;
+    }
+
+    function renderLibrary() {
+      const el = document.getElementById('library');
+      if (!ALL.length) {
+        el.innerHTML = `<div class="section-head"><h2><span class="spark">✦</span> Library</h2></div>
+          <div class="empty"><p>No lessons filed yet. The first one lands as soon as the twice-daily routine runs.</p></div>`;
+        return;
+      }
+      const sorted = [...ALL].sort((a, b) => (b.date + (b.slot || '')).localeCompare(a.date + (a.slot || '')));
+      const [latest, ...rest] = sorted;
+      const filtered = activeTopic === 'all' ? rest : rest.filter(r => r.topic === activeTopic);
+      const featured = (activeTopic === 'all' || latest.topic === activeTopic) ? latest : null;
+      const featuredHtml = featured ? `<div class="grid" style="margin-bottom:16px">${card(featured, true)}</div>` : '';
+      const restList = activeTopic === 'all' ? rest : sorted.filter(r => r.topic === activeTopic && r !== featured);
+
+      el.innerHTML = `<div class="section-head"><h2><span class="spark">✦</span> Library</h2><span class="count">${ALL.length} lesson${ALL.length === 1 ? '' : 's'}</span></div>
+        ${renderFilters()}
+        ${featuredHtml}
+        <div class="grid">${restList.map(r => card(r, false)).join('')}</div>`;
+
+      el.querySelectorAll('.chip').forEach(c => c.addEventListener('click', () => {
+        activeTopic = c.dataset.t; renderLibrary();
+        document.getElementById('library').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }));
+    }
+
+    function renderHero() {
+      const topics = [...new Set(ALL.map(r => r.topic))];
+      const quizQ = ALL.reduce((n, r) => n + (r.quizCount || 0), 0);
+      const latest = [...ALL].sort((a, b) => b.date.localeCompare(a.date))[0];
+      document.getElementById('hero-meta').innerHTML =
+        `<span class="pill"><span class="dot"></span>${ALL.length} lesson${ALL.length === 1 ? '' : 's'}</span>` +
+        `<span class="pill"><span class="dot" style="background:var(--accent-2)"></span>${quizQ} quiz question${quizQ === 1 ? '' : 's'}</span>` +
+        `<span class="pill"><span class="dot" style="background:var(--accent-3)"></span>${topics.length} topic${topics.length === 1 ? '' : 's'}</span>` +
+        (latest ? `<span class="pill"><span class="dot" style="background:var(--accent)"></span>Latest ${fmtDate(latest.date)}</span>` : '');
+    }
+
+    fetch('data/manifest.json', { cache: 'no-store' })
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(data => { ALL = Array.isArray(data) ? data : (data.lessons || []); renderHero(); renderLibrary(); })
+      .catch(() => {
+        document.getElementById('library').innerHTML =
+          `<div class="empty"><p>Couldn't load the lesson index.<br><span class="mono">data/manifest.json</span> is generated on deploy — view this on GitHub Pages, not the raw files.</p></div>`;
+      });
+
+    /* ---- podcast player ---- */
+    const mins = (s) => s ? `${Math.max(1, Math.round(s / 60))} min` : 'audio';
+    function renderPodcast(eps) {
+      const feedUrl = new URL('podcast.xml', location.href).href;
+      const subscribe = 'podcast://' + feedUrl.replace(/^https?:\/\//, '');
+      const head = `<div class="section-head"><h2><span class="spark">✦</span> The Frontier podcast</h2></div>`;
+      const cover = `<div class="cover" style="background-image:url('assets/podcast-cover.png')"></div>`;
+      const el = document.getElementById('podcast');
+      if (!eps || !eps.length) {
+        el.innerHTML = head + `<div class="podcast-card">${cover}
+          <div class="pc-body"><div class="pc-kicker">✦ Frontier</div>
+          <div class="pc-title">A short audio walk through the day's studies</div>
+          <div class="pc-meta">The first episode lands here once the podcast routine runs.</div></div></div>`;
+        return;
+      }
+      const e = eps[0];
+      const list = eps.map((ep, i) => `<button class="ep-item${i === 0 ? ' active' : ''}" data-file="${esc(ep.file)}" data-title="${esc(ep.title)}" data-date="${esc(ep.date)}" data-dur="${ep.durationSec || 0}">
+          <span class="ep-play">▶</span>
+          <span class="ep-info"><span class="ep-t">${fmtDate(ep.date)} · ${mins(ep.durationSec)}</span><span class="ep-d">${esc(ep.summary || '')}</span></span>
+        </button>`).join('');
+      el.innerHTML = head + `<div class="podcast-card">${cover}
+        <div class="pc-body">
+          <div class="pc-kicker">✦ Frontier · Now playing</div>
+          <div class="pc-title">${esc(e.title)}</div>
+          <div class="pc-meta">${fmtDate(e.date)} · ${mins(e.durationSec)}</div>
+          <audio id="pc-audio" controls preload="metadata" src="${esc(e.file)}"></audio>
+        </div>
+        <div class="pc-side">
+          <a class="btn btn-primary" href="${subscribe}">Subscribe in app</a>
+          <button class="btn" id="copyFeed" type="button">Copy feed link</button>
+          <span class="feed-url">${esc(feedUrl)}</span>
+        </div>
+      </div>` + (eps.length > 1 ? `<div class="ep-list"><div class="ep-label">✦ All episodes</div>${list}</div>` : '');
+
+      const audio = document.getElementById('pc-audio');
+      el.querySelectorAll('.ep-item').forEach(b => b.addEventListener('click', () => {
+        audio.src = b.dataset.file; audio.play().catch(() => {});
+        el.querySelectorAll('.ep-item').forEach(x => x.classList.remove('active'));
+        b.classList.add('active');
+        el.querySelector('.pc-title').textContent = b.dataset.title;
+        el.querySelector('.pc-meta').textContent = fmtDate(b.dataset.date) + ' · ' + mins(Number(b.dataset.dur));
+      }));
+      const cb = document.getElementById('copyFeed');
+      cb && cb.addEventListener('click', async () => {
+        try { await navigator.clipboard.writeText(feedUrl); cb.textContent = 'Copied ✓'; }
+        catch { cb.textContent = feedUrl; }
+        setTimeout(() => { cb.textContent = 'Copy feed link'; }, 1900);
+      });
+    }
+    fetch('data/episodes.json', { cache: 'no-store' })
+      .then(r => r.ok ? r.json() : [])
+      .then(renderPodcast)
+      .catch(() => renderPodcast([]));
+
+    document.getElementById('foot-stamp').textContent = '✦ ' + new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "id": "2026-06-11-am",
+  "date": "2026-06-11",
+  "slot": "am",
+  "topic": "finance",
+  "topicLabel": "Finance & Economics",
+  "title": "Why a loss hurts twice as much as a win feels good",
+  "study": {
+    "citation": "Kahneman & Tversky (1979), \"Prospect Theory: An Analysis of Decision under Risk,\" Econometrica 47(2)",
+    "year": 1979,
+    "link": "https://doi.org/10.2307/1914185"
+  },
+  "tldr": "People don't weigh risk the way economic theory says they should. Losses sting about twice as hard as equivalent gains feel good — and that single asymmetry rewrote economics.",
+  "readMinutes": 5,
+  "sections": [
+    { "h": "The question", "body": "For most of the 20th century, economics ran on a tidy assumption: people are rational calculators. Faced with a risky choice, you supposedly weigh each outcome by its odds and pick whatever gives the highest 'expected utility' — the average satisfaction you'd expect over many tries. Two psychologists, Daniel Kahneman and Amos Tversky, doubted real humans actually do this. Their question was blunt: when you put people in front of real gambles, do their choices match the rational model, or do they break it in ways that repeat predictably?" },
+    { "h": "What they did", "body": "They ran a long series of simple questionnaires. Each posed a gamble. For example: would you rather take a sure $500, or a coin-flip between $1,000 and nothing? The two options have the same average payoff, so a pure calculator should be indifferent. Then they flipped the framing to losses: a sure $500 loss, or a coin-flip between losing $1,000 and losing nothing. By varying the amounts, the odds, and whether outcomes were framed as gains or losses, they could map exactly where human choices drifted from the textbook." },
+    { "h": "What they found", "body": "The drift was systematic. For gains, people played it safe — most grabbed the sure $500 rather than gamble for $1,000. For losses, the same people flipped and gambled, choosing the coin-flip over a guaranteed $500 loss to avoid locking in the pain. The deepest finding: losses loom larger than gains. Losing $100 hurts roughly twice as much as winning $100 feels good — a 'loss-aversion' ratio later pinned near 2. People weren't weighing final wealth at all. They were reacting to changes from where they currently stood." },
+    { "h": "Why it's on the frontier", "body": "This paper founded behavioral economics and won Kahneman the 2002 Nobel in Economics (Tversky had died, and the prize isn't awarded posthumously). It replaced the rational calculator with a more accurate human: one who feels gains and losses relative to a reference point, and who hates losing far more than they love winning. That lens now shapes how markets, retirement plans, insurance, and pricing get designed. The idea that framing the same choice as a gain or a loss flips behavior is one of the most replicated results in social science." },
+    { "h": "The catch", "body": "The exact loss-aversion number isn't a universal constant. The 'about twice' figure holds up well on average, but it shifts with the person, the stakes, and the context — and a few studies find weaker effects for very small amounts. Prospect theory also describes how people choose; it doesn't claim they're foolish for doing so. And the original gambles were hypothetical questionnaires. Later work with real money largely confirmed the patterns, but it's worth remembering the foundation was built on what people said they'd do." }
+  ],
+  "terms": [
+    { "term": "Expected utility", "def": "The old rational model of choice: weigh each possible outcome by its probability, add up the resulting satisfaction, and pick the option with the highest average. It assumes you care about your final wealth rather than the change along the way." },
+    { "term": "Loss aversion", "def": "The tendency for a loss to feel more painful than an equal-sized gain feels pleasant — roughly twice as much. It's why people scramble harder to avoid losing $100 than to win it." },
+    { "term": "Reference point", "def": "The baseline you measure outcomes against — usually where you stand right now. You feel an outcome as a gain or a loss relative to this point, which is why the same final amount can feel like either." }
+  ],
+  "takeaways": [
+    "You don't judge money by how much you'll end up with; you judge it by whether it's a gain or a loss from where you are now.",
+    "Frame the identical choice as a loss and people take risks they'd refuse if it were framed as a gain — the wording moves the decision.",
+    "In investing, loss aversion is why people hold losers too long (gambling to avoid locking in the pain) and sell winners too early — naming the bias is the first defense against it."
+  ],
+  "quiz": [
+    {
+      "q": "In a typical prospect-theory gamble, people offered a sure $500 versus a coin-flip for $1,000 or nothing tend to do what?",
+      "choices": ["Take the gamble, because it could pay double", "Take the sure $500, playing it safe with gains", "Refuse to answer either way", "Split evenly — the model predicts indifference"],
+      "answer": 1,
+      "why": "Both options average $500, so a pure calculator would be indifferent. But for gains, real people are risk-averse and grab the sure thing — one of the clean breaks from the rational model."
+    },
+    {
+      "q": "What does 'loss aversion' say about how a $100 loss compares to a $100 gain?",
+      "choices": ["They feel exactly equal in size", "The gain feels stronger because we're optimists", "The loss hurts roughly twice as much as the gain feels good", "Neither registers unless the amount is large"],
+      "answer": 2,
+      "why": "Kahneman and Tversky found losses 'loom larger' than gains, with the pain of a loss running about twice the pleasure of an equal gain — a ratio later estimated near 2."
+    },
+    {
+      "q": "Why can the same final dollar amount feel like a gain to one person and a loss to another?",
+      "choices": ["Because of differences in expected utility", "Because they have different reference points", "Because probabilities are subjective", "Because one of them did the math wrong"],
+      "answer": 1,
+      "why": "Prospect theory says we judge outcomes relative to a reference point — usually our current position. Ending at $1,000 feels like a win if you started below it and a loss if you started above it."
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontier — lesson</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%238b7cff'/><text x='16' y='23' font-size='20' text-anchor='middle' fill='%230b0c12' font-family='Arial' font-weight='bold'>✦</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="assets/theme.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="./">
+        <span class="mark">✦</span>
+        <span><b>Frontier</b><small>studies from the edge</small></span>
+      </a>
+      <nav>
+        <a href="./#library">Library</a>
+        <a href="quiz.html">QuizMe</a>
+        <a class="cta" href="quiz.html">Quiz me ✦</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="lesson" id="lesson">
+      <div class="empty">Loading lesson…</div>
+    </article>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <span>✦ Frontier — built to learn, on purpose</span>
+      <span id="foot-stamp"></span>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+  <script>
+    const id = new URLSearchParams(location.search).get('id');
+    const root = document.getElementById('lesson');
+    document.getElementById('foot-stamp').textContent = '✦ ' + new Date().getFullYear();
+
+    function renderQuiz(lesson) {
+      if (!lesson.quiz || !lesson.quiz.length) return '';
+      const items = lesson.quiz.map((q, i) => {
+        const qid = `${lesson.id}#${i}`;
+        const choices = q.choices.map((c, ci) => `<button class="choice" data-i="${ci}" data-correct="${ci === q.answer}">
+            <span class="key">${String.fromCharCode(65 + ci)}</span><span>${esc(c)}</span></button>`).join('');
+        return `<div class="quizbox" data-qid="${esc(qid)}" data-answer="${q.answer}">
+          <p class="quiz-q"><span class="qnum">Question ${i + 1} of ${lesson.quiz.length}</span>${esc(q.q)}</p>
+          <div class="choices">${choices}</div>
+          <div class="explain"><b>Why:</b> ${esc(q.why || '')}</div>
+        </div>`;
+      }).join('');
+      return `<div class="section-head" style="margin-top:48px"><h2><span class="spark">✦</span> Quiz yourself on this one</h2></div>${items}`;
+    }
+
+    function wireQuiz() {
+      root.querySelectorAll('.quizbox').forEach(box => {
+        const qid = box.dataset.qid;
+        const explain = box.querySelector('.explain');
+        box.querySelectorAll('.choice').forEach(btn => btn.addEventListener('click', () => {
+          if (box.dataset.done) return;
+          box.dataset.done = '1';
+          const correct = btn.dataset.correct === 'true';
+          const ansIdx = Number(box.dataset.answer);
+          box.querySelectorAll('.choice').forEach((b, bi) => {
+            b.disabled = true;
+            if (bi === ansIdx) b.classList.add('correct');
+            else if (b === btn) b.classList.add('wrong');
+          });
+          explain.classList.add('show');
+          recordAnswer(qid, correct);
+        }));
+      });
+    }
+
+    function render(lesson, neighbors) {
+      const color = topicColor(lesson.topic);
+      root.style.setProperty('--src', color);
+      const label = topicLabel(lesson.topic, lesson.topicLabel);
+      const s = lesson.study || {};
+      const sections = (lesson.sections || []).map(sec =>
+        `<section><h2>${esc(sec.h)}</h2><p>${esc(sec.body)}</p></section>`).join('');
+      const terms = (lesson.terms || []).length
+        ? `<div class="aside"><h3>✦ Key terms</h3>${lesson.terms.map(t => `<div class="term"><b>${esc(t.term)}</b> — <span>${esc(t.def)}</span></div>`).join('')}</div>` : '';
+      const takeaways = (lesson.takeaways || []).length
+        ? `<div class="aside"><h3>✦ Takeaways</h3><ul class="takeaways">${lesson.takeaways.map(t => `<li>${esc(t)}</li>`).join('')}</ul></div>` : '';
+      const cite = s.citation
+        ? `<span class="cite">Based on ${esc(s.citation)}${s.link ? ` · <a href="${esc(s.link)}" target="_blank" rel="noopener">read the source</a>` : ''}</span>` : '';
+
+      const navBtns = `<div class="quiz-foot" style="margin-top:40px">
+        ${neighbors.prev ? `<a class="btn" href="lesson.html?id=${encodeURIComponent(neighbors.prev.id)}">← ${esc(neighbors.prev.title.slice(0, 30))}${neighbors.prev.title.length > 30 ? '…' : ''}</a>` : '<span></span>'}
+        ${neighbors.next ? `<a class="btn" href="lesson.html?id=${encodeURIComponent(neighbors.next.id)}">${esc(neighbors.next.title.slice(0, 30))}${neighbors.next.title.length > 30 ? '…' : ''} →</a>` : '<span></span>'}
+      </div>`;
+
+      document.title = `Frontier — ${lesson.title}`;
+      root.innerHTML = `
+        <a class="lesson-back" href="./#library">← Back to library</a>
+        <div class="lesson-head" style="--src:${esc(color)}">
+          <span class="badge"><span class="dot"></span>${esc(label)}</span>
+          <span>${fmtDate(lesson.date)}${lesson.slot ? ' · ' + slotLabel(lesson.slot) : ''}</span>
+          ${lesson.readMinutes ? `<span>· ${lesson.readMinutes} min read</span>` : ''}
+        </div>
+        <h1>${esc(lesson.title)}</h1>
+        ${lesson.tldr ? `<p class="tldr-lead">${esc(lesson.tldr)}</p>` : ''}
+        ${cite}
+        ${sections}
+        ${terms}
+        ${takeaways}
+        ${renderQuiz(lesson)}
+        <div class="quiz-cta" style="margin-top:34px">
+          <div><h3>Want more reps?</h3><p>QuizMe pulls questions from every lesson you've read — the fastest way to make all of this stick.</p></div>
+          <a class="btn btn-mint btn-lg" href="quiz.html">Quiz me on everything ✦</a>
+        </div>
+        ${navBtns}`;
+      wireQuiz();
+    }
+
+    if (!id) {
+      root.innerHTML = `<div class="empty"><p>No lesson selected. <a href="./" style="color:var(--accent-2)">Back to the library →</a></p></div>`;
+    } else {
+      Promise.all([
+        fetch(`lessons/${encodeURIComponent(id)}.json`, { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+        fetch('data/manifest.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : []).catch(() => []),
+      ]).then(([lesson, manifest]) => {
+        const list = (Array.isArray(manifest) ? manifest : (manifest.lessons || []))
+          .sort((a, b) => (b.date + (b.slot || '')).localeCompare(a.date + (a.slot || '')));
+        const idx = list.findIndex(r => r.id === id);
+        const neighbors = { prev: idx > 0 ? list[idx - 1] : null, next: idx >= 0 && idx < list.length - 1 ? list[idx + 1] : null };
+        render(lesson, neighbors);
+      }).catch(() => {
+        root.innerHTML = `<div class="empty"><p>Couldn't load that lesson.<br>Lessons render on GitHub Pages — view there, not from the raw files.<br><a href="./" style="color:var(--accent-2)">Back to the library →</a></p></div>`;
+      });
+    }
+  </script>
+</body>
+</html>

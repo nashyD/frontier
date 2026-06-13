@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontier — QuizMe</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%2334e3b0'/><text x='16' y='23' font-size='20' text-anchor='middle' fill='%2306241b' font-family='Arial' font-weight='bold'>✦</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="assets/theme.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="./">
+        <span class="mark">✦</span>
+        <span><b>Frontier</b><small>studies from the edge</small></span>
+      </a>
+      <nav>
+        <a href="./#library">Library</a>
+        <a href="./#podcast">Podcast</a>
+        <a class="cta" href="./">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" style="padding-bottom:18px">
+      <span class="eyebrow"><span class="spark">✦</span> QuizMe</span>
+      <h1 style="font-size:clamp(28px,4.6vw,44px)">Make it <span class="grad">stick.</span></h1>
+      <p class="lede">Retrieval practice — pulling answers out of your head — is the single best way to remember what you read. Pick a scope and go.</p>
+    </section>
+    <div id="app"><div class="empty">Loading question bank…</div></div>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <span>✦ Frontier — built to learn, on purpose</span>
+      <span id="foot-stamp"></span>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+  <script>
+    document.getElementById('foot-stamp').textContent = '✦ ' + new Date().getFullYear();
+    const app = document.getElementById('app');
+    let BANK = [];
+    let scope = 'all';
+    let length = 10;
+    let session = null;
+
+    const shuffle = (a) => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+
+    /* priority: never-seen first, then last-wrong, then least-seen; light shuffle within tiers */
+    function prioritize(items) {
+      const mem = loadMem();
+      const tier = (q) => { const e = mem[q.qid]; if (!e || !e.seen) return 0; if (e.lastResult === 0) return 1; return 2; };
+      const buckets = [[], [], []];
+      items.forEach(q => buckets[tier(q)].push(q));
+      return buckets.flatMap(b => shuffle(b));
+    }
+
+    function statsFor(items) {
+      const mem = loadMem();
+      let seen = 0, correct = 0, attempts = 0, mastered = 0;
+      items.forEach(q => { const e = mem[q.qid]; if (e && e.seen) { seen++; attempts += e.seen; correct += e.correct; if (e.correct >= 2 && e.lastResult === 1) mastered++; } });
+      const acc = attempts ? Math.round((correct / attempts) * 100) : 0;
+      return { seen, total: items.length, acc, mastered };
+    }
+
+    /* ---------- start screen ---------- */
+    function renderStart() {
+      const present = [...new Set(BANK.map(q => q.topic))];
+      const all = statsFor(BANK);
+      const scopeItems = BANK.filter(q => scope === 'all' || q.topic === scope);
+      const avail = scopeItems.length;
+      const maxLen = Math.min(length === 'all' ? avail : length, avail);
+
+      const scopes = [`<div class="scope${scope === 'all' ? ' active' : ''}" data-s="all" style="--src:var(--accent)">
+          <div class="st"><span class="dot"></span>All topics</div><div class="sc">${BANK.length} questions</div></div>`]
+        .concat(present.map(t => { const n = BANK.filter(q => q.topic === t).length;
+          return `<div class="scope${scope === t ? ' active' : ''}" data-s="${esc(t)}" style="--src:${esc(topicColor(t))}">
+            <div class="st"><span class="dot"></span>${esc(topicLabel(t))}</div><div class="sc">${n} question${n === 1 ? '' : 's'}</div></div>`; }));
+
+      const lenOpts = [10, 20, 'all'].map(n => {
+        const lbl = n === 'all' ? 'Everything' : n;
+        const dis = (n !== 'all' && avail < n) ? '' : '';
+        return `<div class="scope${length === n ? ' active' : ''}" data-len="${n}" style="--src:var(--accent-2)"><div class="st"><span class="dot"></span>${lbl}</div><div class="sc">${n === 'all' ? avail + ' questions' : (avail < n ? avail + ' available' : n + ' questions')}</div></div>`;
+      });
+
+      app.innerHTML = `
+        <div class="panel">
+          <h2 style="margin:0 0 4px;font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)">Your progress</h2>
+          <div class="stat-row">
+            <div class="stat"><div class="n">${all.seen}</div><div class="l">questions tried</div></div>
+            <div class="stat"><div class="n">${all.acc}%</div><div class="l">accuracy</div></div>
+            <div class="stat"><div class="n">${all.mastered}</div><div class="l">mastered</div></div>
+            <div class="stat"><div class="n">${BANK.length}</div><div class="l">in the bank</div></div>
+          </div>
+        </div>
+
+        <div class="section-head"><h2><span class="spark">✦</span> Pick a topic</h2></div>
+        <div class="scope-grid" id="scopes">${scopes.join('')}</div>
+
+        <div class="section-head"><h2><span class="spark">✦</span> How many</h2></div>
+        <div class="scope-grid" id="lens">${lenOpts.join('')}</div>
+
+        <button class="btn btn-mint btn-lg" id="start" ${avail ? '' : 'disabled'} style="width:100%;margin-top:8px">Start ${maxLen} question${maxLen === 1 ? '' : 's'} ✦</button>`;
+
+      document.querySelectorAll('#scopes .scope').forEach(s => s.addEventListener('click', () => { scope = s.dataset.s; renderStart(); }));
+      document.querySelectorAll('#lens .scope').forEach(s => s.addEventListener('click', () => { const v = s.dataset.len; length = v === 'all' ? 'all' : Number(v); renderStart(); }));
+      document.getElementById('start').addEventListener('click', startSession);
+    }
+
+    /* ---------- session ---------- */
+    function startSession() {
+      const items = BANK.filter(q => scope === 'all' || q.topic === scope);
+      const n = length === 'all' ? items.length : Math.min(length, items.length);
+      const order = prioritize(items).slice(0, n);
+      session = { order, pos: 0, score: 0, results: [] };
+      renderQuestion();
+    }
+
+    function renderQuestion() {
+      const q = session.order[session.pos];
+      const color = topicColor(q.topic);
+      const pct = Math.round((session.pos / session.order.length) * 100);
+      const choices = q.choices.map((c, ci) => `<button class="choice" data-i="${ci}"><span class="key">${String.fromCharCode(65 + ci)}</span><span>${esc(c)}</span></button>`).join('');
+      app.innerHTML = `
+        <div class="progress" style="margin-bottom:18px"><div style="width:${pct}%"></div></div>
+        <div class="quizbox" style="--src:${esc(color)};border-color:color-mix(in srgb, ${esc(color)} 30%, var(--line))">
+          <p class="quiz-q"><span class="qnum" style="color:${esc(color)}">${esc(topicLabel(q.topic))} · ${session.pos + 1} / ${session.order.length} · Score ${session.score}</span>${esc(q.q)}</p>
+          <div class="choices">${choices}</div>
+          <div class="explain"><b>Why:</b> ${esc(q.why || '')}<a class="src" href="lesson.html?id=${encodeURIComponent(q.lessonId)}">From: ${esc(q.lessonTitle)} →</a></div>
+          <div class="quiz-foot"><span></span><button class="btn btn-primary" id="next" style="display:none">Next →</button></div>
+        </div>`;
+
+      const box = app.querySelector('.quizbox');
+      const explain = box.querySelector('.explain');
+      const next = box.querySelector('#next');
+      box.querySelectorAll('.choice').forEach((btn, bi) => btn.addEventListener('click', () => {
+        if (box.dataset.done) return;
+        box.dataset.done = '1';
+        const correct = bi === q.answer;
+        box.querySelectorAll('.choice').forEach((b, ci) => { b.disabled = true; if (ci === q.answer) b.classList.add('correct'); else if (ci === bi) b.classList.add('wrong'); });
+        explain.classList.add('show');
+        next.style.display = '';
+        if (correct) session.score++;
+        session.results.push({ q, correct });
+        recordAnswer(q.qid, correct);
+      }));
+      next.addEventListener('click', () => { session.pos++; if (session.pos >= session.order.length) renderResults(); else renderQuestion(); });
+    }
+
+    /* ---------- results ---------- */
+    function renderResults() {
+      const total = session.order.length, score = session.score;
+      const pct = Math.round((score / total) * 100);
+      const ringColor = pct >= 80 ? 'var(--good)' : pct >= 50 ? 'var(--accent-3)' : 'var(--bad)';
+      const verdict = pct >= 80 ? 'Locked in. ✦' : pct >= 50 ? 'Getting there.' : 'Worth another pass.';
+      const missed = session.results.filter(r => !r.correct);
+
+      const byTopic = {};
+      session.results.forEach(r => { const t = r.q.topic; (byTopic[t] ??= { c: 0, n: 0 }); byTopic[t].n++; if (r.correct) byTopic[t].c++; });
+      const topicRows = Object.entries(byTopic).map(([t, v]) => `<div class="stat" style="--src:${esc(topicColor(t))}"><div class="n" style="font-size:22px">${v.c}/${v.n}</div><div class="l">${esc(topicLabel(t))}</div></div>`).join('');
+
+      const reviewList = missed.length
+        ? `<div class="section-head"><h2><span class="spark">✦</span> Worth reviewing</h2></div>
+           <div class="grid">${[...new Map(missed.map(r => [r.q.lessonId, r.q])).values()].map(q => `<a class="card" href="lesson.html?id=${encodeURIComponent(q.lessonId)}" style="--src:${esc(topicColor(q.topic))}">
+              <div class="card-top"><span class="badge"><span class="dot"></span>${esc(topicLabel(q.topic))}</span></div>
+              <h3 style="font-size:17px">${esc(q.lessonTitle)}</h3>
+              <div class="card-foot"><span>Re-read this lesson</span><span class="go">Open ${ARROW}</span></div></a>`).join('')}</div>`
+        : `<div class="panel" style="text-align:center;margin-top:8px"><p style="margin:0;color:var(--good);font-size:17px">Clean sweep — nothing to review. ✦</p></div>`;
+
+      app.innerHTML = `
+        <div class="panel" style="text-align:center">
+          <div class="ring" style="background:conic-gradient(${ringColor} ${pct}%, var(--surface-2) 0); color:var(--ink)">
+            <div style="width:118px;height:118px;border-radius:50%;background:var(--bg-2);display:grid;place-items:center">${score}/${total}</div>
+          </div>
+          <h2 style="margin:18px 0 2px">${verdict}</h2>
+          <p style="color:var(--muted);margin:0">You scored ${pct}% on this round.</p>
+          <div class="stat-row">${topicRows}</div>
+          <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:6px">
+            <button class="btn btn-mint" id="again">Another round ✦</button>
+            <a class="btn" href="./#library">Back to library</a>
+          </div>
+        </div>
+        ${reviewList}`;
+      document.getElementById('again').addEventListener('click', renderStart);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    fetch('data/quizbank.json', { cache: 'no-store' })
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(data => { BANK = Array.isArray(data) ? data : []; if (!BANK.length) { app.innerHTML = `<div class="empty"><p>No questions yet — read a lesson or two first.<br><a href="./" style="color:var(--accent-2)">Back to the library →</a></p></div>`; } else renderStart(); })
+      .catch(() => { app.innerHTML = `<div class="empty"><p>Couldn't load the question bank.<br><span class="mono">data/quizbank.json</span> is generated on deploy — view this on GitHub Pages.</p></div>`; });
+  </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2026-06-13-am",
+    "date": "2026-06-13",
+    "slot": "am",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "title": "Why testing yourself beats re-reading",
+    "tldr": "The act of pulling a fact out of your head — not putting it back in — is what makes it stick. This is the study that proves quizzing beats reviewing.",
+    "readMinutes": 4,
+    "citation": "Roediger & Karpicke (2006), \"Test-Enhanced Learning,\" Psychological Science 17(3)",
+    "quizCount": 3
+  },
+  {
+    "id": "2026-06-12-pm",
+    "date": "2026-06-12",
+    "slot": "pm",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "title": "The eight-page paper that built ChatGPT",
+    "tldr": "A 2017 paper threw out the standard way machines read text — one word at a time — and let the model weigh every word against every other word at once. That design, the Transformer, is the 'T' in GPT and the engine under almost every AI you use today.",
+    "readMinutes": 5,
+    "citation": "Vaswani et al. (2017), \"Attention Is All You Need,\" Advances in Neural Information Processing Systems 30 (NeurIPS 2017)",
+    "quizCount": 3
+  },
+  {
+    "id": "2026-06-12-am",
+    "date": "2026-06-12",
+    "slot": "am",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "title": "The mice that ate junk on a schedule and stayed lean",
+    "tldr": "Mice eating the exact same high-fat calories stayed lean and healthy when they could only eat within an 8-hour window — the clock did the work that calorie-cutting usually gets credit for.",
+    "readMinutes": 5,
+    "citation": "Hatori et al. (2012), \"Time-Restricted Feeding without Reducing Caloric Intake Prevents Metabolic Diseases in Mice Fed a High-Fat Diet,\" Cell Metabolism 15(6), 848-860",
+    "quizCount": 3
+  },
+  {
+    "id": "2026-06-11-pm",
+    "date": "2026-06-11",
+    "slot": "pm",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "title": "The brain makes its own cannabis",
+    "tldr": "Your brain makes its own version of the active ingredient in cannabis. Scientists found it, and named it after the Sanskrit word for bliss.",
+    "readMinutes": 5,
+    "citation": "Devane et al. (1992), \"Isolation and Structure of a Brain Constituent That Binds to the Cannabinoid Receptor,\" Science 258(5090)",
+    "quizCount": 3
+  },
+  {
+    "id": "2026-06-11-am",
+    "date": "2026-06-11",
+    "slot": "am",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "title": "Why a loss hurts twice as much as a win feels good",
+    "tldr": "People don't weigh risk the way economic theory says they should. Losses sting about twice as hard as equivalent gains feel good — and that single asymmetry rewrote economics.",
+    "readMinutes": 5,
+    "citation": "Kahneman & Tversky (1979), \"Prospect Theory: An Analysis of Decision under Risk,\" Econometrica 47(2)",
+    "quizCount": 3
+  },
+  {
+    "id": "2026-06-10-pm",
+    "date": "2026-06-10",
+    "slot": "pm",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "title": "The paper that turned a bacterial defense into gene-editing scissors",
+    "tldr": "Bacteria have an immune system that slices up invading viruses at a precise spot. This paper showed you could swap in your own targeting instructions — turning that slicer into a tool that cuts any DNA sequence you choose.",
+    "readMinutes": 5,
+    "citation": "Jinek, Chylinski, Fonfara, Hauer, Doudna & Charpentier (2012), \"A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity,\" Science 337(6096)",
+    "quizCount": 3
+  }
+]

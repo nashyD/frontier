@@ -1,0 +1,38 @@
+{
+  "id": "YYYY-MM-DD-am",
+  "date": "YYYY-MM-DD",
+  "slot": "am",
+  "topic": "learning",
+  "topicLabel": "Learning & Cognition",
+  "title": "Short, hooky title — plain English, no jargon",
+  "study": {
+    "citation": "Authors (Year), \"Short Title\", Journal/Venue",
+    "year": 2006,
+    "link": "https://doi.org/... or https://arxiv.org/abs/..."
+  },
+  "tldr": "One punchy sentence — the single takeaway, the way you'd text it to a friend.",
+  "readMinutes": 4,
+  "sections": [
+    { "h": "The question", "body": "What problem or curiosity drove the study. Set the stage in plain language. ~60-110 words." },
+    { "h": "What they did", "body": "The method, explained like you're talking to a smart friend with no science background. Define every term on first use." },
+    { "h": "What they found", "body": "The result. Be accurate; describe uncertain figures qualitatively. Never fabricate a number." },
+    { "h": "Why it's on the frontier", "body": "Why this mattered / still matters / what it unlocked." },
+    { "h": "The catch", "body": "The honest limitation, caveat, replication status, or nuance. (Mice vs humans? Small sample? Later trials?)" }
+  ],
+  "terms": [
+    { "term": "Plain-English term", "def": "A one-sentence, jargon-free definition." }
+  ],
+  "takeaways": [
+    "Short, punchy line a reader can actually use or remember.",
+    "Second takeaway.",
+    "Third — optionally connect to the reader (a curious finance/AI builder)."
+  ],
+  "quiz": [
+    {
+      "q": "A clear question that tests understanding, not trivia.",
+      "choices": ["Option A", "Option B", "Option C", "Option D"],
+      "answer": 1,
+      "why": "Explain why the right answer is right — teach in the explanation."
+    }
+  ]
+}

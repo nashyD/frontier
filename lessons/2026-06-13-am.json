@@ -1,0 +1,51 @@
+{
+  "id": "2026-06-13-am",
+  "date": "2026-06-13",
+  "slot": "am",
+  "topic": "learning",
+  "topicLabel": "Learning & Cognition",
+  "title": "Why testing yourself beats re-reading",
+  "study": {
+    "citation": "Roediger & Karpicke (2006), \"Test-Enhanced Learning,\" Psychological Science 17(3)",
+    "year": 2006,
+    "link": "https://doi.org/10.1111/j.1467-9280.2006.01693.x"
+  },
+  "tldr": "The act of pulling a fact out of your head — not putting it back in — is what makes it stick. This is the study that proves quizzing beats reviewing.",
+  "readMinutes": 4,
+  "sections": [
+    { "h": "The question", "body": "Everyone knows the feeling of studying hard and remembering nothing a week later. Two psychologists at Washington University wanted to settle a basic argument: when you're trying to learn something, are you better off reading it again, or testing yourself on it? Most students assume re-reading. It feels productive — the words go back in smoothly, and you feel more confident each pass. The researchers suspected that confidence was a trap." },
+    { "h": "What they did", "body": "Students read short factual passages, the kind you'd find in a science magazine. Then the group was split. Some students re-studied the passage a second time. Others put the passage away and took a test — they tried to recall what it said, with no notes. Crucially, the two groups spent the same amount of time. Later, everyone took a final test on the material, either five minutes, two days, or a full week afterward." },
+    { "h": "What they found", "body": "On a test taken five minutes later, the re-readers actually did slightly better — recent re-reading gives you a short-lived boost. But after a week, it flipped hard. The students who had tested themselves remembered about 61% of the material; the re-readers remembered only about 40%. Same time spent, but the self-testers held on to half again as much. The effort of dragging the answer out of memory, even when it was hard, is what cemented it." },
+    { "h": "Why it's on the frontier", "body": "This finding — now called 'retrieval practice' or 'the testing effect' — quietly rewired how cognitive scientists think about memory. Memory isn't a bucket you fill; it's a muscle that strengthens when you make it work. The struggle to recall is not a sign of failed learning, it IS the learning. This single idea now powers spaced-repetition apps, medical-school curricula, and language tools used by hundreds of millions of people." },
+    { "h": "The catch", "body": "The self-testers in the study consistently predicted they'd do worse than the re-readers — right up until the results came in. The technique that works best is the one that feels worst while you're doing it. Re-reading feels fluent and reassuring; testing feels like exposing how much you don't know. That mismatch is exactly why most people study the less effective way." }
+  ],
+  "terms": [
+    { "term": "Retrieval practice", "def": "Deliberately recalling information from memory (e.g. a quiz) rather than reviewing it. The act of retrieval is what strengthens the memory." },
+    { "term": "The testing effect", "def": "The well-replicated finding that being tested on material improves long-term retention more than spending the same time restudying it." }
+  ],
+  "takeaways": [
+    "Close the book and try to recall — that struggle is the learning, not a sign you failed.",
+    "Feeling confident after re-reading is a poor signal; it fades within days.",
+    "This is literally why the QuizMe tab exists: it's the highest-leverage way to make a study stick."
+  ],
+  "quiz": [
+    {
+      "q": "In the study, who remembered more material a full week later?",
+      "choices": ["Students who re-read the passage", "Students who tested themselves on it", "Both groups remembered the same amount", "Neither group remembered anything"],
+      "answer": 1,
+      "why": "After a week the self-testers held ~61% vs ~40% for re-readers — even though re-readers did slightly better on a test taken 5 minutes after studying."
+    },
+    {
+      "q": "What is 'the testing effect'?",
+      "choices": ["Test anxiety lowering your score", "Recalling information strengthens memory more than restudying it", "Tests being unfair measures of knowledge", "The boost you get from re-reading right before an exam"],
+      "answer": 1,
+      "why": "The testing effect is the finding that retrieving information from memory improves long-term retention more than passively reviewing it."
+    },
+    {
+      "q": "Why do most people pick the less effective study method?",
+      "choices": ["It's faster", "Re-reading feels fluent and confident while testing feels like struggling", "Testing is more expensive", "Teachers tell them to"],
+      "answer": 1,
+      "why": "Self-testers predicted they'd do worse, because retrieval feels effortful and exposes gaps — while re-reading feels smooth and reassuring. The comfortable method is the weaker one."
+    }
+  ]
+}

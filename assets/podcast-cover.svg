@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1400" viewBox="0 0 1400 1400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="34%" r="80%">
+      <stop offset="0%" stop-color="#14161f"/>
+      <stop offset="55%" stop-color="#0c0e14"/>
+      <stop offset="100%" stop-color="#08090d"/>
+    </radialGradient>
+    <linearGradient id="spark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9d8fff"/>
+      <stop offset="52%" stop-color="#8b7cff"/>
+      <stop offset="100%" stop-color="#34e3b0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b7cff" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#8b7cff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#8b7cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b7cff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8b7cff"/>
+      <stop offset="100%" stop-color="#34e3b0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1400" fill="url(#bg)"/>
+  <rect width="1400" height="1400" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="2"/>
+
+  <!-- faint constellation / lattice -->
+  <g stroke="#8b7cff" stroke-opacity="0.10" stroke-width="1.4" fill="none">
+    <path d="M120 240 L300 180 L440 320 L360 470"/>
+    <path d="M1280 1130 L1090 1190 L960 1060 L1040 920"/>
+    <path d="M1180 250 L1280 400"/>
+    <path d="M150 1120 L260 1040"/>
+  </g>
+  <g fill="#34e3b0" fill-opacity="0.18">
+    <circle cx="120" cy="240" r="3.5"/><circle cx="300" cy="180" r="3"/><circle cx="440" cy="320" r="3.5"/><circle cx="360" cy="470" r="2.6"/>
+    <circle cx="1280" cy="1130" r="3.2"/><circle cx="1090" cy="1190" r="3"/><circle cx="960" cy="1060" r="3.4"/><circle cx="1040" cy="920" r="2.6"/>
+    <circle cx="1180" cy="250" r="3"/><circle cx="1280" cy="400" r="2.6"/><circle cx="150" cy="1120" r="3"/><circle cx="260" cy="1040" r="2.6"/>
+  </g>
+
+  <!-- hero spark -->
+  <circle cx="700" cy="520" r="300" fill="url(#glow)"/>
+  <path d="M700 350 Q724 496 850 520 Q724 544 700 690 Q676 544 550 520 Q676 496 700 350 Z" fill="url(#spark)"/>
+  <path d="M700 408 Q714 506 812 520 Q714 534 700 632 Q686 534 588 520 Q686 506 700 408 Z" fill="#0c0e14" fill-opacity="0.0"/>
+
+  <!-- wordmark -->
+  <text x="700" y="840" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="142" letter-spacing="20" fill="#eef0f4">FRONTIER</text>
+
+  <rect x="490" y="895" width="420" height="2.4" fill="url(#rule)"/>
+
+  <text x="700" y="958" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="500" font-size="38" letter-spacing="11" fill="#9aa0ad">STUDIES FROM THE EDGE</text>
+</svg>

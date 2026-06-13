@@ -1,0 +1,52 @@
+{
+  "id": "2026-06-11-pm",
+  "date": "2026-06-11",
+  "slot": "pm",
+  "topic": "cannabis",
+  "topicLabel": "Cannabis Science",
+  "title": "The brain makes its own cannabis",
+  "study": {
+    "citation": "Devane et al. (1992), \"Isolation and Structure of a Brain Constituent That Binds to the Cannabinoid Receptor,\" Science 258(5090)",
+    "year": 1992,
+    "link": "https://doi.org/10.1126/science.1470919"
+  },
+  "tldr": "Your brain makes its own version of the active ingredient in cannabis. Scientists found it, and named it after the Sanskrit word for bliss.",
+  "readMinutes": 5,
+  "sections": [
+    { "h": "The question", "body": "By 1990, scientists had found something strange in the brain: a 'receptor' that THC — the molecule in cannabis that gets you high — locks onto. A receptor is a kind of molecular lock sitting on the surface of a cell; when the right key slots in, it changes what the cell does. That raised an obvious puzzle. The body does not build locks for a plant it may never encounter. So if the brain has a cannabis lock, there must be a natural key the body makes itself. What is it?" },
+    { "h": "What they did", "body": "A team led by Raphael Mechoulam in Jerusalem — the chemist who had first isolated THC decades earlier — went hunting for that natural key. They ground up pig brains and chemically separated the soup into fractions, testing each one to see which could bind to the cannabinoid lock the way THC does. They followed the activity from fraction to fraction, narrowing it down until a single molecule remained. Then they worked out its exact chemical structure using mass spectrometry and nuclear magnetic resonance, two tools that read a molecule's atomic fingerprint." },
+    { "h": "What they found", "body": "The natural key was a small fatty molecule, arachidonylethanolamide — a relative of the fats already swimming through every cell membrane. It bound to the cannabinoid receptor and mimicked THC's effects in their tests. The team named it 'anandamide,' from the Sanskrit word ananda, meaning bliss or joy. It was the first known 'endocannabinoid' — a cannabis-like substance the body produces on its own. The brain, it turned out, had been making its own version of the drug all along." },
+    { "h": "Why it's on the frontier", "body": "Anandamide cracked open a whole hidden system. We now know the body runs an 'endocannabinoid system' — its own network of these molecules and their receptors — that helps regulate appetite, mood, pain, memory, and sleep. Cannabis works because its molecules happen to fit locks that were already there for a different purpose. That reframing turned cannabis from a curiosity into a doorway: a way to study a control system the body uses every day, and a target that drug developers are still trying to tune precisely." },
+    { "h": "The catch", "body": "Finding the key did not hand us the full instruction manual. Anandamide is fragile and breaks down within minutes, which makes it hard to study and harder to turn into a stable medicine. A second major endocannabinoid, called 2-AG, was found soon after and is far more abundant, so anandamide is only part of the picture. And knowing the system exists is a long way from safely steering it. Most of what this discovery promised — precise therapies that work with the body's own chemistry — is still being worked out today." }
+  ],
+  "terms": [
+    { "term": "Receptor", "def": "A molecular 'lock' on a cell's surface. When a matching molecule (the 'key') binds to it, the cell changes its behavior. THC and anandamide both fit the cannabinoid receptor." },
+    { "term": "Endogenous / endocannabinoid", "def": "'Endogenous' means made inside the body rather than taken from outside. An endocannabinoid is a cannabis-like molecule the body produces on its own — anandamide was the first one found." },
+    { "term": "Neurotransmitter", "def": "A chemical messenger cells use to signal one another. Anandamide acts as a signaling molecule in the brain, carrying messages by binding to cannabinoid receptors." }
+  ],
+  "takeaways": [
+    "Your body has cannabinoid receptors and makes its own molecules to fit them — cannabis simply borrows that built-in system.",
+    "Anandamide, the first one found, is named after the Sanskrit word for bliss (ananda).",
+    "Knowing the system exists is the start, not the finish — anandamide is fragile and turning the discovery into precise medicine is still in progress."
+  ],
+  "quiz": [
+    {
+      "q": "Why did scientists suspect the body made its own cannabis-like molecule?",
+      "choices": ["Because cannabis is a very common plant", "Because the brain has a receptor that THC binds to, and the body wouldn't build a lock without a natural key", "Because people reported feeling high without using cannabis", "Because THC is found naturally in the human body"],
+      "answer": 1,
+      "why": "The discovery of a cannabinoid receptor implied a natural molecule meant to fit it — the body does not build receptors for a plant it may never encounter. That natural key turned out to be anandamide."
+    },
+    {
+      "q": "What does the name 'anandamide' come from?",
+      "choices": ["A scientist named Ananda", "The Greek word for brain", "The Sanskrit word ananda, meaning bliss or joy", "The chemical company that funded the study"],
+      "answer": 2,
+      "why": "Mechoulam's team named the molecule after the Sanskrit word ananda, meaning bliss — a nod to the cannabinoid receptor it binds to."
+    },
+    {
+      "q": "Which statement best reflects a limitation noted in the discovery?",
+      "choices": ["Anandamide is extremely stable and easy to make into a drug", "Anandamide breaks down within minutes and is only one of multiple endocannabinoids", "Anandamide is the only molecule that binds the cannabinoid receptor", "Anandamide proved cannabis has no effect on the brain"],
+      "answer": 1,
+      "why": "Anandamide is fragile and degrades quickly, and a second, more abundant endocannabinoid (2-AG) was later identified — so anandamide is one piece of a larger system, and turning the finding into stable medicine remains a work in progress."
+    }
+  ]
+}

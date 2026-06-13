@@ -1,0 +1,52 @@
+{
+  "id": "2026-06-12-am",
+  "date": "2026-06-12",
+  "slot": "am",
+  "topic": "biohacking",
+  "topicLabel": "Biohacking",
+  "title": "The mice that ate junk on a schedule and stayed lean",
+  "study": {
+    "citation": "Hatori et al. (2012), \"Time-Restricted Feeding without Reducing Caloric Intake Prevents Metabolic Diseases in Mice Fed a High-Fat Diet,\" Cell Metabolism 15(6), 848-860",
+    "year": 2012,
+    "link": "https://doi.org/10.1016/j.cmet.2012.04.019"
+  },
+  "tldr": "Mice eating the exact same high-fat calories stayed lean and healthy when they could only eat within an 8-hour window — the clock did the work that calorie-cutting usually gets credit for.",
+  "readMinutes": 5,
+  "sections": [
+    { "h": "The question", "body": "We usually blame weight gain on two things: how much you eat and what you eat. Satchin Panda's lab at the Salk Institute wanted to test a third, almost ignored variable — when. Your body runs on a roughly 24-hour internal clock, called your circadian rhythm, that governs sleep, hormones, and how organs like the liver handle food. The researchers asked a sharp question: if you eat the same junky calories, but cram them all into a set window each day, does the timing alone change whether you get sick?" },
+    { "h": "What they did", "body": "They took mice and split them into groups, all eating a high-fat diet — mouse junk food, about 60% of calories from fat. One group could nibble whenever they wanted, around the clock, which is how mice naturally graze. The other group got the identical food but only during an 8-hour window each night, then nothing for the remaining 16 hours. The team carefully measured intake to confirm both groups ate the same number of calories. The only real difference between them was the eating schedule." },
+    { "h": "What they found", "body": "The grazing mice got fat and sick. The time-restricted mice, eating the same calories, stayed dramatically leaner and were protected from a list of problems: obesity, high insulin, fatty liver disease (fat building up in liver cells), and inflammation. They even showed better motor control on a spinning rod. 'Metabolic disease' is the cluster of conditions — excess fat, high blood sugar, a struggling liver — that drives type 2 diabetes and heart disease. Same diet, same calories, yet one schedule largely prevented it and the other didn't." },
+    { "h": "Why it's on the frontier", "body": "This study cracked open a whole field. It suggested your organs have their own daily rhythms, and that eating at the wrong hours — like a midnight snack — forces the liver to do day-shift work in the middle of its night, throwing the system off. The finding became the scientific seed for time-restricted eating, the version of intermittent fasting where you simply confine food to a daily window. It reframed metabolism around timing and gave biohackers a lever that costs nothing: not a new food, just a clock." },
+    { "h": "The catch", "body": "This was a study in mice, and mice are not tiny humans — their metabolism runs faster and they're nocturnal. It shows a powerful mechanism, but it does not prove the same effect in people. Human trials since have been mixed. Notably, the 2020 TREAT trial (JAMA Internal Medicine) found that an 8-hour eating window alone produced no more weight loss than eating across the day. Time-restricted eating may still help some people, but the dramatic mouse result has not cleanly transferred to humans yet." }
+  ],
+  "terms": [
+    { "term": "Circadian rhythm", "def": "Your body's internal ~24-hour clock that controls sleep, hormones, and how organs process food. It runs whether or not you're paying attention to it." },
+    { "term": "Time-restricted feeding (or eating)", "def": "Confining all your food to a set window each day — say 8 hours — and fasting the rest. The version of intermittent fasting tested in this study." },
+    { "term": "Metabolic disease", "def": "A cluster of linked problems — excess belly fat, high blood sugar, high insulin, fatty liver — that raises the risk of type 2 diabetes and heart disease." }
+  ],
+  "takeaways": [
+    "In mice, when they ate mattered as much as how much — the same calories caused very different outcomes.",
+    "The likely reason is the body clock: your liver and metabolism work better when food arrives during waking hours.",
+    "If you want to experiment, a consistent daily eating window is low-risk and easy to try — just know the strongest human trial found it's no weight-loss shortcut on its own, so treat it as one habit among many and talk to a doctor if you have a health condition."
+  ],
+  "quiz": [
+    {
+      "q": "What was the ONLY major difference between the two groups of mice?",
+      "choices": ["One group ate fewer calories", "One group ate a low-fat diet", "One group could only eat within an 8-hour window", "One group exercised more"],
+      "answer": 2,
+      "why": "Both groups ate the same high-fat food and the same number of calories. The single variable the researchers changed was timing: free grazing versus an 8-hour daily window."
+    },
+    {
+      "q": "What does 'circadian rhythm' refer to?",
+      "choices": ["A type of low-calorie diet", "The body's internal ~24-hour clock that governs processes like sleep and digestion", "A heart-rate measurement", "An exercise routine done at the same time daily"],
+      "answer": 1,
+      "why": "Circadian rhythm is your built-in roughly 24-hour clock. The study's big idea is that organs like the liver follow it, so eating at the wrong hours throws metabolism off."
+    },
+    {
+      "q": "Why does the lesson urge caution about applying this to people?",
+      "choices": ["The mice were given a drug, not just a schedule", "It was a mouse study, and a major human trial (TREAT, 2020) found the eating window alone gave no extra weight loss", "The mice actually gained more weight", "The study was never published"],
+      "answer": 1,
+      "why": "It was done in mice, whose metabolism differs from ours. Human results have been mixed — the 2020 TREAT trial found an 8-hour window alone wasn't more effective for weight loss than eating across the day."
+    }
+  ]
+}

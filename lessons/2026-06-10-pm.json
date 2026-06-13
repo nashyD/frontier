@@ -1,0 +1,52 @@
+{
+  "id": "2026-06-10-pm",
+  "date": "2026-06-10",
+  "slot": "pm",
+  "topic": "frontier",
+  "topicLabel": "Frontier Tech",
+  "title": "The paper that turned a bacterial defense into gene-editing scissors",
+  "study": {
+    "citation": "Jinek, Chylinski, Fonfara, Hauer, Doudna & Charpentier (2012), \"A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity,\" Science 337(6096)",
+    "year": 2012,
+    "link": "https://doi.org/10.1126/science.1225829"
+  },
+  "tldr": "Bacteria have an immune system that slices up invading viruses at a precise spot. This paper showed you could swap in your own targeting instructions — turning that slicer into a tool that cuts any DNA sequence you choose.",
+  "readMinutes": 5,
+  "sections": [
+    { "h": "The question", "body": "Every living thing carries DNA, a long molecule that stores instructions in a four-letter code. A gene is a stretch of that code spelling out one job, like making a particular protein. Bacteria, it turns out, have an immune system called CRISPR that fights off viruses by chopping their DNA at an exact location. The cutting is done by an enzyme — a protein that performs a chemical task — named Cas9. The question Doudna and Charpentier's teams asked was deceptively simple: how does Cas9 know exactly where to cut?" },
+    { "h": "What they did", "body": "They took Cas9 out of the bacterium and studied it in a test tube, feeding it DNA to attack. They discovered Cas9 relies on two short pieces of RNA — a molecule that, here, acts as a homing signal. One RNA carries a 20-letter sequence that matches the target DNA, like an address. The team then fused the two RNAs into one simplified piece they called a single guide RNA, and — the pivotal move — they rewrote that address to point Cas9 at sequences of their own choosing." },
+    { "h": "What they found", "body": "It worked exactly as hoped. Whatever 20-letter address they wrote into the guide RNA, Cas9 found that matching spot in the DNA and cut both strands cleanly, at a predictable position. Change the guide, change the target. They proved this by programming Cas9 to cut several different genes, including a stretch of a human gene, in the tube. The bacterial defense had become a general-purpose tool: molecular scissors with a programmable GPS, where you type in the destination." },
+    { "h": "Why it's on the frontier", "body": "Before this, editing a specific gene meant building a custom protein for each target — slow, costly, expert work. This paper collapsed that to writing a short RNA address, something any lab could order cheaply. It opened the door to 'search-and-replace for the genome.' Within months, other labs showed it working inside living human cells, and the technique spread through biology at startling speed. Doudna and Charpentier shared the 2020 Nobel Prize in Chemistry for it, and CRISPR-based medicines have since reached patients." },
+    { "h": "The catch", "body": "This study was a demonstration in a test tube using purified ingredients and isolated DNA. It did not edit a living animal, cure a disease, or even work inside a cell — those crucial steps came later, from many labs building on this foundation. The paper proved the targeting mechanism was programmable and that the cut could be aimed. Real genomes are also messier: a guide can sometimes match a near-identical 'off-target' spot, an accuracy problem researchers have worked on ever since." }
+  ],
+  "terms": [
+    { "term": "DNA", "def": "The long molecule inside cells that stores life's instructions in a four-letter chemical code. A 'gene' is a section of that code spelling out one specific job." },
+    { "term": "Cas9 (the enzyme)", "def": "A protein from bacteria that cuts DNA. An enzyme is a protein that carries out a chemical action — here, slicing both strands of DNA at a targeted spot." },
+    { "term": "Guide RNA", "def": "A short molecule carrying a 20-letter sequence that tells Cas9 where to cut. Rewrite the guide and you change the target — it works like a programmable address." }
+  ],
+  "takeaways": [
+    "CRISPR-Cas9 is borrowed from a real bacterial immune system that slices up invading viruses.",
+    "The breakthrough was making the targeting programmable: write a short RNA 'address' and Cas9 cuts that exact DNA spot.",
+    "This 2012 paper showed it in a test tube; editing living cells, animals, and patients was built on top of it afterward."
+  ],
+  "quiz": [
+    {
+      "q": "What does the guide RNA do in the CRISPR-Cas9 system?",
+      "choices": ["It cuts the DNA strands directly", "It tells Cas9 which DNA sequence to cut", "It repairs the DNA after cutting", "It builds new proteins from scratch"],
+      "answer": 1,
+      "why": "The guide RNA carries a ~20-letter sequence that matches the target DNA — it's the address. Cas9 is the enzyme that does the actual cutting once the guide leads it to the spot."
+    },
+    {
+      "q": "What did this 2012 paper actually demonstrate?",
+      "choices": ["Curing a genetic disease in a patient", "Editing genes inside living human beings", "Programmable, targeted DNA cutting in a test tube", "That CRISPR exists in bacteria for the first time"],
+      "answer": 2,
+      "why": "The study showed Cas9 could be reprogrammed with a custom guide to cut chosen DNA sequences in a tube. Working inside living cells and treating patients were later advances built on this result."
+    },
+    {
+      "q": "Why was this a leap over earlier gene-editing methods?",
+      "choices": ["It required no DNA at all", "You reprogram the target by writing a short RNA instead of engineering a new protein each time", "It was the first method that could cut DNA", "It eliminated all off-target mistakes"],
+      "answer": 1,
+      "why": "Earlier approaches needed a custom protein built for every target — slow and expensive. CRISPR-Cas9 lets you retarget by ordering a short, cheap guide RNA. Off-target cuts remained a real challenge to solve later."
+    }
+  ]
+}

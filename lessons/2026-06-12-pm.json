@@ -1,0 +1,52 @@
+{
+  "id": "2026-06-12-pm",
+  "date": "2026-06-12",
+  "slot": "pm",
+  "topic": "ai",
+  "topicLabel": "Artificial Intelligence",
+  "title": "The eight-page paper that built ChatGPT",
+  "study": {
+    "citation": "Vaswani et al. (2017), \"Attention Is All You Need,\" Advances in Neural Information Processing Systems 30 (NeurIPS 2017)",
+    "year": 2017,
+    "link": "https://arxiv.org/abs/1706.03762"
+  },
+  "tldr": "A 2017 paper threw out the standard way machines read text — one word at a time — and let the model weigh every word against every other word at once. That design, the Transformer, is the 'T' in GPT and the engine under almost every AI you use today.",
+  "readMinutes": 5,
+  "sections": [
+    { "h": "The question", "body": "In 2017, the best translation software read a sentence the way you read out loud: one word, then the next, then the next, in order. That is what a 'neural network' did back then — a stack of math that learns patterns from examples, here learning to turn one language into another. The strictly-in-order approach had a cost. To use the start of a long sentence when deciding the end, the machine had to carry it the whole way, like a game of telephone. Details got lost, and the work could not be sped up. Eight Google researchers asked a blunt question: do we need the in-order part at all?" },
+    { "h": "What they did", "body": "They built a new design called the Transformer, and its core trick is 'attention.' Attention lets the model, for every word, look at all the other words at the same time and decide which ones matter most for understanding this one. Reading 'the animal didn't cross the street because it was tired,' attention helps the model tie 'it' to 'animal.' Because each word is checked against every other word in one sweep, the math happens 'in parallel' — many calculations at once across many chips — instead of single file. They kept attention and dropped the old in-order machinery, then trained it to translate." },
+    { "h": "What they found", "body": "The Transformer beat the older systems on standard English-to-German and English-to-French translation tests, scoring higher on BLEU, a common measure of how close a machine translation is to a human one. It set new top marks on both. Just as striking was the cost: a strong version trained in about three and a half days on eight processors, far less than the heavier systems it beat. Doing the work in parallel meant more of the available computing power was actually used. Better results and cheaper training, from a simpler design." },
+    { "h": "Why it's on the frontier", "body": "Almost every large AI system you have heard of is a Transformer. The 'T' in GPT stands for it. ChatGPT, Claude, Gemini, the models that write code or summarize documents — nearly all are descendants of this paper. The parallel design turned out to be the missing ingredient: it let companies train on far more text and far bigger machines than the old one-at-a-time approach ever could, and the models kept getting better as they grew. A study meant to improve translation quietly laid the foundation for the entire generative-AI boom." },
+    { "h": "The catch", "body": "Attention has a stubborn price. Checking every word against every other word means the work grows with the square of the length: double the text and you roughly quadruple the effort. That is a big reason early chatbots could only 'remember' a short stretch of conversation before losing the thread. Much of the AI research since has been a hunt for cheaper attention. The 2017 paper also showed the design mainly on translation — the leap to chatbots and coding came from later work that scaled the same idea up enormously." }
+  ],
+  "terms": [
+    { "term": "Neural network", "def": "A stack of math, loosely inspired by brain cells, that learns patterns from many examples instead of following rules a person wrote by hand." },
+    { "term": "Attention", "def": "A mechanism that lets a model look at all the words at once and, for each word, weigh how much every other word should influence its meaning." },
+    { "term": "In parallel", "def": "Doing many calculations at the same time rather than one after another. It matters because modern AI chips are built to run huge numbers of operations simultaneously." }
+  ],
+  "takeaways": [
+    "Letting a model weigh all words at once, instead of reading strictly in order, was the unlock — it made AI both better and far faster to train.",
+    "The 'T' in GPT is this paper: the Transformer is the shared ancestor of nearly every modern AI system.",
+    "When a tool brags about a bigger 'context window,' it's competing on attention's weak spot — handling more text at once is the expensive part, and a real edge worth paying for."
+  ],
+  "quiz": [
+    {
+      "q": "What was the key change the Transformer made versus older translation systems?",
+      "choices": ["It read text strictly one word at a time", "It looked at all the words at once and weighed which mattered most", "It used a much larger dictionary", "It translated only between English and French"],
+      "answer": 1,
+      "why": "Older systems processed words in order. The Transformer's attention mechanism lets the model consider every word at the same time and decide which ones matter for understanding each one — which also let the work run in parallel."
+    },
+    {
+      "q": "Why does 'in parallel' matter so much for training AI?",
+      "choices": ["It makes the model more polite", "It lets many calculations run at once, fitting how modern AI chips work", "It reduces the number of words the model needs", "It guarantees a correct translation"],
+      "answer": 1,
+      "why": "Doing the work in parallel means many operations run simultaneously instead of single file. AI chips are built for exactly that, so the Transformer trained faster and could scale to far more data."
+    },
+    {
+      "q": "What is the main 'catch' with attention?",
+      "choices": ["It only works in English", "The cost grows with the square of the text length, so long inputs get expensive", "It can't be sped up at all", "It needs a human to label every word"],
+      "answer": 1,
+      "why": "Comparing every word to every other word means doubling the text roughly quadruples the work. That's why early models had short memories, and why making attention cheaper has been a major research focus ever since."
+    }
+  ]
+}

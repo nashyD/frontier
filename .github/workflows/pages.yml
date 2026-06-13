@@ -1,0 +1,48 @@
+name: Build & deploy site
+
+# Rebuilds data/manifest.json + data/quizbank.json from the lesson files and the
+# podcast feed from audio sidecars, then deploys to GitHub Pages.
+# Runs on every push to main (i.e. every time the routine files a lesson).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build lesson manifest + quiz bank
+        run: node scripts/build-manifest.mjs
+      - name: Build podcast feed from audio sidecars
+        run: node scripts/build-podcast-feed.mjs
+      - name: Ensure Jekyll is bypassed
+        run: touch .nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

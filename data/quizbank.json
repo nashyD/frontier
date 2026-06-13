@@ -1,0 +1,290 @@
+[
+  {
+    "qid": "2026-06-10-pm#0",
+    "lessonId": "2026-06-10-pm",
+    "lessonTitle": "The paper that turned a bacterial defense into gene-editing scissors",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "What does the guide RNA do in the CRISPR-Cas9 system?",
+    "choices": [
+      "It cuts the DNA strands directly",
+      "It tells Cas9 which DNA sequence to cut",
+      "It repairs the DNA after cutting",
+      "It builds new proteins from scratch"
+    ],
+    "answer": 1,
+    "why": "The guide RNA carries a ~20-letter sequence that matches the target DNA — it's the address. Cas9 is the enzyme that does the actual cutting once the guide leads it to the spot."
+  },
+  {
+    "qid": "2026-06-10-pm#1",
+    "lessonId": "2026-06-10-pm",
+    "lessonTitle": "The paper that turned a bacterial defense into gene-editing scissors",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "What did this 2012 paper actually demonstrate?",
+    "choices": [
+      "Curing a genetic disease in a patient",
+      "Editing genes inside living human beings",
+      "Programmable, targeted DNA cutting in a test tube",
+      "That CRISPR exists in bacteria for the first time"
+    ],
+    "answer": 2,
+    "why": "The study showed Cas9 could be reprogrammed with a custom guide to cut chosen DNA sequences in a tube. Working inside living cells and treating patients were later advances built on this result."
+  },
+  {
+    "qid": "2026-06-10-pm#2",
+    "lessonId": "2026-06-10-pm",
+    "lessonTitle": "The paper that turned a bacterial defense into gene-editing scissors",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "Why was this a leap over earlier gene-editing methods?",
+    "choices": [
+      "It required no DNA at all",
+      "You reprogram the target by writing a short RNA instead of engineering a new protein each time",
+      "It was the first method that could cut DNA",
+      "It eliminated all off-target mistakes"
+    ],
+    "answer": 1,
+    "why": "Earlier approaches needed a custom protein built for every target — slow and expensive. CRISPR-Cas9 lets you retarget by ordering a short, cheap guide RNA. Off-target cuts remained a real challenge to solve later."
+  },
+  {
+    "qid": "2026-06-11-am#0",
+    "lessonId": "2026-06-11-am",
+    "lessonTitle": "Why a loss hurts twice as much as a win feels good",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "In a typical prospect-theory gamble, people offered a sure $500 versus a coin-flip for $1,000 or nothing tend to do what?",
+    "choices": [
+      "Take the gamble, because it could pay double",
+      "Take the sure $500, playing it safe with gains",
+      "Refuse to answer either way",
+      "Split evenly — the model predicts indifference"
+    ],
+    "answer": 1,
+    "why": "Both options average $500, so a pure calculator would be indifferent. But for gains, real people are risk-averse and grab the sure thing — one of the clean breaks from the rational model."
+  },
+  {
+    "qid": "2026-06-11-am#1",
+    "lessonId": "2026-06-11-am",
+    "lessonTitle": "Why a loss hurts twice as much as a win feels good",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "What does 'loss aversion' say about how a $100 loss compares to a $100 gain?",
+    "choices": [
+      "They feel exactly equal in size",
+      "The gain feels stronger because we're optimists",
+      "The loss hurts roughly twice as much as the gain feels good",
+      "Neither registers unless the amount is large"
+    ],
+    "answer": 2,
+    "why": "Kahneman and Tversky found losses 'loom larger' than gains, with the pain of a loss running about twice the pleasure of an equal gain — a ratio later estimated near 2."
+  },
+  {
+    "qid": "2026-06-11-am#2",
+    "lessonId": "2026-06-11-am",
+    "lessonTitle": "Why a loss hurts twice as much as a win feels good",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "Why can the same final dollar amount feel like a gain to one person and a loss to another?",
+    "choices": [
+      "Because of differences in expected utility",
+      "Because they have different reference points",
+      "Because probabilities are subjective",
+      "Because one of them did the math wrong"
+    ],
+    "answer": 1,
+    "why": "Prospect theory says we judge outcomes relative to a reference point — usually our current position. Ending at $1,000 feels like a win if you started below it and a loss if you started above it."
+  },
+  {
+    "qid": "2026-06-11-pm#0",
+    "lessonId": "2026-06-11-pm",
+    "lessonTitle": "The brain makes its own cannabis",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Why did scientists suspect the body made its own cannabis-like molecule?",
+    "choices": [
+      "Because cannabis is a very common plant",
+      "Because the brain has a receptor that THC binds to, and the body wouldn't build a lock without a natural key",
+      "Because people reported feeling high without using cannabis",
+      "Because THC is found naturally in the human body"
+    ],
+    "answer": 1,
+    "why": "The discovery of a cannabinoid receptor implied a natural molecule meant to fit it — the body does not build receptors for a plant it may never encounter. That natural key turned out to be anandamide."
+  },
+  {
+    "qid": "2026-06-11-pm#1",
+    "lessonId": "2026-06-11-pm",
+    "lessonTitle": "The brain makes its own cannabis",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "What does the name 'anandamide' come from?",
+    "choices": [
+      "A scientist named Ananda",
+      "The Greek word for brain",
+      "The Sanskrit word ananda, meaning bliss or joy",
+      "The chemical company that funded the study"
+    ],
+    "answer": 2,
+    "why": "Mechoulam's team named the molecule after the Sanskrit word ananda, meaning bliss — a nod to the cannabinoid receptor it binds to."
+  },
+  {
+    "qid": "2026-06-11-pm#2",
+    "lessonId": "2026-06-11-pm",
+    "lessonTitle": "The brain makes its own cannabis",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Which statement best reflects a limitation noted in the discovery?",
+    "choices": [
+      "Anandamide is extremely stable and easy to make into a drug",
+      "Anandamide breaks down within minutes and is only one of multiple endocannabinoids",
+      "Anandamide is the only molecule that binds the cannabinoid receptor",
+      "Anandamide proved cannabis has no effect on the brain"
+    ],
+    "answer": 1,
+    "why": "Anandamide is fragile and degrades quickly, and a second, more abundant endocannabinoid (2-AG) was later identified — so anandamide is one piece of a larger system, and turning the finding into stable medicine remains a work in progress."
+  },
+  {
+    "qid": "2026-06-12-am#0",
+    "lessonId": "2026-06-12-am",
+    "lessonTitle": "The mice that ate junk on a schedule and stayed lean",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What was the ONLY major difference between the two groups of mice?",
+    "choices": [
+      "One group ate fewer calories",
+      "One group ate a low-fat diet",
+      "One group could only eat within an 8-hour window",
+      "One group exercised more"
+    ],
+    "answer": 2,
+    "why": "Both groups ate the same high-fat food and the same number of calories. The single variable the researchers changed was timing: free grazing versus an 8-hour daily window."
+  },
+  {
+    "qid": "2026-06-12-am#1",
+    "lessonId": "2026-06-12-am",
+    "lessonTitle": "The mice that ate junk on a schedule and stayed lean",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What does 'circadian rhythm' refer to?",
+    "choices": [
+      "A type of low-calorie diet",
+      "The body's internal ~24-hour clock that governs processes like sleep and digestion",
+      "A heart-rate measurement",
+      "An exercise routine done at the same time daily"
+    ],
+    "answer": 1,
+    "why": "Circadian rhythm is your built-in roughly 24-hour clock. The study's big idea is that organs like the liver follow it, so eating at the wrong hours throws metabolism off."
+  },
+  {
+    "qid": "2026-06-12-am#2",
+    "lessonId": "2026-06-12-am",
+    "lessonTitle": "The mice that ate junk on a schedule and stayed lean",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "Why does the lesson urge caution about applying this to people?",
+    "choices": [
+      "The mice were given a drug, not just a schedule",
+      "It was a mouse study, and a major human trial (TREAT, 2020) found the eating window alone gave no extra weight loss",
+      "The mice actually gained more weight",
+      "The study was never published"
+    ],
+    "answer": 1,
+    "why": "It was done in mice, whose metabolism differs from ours. Human results have been mixed — the 2020 TREAT trial found an 8-hour window alone wasn't more effective for weight loss than eating across the day."
+  },
+  {
+    "qid": "2026-06-12-pm#0",
+    "lessonId": "2026-06-12-pm",
+    "lessonTitle": "The eight-page paper that built ChatGPT",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What was the key change the Transformer made versus older translation systems?",
+    "choices": [
+      "It read text strictly one word at a time",
+      "It looked at all the words at once and weighed which mattered most",
+      "It used a much larger dictionary",
+      "It translated only between English and French"
+    ],
+    "answer": 1,
+    "why": "Older systems processed words in order. The Transformer's attention mechanism lets the model consider every word at the same time and decide which ones matter for understanding each one — which also let the work run in parallel."
+  },
+  {
+    "qid": "2026-06-12-pm#1",
+    "lessonId": "2026-06-12-pm",
+    "lessonTitle": "The eight-page paper that built ChatGPT",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "Why does 'in parallel' matter so much for training AI?",
+    "choices": [
+      "It makes the model more polite",
+      "It lets many calculations run at once, fitting how modern AI chips work",
+      "It reduces the number of words the model needs",
+      "It guarantees a correct translation"
+    ],
+    "answer": 1,
+    "why": "Doing the work in parallel means many operations run simultaneously instead of single file. AI chips are built for exactly that, so the Transformer trained faster and could scale to far more data."
+  },
+  {
+    "qid": "2026-06-12-pm#2",
+    "lessonId": "2026-06-12-pm",
+    "lessonTitle": "The eight-page paper that built ChatGPT",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What is the main 'catch' with attention?",
+    "choices": [
+      "It only works in English",
+      "The cost grows with the square of the text length, so long inputs get expensive",
+      "It can't be sped up at all",
+      "It needs a human to label every word"
+    ],
+    "answer": 1,
+    "why": "Comparing every word to every other word means doubling the text roughly quadruples the work. That's why early models had short memories, and why making attention cheaper has been a major research focus ever since."
+  },
+  {
+    "qid": "2026-06-13-am#0",
+    "lessonId": "2026-06-13-am",
+    "lessonTitle": "Why testing yourself beats re-reading",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "In the study, who remembered more material a full week later?",
+    "choices": [
+      "Students who re-read the passage",
+      "Students who tested themselves on it",
+      "Both groups remembered the same amount",
+      "Neither group remembered anything"
+    ],
+    "answer": 1,
+    "why": "After a week the self-testers held ~61% vs ~40% for re-readers — even though re-readers did slightly better on a test taken 5 minutes after studying."
+  },
+  {
+    "qid": "2026-06-13-am#1",
+    "lessonId": "2026-06-13-am",
+    "lessonTitle": "Why testing yourself beats re-reading",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What is 'the testing effect'?",
+    "choices": [
+      "Test anxiety lowering your score",
+      "Recalling information strengthens memory more than restudying it",
+      "Tests being unfair measures of knowledge",
+      "The boost you get from re-reading right before an exam"
+    ],
+    "answer": 1,
+    "why": "The testing effect is the finding that retrieving information from memory improves long-term retention more than passively reviewing it."
+  },
+  {
+    "qid": "2026-06-13-am#2",
+    "lessonId": "2026-06-13-am",
+    "lessonTitle": "Why testing yourself beats re-reading",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "Why do most people pick the less effective study method?",
+    "choices": [
+      "It's faster",
+      "Re-reading feels fluent and confident while testing feels like struggling",
+      "Testing is more expensive",
+      "Teachers tell them to"
+    ],
+    "answer": 1,
+    "why": "Self-testers predicted they'd do worse, because retrieval feels effortful and exposes gaps — while re-reading feels smooth and reassuring. The comfortable method is the weaker one."
+  }
+]
