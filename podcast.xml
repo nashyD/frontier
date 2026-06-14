@@ -15,12 +15,22 @@
     <itunes:owner><itunes:name>Frontier</itunes:name><itunes:email>nashdavis@tsd-ventures.com</itunes:email></itunes:owner>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://nashyd.github.io/frontier/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Frontier — June 14, 2026</title>
+      <description>Two hidden systems: how your brain power-washes itself during sleep, and why the least skilled are often the most confident.</description>
+      <itunes:summary>Two hidden systems: how your brain power-washes itself during sleep, and why the least skilled are often the most confident.</itunes:summary>
+      <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-14.mp3" length="4497453" type="audio/mpeg"/>
+      <guid isPermaLink="false">frontier-2026-06-14</guid>
+      <pubDate>Sun, 14 Jun 2026 12:00:00 GMT</pubDate>
+      <itunes:duration>6:15</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>Frontier — June 13, 2026</title>
       <description>Two studies that rhyme: the testing effect, why quizzing yourself beats re-reading, and AlphaFold, the AI that cracked the 50-year protein-folding problem.</description>
       <itunes:summary>Two studies that rhyme: the testing effect, why quizzing yourself beats re-reading, and AlphaFold, the AI that cracked the 50-year protein-folding problem.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-13.mp3" length="4874445" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-13</guid>
-      <pubDate>Sat, 13 Jun 2026 12:00:00 GMT</pubDate>
+      <pubDate>Sat, 13 Jun 2026 12:00:01 GMT</pubDate>
       <itunes:duration>6:46</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
