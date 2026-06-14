@@ -334,5 +334,53 @@
     ],
     "answer": 1,
     "why": "AlphaFold outputs a confident predicted resting shape even when it should be uncertain, so results need validation. It's strongest on single well-folded proteins and weaker on disordered ones, on how proteins assemble, and on the motion they use to do their jobs."
+  },
+  {
+    "qid": "2026-06-14-am#0",
+    "lessonId": "2026-06-14-am",
+    "lessonTitle": "Your brain power-washes itself while you sleep",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What physically changes in the brain during sleep, according to this study?",
+    "choices": [
+      "Brain cells multiply rapidly",
+      "The gaps between brain cells widen, letting cleaning fluid flow through more freely",
+      "The brain shrinks permanently",
+      "Blood stops flowing to the brain"
+    ],
+    "answer": 1,
+    "why": "In sleeping mice, the interstitial space — the gaps between brain cells — widened by about 60 percent. That opened the channels so cerebrospinal fluid could surge through and rinse out waste much faster than while awake."
+  },
+  {
+    "qid": "2026-06-14-am#1",
+    "lessonId": "2026-06-14-am",
+    "lessonTitle": "Your brain power-washes itself while you sleep",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "Why does the beta-amyloid result connect this study to Alzheimer's disease?",
+    "choices": [
+      "Beta-amyloid is the protein that clumps into plaques in Alzheimer's, and sleep cleared it about twice as fast",
+      "Beta-amyloid only exists in people who sleep well",
+      "The study cured Alzheimer's in mice",
+      "Beta-amyloid makes you sleepy"
+    ],
+    "answer": 0,
+    "why": "Beta-amyloid is the sticky waste protein that accumulates as plaques in Alzheimer's. Since the brain cleared it roughly twice as fast during sleep, weak or missing sleep could let it build up — a plausible, still-unproven link to brain decline."
+  },
+  {
+    "qid": "2026-06-14-am#2",
+    "lessonId": "2026-06-14-am",
+    "lessonTitle": "Your brain power-washes itself while you sleep",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What is the main limitation a careful reader should keep in mind?",
+    "choices": [
+      "The study was never published",
+      "The findings come from mice and haven't been fully confirmed in living humans",
+      "It only looked at one mouse",
+      "It proved sleep loss causes Alzheimer's"
+    ],
+    "answer": 1,
+    "why": "The detailed measurements were made in mice, and confirming the same fluid dynamics in living people is hard. The work shows clearance speeds up during sleep, but it does not prove that poor sleep causes Alzheimer's — that remains a hypothesis under investigation."
   }
 ]

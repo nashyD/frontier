@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-14-am",
+    "date": "2026-06-14",
+    "slot": "am",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "title": "Your brain power-washes itself while you sleep",
+    "tldr": "Your brain has its own plumbing system that flushes out waste, and a study in mice showed it switches into high gear during sleep — the spaces between brain cells widen and a tide of fluid rinses away gunk, including the same sticky protein that builds up in Alzheimer's.",
+    "readMinutes": 5,
+    "citation": "Xie et al. (2013), \"Sleep Drives Metabolite Clearance from the Adult Brain,\" Science 342(6156)",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-13-pm",
     "date": "2026-06-13",
     "slot": "pm",
