@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-14-pm",
+    "date": "2026-06-14",
+    "slot": "pm",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "title": "Why the worst performers are the most confident",
+    "tldr": "Two psychologists tested people on humor, grammar, and logic, then asked everyone how well they thought they'd done. The people who scored at the very bottom were sure they'd scored near the top — because the same gaps in skill that made them fail also robbed them of the ability to see that they had failed.",
+    "readMinutes": 4,
+    "citation": "Kruger & Dunning (1999), \"Unskilled and Unaware of It: How Difficulties in Recognizing One's Own Incompetence Lead to Inflated Self-Assessments,\" Journal of Personality and Social Psychology 77(6)",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-14-am",
     "date": "2026-06-14",
     "slot": "am",

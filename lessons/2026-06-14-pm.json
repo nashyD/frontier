@@ -1,0 +1,52 @@
+{
+  "id": "2026-06-14-pm",
+  "date": "2026-06-14",
+  "slot": "pm",
+  "topic": "learning",
+  "topicLabel": "Learning & Cognition",
+  "title": "Why the worst performers are the most confident",
+  "study": {
+    "citation": "Kruger & Dunning (1999), \"Unskilled and Unaware of It: How Difficulties in Recognizing One's Own Incompetence Lead to Inflated Self-Assessments,\" Journal of Personality and Social Psychology 77(6)",
+    "year": 1999,
+    "link": "https://doi.org/10.1037/0022-3514.77.6.1121"
+  },
+  "tldr": "Two psychologists tested people on humor, grammar, and logic, then asked everyone how well they thought they'd done. The people who scored at the very bottom were sure they'd scored near the top — because the same gaps in skill that made them fail also robbed them of the ability to see that they had failed.",
+  "readMinutes": 4,
+  "sections": [
+    { "h": "The question", "body": "We've all met someone loudly certain about something they clearly don't understand. Two psychologists at Cornell, Justin Kruger and David Dunning, wanted to know if that pattern was real and measurable. Their hunch was unsettling: maybe being bad at something and not knowing you're bad at it are the same problem. To judge your own grammar, you need to know grammar. To know whether a joke landed, you need a sense of what's funny. So the very skill you lack might be the same skill you'd need to notice you lack it." },
+    { "h": "What they did", "body": "They ran four studies on college students, each in an everyday domain: humor, logical reasoning, and English grammar. Students took a real test — for humor, they rated jokes and were scored against professional comedians' ratings. Right after, each student was asked to estimate two things: how their own skill ranked compared to everyone else, and how many questions they got right. The researchers then lined up what people guessed against how they actually did. The clever part is that simple comparison: predicted rank versus true rank, for people across the whole range of ability." },
+    { "h": "What they found", "body": "The bottom performers were wildly overconfident. People who scored in the lowest quarter — roughly the 12th percentile on average — guessed they were around the 62nd, comfortably above the middle. They didn't just miss a little; they thought they were better than most of the people who actually beat them. Top performers showed a gentler, opposite slip: they slightly underestimated themselves, partly because they assumed tasks they found easy were easy for everyone. The headline pattern held across humor, logic, and grammar alike." },
+    { "h": "Why it's on the frontier", "body": "This gave a fuzzy folk observation a clean experimental backbone, and it reframed confidence as a skill rather than a personality trait. It put a spotlight on metacognition — your ability to judge your own thinking — as something that can quietly fail. There's a hopeful twist buried in the paper: in one study, the researchers taught the worst performers the skill they'd been tested on, and afterward those people could finally see how poorly they'd originally done. Competence and self-awareness rose together, which hints that the fix for overconfidence is simply getting better." },
+    { "h": "The catch", "body": "The effect is real but often oversold. Part of what looks like a dramatic bias is a statistical quirk: people at any extreme tend to guess closer to average, so low scorers drift up and high scorers drift down even without a special blind spot. Later researchers argued about how much is genuine missing self-insight versus this regression-to-the-middle pull, and the honest answer is some of each. The studies were also on Cornell undergraduates doing short lab tasks, so the exact numbers shouldn't be stretched to every person or every skill." }
+  ],
+  "terms": [
+    { "term": "Metacognition", "def": "Thinking about your own thinking — your ability to judge how well you understand something or how well you just performed." },
+    { "term": "Percentile", "def": "Your rank in a group as a number out of 100; the 62nd percentile means you scored better than 62 percent of people." },
+    { "term": "Regression to the mean", "def": "The statistical tendency for extreme results or guesses to land closer to the average, which can mimic a real bias even when none exists." }
+  ],
+  "takeaways": [
+    "The skill you need to do something well is often the same skill you need to know whether you did it well — so the least competent are frequently the most sure of themselves.",
+    "Top performers tend to undersell themselves, partly by assuming what's easy for them is easy for everyone.",
+    "The cure isn't humility lectures — it's actually getting better, since learning the skill lets you finally see your old gaps."
+  ],
+  "quiz": [
+    {
+      "q": "What did the lowest-scoring participants believe about their own performance?",
+      "choices": ["That they had failed badly", "That they ranked well above average, near the 62nd percentile", "That they ranked exactly in the middle", "That they couldn't guess at all"],
+      "answer": 1,
+      "why": "People in the bottom quarter — about the 12th percentile on average — estimated they were around the 62nd percentile. The same lack of skill that caused them to do poorly also blocked them from seeing that they had done poorly."
+    },
+    {
+      "q": "According to the study, what eventually helped the worst performers judge themselves accurately?",
+      "choices": ["Being told to be more humble", "Taking the test a second time", "Being taught the actual skill they'd been tested on", "Comparing themselves to comedians"],
+      "answer": 2,
+      "why": "In one study the researchers trained the bottom performers in the skill itself. Once they got better, they could finally recognize how poorly their first attempt had gone — self-awareness rose alongside competence."
+    },
+    {
+      "q": "What is one honest caveat about the Dunning-Kruger findings?",
+      "choices": ["The study was never actually published", "Some of the effect is a statistical quirk where extreme guesses drift toward average", "It only measured people who were already experts", "The researchers made up the test scores"],
+      "answer": 1,
+      "why": "Part of the pattern comes from regression to the mean: guesses at any extreme tend to land closer to average, nudging low scorers up and high scorers down even without a true blind spot. How much is real missing self-insight versus this statistical pull is still debated."
+    }
+  ]
+}

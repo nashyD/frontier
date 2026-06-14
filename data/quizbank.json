@@ -382,5 +382,53 @@
     ],
     "answer": 1,
     "why": "The detailed measurements were made in mice, and confirming the same fluid dynamics in living people is hard. The work shows clearance speeds up during sleep, but it does not prove that poor sleep causes Alzheimer's — that remains a hypothesis under investigation."
+  },
+  {
+    "qid": "2026-06-14-pm#0",
+    "lessonId": "2026-06-14-pm",
+    "lessonTitle": "Why the worst performers are the most confident",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What did the lowest-scoring participants believe about their own performance?",
+    "choices": [
+      "That they had failed badly",
+      "That they ranked well above average, near the 62nd percentile",
+      "That they ranked exactly in the middle",
+      "That they couldn't guess at all"
+    ],
+    "answer": 1,
+    "why": "People in the bottom quarter — about the 12th percentile on average — estimated they were around the 62nd percentile. The same lack of skill that caused them to do poorly also blocked them from seeing that they had done poorly."
+  },
+  {
+    "qid": "2026-06-14-pm#1",
+    "lessonId": "2026-06-14-pm",
+    "lessonTitle": "Why the worst performers are the most confident",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "According to the study, what eventually helped the worst performers judge themselves accurately?",
+    "choices": [
+      "Being told to be more humble",
+      "Taking the test a second time",
+      "Being taught the actual skill they'd been tested on",
+      "Comparing themselves to comedians"
+    ],
+    "answer": 2,
+    "why": "In one study the researchers trained the bottom performers in the skill itself. Once they got better, they could finally recognize how poorly their first attempt had gone — self-awareness rose alongside competence."
+  },
+  {
+    "qid": "2026-06-14-pm#2",
+    "lessonId": "2026-06-14-pm",
+    "lessonTitle": "Why the worst performers are the most confident",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What is one honest caveat about the Dunning-Kruger findings?",
+    "choices": [
+      "The study was never actually published",
+      "Some of the effect is a statistical quirk where extreme guesses drift toward average",
+      "It only measured people who were already experts",
+      "The researchers made up the test scores"
+    ],
+    "answer": 1,
+    "why": "Part of the pattern comes from regression to the mean: guesses at any extreme tend to land closer to average, nudging low scorers up and high scorers down even without a true blind spot. How much is real missing self-insight versus this statistical pull is still debated."
   }
 ]
