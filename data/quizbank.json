@@ -478,5 +478,53 @@
     ],
     "answer": 1,
     "why": "The trial tested one purified compound at a set dose for Dravet syndrome, showing real but partial benefit alongside side effects like drowsiness and liver-enzyme changes. It says little about unregulated retail CBD products, which were never tested this way."
+  },
+  {
+    "qid": "2026-06-15-pm#0",
+    "lessonId": "2026-06-15-pm",
+    "lessonTitle": "The math that made diversification a free lunch",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "According to Markowitz, what most determines a portfolio's overall risk?",
+    "choices": [
+      "The expected return of the single best stock in it",
+      "How the holdings move relative to each other, not just how risky each one is alone",
+      "The total number of stocks you own",
+      "The fees you pay your broker"
+    ],
+    "answer": 1,
+    "why": "His core insight was covariance — how assets move together. Combining holdings that don't rise and fall in sync lets their swings partly cancel, lowering the whole portfolio's risk even if each piece is individually volatile."
+  },
+  {
+    "qid": "2026-06-15-pm#1",
+    "lessonId": "2026-06-15-pm",
+    "lessonTitle": "The math that made diversification a free lunch",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "Why is diversification often described as a 'free lunch'?",
+    "choices": [
+      "It guarantees you will never lose money",
+      "Because assets don't move in perfect lockstep, blending them can lower risk without lowering expected return",
+      "It always increases your expected return",
+      "It removes the need to research any investments"
+    ],
+    "answer": 1,
+    "why": "Since assets move imperfectly together, a smart mix reduces overall swings while keeping the same expected return — a benefit you get without giving anything up. It lowers risk, but it does not eliminate it or guarantee gains."
+  },
+  {
+    "qid": "2026-06-15-pm#2",
+    "lessonId": "2026-06-15-pm",
+    "lessonTitle": "The math that made diversification a free lunch",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "What is a real limitation of using Markowitz's model in practice?",
+    "choices": [
+      "It only works for government bonds",
+      "It needs estimates of future returns and correlations, which are noisy, and correlations can spike together in a crash",
+      "It ignores risk entirely",
+      "It requires you to hold exactly ten stocks"
+    ],
+    "answer": 1,
+    "why": "The optimizer depends on inputs estimated from past data, and small errors can swing the 'optimal' answer wildly. Worse, in a panic normally-uncorrelated assets often fall together, weakening the diversification just when it's needed."
   }
 ]

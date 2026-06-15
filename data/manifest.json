@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-15-pm",
+    "date": "2026-06-15",
+    "slot": "pm",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "title": "The math that made diversification a free lunch",
+    "tldr": "A 25-year-old grad student showed that what matters is not how good your individual stocks are but how they move together — and that mixing assets wisely can cut risk without costing you return.",
+    "readMinutes": 5,
+    "citation": "Markowitz, H. (1952), \"Portfolio Selection,\" The Journal of Finance 7(1), 77-91",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-15-am",
     "date": "2026-06-15",
     "slot": "am",

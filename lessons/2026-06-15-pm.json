@@ -1,0 +1,52 @@
+{
+  "id": "2026-06-15-pm",
+  "date": "2026-06-15",
+  "slot": "pm",
+  "topic": "finance",
+  "topicLabel": "Finance & Economics",
+  "title": "The math that made diversification a free lunch",
+  "study": {
+    "citation": "Markowitz, H. (1952), \"Portfolio Selection,\" The Journal of Finance 7(1), 77-91",
+    "year": 1952,
+    "link": "https://doi.org/10.1111/j.1540-6261.1952.tb01525.x"
+  },
+  "tldr": "A 25-year-old grad student showed that what matters is not how good your individual stocks are but how they move together — and that mixing assets wisely can cut risk without costing you return.",
+  "readMinutes": 5,
+  "sections": [
+    { "h": "The question", "body": "Before 1952, investing advice mostly came down to one instinct: find the stocks you think will go up the most, and buy them. Pick winners. Harry Markowitz, then a graduate student in economics at the University of Chicago, noticed something odd about that advice. If the only goal were the highest expected return, you would put every dollar into the single stock you liked best. Yet sensible investors spread their money around. Why? The instinct to diversify clearly mattered to real people, but no one had pinned down, in plain math, why holding many things is smarter than betting it all on the best one." },
+    { "h": "What they did", "body": "Markowitz reframed the whole problem. Instead of judging each stock alone, he judged the portfolio as a whole using two numbers: its expected return (how much you hope to make) and its variance (how wildly the value swings — his stand-in for risk). His key insight was that a portfolio's risk depends not just on how risky each holding is, but on how the holdings move relative to each other, a relationship called covariance. Combine assets that tend to zig when others zag, and their swings partly cancel out. He turned 'don't put all your eggs in one basket' into an equation you could actually solve." },
+    { "h": "What they found", "body": "Diversification, done right, is close to a free lunch — one of the few in finance. Because assets do not move in perfect lockstep, blending them can lower a portfolio's overall swing without lowering its expected return. Markowitz showed there is a whole set of 'best possible' portfolios, later called the efficient frontier: for any level of risk you are willing to stomach, one mix gives the most expected return, and for any return you target, one mix carries the least risk. Every other portfolio is simply worse — you could get more return for the same risk, or the same return for less." },
+    { "h": "Why it's on the frontier", "body": "This single paper is widely treated as the birth of modern financial economics. It shifted the question from 'which stock is best?' to 'which combination is best?' — and gave investors a rigorous way to answer it. The ideas grew into the Capital Asset Pricing Model and much of how risk gets priced today, and they underpin the index funds and target-date retirement funds that millions of ordinary people now own. Markowitz shared the 1990 Nobel Memorial Prize in Economics for this work. The thought he made precise — manage the basket, not just the eggs — is now financial common sense." },
+    { "h": "The catch", "body": "The math is only as good as the numbers you feed it. To find the best mix, you need the expected returns, variances, and covariances of every asset, and in practice those are estimated from past data that may not repeat. Small errors in the inputs can throw out wildly different 'optimal' portfolios. The model also assumes variance is a fair measure of risk, treating a pleasant surprise the same as a painful loss. And its comfort can betray you in a crash: in a panic, assets that normally drift apart often plunge together, so the diversification you counted on can thin out exactly when you need it most." }
+  ],
+  "terms": [
+    { "term": "Diversification", "def": "Spreading your money across many different investments so that no single one can sink you — and, as Markowitz showed, so the swings partly cancel out." },
+    { "term": "Variance (as risk)", "def": "A measure of how much an investment's value bounces around. Big swings mean high variance, which Markowitz used as a stand-in for how risky something is." },
+    { "term": "Efficient frontier", "def": "The set of portfolios that squeeze the most expected return out of each level of risk. Anything below the frontier is leaving return or safety on the table." }
+  ],
+  "takeaways": [
+    "What drives a portfolio's risk is not how risky each holding is on its own, but how the holdings move relative to each other — mix things that don't rise and fall in sync.",
+    "Because assets don't move in lockstep, you can often cut risk without cutting expected return, which is about as close to a free lunch as finance offers.",
+    "The optimizer is only as trustworthy as your estimates, and correlations tend to spike in a crisis — so diversification can fade right when you lean on it hardest."
+  ],
+  "quiz": [
+    {
+      "q": "According to Markowitz, what most determines a portfolio's overall risk?",
+      "choices": ["The expected return of the single best stock in it", "How the holdings move relative to each other, not just how risky each one is alone", "The total number of stocks you own", "The fees you pay your broker"],
+      "answer": 1,
+      "why": "His core insight was covariance — how assets move together. Combining holdings that don't rise and fall in sync lets their swings partly cancel, lowering the whole portfolio's risk even if each piece is individually volatile."
+    },
+    {
+      "q": "Why is diversification often described as a 'free lunch'?",
+      "choices": ["It guarantees you will never lose money", "Because assets don't move in perfect lockstep, blending them can lower risk without lowering expected return", "It always increases your expected return", "It removes the need to research any investments"],
+      "answer": 1,
+      "why": "Since assets move imperfectly together, a smart mix reduces overall swings while keeping the same expected return — a benefit you get without giving anything up. It lowers risk, but it does not eliminate it or guarantee gains."
+    },
+    {
+      "q": "What is a real limitation of using Markowitz's model in practice?",
+      "choices": ["It only works for government bonds", "It needs estimates of future returns and correlations, which are noisy, and correlations can spike together in a crash", "It ignores risk entirely", "It requires you to hold exactly ten stocks"],
+      "answer": 1,
+      "why": "The optimizer depends on inputs estimated from past data, and small errors can swing the 'optimal' answer wildly. Worse, in a panic normally-uncorrelated assets often fall together, weakening the diversification just when it's needed."
+    }
+  ]
+}
