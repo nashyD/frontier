@@ -2,7 +2,6 @@
   "_README": "Ordered backlog of EXISTING landmark studies to teach, one per slot. The routine takes queue[0], writes the lesson, and moves that entry into done[]. Topics are interleaved so the cadence rotates. Add more any time; keep them real, well-documented, and teachable to a curious non-scientist. After the queue runs dry (or after a couple months), flip to surfacing NEW studies — see routines/.",
   "mode": "existing",
   "queue": [
-    { "topic": "cannabis", "topicLabel": "Cannabis Science", "study": "Devinsky et al. (2017), 'Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome', NEJM", "angle": "The rigorous randomized trial that turned CBD from folk remedy into FDA-approved medicine." },
     { "topic": "finance", "topicLabel": "Finance & Economics", "study": "Markowitz (1952), 'Portfolio Selection', Journal of Finance", "angle": "The idea that diversification is a free lunch — the math that founded modern investing." },
     { "topic": "frontier", "topicLabel": "Frontier Tech", "study": "Abbott et al. / LIGO (2016), 'Observation of Gravitational Waves from a Binary Black Hole Merger', Physical Review Letters", "angle": "We heard two black holes collide a billion light-years away by detecting a ripple smaller than a proton." },
 
@@ -35,6 +34,7 @@
     { "topic": "frontier", "topicLabel": "Frontier Tech", "study": "Mayor & Queloz (1995), 'A Jupiter-mass companion to a solar-type star', Nature", "angle": "The first planet found orbiting another sun-like star — and the method that found thousands more." }
   ],
   "done": [
+    "2026-06-15-am — cannabis — Devinsky et al. (2017), Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome (NEJM)",
     "2026-06-14-pm — learning — Kruger & Dunning (1999), Unskilled and Unaware of It",
     "2026-06-14-am — biohacking — Xie et al. (2013), Sleep Drives Metabolite Clearance (glymphatic system)",
     "2026-06-13-pm — ai — Jumper et al. (2021), AlphaFold protein structure prediction",

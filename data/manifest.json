@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-15-am",
+    "date": "2026-06-15",
+    "slot": "am",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "title": "The trial that turned CBD into medicine",
+    "tldr": "A rigorous trial showed that a purified ingredient from cannabis roughly halved seizures in children with a severe epilepsy — the evidence that moved CBD from folk remedy to FDA-approved drug.",
+    "readMinutes": 5,
+    "citation": "Devinsky et al. (2017), \"Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome,\" New England Journal of Medicine 376(21)",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-14-pm",
     "date": "2026-06-14",
     "slot": "pm",

@@ -430,5 +430,53 @@
     ],
     "answer": 1,
     "why": "Part of the pattern comes from regression to the mean: guesses at any extreme tend to land closer to average, nudging low scorers up and high scorers down even without a true blind spot. How much is real missing self-insight versus this statistical pull is still debated."
+  },
+  {
+    "qid": "2026-06-15-am#0",
+    "lessonId": "2026-06-15-am",
+    "lessonTitle": "The trial that turned CBD into medicine",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Why did the researchers use a placebo group instead of just giving everyone CBD and counting seizures?",
+    "choices": [
+      "To save money on the drug",
+      "To make sure any improvement was due to CBD and not luck, hope, or the placebo effect",
+      "Because CBD is dangerous to give to everyone",
+      "To test two different doses of CBD"
+    ],
+    "answer": 1,
+    "why": "Parents had already reported fewer seizures, but those reports could reflect coincidence or the placebo effect. Comparing CBD against an identical fake pill — with no one knowing who got which — isolates the drug's real effect from wishful thinking and chance."
+  },
+  {
+    "qid": "2026-06-15-am#1",
+    "lessonId": "2026-06-15-am",
+    "lessonTitle": "The trial that turned CBD into medicine",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "What was the main result for the CBD group?",
+    "choices": [
+      "Seizures were completely eliminated in everyone",
+      "The monthly convulsive seizure count was roughly cut in half, while the placebo group barely changed",
+      "CBD and placebo worked equally well",
+      "Seizures got worse on CBD"
+    ],
+    "answer": 1,
+    "why": "Median monthly convulsive seizures fell from about 12.4 to 5.9 on CBD — roughly half — versus a tiny drop from 14.9 to 14.1 on placebo. It was a meaningful reduction, though most children still had some seizures."
+  },
+  {
+    "qid": "2026-06-15-am#2",
+    "lessonId": "2026-06-15-am",
+    "lessonTitle": "The trial that turned CBD into medicine",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "What is a fair conclusion to draw from this trial?",
+    "choices": [
+      "Any CBD gummy from a store will halve seizures",
+      "A purified CBD drug, at a tested dose, meaningfully reduced seizures in one severe epilepsy — but came with side effects and is not a cure",
+      "CBD cures all forms of epilepsy",
+      "CBD has no medical value"
+    ],
+    "answer": 1,
+    "why": "The trial tested one purified compound at a set dose for Dravet syndrome, showing real but partial benefit alongside side effects like drowsiness and liver-enzyme changes. It says little about unregulated retail CBD products, which were never tested this way."
   }
 ]

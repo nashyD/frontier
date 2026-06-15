@@ -1,0 +1,52 @@
+{
+  "id": "2026-06-15-am",
+  "date": "2026-06-15",
+  "slot": "am",
+  "topic": "cannabis",
+  "topicLabel": "Cannabis Science",
+  "title": "The trial that turned CBD into medicine",
+  "study": {
+    "citation": "Devinsky et al. (2017), \"Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome,\" New England Journal of Medicine 376(21)",
+    "year": 2017,
+    "link": "https://doi.org/10.1056/NEJMoa1611618"
+  },
+  "tldr": "A rigorous trial showed that a purified ingredient from cannabis roughly halved seizures in children with a severe epilepsy — the evidence that moved CBD from folk remedy to FDA-approved drug.",
+  "readMinutes": 5,
+  "sections": [
+    { "h": "The question", "body": "Dravet syndrome is a rare, severe epilepsy that begins in infancy. The seizures are frequent and often resist every available medication, and the condition carries a real risk of early death. For years, desperate parents had been giving their children cannabidiol, or CBD — a compound from the cannabis plant that does not get you high — and reporting fewer seizures. But those were stories, not proof. A story can be wishful thinking, a coincidence, or a placebo effect. The question this study set out to answer was simple and hard: does CBD actually reduce seizures, or does it only seem to?" },
+    { "h": "What they did", "body": "The researchers ran a randomized, placebo-controlled trial, the gold standard for testing whether a treatment works. They enrolled 120 children and young adults with Dravet syndrome whose seizures already resisted treatment. By coin-flip, half received a purified CBD oral solution added to their usual medicines; the other half got an identical-looking placebo with no active drug. Neither the families nor the doctors knew who got which — that 'blinding' keeps hope and expectation from skewing the count. For 14 weeks, caregivers logged every convulsive seizure, and the team compared how the two groups changed." },
+    { "h": "What they found", "body": "Seizures dropped meaningfully in the CBD group. The median number of convulsive seizures per month fell from about 12.4 to 5.9 — roughly cut in half. In the placebo group it barely moved, from about 14.9 to 14.1. Put another way, 43% of the CBD patients saw their convulsive seizures drop by at least half, compared with 27% on placebo. Caregivers also rated the children's overall condition as improved more often on CBD. The gap between the groups was large enough that chance was an unlikely explanation." },
+    { "h": "Why it's on the frontier", "body": "This was the kind of hard evidence that regulators can act on. In 2018, partly on the strength of this and similar trials, the U.S. Food and Drug Administration approved a purified CBD medicine (Epidiolex) — the first prescription drug derived from the cannabis plant. That mattered beyond epilepsy. It showed that a cannabis compound could clear the same rigorous bar as any pharmaceutical, gave doctors a measured dose instead of guesswork, and opened a serious research path into what other cannabis-derived molecules might treat." },
+    { "h": "The catch", "body": "Halving seizures is a real gain, yet most children still had seizures, and very few became completely seizure-free — this is meaningful relief, not a cure. CBD also came with side effects: drowsiness, diarrhea, reduced appetite, and elevated liver enzymes, especially when combined with other epilepsy drugs. The trial tested one purified compound at a set dose for a specific syndrome. That says little about the unregulated CBD oils and gummies on store shelves, whose actual contents and doses vary widely and have not passed through trials like this one." }
+  ],
+  "terms": [
+    { "term": "CBD (cannabidiol)", "def": "A compound from the cannabis plant that does not cause a high, unlike THC. This study tested a purified, pharmaceutical-grade version of it." },
+    { "term": "Randomized, placebo-controlled trial", "def": "A test where patients are assigned by chance to get either the real treatment or a fake look-alike (placebo), so any difference between the groups can be credited to the drug rather than luck or expectation." },
+    { "term": "Drug-resistant epilepsy", "def": "Epilepsy whose seizures keep happening despite trying multiple standard medications — the situation these children were in before the trial." }
+  ],
+  "takeaways": [
+    "A careful trial turned anecdotes about CBD and seizures into evidence: it roughly halved convulsive seizures in children with Dravet syndrome, while the placebo group barely changed.",
+    "That evidence helped win the first FDA approval of a cannabis-derived prescription drug — a measured dose that cleared the same bar as any pharmaceutical.",
+    "A trial result for one purified compound at one dose does not transfer to the unregulated CBD products on store shelves, whose contents and doses vary widely."
+  ],
+  "quiz": [
+    {
+      "q": "Why did the researchers use a placebo group instead of just giving everyone CBD and counting seizures?",
+      "choices": ["To save money on the drug", "To make sure any improvement was due to CBD and not luck, hope, or the placebo effect", "Because CBD is dangerous to give to everyone", "To test two different doses of CBD"],
+      "answer": 1,
+      "why": "Parents had already reported fewer seizures, but those reports could reflect coincidence or the placebo effect. Comparing CBD against an identical fake pill — with no one knowing who got which — isolates the drug's real effect from wishful thinking and chance."
+    },
+    {
+      "q": "What was the main result for the CBD group?",
+      "choices": ["Seizures were completely eliminated in everyone", "The monthly convulsive seizure count was roughly cut in half, while the placebo group barely changed", "CBD and placebo worked equally well", "Seizures got worse on CBD"],
+      "answer": 1,
+      "why": "Median monthly convulsive seizures fell from about 12.4 to 5.9 on CBD — roughly half — versus a tiny drop from 14.9 to 14.1 on placebo. It was a meaningful reduction, though most children still had some seizures."
+    },
+    {
+      "q": "What is a fair conclusion to draw from this trial?",
+      "choices": ["Any CBD gummy from a store will halve seizures", "A purified CBD drug, at a tested dose, meaningfully reduced seizures in one severe epilepsy — but came with side effects and is not a cure", "CBD cures all forms of epilepsy", "CBD has no medical value"],
+      "answer": 1,
+      "why": "The trial tested one purified compound at a set dose for Dravet syndrome, showing real but partial benefit alongside side effects like drowsiness and liver-enzyme changes. It says little about unregulated retail CBD products, which were never tested this way."
+    }
+  ]
+}
