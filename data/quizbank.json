@@ -526,5 +526,53 @@
     ],
     "answer": 1,
     "why": "The optimizer depends on inputs estimated from past data, and small errors can swing the 'optimal' answer wildly. Worse, in a panic normally-uncorrelated assets often fall together, weakening the diversification just when it's needed."
+  },
+  {
+    "qid": "2026-06-17-am#0",
+    "lessonId": "2026-06-17-am",
+    "lessonTitle": "The day we heard two black holes collide",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "What is a gravitational wave?",
+    "choices": [
+      "A beam of light from a distant star",
+      "A ripple in the fabric of spacetime caused by accelerating massive objects",
+      "A type of radio signal sent by black holes",
+      "An ocean wave caused by the Moon's gravity"
+    ],
+    "answer": 1,
+    "why": "Einstein predicted that when very massive objects accelerate hard — like two black holes spiraling together — they send ripples through spacetime itself, traveling at the speed of light. LIGO detected one of these ripples for the first time."
+  },
+  {
+    "qid": "2026-06-17-am#1",
+    "lessonId": "2026-06-17-am",
+    "lessonTitle": "The day we heard two black holes collide",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "Why did LIGO use two detectors thousands of kilometers apart?",
+    "choices": [
+      "To make the experiment cheaper",
+      "To measure the wave's color",
+      "So a real wave from space shows up in both, while local disturbances usually hit only one",
+      "Because one detector wasn't powerful enough"
+    ],
+    "answer": 2,
+    "why": "A genuine gravitational wave passes through both detectors and registers in each. Local noise — a truck, a tremor, a footstep — typically affects just one site. Requiring the signal in both at once helps separate a real cosmic event from earthly jitters."
+  },
+  {
+    "qid": "2026-06-17-am#2",
+    "lessonId": "2026-06-17-am",
+    "lessonTitle": "The day we heard two black holes collide",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "Why is this detection called the start of a new kind of astronomy?",
+    "choices": [
+      "It produced the sharpest photo of a black hole",
+      "It lets us observe events through spacetime vibrations, including ones that give off no light",
+      "It proved black holes don't exist",
+      "It replaced all telescopes"
+    ],
+    "answer": 1,
+    "why": "Traditional astronomy collects light. Gravitational-wave detection senses the vibration of spacetime instead, so we can observe violent events like merging black holes that emit little or no light — a genuinely new channel for studying the universe."
   }
 ]

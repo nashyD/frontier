@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-17-am",
+    "date": "2026-06-17",
+    "slot": "am",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "title": "The day we heard two black holes collide",
+    "tldr": "A hundred years after Einstein predicted that violent events in space send ripples through spacetime itself, two giant detectors caught one — the faint echo of two black holes smashing together over a billion light-years away — opening a brand-new way to listen to the universe.",
+    "readMinutes": 5,
+    "citation": "B. P. Abbott et al. (LIGO Scientific Collaboration and Virgo Collaboration) (2016), \"Observation of Gravitational Waves from a Binary Black Hole Merger,\" Physical Review Letters 116, 061102",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-15-pm",
     "date": "2026-06-15",
     "slot": "pm",
