@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-17-pm",
+    "date": "2026-06-17",
+    "slot": "pm",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "title": "The machine that taught itself to play Go",
+    "tldr": "Go was supposed to be a decade away from machines because there are more possible games than atoms in the universe — then a program called AlphaGo learned the game from human matches and from playing itself, and beat a professional champion five games to zero.",
+    "readMinutes": 5,
+    "citation": "Silver et al. (2016), \"Mastering the game of Go with deep neural networks and tree search\", Nature 529, 484-489",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-17-am",
     "date": "2026-06-17",
     "slot": "am",

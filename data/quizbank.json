@@ -574,5 +574,53 @@
     ],
     "answer": 1,
     "why": "Traditional astronomy collects light. Gravitational-wave detection senses the vibration of spacetime instead, so we can observe violent events like merging black holes that emit little or no light — a genuinely new channel for studying the universe."
+  },
+  {
+    "qid": "2026-06-17-pm#0",
+    "lessonId": "2026-06-17-pm",
+    "lessonTitle": "The machine that taught itself to play Go",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "Why can't a computer win at Go simply by checking every possible game?",
+    "choices": [
+      "The rules of Go are secret",
+      "There are more possible games than atoms in the universe",
+      "Go has no clear winner",
+      "Computers can't see the board"
+    ],
+    "answer": 1,
+    "why": "Go's branching is so vast — roughly 250 reasonable moves each turn over hundreds of turns — that the number of possible games dwarfs the number of atoms in the universe, so brute-force checking is impossible."
+  },
+  {
+    "qid": "2026-06-17-pm#1",
+    "lessonId": "2026-06-17-pm",
+    "lessonTitle": "The machine that taught itself to play Go",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What were AlphaGo's two neural networks each responsible for?",
+    "choices": [
+      "Drawing the board and keeping score",
+      "Suggesting promising moves and estimating who is winning",
+      "Translating the rules and timing the clock",
+      "Storing past games and printing results"
+    ],
+    "answer": 1,
+    "why": "The policy network proposed good candidate moves and the value network judged how favorable a position was — together they let AlphaGo focus its search on what mattered."
+  },
+  {
+    "qid": "2026-06-17-pm#2",
+    "lessonId": "2026-06-17-pm",
+    "lessonTitle": "The machine that taught itself to play Go",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What milestone did AlphaGo reach in this 2016 paper?",
+    "choices": [
+      "It solved Go completely",
+      "It beat a professional human champion on a full board, five games to zero",
+      "It replaced all human Go teachers",
+      "It learned Go with zero computing power"
+    ],
+    "answer": 1,
+    "why": "AlphaGo defeated European champion Fan Hui 5-0 in a formal match — the first time a program beat a professional human on a full-size board with no handicap."
   }
 ]

@@ -1,0 +1,52 @@
+{
+  "id": "2026-06-17-pm",
+  "date": "2026-06-17",
+  "slot": "pm",
+  "topic": "ai",
+  "topicLabel": "Artificial Intelligence",
+  "title": "The machine that taught itself to play Go",
+  "study": {
+    "citation": "Silver et al. (2016), \"Mastering the game of Go with deep neural networks and tree search\", Nature 529, 484-489",
+    "year": 2016,
+    "link": "https://doi.org/10.1038/nature16961"
+  },
+  "tldr": "Go was supposed to be a decade away from machines because there are more possible games than atoms in the universe — then a program called AlphaGo learned the game from human matches and from playing itself, and beat a professional champion five games to zero.",
+  "readMinutes": 5,
+  "sections": [
+    { "h": "The question", "body": "Go is an ancient board game where two players place stones on a 19-by-19 grid, trying to surround territory. The rules are simple, but the game is staggeringly deep: at any moment there are roughly 250 sensible moves, and games run for hundreds of turns. That gives more possible games than there are atoms in the universe, so a computer cannot simply check every path and pick the best one. For decades, machines played Go at the level of a strong amateur at best. The question driving this work: could a computer ever play Go at the level of the world's best humans?" },
+    { "h": "What they did", "body": "The team at DeepMind built a program called AlphaGo around two neural networks — software loosely modeled on how brain cells pass signals, which learns patterns from examples instead of following hand-written rules. A policy network looked at a board and suggested promising moves. A value network looked at a board and estimated who was winning. They first trained the policy network on millions of moves from games between strong human players, then improved it by having the program play millions of games against itself. At game time, AlphaGo combined these networks with a guided search that explored only the most promising lines instead of every possibility." },
+    { "h": "What they found", "body": "AlphaGo won 99.8 percent of its games against other top Go programs. Then it played Fan Hui, the reigning European champion and a professional player, in a formal five-game match — and won all five. This was the first time a computer program had beaten a professional human Go player on a full-size board with no handicap. Just as striking, AlphaGo evaluated thousands of times fewer positions than the famous chess machine Deep Blue once did, because its networks let it focus on moves that actually mattered rather than brute-force checking everything." },
+    { "h": "Why it's on the frontier", "body": "Go had been a kind of finish line for artificial intelligence — a game widely expected to resist machines for another ten years. Beating it showed that the same recipe, deep neural networks plus learning from self-play, could crack problems too vast to solve by raw calculation. The ideas here led directly to later systems that mastered games from scratch with no human examples, and to AI that predicts protein shapes and tackles other hard scientific problems. It marked the moment learning-based AI started clearing bars people thought were years away." },
+    { "h": "The catch", "body": "Go is a closed world: fixed rules, perfect information, a clear winner each game. That makes it a clean place to measure progress, and it is very different from messy real-life problems where the rules shift and the goal is fuzzy. AlphaGo also leaned on enormous computing power and a large library of human games to get started. And winning against Fan Hui, strong as he was, was not yet the final word — the more famous match against top player Lee Sedol came a few months after this paper was published, and AlphaGo won that one too." }
+  ],
+  "terms": [
+    { "term": "Neural network", "def": "Software loosely inspired by the brain that learns patterns from examples rather than being given explicit rules." },
+    { "term": "Self-play", "def": "Letting a program improve by playing millions of games against copies of itself and learning from the results." },
+    { "term": "Policy and value networks", "def": "Two helpers: one suggests good moves to consider, the other estimates who is currently winning a position." }
+  ],
+  "takeaways": [
+    "When a problem has too many possibilities to check them all, the win comes from learning which possibilities are worth looking at.",
+    "Combining learning from human examples with learning from self-play beat either approach alone.",
+    "A 'ten years away' benchmark fell in one leap — a useful reminder for anyone betting on how fast AI moves."
+  ],
+  "quiz": [
+    {
+      "q": "Why can't a computer win at Go simply by checking every possible game?",
+      "choices": ["The rules of Go are secret", "There are more possible games than atoms in the universe", "Go has no clear winner", "Computers can't see the board"],
+      "answer": 1,
+      "why": "Go's branching is so vast — roughly 250 reasonable moves each turn over hundreds of turns — that the number of possible games dwarfs the number of atoms in the universe, so brute-force checking is impossible."
+    },
+    {
+      "q": "What were AlphaGo's two neural networks each responsible for?",
+      "choices": ["Drawing the board and keeping score", "Suggesting promising moves and estimating who is winning", "Translating the rules and timing the clock", "Storing past games and printing results"],
+      "answer": 1,
+      "why": "The policy network proposed good candidate moves and the value network judged how favorable a position was — together they let AlphaGo focus its search on what mattered."
+    },
+    {
+      "q": "What milestone did AlphaGo reach in this 2016 paper?",
+      "choices": ["It solved Go completely", "It beat a professional human champion on a full board, five games to zero", "It replaced all human Go teachers", "It learned Go with zero computing power"],
+      "answer": 1,
+      "why": "AlphaGo defeated European champion Fan Hui 5-0 in a formal match — the first time a program beat a professional human on a full-size board with no handicap."
+    }
+  ]
+}

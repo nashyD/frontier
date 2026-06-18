@@ -3,12 +3,6 @@
   "mode": "existing",
   "queue": [
     {
-      "topic": "ai",
-      "topicLabel": "Artificial Intelligence",
-      "study": "Silver et al. (2016), 'Mastering the game of Go with deep neural networks and tree search', Nature",
-      "angle": "How AlphaGo beat a game thought to be a decade away from machines."
-    },
-    {
       "topic": "biohacking",
       "topicLabel": "Biohacking",
       "study": "Kox et al. (2014), 'Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans', PNAS",
@@ -159,6 +153,7 @@
     "2026-06-11-pm — cannabis — Devane et al. (1992), anandamide",
     "2026-06-11-am — finance — Kahneman & Tversky (1979), prospect theory",
     "2026-06-10-pm — frontier — Jinek et al. (2012), CRISPR-Cas9",
-    "2026-06-15-pm — finance — Markowitz, H. (1952), \"Portfolio Selection,\" The Journal of Finance 7(1), 77-91"
+    "2026-06-15-pm — finance — Markowitz, H. (1952), \"Portfolio Selection,\" The Journal of Finance 7(1), 77-91",
+    "2026-06-17-pm — ai — Silver et al. (2016), \"Mastering the game of Go with deep neural networks and tree search\", Nature 529, 484-489"
   ]
 }
