@@ -670,5 +670,53 @@
     ],
     "answer": 0,
     "why": "The breathing sessions drove epinephrine up sharply. That surge tracked with more of an anti-inflammatory signal and less of the inflammatory ones — pointing to the adrenaline spike, mostly from the breathing, as the likely engine."
+  },
+  {
+    "qid": "2026-06-18-pm#0",
+    "lessonId": "2026-06-18-pm",
+    "lessonTitle": "Why spreading out your study time beats cramming",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What is the core finding of the spacing effect?",
+    "choices": [
+      "Studying more total hours is the only thing that matters",
+      "The same study time produces more lasting memory when spread across separate sessions",
+      "Cramming the night before works best for long-term memory",
+      "Word lists are impossible to memorize"
+    ],
+    "answer": 1,
+    "why": "Holding the total amount of study fixed, breaking it into spaced sessions beat cramming it into one block — better later recall for the very same effort, across hundreds of experiments."
+  },
+  {
+    "qid": "2026-06-18-pm#1",
+    "lessonId": "2026-06-18-pm",
+    "lessonTitle": "Why spreading out your study time beats cramming",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "Why did the researchers run a meta-analysis instead of a single new experiment?",
+    "choices": [
+      "Because they had no volunteers",
+      "To combine 100+ years of scattered experiments and see the overall pattern more reliably",
+      "To test a brand-new drug",
+      "Because single experiments are always wrong"
+    ],
+    "answer": 1,
+    "why": "A meta-analysis pools many past studies — here, 839 measurements from 317 experiments — so the overall pattern shows up far more clearly and reliably than any single study could reveal."
+  },
+  {
+    "qid": "2026-06-18-pm#2",
+    "lessonId": "2026-06-18-pm",
+    "lessonTitle": "Why spreading out your study time beats cramming",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "How should you choose the gap between study sessions?",
+    "choices": [
+      "Always use exactly 24 hours, no matter what",
+      "The gap doesn't matter as long as you space at all",
+      "Make the gap longer the longer you need to remember the material",
+      "Shorter gaps are always better for long-term memory"
+    ],
+    "answer": 2,
+    "why": "The best gap scaled with the retention interval: to remember something for a week, space sessions a day or so apart; to hold it for months, stretch the gaps out to weeks."
   }
 ]

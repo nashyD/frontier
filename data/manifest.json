@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-18-pm",
+    "date": "2026-06-18",
+    "slot": "pm",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "title": "Why spreading out your study time beats cramming",
+    "tldr": "Five researchers pooled more than a century of memory experiments and found the same thing over and over: take a fixed amount of study time and spread it across separate sessions, and you remember far more than if you pack it all into one sitting.",
+    "readMinutes": 5,
+    "citation": "Nicholas J. Cepeda, Harold Pashler, Edward Vul, John T. Wixted & Doug Rohrer (2006), \"Distributed Practice in Verbal Recall Tasks: A Review and Quantitative Synthesis,\" Psychological Bulletin 132(3), 354-380",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-18-am",
     "date": "2026-06-18",
     "slot": "am",

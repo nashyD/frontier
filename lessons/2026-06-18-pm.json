@@ -1,0 +1,52 @@
+{
+  "id": "2026-06-18-pm",
+  "date": "2026-06-18",
+  "slot": "pm",
+  "topic": "learning",
+  "topicLabel": "Learning & Cognition",
+  "title": "Why spreading out your study time beats cramming",
+  "study": {
+    "citation": "Nicholas J. Cepeda, Harold Pashler, Edward Vul, John T. Wixted & Doug Rohrer (2006), \"Distributed Practice in Verbal Recall Tasks: A Review and Quantitative Synthesis,\" Psychological Bulletin 132(3), 354-380",
+    "year": 2006,
+    "link": "https://doi.org/10.1037/0033-2909.132.3.354"
+  },
+  "tldr": "Five researchers pooled more than a century of memory experiments and found the same thing over and over: take a fixed amount of study time and spread it across separate sessions, and you remember far more than if you pack it all into one sitting.",
+  "readMinutes": 5,
+  "sections": [
+    { "h": "The question", "body": "Everyone has crammed for something — a test, a presentation, a list of names — by sitting down and drilling it all at once. It feels productive, because by the end of the session you can recite the material cold. But does it actually stick? For over a hundred years, scattered experiments had hinted at an answer: that the same study time works better when it's broken into separate sessions spread across days. The hints were everywhere but never pulled together. These researchers set out to gather the whole body of evidence in one place and ask, plainly, how much spacing helps and exactly how to space things for the best result." },
+    { "h": "What they did", "body": "They ran a meta-analysis — a study of studies, where you collect many past experiments and combine their results to see the overall pattern more clearly than any single experiment can. They tracked down 184 articles describing 317 experiments, which together held 839 separate measurements of the effect. Almost all used simple verbal material like word lists or word pairs, so the memory being tested was clean and comparable. In a typical experiment, people studied the same items either back-to-back in one block or in sessions separated by a gap, then got tested later. The team compared how much each approach was remembered." },
+    { "h": "What they found", "body": "Spacing won, consistently and by a wide margin. When study sessions were separated by a gap instead of crammed together, later recall was much stronger — across the pile of experiments, spreading the same study time out roughly raised the amount remembered by a large degree. They also found the best gap is not fixed: it depends on how long you need the memory to last. The longer the delay before the test, the longer the ideal gap between study sessions. To remember something for a week, space your sessions a day or so apart; to hold it for months, space them out by weeks." },
+    { "h": "Why it's on the frontier", "body": "This review turned a folk hunch into a hard, quantified rule, and it carries a rare kind of free lunch: the same hours of effort produce far more lasting memory simply by rearranging when you do them. That has obvious pull for students, but it reaches further — into how language apps schedule their flashcards, how medical training is timed, and how anyone learning a skill should plan their reps. It also points to something deep about memory itself: a little forgetting between sessions seems to be the very thing that forces a stronger, more durable trace when you study again." },
+    { "h": "The catch", "body": "Most of these experiments used word lists and simple pairs, so the cleanest evidence is for memorizing facts and vocabulary; richer skills like solving problems or writing essays may follow the rule but were less directly tested here. The science of the single perfect gap is also still rough — the studies show that more spacing helps and that the right gap grows with how long you need the memory, without nailing one exact formula for every situation. And spacing demands patience and planning, which is exactly why cramming, for all its weakness, stays so tempting." }
+  ],
+  "terms": [
+    { "term": "Distributed (spaced) practice", "def": "Breaking a fixed amount of study into separate sessions spread out over time, rather than doing it all in one block." },
+    { "term": "Massed practice (cramming)", "def": "Studying the same material back-to-back in a single sitting, with no gaps between repetitions." },
+    { "term": "Meta-analysis", "def": "A study that statistically combines the results of many earlier experiments to reveal the overall pattern more reliably than any one of them could alone." }
+  ],
+  "takeaways": [
+    "Same hours, better memory: splitting study time across separate sessions beats packing it into one — a large, consistent effect across hundreds of experiments.",
+    "Match the gap to the goal — study sessions a day apart to hold something for a week, weeks apart to hold it for months.",
+    "A little forgetting between sessions isn't failure; it's the friction that makes the next round of study stick harder."
+  ],
+  "quiz": [
+    {
+      "q": "What is the core finding of the spacing effect?",
+      "choices": ["Studying more total hours is the only thing that matters", "The same study time produces more lasting memory when spread across separate sessions", "Cramming the night before works best for long-term memory", "Word lists are impossible to memorize"],
+      "answer": 1,
+      "why": "Holding the total amount of study fixed, breaking it into spaced sessions beat cramming it into one block — better later recall for the very same effort, across hundreds of experiments."
+    },
+    {
+      "q": "Why did the researchers run a meta-analysis instead of a single new experiment?",
+      "choices": ["Because they had no volunteers", "To combine 100+ years of scattered experiments and see the overall pattern more reliably", "To test a brand-new drug", "Because single experiments are always wrong"],
+      "answer": 1,
+      "why": "A meta-analysis pools many past studies — here, 839 measurements from 317 experiments — so the overall pattern shows up far more clearly and reliably than any single study could reveal."
+    },
+    {
+      "q": "How should you choose the gap between study sessions?",
+      "choices": ["Always use exactly 24 hours, no matter what", "The gap doesn't matter as long as you space at all", "Make the gap longer the longer you need to remember the material", "Shorter gaps are always better for long-term memory"],
+      "answer": 2,
+      "why": "The best gap scaled with the retention interval: to remember something for a week, space sessions a day or so apart; to hold it for months, stretch the gaps out to weeks."
+    }
+  ]
+}

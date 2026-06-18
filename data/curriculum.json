@@ -3,12 +3,6 @@
   "mode": "existing",
   "queue": [
     {
-      "topic": "learning",
-      "topicLabel": "Learning & Cognition",
-      "study": "Cepeda et al. (2006), 'Distributed practice in verbal recall tasks', Psychological Bulletin",
-      "angle": "The spacing effect: the same study time spread out beats it crammed together, every time."
-    },
-    {
       "topic": "cannabis",
       "topicLabel": "Cannabis Science",
       "study": "Matsuda et al. (1990), 'Structure of a cannabinoid receptor and functional expression of the cloned cDNA', Nature",
@@ -136,6 +130,7 @@
     }
   ],
   "done": [
+    "2026-06-18-pm — learning — Cepeda, Pashler, Vul, Wixted & Rohrer (2006), Distributed Practice in Verbal Recall Tasks: A Review and Quantitative Synthesis (Psychological Bulletin 132(3), 354-380)",
     "2026-06-18-am — biohacking — Kox et al. (2014), Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans (PNAS 111(20), 7379-7384)",
     "2026-06-17-am — frontier — Abbott et al. / LIGO (2016), Observation of Gravitational Waves from a Binary Black Hole Merger (Phys. Rev. Lett. 116, 061102)",
     "2026-06-15-am — cannabis — Devinsky et al. (2017), Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome (NEJM)",
