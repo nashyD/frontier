@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-18-am",
+    "date": "2026-06-18",
+    "slot": "am",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "title": "Breathing your way to a quieter immune system",
+    "tldr": "Dutch researchers took the breathing-and-cold method made famous by Wim Hof, trained a group of volunteers in it for ten days, then injected everyone with a bacterial toxin — and the trained group dialed down their own inflammation and felt noticeably less sick.",
+    "readMinutes": 5,
+    "citation": "Matthijs Kox, Lucas T. van Eijk, Jelle Zwaag, Joanne van den Wildenberg, Fred C. G. J. Sweep, Johannes G. van der Hoeven & Peter Pickkers (2014), \"Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans,\" Proceedings of the National Academy of Sciences 111(20), 7379-7384",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-17-pm",
     "date": "2026-06-17",
     "slot": "pm",

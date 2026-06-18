@@ -622,5 +622,53 @@
     ],
     "answer": 1,
     "why": "AlphaGo defeated European champion Fan Hui 5-0 in a formal match — the first time a program beat a professional human on a full-size board with no handicap."
+  },
+  {
+    "qid": "2026-06-18-am#0",
+    "lessonId": "2026-06-18-am",
+    "lessonTitle": "Breathing your way to a quieter immune system",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What was the core claim the study tested?",
+    "choices": [
+      "That cold water kills bacteria on the skin",
+      "That people can voluntarily influence their own immune (inflammatory) response",
+      "That meditation cures the flu",
+      "That young men have stronger immune systems"
+    ],
+    "answer": 1,
+    "why": "The point of contention was whether the innate immune response — long assumed to run automatically — could be consciously steered. The trained group showed it could be nudged, at least briefly, through a breathing-cold-meditation practice."
+  },
+  {
+    "qid": "2026-06-18-am#1",
+    "lessonId": "2026-06-18-am",
+    "lessonTitle": "Breathing your way to a quieter immune system",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "Why did the researchers inject everyone with endotoxin?",
+    "choices": [
+      "To infect them with a real, dangerous disease",
+      "To boost their immune systems long-term",
+      "As a safe, controlled way to trigger a few hours of flu-like inflammation they could measure",
+      "To deliver the breathing training"
+    ],
+    "answer": 2,
+    "why": "Endotoxin is a fragment of dead bacteria the body reads as an infection. A tiny dose reliably and safely produces a short bout of flu-like symptoms, giving the team a consistent inflammatory challenge to compare across both groups."
+  },
+  {
+    "qid": "2026-06-18-am#2",
+    "lessonId": "2026-06-18-am",
+    "lessonTitle": "Breathing your way to a quieter immune system",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What appears to be the main mechanism behind the calmer immune response?",
+    "choices": [
+      "A surge in adrenaline (epinephrine) driven by the breathing technique",
+      "Colder body temperature freezing the bacteria",
+      "Extra sleep during the ten days",
+      "A change in diet"
+    ],
+    "answer": 0,
+    "why": "The breathing sessions drove epinephrine up sharply. That surge tracked with more of an anti-inflammatory signal and less of the inflammatory ones — pointing to the adrenaline spike, mostly from the breathing, as the likely engine."
   }
 ]
