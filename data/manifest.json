@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-19-pm",
+    "date": "2026-06-19",
+    "slot": "pm",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "title": "Why the mug in your hand is suddenly worth more",
+    "tldr": "Hand someone a coffee mug and they instantly demand about twice as much to sell it as they'd have paid to buy it — a simple classroom experiment showing that owning a thing, even for a minute, reshapes what you think it's worth.",
+    "readMinutes": 5,
+    "citation": "Daniel Kahneman, Jack L. Knetsch & Richard H. Thaler (1990), \"Experimental Tests of the Endowment Effect and the Coase Theorem,\" Journal of Political Economy 98(6), 1325-1348",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-19-am",
     "date": "2026-06-19",
     "slot": "am",

@@ -1,0 +1,52 @@
+{
+  "id": "2026-06-19-pm",
+  "date": "2026-06-19",
+  "slot": "pm",
+  "topic": "finance",
+  "topicLabel": "Finance & Economics",
+  "title": "Why the mug in your hand is suddenly worth more",
+  "study": {
+    "citation": "Daniel Kahneman, Jack L. Knetsch & Richard H. Thaler (1990), \"Experimental Tests of the Endowment Effect and the Coase Theorem,\" Journal of Political Economy 98(6), 1325-1348",
+    "year": 1990,
+    "link": "https://doi.org/10.1086/261737"
+  },
+  "tldr": "Hand someone a coffee mug and they instantly demand about twice as much to sell it as they'd have paid to buy it — a simple classroom experiment showing that owning a thing, even for a minute, reshapes what you think it's worth.",
+  "readMinutes": 5,
+  "sections": [
+    { "h": "The question", "body": "Standard economics assumes a thing is worth what it's worth: the most you'd pay to get a mug should roughly match the least you'd accept to give the same mug up. The two numbers ought to be close. There was a long-standing prediction tied to this idea, the Coase theorem, which says that when people can freely trade, objects end up with whoever values them most, regardless of who happened to start with them. Kahneman, Knetsch, and Thaler suspected reality was messier. They wanted to test, in a clean classroom setting, whether simply owning something quietly inflates its price in the owner's mind." },
+    { "h": "What they did", "body": "They ran markets with students. Half the room was handed a coffee mug; the other half got nothing. The mug owners could sell, and the non-owners could buy, at whatever price cleared the market. Each owner wrote down the lowest price they'd accept to part with their mug; each potential buyer wrote down the most they'd pay. This gap is the key: willingness-to-accept versus willingness-to-pay. The setup was designed so people had real incentive to answer honestly, since their choices led to actual trades. The team ran the markets several times to see whether the pattern faded once people got the hang of it." },
+    { "h": "What they found", "body": "Owners wanted roughly twice what buyers were willing to pay. A typical owner would not let the mug go for much under five dollars; a typical buyer would not go much above half that. Because so few prices overlapped, far fewer mugs changed hands than the Coase theorem predicts — about half should have traded, and the real number was consistently much lower. The effect held up across repeated rounds. As a check, they ran the same kind of market using plain tokens worth a fixed cash amount; there the trading volume matched the theory almost exactly, which told them ordinary hassle and confusion weren't the cause." },
+    { "h": "Why it's on the frontier", "body": "This experiment gave a slippery idea a hard, repeatable measurement. It showed that ownership isn't a neutral starting point: the moment something is yours, giving it up registers as a loss, and losses loom larger than equivalent gains. That asymmetry, called loss aversion, became one of the load-bearing findings of behavioral economics, work that later earned Kahneman and Thaler Nobel Prizes. It reaches well past mugs. It helps explain why investors cling to losing stocks, why free trials convert so well once you're using the product, and why people overprice the house or car they already own." },
+    { "h": "The catch", "body": "The studies used cheap objects, modest stakes, and mostly student volunteers, so the exact size of the gap shouldn't be read as a universal constant. Later researchers have argued about how much of the effect is genuine attachment versus quirks of how the questions are framed, and some find it shrinks when people are experienced traders or when the procedure is tightened. The core result, that owning something nudges its perceived value upward, has held up broadly, but the magnitude depends on the object, the person, and exactly how you ask." }
+  ],
+  "terms": [
+    { "term": "Endowment effect", "def": "The tendency to value something more simply because you own it — so you'd demand more to sell it than you'd have paid to buy the very same thing." },
+    { "term": "Willingness-to-accept vs willingness-to-pay", "def": "The lowest price an owner will take to give something up versus the highest a buyer will pay to get it. In theory these should be close; the endowment effect makes the seller's number much higher." },
+    { "term": "Loss aversion", "def": "The finding that losing something feels worse than gaining the same thing feels good, so people work harder to avoid losses than to chase equal-sized wins." }
+  ],
+  "takeaways": [
+    "Just holding a mug for a minute roughly doubled what people demanded to sell it — ownership itself changes the price tag in your head.",
+    "The mechanism is loss aversion: once a thing is yours, parting with it feels like a loss, and losses sting more than equal gains feel good.",
+    "It's everywhere in money decisions — clinging to a sinking stock, overpricing your own house, or getting hooked by a free trial once the product feels like yours."
+  ],
+  "quiz": [
+    {
+      "q": "What is the endowment effect, as this study measured it?",
+      "choices": ["People pay more for rare items", "People value something more just because they own it, demanding more to sell than they'd pay to buy", "People always trade goods to whoever values them most", "People dislike making any kind of decision"],
+      "answer": 1,
+      "why": "Owners demanded roughly twice what buyers would pay for the identical mug. Simply owning it raised its perceived value — the gap between willingness-to-accept and willingness-to-pay is the endowment effect."
+    },
+    {
+      "q": "Why did they also run a market using plain cash-value tokens?",
+      "choices": ["To make the experiment longer", "As a check: tokens traded at the volume theory predicts, showing the mug undertrading wasn't just hassle or confusion", "To prove tokens are worth more than mugs", "Because students preferred tokens"],
+      "answer": 1,
+      "why": "Tokens have no personal attachment, so they should trade freely — and they did, matching the theory. That ruled out ordinary transaction costs and pinned the mug result on the endowment effect itself."
+    },
+    {
+      "q": "What deeper psychological pattern best explains the endowment effect?",
+      "choices": ["Greed for money", "Loss aversion — giving up what you own registers as a loss, and losses weigh more than equal gains", "A preference for coffee", "Random guessing under pressure"],
+      "answer": 1,
+      "why": "Once the mug is yours, selling it feels like a loss. Because losses loom larger than equivalent gains, owners hold out for a higher price — the core insight that helped build behavioral economics."
+    }
+  ]
+}

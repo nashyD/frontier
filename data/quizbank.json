@@ -766,5 +766,53 @@
     ],
     "answer": 1,
     "why": "If the body builds a lock, it likely makes its own keys. That logic led to the discovery of anandamide and the mapping of the endocannabinoid system — a control network behind pain, appetite, mood, and memory."
+  },
+  {
+    "qid": "2026-06-19-pm#0",
+    "lessonId": "2026-06-19-pm",
+    "lessonTitle": "Why the mug in your hand is suddenly worth more",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "What is the endowment effect, as this study measured it?",
+    "choices": [
+      "People pay more for rare items",
+      "People value something more just because they own it, demanding more to sell than they'd pay to buy",
+      "People always trade goods to whoever values them most",
+      "People dislike making any kind of decision"
+    ],
+    "answer": 1,
+    "why": "Owners demanded roughly twice what buyers would pay for the identical mug. Simply owning it raised its perceived value — the gap between willingness-to-accept and willingness-to-pay is the endowment effect."
+  },
+  {
+    "qid": "2026-06-19-pm#1",
+    "lessonId": "2026-06-19-pm",
+    "lessonTitle": "Why the mug in your hand is suddenly worth more",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "Why did they also run a market using plain cash-value tokens?",
+    "choices": [
+      "To make the experiment longer",
+      "As a check: tokens traded at the volume theory predicts, showing the mug undertrading wasn't just hassle or confusion",
+      "To prove tokens are worth more than mugs",
+      "Because students preferred tokens"
+    ],
+    "answer": 1,
+    "why": "Tokens have no personal attachment, so they should trade freely — and they did, matching the theory. That ruled out ordinary transaction costs and pinned the mug result on the endowment effect itself."
+  },
+  {
+    "qid": "2026-06-19-pm#2",
+    "lessonId": "2026-06-19-pm",
+    "lessonTitle": "Why the mug in your hand is suddenly worth more",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "What deeper psychological pattern best explains the endowment effect?",
+    "choices": [
+      "Greed for money",
+      "Loss aversion — giving up what you own registers as a loss, and losses weigh more than equal gains",
+      "A preference for coffee",
+      "Random guessing under pressure"
+    ],
+    "answer": 1,
+    "why": "Once the mug is yours, selling it feels like a loss. Because losses loom larger than equivalent gains, owners hold out for a higher price — the core insight that helped build behavioral economics."
   }
 ]
