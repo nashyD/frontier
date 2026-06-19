@@ -718,5 +718,53 @@
     ],
     "answer": 2,
     "why": "The best gap scaled with the retention interval: to remember something for a week, space sessions a day or so apart; to hold it for months, stretch the gaps out to weeks."
+  },
+  {
+    "qid": "2026-06-19-am#0",
+    "lessonId": "2026-06-19-am",
+    "lessonTitle": "Finding the lock that THC fits",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "What did the researchers actually isolate and copy in this study?",
+    "choices": [
+      "A new strain of cannabis plant",
+      "The gene (cDNA) for a brain receptor that responds to cannabinoids",
+      "A drug that blocks THC",
+      "A natural chemical the body makes"
+    ],
+    "answer": 1,
+    "why": "They cloned the cDNA — a working copy of the gene — for the cannabinoid receptor. That gave them the recipe for the 'lock' that THC fits, which is what made everything that followed possible."
+  },
+  {
+    "qid": "2026-06-19-am#1",
+    "lessonId": "2026-06-19-am",
+    "lessonTitle": "Finding the lock that THC fits",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "How did they prove the gene they found was really the cannabinoid receptor?",
+    "choices": [
+      "They gave cannabis to volunteers and watched for a high",
+      "They inserted the gene into cells with no such receptor and showed those cells then responded to cannabinoids",
+      "They found it only in cannabis plants",
+      "They measured how much people smoked"
+    ],
+    "answer": 1,
+    "why": "Functional expression: put the cloned gene into cells that normally ignore cannabinoids. When those cells suddenly reacted — in a dose-dependent, stereoselective, chemistry-matching way — the gene had to encode the real receptor."
+  },
+  {
+    "qid": "2026-06-19-am#2",
+    "lessonId": "2026-06-19-am",
+    "lessonTitle": "Finding the lock that THC fits",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Why was finding this receptor such a big deal for the field?",
+    "choices": [
+      "It proved cannabis is harmless",
+      "It implied the body makes its own cannabinoid-like chemicals, opening up the endocannabinoid system",
+      "It replaced all cannabis research with computer models",
+      "It showed THC has no effect on the brain"
+    ],
+    "answer": 1,
+    "why": "If the body builds a lock, it likely makes its own keys. That logic led to the discovery of anandamide and the mapping of the endocannabinoid system — a control network behind pain, appetite, mood, and memory."
   }
 ]
