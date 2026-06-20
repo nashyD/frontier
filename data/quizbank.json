@@ -862,5 +862,53 @@
     ],
     "answer": 1,
     "why": "Calming the immune alarm was essential but not sufficient. Getting protein production up and ferrying the fragile mRNA into cells with lipid nanoparticles came in later years, and that combination is what made real vaccines possible."
+  },
+  {
+    "qid": "2026-06-20-pm#0",
+    "lessonId": "2026-06-20-pm",
+    "lessonTitle": "The afternoon a contest entry kicked off the AI era",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What made AlexNet's 2012 result so shocking?",
+    "choices": [
+      "It was the first neural network ever built",
+      "It beat every other entry in the image contest by a large margin",
+      "It could write text and recognize speech too",
+      "It ran without any computer at all"
+    ],
+    "answer": 1,
+    "why": "In a contest where teams usually fought over fractions of a percent, AlexNet beat the next best system by about ten points. That lopsided win, not its novelty, is what stunned the field and signaled a shift."
+  },
+  {
+    "qid": "2026-06-20-pm#1",
+    "lessonId": "2026-06-20-pm",
+    "lessonTitle": "The afternoon a contest entry kicked off the AI era",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "Which combination made AlexNet work?",
+    "choices": [
+      "Hand-written rules and a single photo",
+      "A deep neural network, a huge labeled dataset, and fast graphics chips",
+      "A faster internet connection",
+      "A brand-new idea no one had tried before"
+    ],
+    "answer": 1,
+    "why": "The pieces were a deep convolutional network, the million-plus labeled images of ImageNet, and gaming graphics cards fast enough to train it. The network design itself drew on ideas from the 1980s and 90s."
+  },
+  {
+    "qid": "2026-06-20-pm#2",
+    "lessonId": "2026-06-20-pm",
+    "lessonTitle": "The afternoon a contest entry kicked off the AI era",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What is an honest limitation of AlexNet?",
+    "choices": [
+      "It only worked for one day",
+      "It was a narrow specialist that named objects in photos and could learn the biases in its training images",
+      "It needed no data to train",
+      "It replaced all human jobs immediately"
+    ],
+    "answer": 1,
+    "why": "AlexNet could label objects in pictures and nothing else, and a network learns whatever patterns and gaps live in its training data — so it can be confidently wrong on unfamiliar images. Questions of reliability and fairness came later."
   }
 ]

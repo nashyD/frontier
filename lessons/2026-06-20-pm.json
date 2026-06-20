@@ -1,0 +1,52 @@
+{
+  "id": "2026-06-20-pm",
+  "date": "2026-06-20",
+  "slot": "pm",
+  "topic": "ai",
+  "topicLabel": "Artificial Intelligence",
+  "title": "The afternoon a contest entry kicked off the AI era",
+  "study": {
+    "citation": "Alex Krizhevsky, Ilya Sutskever & Geoffrey E. Hinton (2012), \"ImageNet Classification with Deep Convolutional Neural Networks\" (AlexNet), Advances in Neural Information Processing Systems (NeurIPS) 25, 1097-1105",
+    "year": 2012,
+    "link": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks"
+  },
+  "tldr": "For decades, getting a computer to recognize what's in a photo was painfully hard. In 2012, three researchers entered a giant image contest with a single big neural network trained on graphics cards, and it beat everyone else by a stunning margin. That one result is why almost every AI system you use today exists.",
+  "readMinutes": 5,
+  "sections": [
+    { "h": "The question", "body": "Telling a cat from a dog is effortless for a toddler and brutally hard for a computer. For years, researchers tried to write the rules of seeing by hand: look for whiskers here, an edge there. It mostly failed, because the real world is too messy. To measure progress, scientists built ImageNet, a contest with over a million labeled photos spread across a thousand everyday categories, from sailboats to schnauzers. The yearly challenge was simple to state: show the machine a photo it has never seen and ask it to name what's in it. By 2011, even the best systems still got it wrong about a quarter of the time." },
+    { "h": "What they did", "body": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton entered a single large neural network — a stack of math that learns patterns from examples instead of following hand-written rules. Theirs was a convolutional neural network, a design that scans an image in small patches and builds up from simple edges to whole objects, layer by layer. It had eight main layers and roughly 60 million internal dials. Two things made it work: they trained it on ordinary gaming graphics cards, which crunch the math far faster than a normal processor, and they used tricks to stop it from simply memorizing the training photos." },
+    { "h": "What they found", "body": "It won, and it wasn't close. The network, later nicknamed AlexNet, missed the right answer in its top five guesses about 15 percent of the time. The next best entry missed roughly 26 percent of the time. In a field where teams fought over fractions of a percent, beating everyone by about ten points was almost unheard of. The lopsided result sent a clear message: the old hand-built approach to computer vision was finished. A network that learned its own features directly from raw pixels had just leapt past methods people had refined for years." },
+    { "h": "Why it's on the frontier", "body": "This is widely seen as the spark of the modern deep-learning boom. The recipe behind AlexNet — a deep neural network, a mountain of data, and fast graphics chips to train it — became the template for nearly everything that followed: the systems that recognize faces, transcribe speech, drive cars, and power today's chatbots. It also helped turn the graphics-chip maker behind those cards into one of the most valuable companies on Earth. Two of the three authors went on to shape the labs now leading AI, and the trio shared a major computing prize for the work." },
+    { "h": "The catch", "body": "AlexNet's ideas were not brand new. Convolutional networks dated back to the 1980s and 90s; what changed was that enough data and enough computing power finally arrived at the same time to make them shine. The system was also a narrow specialist — it could name objects in photos, and nothing more. And a network like this learns whatever is in its training photos, biases and gaps included, so it can be confidently wrong on images unlike the ones it studied. It proved a method could work at scale, and the harder questions about reliability and fairness came later." }
+  ],
+  "terms": [
+    { "term": "Neural network", "def": "A stack of math, loosely inspired by brain cells, that learns patterns from many examples instead of following rules a person wrote by hand." },
+    { "term": "Convolutional neural network", "def": "A neural network built for images that scans a picture in small patches, building up from simple edges to whole objects layer by layer." },
+    { "term": "GPU", "def": "A graphics chip, originally made for video games, that does huge amounts of simple math at once — which turns out to be exactly what training a neural network needs." }
+  ],
+  "takeaways": [
+    "In 2012, a single deep neural network called AlexNet won the ImageNet photo contest by a huge margin, ending the era of hand-written rules for computer vision.",
+    "The winning recipe was a deep network plus a mountain of labeled data plus fast graphics chips to train it — and that same recipe powers most AI you use today.",
+    "The core ideas were decades old; what was new was that data and cheap computing power finally arrived together, which is a pattern worth watching for in any technology."
+  ],
+  "quiz": [
+    {
+      "q": "What made AlexNet's 2012 result so shocking?",
+      "choices": ["It was the first neural network ever built", "It beat every other entry in the image contest by a large margin", "It could write text and recognize speech too", "It ran without any computer at all"],
+      "answer": 1,
+      "why": "In a contest where teams usually fought over fractions of a percent, AlexNet beat the next best system by about ten points. That lopsided win, not its novelty, is what stunned the field and signaled a shift."
+    },
+    {
+      "q": "Which combination made AlexNet work?",
+      "choices": ["Hand-written rules and a single photo", "A deep neural network, a huge labeled dataset, and fast graphics chips", "A faster internet connection", "A brand-new idea no one had tried before"],
+      "answer": 1,
+      "why": "The pieces were a deep convolutional network, the million-plus labeled images of ImageNet, and gaming graphics cards fast enough to train it. The network design itself drew on ideas from the 1980s and 90s."
+    },
+    {
+      "q": "What is an honest limitation of AlexNet?",
+      "choices": ["It only worked for one day", "It was a narrow specialist that named objects in photos and could learn the biases in its training images", "It needed no data to train", "It replaced all human jobs immediately"],
+      "answer": 1,
+      "why": "AlexNet could label objects in pictures and nothing else, and a network learns whatever patterns and gaps live in its training data — so it can be confidently wrong on unfamiliar images. Questions of reliability and fairness came later."
+    }
+  ]
+}

@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-20-pm",
+    "date": "2026-06-20",
+    "slot": "pm",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "title": "The afternoon a contest entry kicked off the AI era",
+    "tldr": "For decades, getting a computer to recognize what's in a photo was painfully hard. In 2012, three researchers entered a giant image contest with a single big neural network trained on graphics cards, and it beat everyone else by a stunning margin. That one result is why almost every AI system you use today exists.",
+    "readMinutes": 5,
+    "citation": "Alex Krizhevsky, Ilya Sutskever & Geoffrey E. Hinton (2012), \"ImageNet Classification with Deep Convolutional Neural Networks\" (AlexNet), Advances in Neural Information Processing Systems (NeurIPS) 25, 1097-1105",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-20-am",
     "date": "2026-06-20",
     "slot": "am",
