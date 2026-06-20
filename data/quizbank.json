@@ -814,5 +814,53 @@
     ],
     "answer": 1,
     "why": "Once the mug is yours, selling it feels like a loss. Because losses loom larger than equivalent gains, owners hold out for a higher price — the core insight that helped build behavioral economics."
+  },
+  {
+    "qid": "2026-06-20-am#0",
+    "lessonId": "2026-06-20-am",
+    "lessonTitle": "The one-letter swap that made mRNA vaccines possible",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "Why did synthetic mRNA fail as a medicine before this work?",
+    "choices": [
+      "It was too expensive to make",
+      "The immune system attacked it, triggering inflammation",
+      "Cells could not read it at all",
+      "It only worked in plants"
+    ],
+    "answer": 1,
+    "why": "Plain lab-made RNA tripped the body's Toll-like receptors, setting off an inflammatory response. That backlash, not cost or readability, was the wall blocking mRNA from being used as a drug."
+  },
+  {
+    "qid": "2026-06-20-am#1",
+    "lessonId": "2026-06-20-am",
+    "lessonTitle": "The one-letter swap that made mRNA vaccines possible",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "What was the core fix Karikó and Weissman found?",
+    "choices": [
+      "Wrapping the RNA in fat bubbles",
+      "Replacing one of RNA's chemical letters with a naturally modified version like pseudouridine",
+      "Making the RNA much longer",
+      "Heating the RNA before injecting it"
+    ],
+    "answer": 1,
+    "why": "They swapped ordinary nucleosides for modified ones. RNA carrying these tweaks — pseudouridine especially — no longer set off the TLR tripwires, so the immune system left it alone."
+  },
+  {
+    "qid": "2026-06-20-am#2",
+    "lessonId": "2026-06-20-am",
+    "lessonTitle": "The one-letter swap that made mRNA vaccines possible",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "Why is it fair to call the fix only the first step toward a working vaccine?",
+    "choices": [
+      "The fix was later proven wrong",
+      "Delivery, dosing, and stability — like lipid nanoparticles — had to be solved before it reached patients",
+      "It only worked against the flu",
+      "Vaccines never actually used this chemistry"
+    ],
+    "answer": 1,
+    "why": "Calming the immune alarm was essential but not sufficient. Getting protein production up and ferrying the fragile mRNA into cells with lipid nanoparticles came in later years, and that combination is what made real vaccines possible."
   }
 ]

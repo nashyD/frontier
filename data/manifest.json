@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-20-am",
+    "date": "2026-06-20",
+    "slot": "am",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "title": "The one-letter swap that made mRNA vaccines possible",
+    "tldr": "Lab-made mRNA kept setting off a violent immune alarm — until two researchers swapped one of its four chemical letters for a slightly altered version, and the body stopped treating it as an invader. That fix is the reason the COVID mRNA vaccines work, and it won a Nobel Prize 18 years later.",
+    "readMinutes": 5,
+    "citation": "Katalin Karikó, Michael Buckstein, Houping Ni & Drew Weissman (2005), \"Suppression of RNA Recognition by Toll-Like Receptors: The Impact of Nucleoside Modification and the Evolutionary Origin of RNA,\" Immunity 23(2), 165-175",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-19-pm",
     "date": "2026-06-19",
     "slot": "pm",
