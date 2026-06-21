@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-21-pm",
+    "date": "2026-06-21",
+    "slot": "pm",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "title": "The real study behind the 10,000-hour rule",
+    "tldr": "When researchers tracked the practice histories of violin students at a top music school, the most accomplished players had quietly logged thousands more hours of focused, effortful practice than their good-but-not-elite peers — the study that later got squashed into the catchy and misleading '10,000-hour rule.'",
+    "readMinutes": 5,
+    "citation": "K. Anders Ericsson, Ralf Th. Krampe & Clemens Tesch-Römer (1993), \"The Role of Deliberate Practice in the Acquisition of Expert Performance,\" Psychological Review 100(3), 363-406",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-21-am",
     "date": "2026-06-21",
     "slot": "am",

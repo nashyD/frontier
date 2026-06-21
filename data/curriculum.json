@@ -3,12 +3,6 @@
   "mode": "existing",
   "queue": [
     {
-      "topic": "learning",
-      "topicLabel": "Learning & Cognition",
-      "study": "Ericsson, Krampe & Tesch-Römer (1993), 'The Role of Deliberate Practice in the Acquisition of Expert Performance', Psychological Review",
-      "angle": "The real study behind the (often-misquoted) '10,000 hours' idea."
-    },
-    {
       "topic": "cannabis",
       "topicLabel": "Cannabis Science",
       "study": "Fuss et al. (2015), 'A runner's high depends on cannabinoid receptors in mice', PNAS",
@@ -100,6 +94,7 @@
     }
   ],
   "done": [
+    "2026-06-21-pm — learning — Ericsson, Krampe & Tesch-Römer (1993), The Role of Deliberate Practice in the Acquisition of Expert Performance (Psychological Review 100(3), 363-406)",
     "2026-06-20-pm — ai — Krizhevsky, Sutskever & Hinton (2012), ImageNet Classification with Deep Convolutional Neural Networks (AlexNet), NeurIPS 25, 1097-1105",
     "2026-06-20-am — frontier — Karikó, Buckstein, Ni & Weissman (2005), Suppression of RNA Recognition by Toll-Like Receptors: The Impact of Nucleoside Modification and the Evolutionary Origin of RNA (Immunity 23(2), 165-175)",
     "2026-06-19-pm — finance — Kahneman, Knetsch & Thaler (1990), Experimental Tests of the Endowment Effect and the Coase Theorem (Journal of Political Economy 98(6), 1325-1348)",

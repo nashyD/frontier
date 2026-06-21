@@ -958,5 +958,53 @@
     ],
     "answer": 1,
     "why": "With just twelve participants and four full hours of bright reading before a fixed bedtime, the lab setup pushed the effect hard. Everyday use tends to be shorter and dimmer, so the direction holds but the size for any individual will vary."
+  },
+  {
+    "qid": "2026-06-21-pm#0",
+    "lessonId": "2026-06-21-pm",
+    "lessonTitle": "The real study behind the 10,000-hour rule",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What did Ericsson and colleagues mean by 'deliberate practice'?",
+    "choices": [
+      "Any time spent playing or performing",
+      "Focused, effortful work aimed at fixing weaknesses, usually alone and not very fun",
+      "Practicing only the pieces you already play well",
+      "Watching experts perform and taking notes"
+    ],
+    "answer": 1,
+    "why": "The whole point of the study was that the kind of practice matters. Deliberate practice is effortful, improvement-focused work that stretches you past your current ability — distinct from mindlessly repeating what you can already do."
+  },
+  {
+    "qid": "2026-06-21-pm#1",
+    "lessonId": "2026-06-21-pm",
+    "lessonTitle": "The real study behind the 10,000-hour rule",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What did the practice totals look like across the three groups of violinists by age 18?",
+    "choices": [
+      "All three groups had nearly identical hours",
+      "The teachers had the most, the best the fewest",
+      "The best had the most (~7,400 hours), then the good, then the future teachers",
+      "Only the best group kept any records"
+    ],
+    "answer": 2,
+    "why": "Accumulated deliberate practice lined up with skill: roughly 7,400 hours for the best by age 18, about 5,300 for the good group, and about 3,400 for the future music teachers — with the top group passing 10,000 hours a couple of years later."
+  },
+  {
+    "qid": "2026-06-21-pm#2",
+    "lessonId": "2026-06-21-pm",
+    "lessonTitle": "The real study behind the 10,000-hour rule",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What is the most honest caveat about the '10,000-hour rule' the study inspired?",
+    "choices": [
+      "Practice has no effect on skill",
+      "10,000 hours guarantees you'll become an expert",
+      "The number was an average for one group at one age, and later work finds practice explains only about a quarter of performance differences",
+      "The study was about athletes, not musicians"
+    ],
+    "answer": 2,
+    "why": "Ericsson himself rejected the '10,000-hour rule.' That figure was a group average, not a threshold, and a large 2019 reanalysis found deliberate practice accounts for only around 25% of the variation in performance — leaving room for genetics, starting age, coaching, and luck."
   }
 ]
