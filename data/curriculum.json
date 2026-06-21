@@ -3,12 +3,6 @@
   "mode": "existing",
   "queue": [
     {
-      "topic": "biohacking",
-      "topicLabel": "Biohacking",
-      "study": "Chang et al. (2015), 'Evening use of light-emitting eReaders negatively affects sleep', PNAS",
-      "angle": "Hard evidence that screens before bed push your body clock later and blunt melatonin."
-    },
-    {
       "topic": "learning",
       "topicLabel": "Learning & Cognition",
       "study": "Ericsson, Krampe & Tesch-Römer (1993), 'The Role of Deliberate Practice in the Acquisition of Expert Performance', Psychological Review",
@@ -124,6 +118,7 @@
     "2026-06-11-am — finance — Kahneman & Tversky (1979), prospect theory",
     "2026-06-10-pm — frontier — Jinek et al. (2012), CRISPR-Cas9",
     "2026-06-15-pm — finance — Markowitz, H. (1952), \"Portfolio Selection,\" The Journal of Finance 7(1), 77-91",
-    "2026-06-17-pm — ai — Silver et al. (2016), \"Mastering the game of Go with deep neural networks and tree search\", Nature 529, 484-489"
+    "2026-06-17-pm — ai — Silver et al. (2016), \"Mastering the game of Go with deep neural networks and tree search\", Nature 529, 484-489",
+    "2026-06-21-am — biohacking — Chang, Aeschbach, Duffy & Czeisler (2015), 'Evening use of light-emitting eReaders negatively affects sleep', PNAS 112(4)"
   ]
 }

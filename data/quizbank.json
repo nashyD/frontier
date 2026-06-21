@@ -910,5 +910,53 @@
     ],
     "answer": 1,
     "why": "AlexNet could label objects in pictures and nothing else, and a network learns whatever patterns and gaps live in its training data — so it can be confidently wrong on unfamiliar images. Questions of reliability and fairness came later."
+  },
+  {
+    "qid": "2026-06-21-am#0",
+    "lessonId": "2026-06-21-am",
+    "lessonTitle": "Why reading on a screen before bed wrecks your sleep",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What was the main biological effect of reading a light-emitting tablet before bed?",
+    "choices": [
+      "It raised melatonin and deepened sleep",
+      "It suppressed melatonin by about half and delayed the body clock",
+      "It had no measurable effect on the body",
+      "It only affected eyesight, not sleep"
+    ],
+    "answer": 1,
+    "why": "On tablet nights, the sleep hormone melatonin was suppressed by roughly 50% versus paper-book nights, and the internal clock drifted about an hour and a half later — the core finding of the study."
+  },
+  {
+    "qid": "2026-06-21-am#1",
+    "lessonId": "2026-06-21-am",
+    "lessonTitle": "Why reading on a screen before bed wrecks your sleep",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "Why is the study's design considered strong despite its small size?",
+    "choices": [
+      "It ran for ten years",
+      "It surveyed thousands of people online",
+      "Each person did both conditions in a controlled lab, serving as their own comparison",
+      "It used animals to avoid human variation"
+    ],
+    "answer": 2,
+    "why": "Twelve adults each spent five evenings on the tablet and five with a printed book under tightly controlled lab conditions. Having each person experience both setups means differences can be pinned on the screen, not on differences between people."
+  },
+  {
+    "qid": "2026-06-21-am#2",
+    "lessonId": "2026-06-21-am",
+    "lessonTitle": "Why reading on a screen before bed wrecks your sleep",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What is the most honest limitation to keep in mind?",
+    "choices": [
+      "The screens used were not actually electronic",
+      "Only twelve people read for four hours under artificial lab conditions, so real-world effects are likely milder",
+      "Melatonin has nothing to do with sleep",
+      "The study proved night mode does nothing"
+    ],
+    "answer": 1,
+    "why": "With just twelve participants and four full hours of bright reading before a fixed bedtime, the lab setup pushed the effect hard. Everyday use tends to be shorter and dimmer, so the direction holds but the size for any individual will vary."
   }
 ]

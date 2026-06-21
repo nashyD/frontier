@@ -1,0 +1,52 @@
+{
+  "id": "2026-06-21-am",
+  "date": "2026-06-21",
+  "slot": "am",
+  "topic": "biohacking",
+  "topicLabel": "Biohacking",
+  "title": "Why reading on a screen before bed wrecks your sleep",
+  "study": {
+    "citation": "Anne-Marie Chang, Daniel Aeschbach, Jeanne F. Duffy & Charles A. Czeisler (2015), \"Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness,\" PNAS 112(4), 1232-1237",
+    "year": 2015,
+    "link": "https://doi.org/10.1073/pnas.1418490112"
+  },
+  "tldr": "When researchers had people read a glowing tablet for a few hours before bed, their bodies pumped out about half as much of the sleep hormone melatonin, they took longer to drift off, and they woke up groggier the next morning — even after a full eight hours in bed.",
+  "readMinutes": 5,
+  "sections": [
+    { "h": "The question", "body": "Your body runs on an internal clock that decides when you feel sleepy. The main signal that sets it is light: bright light says 'daytime, stay awake,' darkness says 'wind down.' Phones, tablets, and eReaders all throw off light, and a lot of it sits in the blue part of the spectrum that the clock is most sensitive to. Plenty of people read on a glowing screen in bed every night. The researchers wanted a clean answer to a simple question: does doing that, instead of reading a paper book, actually change your biology and your sleep — and by how much?" },
+    { "h": "What they did", "body": "Twelve healthy adults lived in a sleep lab for two straight weeks, where the team controlled the lighting, meals, and bedtimes. Each person spent five evenings reading a light-emitting tablet (an iPad) for four hours before bed, and five other evenings reading an ordinary printed book in dim light. Everyone did both, in switched order, so each person was their own comparison. Throughout, the researchers tracked the sleep hormone melatonin from regular blood draws, measured how long people took to fall asleep and the stages of sleep they reached, and tested how alert they felt the next morning." },
+    { "h": "What they found", "body": "The glowing screen clearly shifted the body. On tablet nights, melatonin — the hormone that rises in the evening to usher in sleep — was suppressed by roughly half compared with book nights. People felt less sleepy in the evening, took about ten extra minutes to fall asleep, and got less REM sleep, the dreaming stage tied to memory and mood. Their internal clock drifted later by around an hour and a half, as if they had flown west across time zones. And even after a full night in bed, they were groggier and slower to wake up the next morning." },
+    { "h": "Why it's on the frontier", "body": "This study took a vague worry — 'screens are bad for sleep' — and pinned it down with hard biology inside a tightly controlled lab. It showed that evening screen light does not just keep you up by being interesting; it physically delays your body clock and throttles the hormone that runs your sleep, with knock-on effects that linger into the next day. That result helped drive the 'night mode' and warm-light settings now built into nearly every phone and tablet, and it shaped public advice to dim and put away devices before bed. It made blue light at night a mainstream health idea." },
+    { "h": "The catch", "body": "This was a small, intense study: just twelve people, living under artificial lab conditions with four full hours of reading before a fixed bedtime. Real evenings are messier and usually involve less screen time at lower brightness, so the everyday effect is probably gentler. The work also can't tell you that warm 'night mode' fully fixes the problem — dimming and shifting color likely helps, but the brightness and timing of any light still matter. And people differ a lot in how sensitive their clocks are. The direction of the finding is solid; the exact size for your own nightstand will vary." }
+  ],
+  "terms": [
+    { "term": "Melatonin", "def": "A hormone your brain releases in the evening to signal that it's time to sleep. Light at night, especially blue light, holds it back." },
+    { "term": "Circadian clock", "def": "Your body's roughly 24-hour internal timer that decides when you feel awake or sleepy, mostly set by the light your eyes take in." },
+    { "term": "REM sleep", "def": "The dreaming stage of sleep, when your brain is highly active. It's linked to memory, learning, and emotional balance." }
+  ],
+  "takeaways": [
+    "Reading on a glowing tablet for hours before bed cut melatonin — the sleep hormone — by about half versus a paper book, and pushed the body clock roughly 90 minutes later.",
+    "The cost didn't stop at bedtime: tablet readers fell asleep slower, got less dreaming sleep, and felt groggier the next morning even after eight hours in bed.",
+    "If you build or grind late into the night, the practical move is to dim screens, use warm 'night mode,' and stop staring at bright light in the last hour before sleep."
+  ],
+  "quiz": [
+    {
+      "q": "What was the main biological effect of reading a light-emitting tablet before bed?",
+      "choices": ["It raised melatonin and deepened sleep", "It suppressed melatonin by about half and delayed the body clock", "It had no measurable effect on the body", "It only affected eyesight, not sleep"],
+      "answer": 1,
+      "why": "On tablet nights, the sleep hormone melatonin was suppressed by roughly 50% versus paper-book nights, and the internal clock drifted about an hour and a half later — the core finding of the study."
+    },
+    {
+      "q": "Why is the study's design considered strong despite its small size?",
+      "choices": ["It ran for ten years", "It surveyed thousands of people online", "Each person did both conditions in a controlled lab, serving as their own comparison", "It used animals to avoid human variation"],
+      "answer": 2,
+      "why": "Twelve adults each spent five evenings on the tablet and five with a printed book under tightly controlled lab conditions. Having each person experience both setups means differences can be pinned on the screen, not on differences between people."
+    },
+    {
+      "q": "What is the most honest limitation to keep in mind?",
+      "choices": ["The screens used were not actually electronic", "Only twelve people read for four hours under artificial lab conditions, so real-world effects are likely milder", "Melatonin has nothing to do with sleep", "The study proved night mode does nothing"],
+      "answer": 1,
+      "why": "With just twelve participants and four full hours of bright reading before a fixed bedtime, the lab setup pushed the effect hard. Everyday use tends to be shorter and dimmer, so the direction holds but the size for any individual will vary."
+    }
+  ]
+}

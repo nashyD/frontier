@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-21-am",
+    "date": "2026-06-21",
+    "slot": "am",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "title": "Why reading on a screen before bed wrecks your sleep",
+    "tldr": "When researchers had people read a glowing tablet for a few hours before bed, their bodies pumped out about half as much of the sleep hormone melatonin, they took longer to drift off, and they woke up groggier the next morning — even after a full eight hours in bed.",
+    "readMinutes": 5,
+    "citation": "Anne-Marie Chang, Daniel Aeschbach, Jeanne F. Duffy & Charles A. Czeisler (2015), \"Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness,\" PNAS 112(4), 1232-1237",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-20-pm",
     "date": "2026-06-20",
     "slot": "pm",
