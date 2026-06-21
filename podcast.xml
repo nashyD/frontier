@@ -15,12 +15,22 @@
     <itunes:owner><itunes:name>Frontier</itunes:name><itunes:email>nashdavis@tsd-ventures.com</itunes:email></itunes:owner>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://nashyd.github.io/frontier/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Frontier — June 21, 2026</title>
+      <description>Two studies: how a glowing screen before bed cuts your sleep hormone and delays your body clock, and the real research behind the 10,000-hour rule.</description>
+      <itunes:summary>Two studies: how a glowing screen before bed cuts your sleep hormone and delays your body clock, and the real research behind the 10,000-hour rule.</itunes:summary>
+      <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-21.mp3" length="4123629" type="audio/mpeg"/>
+      <guid isPermaLink="false">frontier-2026-06-21</guid>
+      <pubDate>Sun, 21 Jun 2026 12:00:00 GMT</pubDate>
+      <itunes:duration>5:44</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>Frontier — June 20, 2026</title>
       <description>Two studies that each turned a tiny change into a revolution: the one-letter mRNA swap behind the COVID vaccines, and AlexNet, the 2012 image contest entry that kicked off the modern AI era.</description>
       <itunes:summary>Two studies that each turned a tiny change into a revolution: the one-letter mRNA swap behind the COVID vaccines, and AlexNet, the 2012 image contest entry that kicked off the modern AI era.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-20.mp3" length="4225293" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-20</guid>
-      <pubDate>Sat, 20 Jun 2026 12:00:00 GMT</pubDate>
+      <pubDate>Sat, 20 Jun 2026 12:00:01 GMT</pubDate>
       <itunes:duration>5:52</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -30,7 +40,7 @@
       <itunes:summary>Two studies: the 1990 discovery of the brain&apos;s cannabinoid receptor, and the coffee-mug experiment that proved owning something makes you value it more.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-19.mp3" length="3996909" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-19</guid>
-      <pubDate>Fri, 19 Jun 2026 12:00:01 GMT</pubDate>
+      <pubDate>Fri, 19 Jun 2026 12:00:02 GMT</pubDate>
       <itunes:duration>5:33</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -40,7 +50,7 @@
       <itunes:summary>Two landmark studies: the first direct detection of gravitational waves from colliding black holes, and AlphaGo becoming the first program to beat a professional human at Go.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-17.mp3" length="4863789" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-17</guid>
-      <pubDate>Wed, 17 Jun 2026 12:00:02 GMT</pubDate>
+      <pubDate>Wed, 17 Jun 2026 12:00:03 GMT</pubDate>
       <itunes:duration>6:45</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -50,7 +60,7 @@
       <itunes:summary>Two studies on turning belief into proof: the 2017 trial that made CBD an FDA-approved seizure medicine, and Markowitz&apos;s 1952 paper that turned diversification into the math behind modern investing.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-15.mp3" length="4244589" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-15</guid>
-      <pubDate>Mon, 15 Jun 2026 12:00:03 GMT</pubDate>
+      <pubDate>Mon, 15 Jun 2026 12:00:04 GMT</pubDate>
       <itunes:duration>5:54</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -60,7 +70,7 @@
       <itunes:summary>Two hidden systems: how your brain power-washes itself during sleep, and why the least skilled are often the most confident.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-14.mp3" length="4497453" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-14</guid>
-      <pubDate>Sun, 14 Jun 2026 12:00:04 GMT</pubDate>
+      <pubDate>Sun, 14 Jun 2026 12:00:05 GMT</pubDate>
       <itunes:duration>6:15</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -70,7 +80,7 @@
       <itunes:summary>Two studies that rhyme: the testing effect, why quizzing yourself beats re-reading, and AlphaFold, the AI that cracked the 50-year protein-folding problem.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-13.mp3" length="4874445" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-13</guid>
-      <pubDate>Sat, 13 Jun 2026 12:00:05 GMT</pubDate>
+      <pubDate>Sat, 13 Jun 2026 12:00:06 GMT</pubDate>
       <itunes:duration>6:46</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
