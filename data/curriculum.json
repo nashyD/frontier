@@ -3,12 +3,6 @@
   "mode": "existing",
   "queue": [
     {
-      "topic": "cannabis",
-      "topicLabel": "Cannabis Science",
-      "study": "Fuss et al. (2015), 'A runner's high depends on cannabinoid receptors in mice', PNAS",
-      "angle": "The 'runner's high' may owe more to your endocannabinoids than to endorphins."
-    },
-    {
       "topic": "finance",
       "topicLabel": "Finance & Economics",
       "study": "Shiller (1981), 'Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?', American Economic Review",
@@ -94,6 +88,7 @@
     }
   ],
   "done": [
+    "2026-06-22-am — cannabis — Fuss, Steinle, Bindila, Auer, Kirchherr, Lutz & Gass (2015), A runner's high depends on cannabinoid receptors in mice (PNAS 112(42), 13105-13108)",
     "2026-06-21-pm — learning — Ericsson, Krampe & Tesch-Römer (1993), The Role of Deliberate Practice in the Acquisition of Expert Performance (Psychological Review 100(3), 363-406)",
     "2026-06-20-pm — ai — Krizhevsky, Sutskever & Hinton (2012), ImageNet Classification with Deep Convolutional Neural Networks (AlexNet), NeurIPS 25, 1097-1105",
     "2026-06-20-am — frontier — Karikó, Buckstein, Ni & Weissman (2005), Suppression of RNA Recognition by Toll-Like Receptors: The Impact of Nucleoside Modification and the Evolutionary Origin of RNA (Immunity 23(2), 165-175)",

@@ -1,0 +1,82 @@
+{
+  "id": "2026-06-22-am",
+  "date": "2026-06-22",
+  "slot": "am",
+  "topic": "cannabis",
+  "topicLabel": "Cannabis Science",
+  "title": "The runner's high isn't an endorphin thing",
+  "study": {
+    "citation": "Fuss, Steinle, Bindila, Auer, Kirchherr, Lutz & Gass (2015), \"A runner's high depends on cannabinoid receptors in mice\", PNAS 112(42), 13105-13108",
+    "year": 2015,
+    "link": "https://doi.org/10.1073/pnas.1514996112"
+  },
+  "tldr": "When mice ran until they felt calmer and tougher to pain, blocking endorphins did nothing, but blocking their natural cannabis-like molecules erased the glow.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "For decades, the warm, calm, slightly euphoric feeling after a hard run had a standard explanation: endorphins, the body's natural painkillers, flooding the brain. It's such a tidy story that 'endorphin rush' is everyday slang. But there was always a hole in it. Endorphins are large molecules, and large molecules struggle to cross from the bloodstream into the brain. So a German team asked a sharper version of the question: if endorphins can't easily reach the brain, what is actually producing the runner's high in the first place?"
+    },
+    {
+      "h": "What they did",
+      "body": "They worked with mice, which willingly run for hours on a wheel. After a run of several kilometers, they measured two parts of the high: less anxiety (using a box that's bright and exposed on one side, scary to a mouse) and less pain (how long a mouse tolerated a warm plate). Then they used chemical blockers like a process of elimination. One drug, naloxone, switches off the endorphin system. Other drugs switched off the endocannabinoid system, the body's own network of cannabis-like signaling molecules and the receptors they dock into."
+    },
+    {
+      "h": "What they found",
+      "body": "Running mice were calmer and less sensitive to pain, exactly the runner's high you'd expect. Blocking endorphins with naloxone changed nothing; the calm and the pain relief stayed. Blocking the endocannabinoid system did the opposite. It wiped out the effect. The anxiety relief vanished when they blocked a receptor called CB1 on a specific class of brain cells, and the pain relief vanished when they blocked cannabinoid receptors out in the body. Mice genetically engineered to lack those CB1 receptors got no calming benefit from running at all."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This flipped a piece of folk science that had gone basically unquestioned for forty years. The same endocannabinoid system that cannabis acts on appears to be doing real work in a healthy, drug-free body, rewarding hard exercise with calm and pain relief. It reframes the runner's high as your own internal chemistry, chemistry that an outside plant happens to imitate. It also feeds into a deeper question researchers are still chasing: why did evolution wire endurance effort to feel good, and what does that mean for using exercise to treat anxiety and pain?"
+    },
+    {
+      "h": "The catch",
+      "body": "These were mice, and a mouse on a wheel is not a person finishing a 10K. Mice can't tell you they feel euphoric, so the team measured behavior, like anxiety and pain tolerance, and inferred the feeling from that. Human runner's-high research is messier and harder to control, and a few studies in people have since pointed the same direction without fully closing the case. The honest read is that endocannabinoids are clearly part of the story, the endorphin-only explanation looks wrong, and the full human picture is still being filled in."
+    }
+  ],
+  "terms": [
+    { "term": "Endorphins", "def": "The body's own painkilling molecules, long credited with the runner's high; they're large and don't easily pass from blood into the brain." },
+    { "term": "Endocannabinoids", "def": "Cannabis-like signaling molecules your body makes on its own, which dock into the same receptors that cannabis acts on." },
+    { "term": "CB1 receptor", "def": "A docking site for cannabinoid molecules, found on brain cells and throughout the body, where much of this run-induced calm is triggered." }
+  ],
+  "takeaways": [
+    "The classic 'endorphin rush' label for the runner's high is probably mislabeled; your endocannabinoid system is doing much of the work.",
+    "Blocking endorphins didn't dim the post-run calm in mice, but blocking cannabinoid receptors erased it.",
+    "Your body makes its own cannabis-like rewards for hard effort, which is a useful frame if you're using exercise to manage stress."
+  ],
+  "quiz": [
+    {
+      "q": "Why did the researchers doubt the endorphin explanation before running the study?",
+      "choices": [
+        "Endorphins don't exist in mice",
+        "Endorphins are large and don't easily cross from blood into the brain",
+        "Endorphins only affect muscles, never mood",
+        "Endorphins are destroyed by exercise"
+      ],
+      "answer": 1,
+      "why": "Endorphins are big molecules that struggle to cross the blood-brain barrier, so it was unclear how blood-borne endorphins could produce a brain-based high in the first place."
+    },
+    {
+      "q": "What happened when running mice were given naloxone, an endorphin blocker?",
+      "choices": [
+        "They stopped running entirely",
+        "Their anxiety got much worse",
+        "The post-run calm and pain relief stayed the same",
+        "They became more sensitive to pain immediately"
+      ],
+      "answer": 2,
+      "why": "Switching off the endorphin system changed nothing about the runner's high, which is the key clue that endorphins weren't producing it."
+    },
+    {
+      "q": "What erased the runner's high in the mice?",
+      "choices": [
+        "Blocking the endocannabinoid system",
+        "Feeding them more before the run",
+        "Letting them rest an extra hour",
+        "Lowering the room temperature"
+      ],
+      "answer": 0,
+      "why": "Blocking cannabinoid receptors removed both the calm and the pain relief, and mice lacking the CB1 receptor got no benefit at all, pointing straight at the endocannabinoid system."
+    }
+  ]
+}

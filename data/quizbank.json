@@ -1006,5 +1006,53 @@
     ],
     "answer": 2,
     "why": "Ericsson himself rejected the '10,000-hour rule.' That figure was a group average, not a threshold, and a large 2019 reanalysis found deliberate practice accounts for only around 25% of the variation in performance — leaving room for genetics, starting age, coaching, and luck."
+  },
+  {
+    "qid": "2026-06-22-am#0",
+    "lessonId": "2026-06-22-am",
+    "lessonTitle": "The runner's high isn't an endorphin thing",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Why did the researchers doubt the endorphin explanation before running the study?",
+    "choices": [
+      "Endorphins don't exist in mice",
+      "Endorphins are large and don't easily cross from blood into the brain",
+      "Endorphins only affect muscles, never mood",
+      "Endorphins are destroyed by exercise"
+    ],
+    "answer": 1,
+    "why": "Endorphins are big molecules that struggle to cross the blood-brain barrier, so it was unclear how blood-borne endorphins could produce a brain-based high in the first place."
+  },
+  {
+    "qid": "2026-06-22-am#1",
+    "lessonId": "2026-06-22-am",
+    "lessonTitle": "The runner's high isn't an endorphin thing",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "What happened when running mice were given naloxone, an endorphin blocker?",
+    "choices": [
+      "They stopped running entirely",
+      "Their anxiety got much worse",
+      "The post-run calm and pain relief stayed the same",
+      "They became more sensitive to pain immediately"
+    ],
+    "answer": 2,
+    "why": "Switching off the endorphin system changed nothing about the runner's high, which is the key clue that endorphins weren't producing it."
+  },
+  {
+    "qid": "2026-06-22-am#2",
+    "lessonId": "2026-06-22-am",
+    "lessonTitle": "The runner's high isn't an endorphin thing",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "What erased the runner's high in the mice?",
+    "choices": [
+      "Blocking the endocannabinoid system",
+      "Feeding them more before the run",
+      "Letting them rest an extra hour",
+      "Lowering the room temperature"
+    ],
+    "answer": 0,
+    "why": "Blocking cannabinoid receptors removed both the calm and the pain relief, and mice lacking the CB1 receptor got no benefit at all, pointing straight at the endocannabinoid system."
   }
 ]

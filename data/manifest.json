@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-22-am",
+    "date": "2026-06-22",
+    "slot": "am",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "title": "The runner's high isn't an endorphin thing",
+    "tldr": "When mice ran until they felt calmer and tougher to pain, blocking endorphins did nothing, but blocking their natural cannabis-like molecules erased the glow.",
+    "readMinutes": 4,
+    "citation": "Fuss, Steinle, Bindila, Auer, Kirchherr, Lutz & Gass (2015), \"A runner's high depends on cannabinoid receptors in mice\", PNAS 112(42), 13105-13108",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-21-pm",
     "date": "2026-06-21",
     "slot": "pm",
