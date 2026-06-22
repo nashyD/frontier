@@ -1054,5 +1054,53 @@
     ],
     "answer": 0,
     "why": "Blocking cannabinoid receptors removed both the calm and the pain relief, and mice lacking the CB1 receptor got no benefit at all, pointing straight at the endocannabinoid system."
+  },
+  {
+    "qid": "2026-06-22-pm#0",
+    "lessonId": "2026-06-22-pm",
+    "lessonTitle": "The stock market jumps around way too much",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "What did Shiller compute as his benchmark 'correct' price?",
+    "choices": [
+      "The average price over the previous ten years",
+      "A price based on the dividends companies actually ended up paying",
+      "The price predicted by a computer trading model",
+      "The highest price each stock ever reached"
+    ],
+    "answer": 1,
+    "why": "He used a perfect-hindsight view: knowing every dividend that was actually paid, he discounted them back to find the one price a fully rational market should have set. That smooth line was his yardstick."
+  },
+  {
+    "qid": "2026-06-22-pm#1",
+    "lessonId": "2026-06-22-pm",
+    "lessonTitle": "The stock market jumps around way too much",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "What was the surprising relationship between the two lines?",
+    "choices": [
+      "The real market price was far more volatile than the dividend-based 'correct' price",
+      "The two lines matched almost perfectly",
+      "Dividends were more volatile than prices",
+      "Prices were much smoother than the correct price"
+    ],
+    "answer": 0,
+    "why": "If investors were rational forecasters, prices should have been calmer than the dividends they were predicting. Instead the real market swung far more wildly, the heart of the 'excess volatility' puzzle."
+  },
+  {
+    "qid": "2026-06-22-pm#2",
+    "lessonId": "2026-06-22-pm",
+    "lessonTitle": "The stock market jumps around way too much",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "What's the main caveat critics raised about the finding?",
+    "choices": [
+      "Shiller used made-up dividend data",
+      "Stocks don't actually pay dividends",
+      "If the discount rate itself swings, some extra volatility becomes more reasonable",
+      "The study only looked at a single company"
+    ],
+    "answer": 2,
+    "why": "Shiller assumed a steady discount rate. If that yardstick shifts as investors' appetite for risk changes, part of the 'too much' movement can be re-explained, which is why the exact size of the effect is still debated."
   }
 ]

@@ -3,12 +3,6 @@
   "mode": "existing",
   "queue": [
     {
-      "topic": "finance",
-      "topicLabel": "Finance & Economics",
-      "study": "Shiller (1981), 'Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?', American Economic Review",
-      "angle": "The evidence that markets are far more volatile than rational pricing can explain."
-    },
-    {
       "topic": "frontier",
       "topicLabel": "Frontier Tech",
       "study": "Arute et al. (2019), 'Quantum supremacy using a programmable superconducting processor', Nature",
@@ -109,6 +103,7 @@
     "2026-06-10-pm — frontier — Jinek et al. (2012), CRISPR-Cas9",
     "2026-06-15-pm — finance — Markowitz, H. (1952), \"Portfolio Selection,\" The Journal of Finance 7(1), 77-91",
     "2026-06-17-pm — ai — Silver et al. (2016), \"Mastering the game of Go with deep neural networks and tree search\", Nature 529, 484-489",
-    "2026-06-21-am — biohacking — Chang, Aeschbach, Duffy & Czeisler (2015), 'Evening use of light-emitting eReaders negatively affects sleep', PNAS 112(4)"
+    "2026-06-21-am — biohacking — Chang, Aeschbach, Duffy & Czeisler (2015), 'Evening use of light-emitting eReaders negatively affects sleep', PNAS 112(4)",
+    "2026-06-22-pm — finance — Shiller (1981), Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?, American Economic Review 71(3)"
   ]
 }

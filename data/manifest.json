@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-22-pm",
+    "date": "2026-06-22",
+    "slot": "pm",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "title": "The stock market jumps around way too much",
+    "tldr": "Shiller showed the stock market swings far more wildly than the actual cash companies later paid out could ever justify, which poked a deep hole in the idea that prices simply reflect cold, rational forecasts.",
+    "readMinutes": 5,
+    "citation": "Shiller (1981), \"Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?\", American Economic Review 71(3), 421-436",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-22-am",
     "date": "2026-06-22",
     "slot": "am",

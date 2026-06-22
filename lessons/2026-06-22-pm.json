@@ -1,0 +1,82 @@
+{
+  "id": "2026-06-22-pm",
+  "date": "2026-06-22",
+  "slot": "pm",
+  "topic": "finance",
+  "topicLabel": "Finance & Economics",
+  "title": "The stock market jumps around way too much",
+  "study": {
+    "citation": "Shiller (1981), \"Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?\", American Economic Review 71(3), 421-436",
+    "year": 1981,
+    "link": "https://www.aeaweb.org/aer/top20/71.3.421-436.pdf"
+  },
+  "tldr": "Shiller showed the stock market swings far more wildly than the actual cash companies later paid out could ever justify, which poked a deep hole in the idea that prices simply reflect cold, rational forecasts.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "By the 1970s, most economists believed in the efficient market idea: a stock's price is the market's best, coolheaded guess at all the cash that company will hand back to shareholders over time, in the form of dividends. If that's true, prices should only move when there's real news about future payouts. But anyone who watches markets knows they lurch, panic, and boom for no obvious reason. Robert Shiller, then a young economist, asked a deceptively simple question: are these wild swings actually justified by what companies later paid out, or is the market just way too jumpy?"
+    },
+    {
+      "h": "What they did",
+      "body": "Shiller used a clever trick. Imagine a perfect fortune teller who knew, in advance, every dividend a company would ever pay. With that knowledge you could calculate the one 'correct' price a stock should have had on any past day. He did exactly this for the whole U.S. stock market going back to 1871, using the dividends companies actually ended up paying, then discounting them back to today's value. He called this the ex-post rational price. Then he laid the real, messy history of stock prices on top of that calm, correct line and simply compared how much each one bounced around."
+    },
+    {
+      "h": "What they found",
+      "body": "The two lines barely resembled each other. The 'correct' price, built from real dividends, was remarkably smooth, drifting gently upward over a century. The actual market price swung above and below it in huge arcs, booming and crashing far beyond anything the eventual dividends justified. By Shiller's measures the real market was several times more volatile than the perfect-foresight price allowed. If investors were truly rational forecasters, prices should have been calmer than the thing they were predicting. They were the opposite: wild guesses orbiting a steady truth."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This was a quiet bombshell. It suggested markets are driven partly by mood, herd behavior, and overreaction rather than pure reason, and it helped launch the whole field of behavioral finance, which studies how real human psychology moves money. The paper became one of the most cited in economics, and in 2013 Shiller shared the Nobel Prize, partly for this work. It also has a practical edge: if prices swing too far in both directions, then extreme highs and lows may partly correct themselves, an idea that feeds modern thinking about long-run market valuation."
+    },
+    {
+      "h": "The catch",
+      "body": "Critics pushed back hard, and the fight sharpened the science. The result leans on assumptions, especially a steady discount rate, the fixed yardstick used to convert future dividends into today's dollars. If that rate itself swings as investors' appetite for risk changes, some of the 'excess' wildness becomes more reasonable. Others argued dividends grow in ways his method understated. Shiller and rivals traded papers for years. The honest read: the basic finding that markets are too volatile has largely held up, but exactly how much is 'too much' is still genuinely debated."
+    }
+  ],
+  "terms": [
+    { "term": "Dividend", "def": "A slice of a company's profit paid out in cash to the people who own its stock." },
+    { "term": "Efficient market idea", "def": "The theory that a stock's price already reflects every available fact about its future payouts, so prices only move on genuine news." },
+    { "term": "Discount rate", "def": "The yardstick that converts a dollar you'll receive in the future into what it's worth to you today, since money later is worth less than money now." }
+  ],
+  "takeaways": [
+    "The market swings far more than the actual dividends companies later paid could ever justify, so price moves can't be all cold rationality.",
+    "Shiller's trick was to compute the one 'correct' price using real future dividends, then show the real market orbited it in huge, jumpy arcs.",
+    "This helped birth behavioral finance and won a Nobel, and it's a useful gut check: extreme highs and lows tend to be partly overreaction."
+  ],
+  "quiz": [
+    {
+      "q": "What did Shiller compute as his benchmark 'correct' price?",
+      "choices": [
+        "The average price over the previous ten years",
+        "A price based on the dividends companies actually ended up paying",
+        "The price predicted by a computer trading model",
+        "The highest price each stock ever reached"
+      ],
+      "answer": 1,
+      "why": "He used a perfect-hindsight view: knowing every dividend that was actually paid, he discounted them back to find the one price a fully rational market should have set. That smooth line was his yardstick."
+    },
+    {
+      "q": "What was the surprising relationship between the two lines?",
+      "choices": [
+        "The real market price was far more volatile than the dividend-based 'correct' price",
+        "The two lines matched almost perfectly",
+        "Dividends were more volatile than prices",
+        "Prices were much smoother than the correct price"
+      ],
+      "answer": 0,
+      "why": "If investors were rational forecasters, prices should have been calmer than the dividends they were predicting. Instead the real market swung far more wildly, the heart of the 'excess volatility' puzzle."
+    },
+    {
+      "q": "What's the main caveat critics raised about the finding?",
+      "choices": [
+        "Shiller used made-up dividend data",
+        "Stocks don't actually pay dividends",
+        "If the discount rate itself swings, some extra volatility becomes more reasonable",
+        "The study only looked at a single company"
+      ],
+      "answer": 2,
+      "why": "Shiller assumed a steady discount rate. If that yardstick shifts as investors' appetite for risk changes, part of the 'too much' movement can be re-explained, which is why the exact size of the effect is still debated."
+    }
+  ]
+}
