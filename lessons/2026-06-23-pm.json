@@ -1,0 +1,82 @@
+{
+  "id": "2026-06-23-pm",
+  "date": "2026-06-23",
+  "slot": "pm",
+  "topic": "ai",
+  "topicLabel": "Artificial Intelligence",
+  "title": "The program that taught itself to play 49 Atari games",
+  "study": {
+    "citation": "Mnih, Kavukcuoglu, Silver et al. (2015), \"Human-level control through deep reinforcement learning\", Nature 518, 529-533",
+    "year": 2015,
+    "link": "https://doi.org/10.1038/nature14236"
+  },
+  "tldr": "A single program from Google DeepMind learned to play 49 classic Atari games from nothing but the screen pixels and the score, reaching or beating a skilled human on about half of them without ever being told the rules.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "For decades, software that played games well had to be hand-built for one game at a time. A chess program knew chess and nothing else; teach it checkers and you started over. The dream was a single learner that could walk up to any game, with no instructions, and figure it out by playing. A team at Google DeepMind asked a sharp version of this: could one program learn to play dozens of very different Atari video games using only what a human player sees, the pixels on the screen and the score, and get good at them on its own?"
+    },
+    {
+      "h": "What they did",
+      "body": "They built an agent they called a Deep Q-Network. Two ideas were stacked together. First, reinforcement learning, which is learning by trial and reward: try an action, see if the score went up, and lean toward moves that pay off. Second, a deep neural network, a layered math model loosely inspired by brain cells that turns raw screen pixels into a guess about which joystick move is best. The agent got no rules and no hints, just the picture and the points. It played each game millions of times, and the very same program and settings were used for all 49 games."
+    },
+    {
+      "h": "What they found",
+      "body": "The single agent learned to play well across the board. On 29 of the 49 games it scored at least 75 percent of what a skilled human tester managed, and on a good number it blew past the human, racking up huge scores on games like Breakout and Video Pinball. In Breakout it even discovered a clever trick on its own, tunneling the ball through one side of the wall to bounce it around behind, a strategy its programmers had not taught it. The same program flopped on a few games that needed long-range planning, but the breadth was the headline."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This was a turning point for modern AI. It showed that one general method could soak up raw, messy sensory input and learn skilled behavior across many tasks, no custom engineering per task. That recipe, deep networks plus learning from reward, is the ancestor of the systems that later mastered Go, controlled robots, and tuned today's chatbots through feedback. The Atari benchmark became the standard proving ground for reinforcement learning. It moved the field from programs that were told what to do toward programs that learn what to do."
+    },
+    {
+      "h": "The catch",
+      "body": "The learning was slow and hungry. The agent needed the equivalent of weeks of nonstop play, far more practice than a person needs to get the hang of a game in minutes. It struggled badly when rewards came long after the actions that earned them, as in Montezuma's Revenge, where you must explore for ages before scoring. Each agent also learned one game at a time; the same program could learn any of the 49, but a model trained on one did not carry its skill to the next. And Atari games are tidy, bounded worlds, a long way from the messiness of the real one."
+    }
+  ],
+  "terms": [
+    { "term": "Reinforcement learning", "def": "Learning by trial and reward: the program tries actions, watches whether the score goes up, and gradually favors the moves that pay off." },
+    { "term": "Deep neural network", "def": "A layered math model loosely inspired by brain cells that, here, turns raw screen pixels into a judgment about which move is best." },
+    { "term": "Deep Q-Network (DQN)", "def": "The agent in this study, which combines reinforcement learning with a deep neural network to learn games straight from pixels and score." }
+  ],
+  "takeaways": [
+    "One program, unchanged, learned 49 different Atari games from just the screen and the score, reaching or beating a skilled human on about half.",
+    "The winning recipe was deep neural networks plus learning from reward, the same idea behind later systems that mastered Go and that fine-tune today's chatbots.",
+    "It learned far slower than a human and stumbled on games needing long-term planning, a reminder that broad skill and human-like efficiency are different things."
+  ],
+  "quiz": [
+    {
+      "q": "What information did the DQN agent use to learn each game?",
+      "choices": [
+        "A written rulebook for every game",
+        "Only the screen pixels and the score",
+        "Expert human demonstrations of each game",
+        "The game's source code"
+      ],
+      "answer": 1,
+      "why": "The whole point was generality. The agent got no rules and no hints, only what a human player sees on screen plus the running score, and it had to figure out good play from that alone."
+    },
+    {
+      "q": "What made the result striking compared with earlier game-playing software?",
+      "choices": [
+        "It was hand-tuned separately for each of the 49 games",
+        "The same single program and settings learned all 49 games",
+        "It only worked on one game, Breakout",
+        "It needed a human to take over during hard levels"
+      ],
+      "answer": 1,
+      "why": "Older programs were custom-built per game. Here a single architecture with the same settings learned dozens of very different games, which is why it pointed toward general-purpose learning."
+    },
+    {
+      "q": "Which limitation did the agent clearly show?",
+      "choices": [
+        "It could not read the score on screen",
+        "It learned every game faster than a human",
+        "It struggled on games where rewards came long after the actions that earned them",
+        "It refused to play more than one game"
+      ],
+      "answer": 2,
+      "why": "Games like Montezuma's Revenge require long stretches of exploration before any reward appears. The agent learns from reward signals, so when the payoff is far from the action, it had a hard time connecting the two."
+    }
+  ]
+}

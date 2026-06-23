@@ -1150,5 +1150,53 @@
     ],
     "answer": 2,
     "why": "A classical bit is strictly 0 or 1. A qubit can exist in a blend of both states until it is measured, and with many qubits entangled together that lets the machine explore an enormous number of possibilities in parallel."
+  },
+  {
+    "qid": "2026-06-23-pm#0",
+    "lessonId": "2026-06-23-pm",
+    "lessonTitle": "The program that taught itself to play 49 Atari games",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What information did the DQN agent use to learn each game?",
+    "choices": [
+      "A written rulebook for every game",
+      "Only the screen pixels and the score",
+      "Expert human demonstrations of each game",
+      "The game's source code"
+    ],
+    "answer": 1,
+    "why": "The whole point was generality. The agent got no rules and no hints, only what a human player sees on screen plus the running score, and it had to figure out good play from that alone."
+  },
+  {
+    "qid": "2026-06-23-pm#1",
+    "lessonId": "2026-06-23-pm",
+    "lessonTitle": "The program that taught itself to play 49 Atari games",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What made the result striking compared with earlier game-playing software?",
+    "choices": [
+      "It was hand-tuned separately for each of the 49 games",
+      "The same single program and settings learned all 49 games",
+      "It only worked on one game, Breakout",
+      "It needed a human to take over during hard levels"
+    ],
+    "answer": 1,
+    "why": "Older programs were custom-built per game. Here a single architecture with the same settings learned dozens of very different games, which is why it pointed toward general-purpose learning."
+  },
+  {
+    "qid": "2026-06-23-pm#2",
+    "lessonId": "2026-06-23-pm",
+    "lessonTitle": "The program that taught itself to play 49 Atari games",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "Which limitation did the agent clearly show?",
+    "choices": [
+      "It could not read the score on screen",
+      "It learned every game faster than a human",
+      "It struggled on games where rewards came long after the actions that earned them",
+      "It refused to play more than one game"
+    ],
+    "answer": 2,
+    "why": "Games like Montezuma's Revenge require long stretches of exploration before any reward appears. The agent learns from reward signals, so when the payoff is far from the action, it had a hard time connecting the two."
   }
 ]

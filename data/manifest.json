@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-23-pm",
+    "date": "2026-06-23",
+    "slot": "pm",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "title": "The program that taught itself to play 49 Atari games",
+    "tldr": "A single program from Google DeepMind learned to play 49 classic Atari games from nothing but the screen pixels and the score, reaching or beating a skilled human on about half of them without ever being told the rules.",
+    "readMinutes": 5,
+    "citation": "Mnih, Kavukcuoglu, Silver et al. (2015), \"Human-level control through deep reinforcement learning\", Nature 518, 529-533",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-23-am",
     "date": "2026-06-23",
     "slot": "am",
