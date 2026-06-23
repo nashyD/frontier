@@ -1102,5 +1102,53 @@
     ],
     "answer": 2,
     "why": "Shiller assumed a steady discount rate. If that yardstick shifts as investors' appetite for risk changes, part of the 'too much' movement can be re-explained, which is why the exact size of the effect is still debated."
+  },
+  {
+    "qid": "2026-06-23-am#0",
+    "lessonId": "2026-06-23-am",
+    "lessonTitle": "The chip that did in minutes what a supercomputer couldn't",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "What was the point of the task Sycamore performed?",
+    "choices": [
+      "To break a real encryption key",
+      "To design a new drug molecule",
+      "To complete a deliberately hard benchmark that classical computers struggle with",
+      "To run a faster web search"
+    ],
+    "answer": 2,
+    "why": "The random circuit sampling task had no practical use. It was chosen precisely because it is brutally hard for classical computers, making it a clean test of whether a quantum machine could pull ahead."
+  },
+  {
+    "qid": "2026-06-23-am#1",
+    "lessonId": "2026-06-23-am",
+    "lessonTitle": "The chip that did in minutes what a supercomputer couldn't",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "Why did IBM challenge the result?",
+    "choices": [
+      "They proved Sycamore never ran at all",
+      "They argued a classical supercomputer with enough storage could do the job in about two and a half days, not 10,000 years",
+      "They showed qubits don't exist",
+      "They built a faster quantum chip the same week"
+    ],
+    "answer": 1,
+    "why": "IBM's objection was about the comparison, not the chip. With enough storage, they estimated a classical supercomputer needed only days, which dramatically shrinks the claimed gap."
+  },
+  {
+    "qid": "2026-06-23-am#2",
+    "lessonId": "2026-06-23-am",
+    "lessonTitle": "The chip that did in minutes what a supercomputer couldn't",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "What makes a qubit different from an ordinary bit?",
+    "choices": [
+      "It is always exactly 0 or 1",
+      "It can only store text, not numbers",
+      "It can hold a blend of 0 and 1 at once until measured",
+      "It runs hotter than a normal bit"
+    ],
+    "answer": 2,
+    "why": "A classical bit is strictly 0 or 1. A qubit can exist in a blend of both states until it is measured, and with many qubits entangled together that lets the machine explore an enormous number of possibilities in parallel."
   }
 ]

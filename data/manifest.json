@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-23-am",
+    "date": "2026-06-23",
+    "slot": "am",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "title": "The chip that did in minutes what a supercomputer couldn't",
+    "tldr": "Google's 53-qubit chip finished a carefully chosen task in about 200 seconds that they argued would take a top supercomputer thousands of years, the first hard evidence that a quantum machine can outrun every classical one.",
+    "readMinutes": 5,
+    "citation": "Arute, Arya, Babbush et al. (2019), \"Quantum supremacy using a programmable superconducting processor\", Nature 574, 505-510",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-22-pm",
     "date": "2026-06-22",
     "slot": "pm",
