@@ -1,0 +1,82 @@
+{
+  "id": "2026-06-24-am",
+  "date": "2026-06-24",
+  "slot": "am",
+  "topic": "biohacking",
+  "topicLabel": "Biohacking",
+  "title": "The 20-year monkey study behind 'eat less, live longer'",
+  "study": {
+    "citation": "Colman, Anderson, Johnson et al. (2009), \"Caloric Restriction Delays Disease Onset and Mortality in Rhesus Monkeys\", Science 325, 201-204",
+    "year": 2009,
+    "link": "https://doi.org/10.1126/science.1173635"
+  },
+  "tldr": "After 20 years of feeding one group of monkeys 30% fewer calories, the lean monkeys had far less diabetes, cancer, and heart disease, and were dying of old age at half the rate of the normally fed group.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "For decades, the most reliable way to make an animal live longer was almost insultingly simple: feed it less. Cut a rat's or a worm's calories by a third without starving it, and it tends to live noticeably longer and get sick later. The obvious worry was that this might be a quirk of small, short-lived creatures. So a team at the Wisconsin National Primate Research Center asked the harder question: does the same trick work in a long-lived primate whose biology closely resembles our own? They picked rhesus monkeys and committed to watching them for two decades."
+    },
+    {
+      "h": "What they did",
+      "body": "Starting in 1989, they took adult rhesus monkeys and split them into two groups. One group ate freely. The other ate a diet cut by about 30% in calories, a practice called caloric restriction, while still getting full vitamins and minerals so the only thing missing was energy, not nutrition. In all, 76 monkeys were tracked. Year after year the researchers weighed them, scanned their bodies, ran blood tests, and recorded every illness and death. Because monkeys can live into their thirties, this took an enormous, patient 20-year commitment to see whether eating less actually changed how the animals aged."
+    },
+    {
+      "h": "What they found",
+      "body": "The lean monkeys aged better on almost every measure. At the point reported, about 80% of the calorie-restricted animals were still alive, compared with roughly 50% of the freely fed ones, when counting deaths from age-related causes. The restricted group had less than half the rate of diabetes and pre-diabetes, fewer cancers, and less heart disease. Their brains even held up better, with less of the shrinkage that comes with age. Photos of two same-aged monkeys, one lean and bright-eyed, one heavier and frail, became the study's unforgettable image of the gap."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This pushed the eat-less-live-longer idea up the evolutionary ladder, from worms and mice to an animal that ages much like we do. It reframed aging itself as something potentially slowable, rather than a fixed clock. The deeper prize was mechanism: the work helped drive research into the nutrient-sensing pathways the body uses to decide between growth and repair. Those same pathways are the targets of drugs like rapamycin and metformin now being studied for longevity, and they underpin today's interest in fasting and time-restricted eating. The monkeys made the question scientifically respectable."
+    },
+    {
+      "h": "The catch",
+      "body": "A near-identical study at the National Institute on Aging, published in 2012, found no clear survival benefit from the same diet, which set off years of debate. The leading explanation is diet quality: the Wisconsin control monkeys ate a sugary chow and could eat as much as they wanted, so the comparison may partly reflect them being overfed. The two labs also defined deaths differently. A 2014 follow-up reaffirmed Wisconsin's health and survival gains. And these are monkeys in cages, not free-living humans, so the leap to your dinner plate stays an inference."
+    }
+  ],
+  "terms": [
+    { "term": "Caloric restriction", "def": "Eating substantially fewer calories than usual, here about 30% fewer, while still getting all needed vitamins and minerals so the body is short on energy but not on nutrition." },
+    { "term": "Rhesus monkey", "def": "A medium-sized primate widely used in research because its body, metabolism, and aging closely resemble a human's." },
+    { "term": "Nutrient-sensing pathways", "def": "The molecular systems a cell uses to detect how much food is around and switch between building/growing and maintenance/repair." }
+  ],
+  "takeaways": [
+    "In monkeys, a 30% calorie cut sustained for years lined up with far less diabetes, cancer, and heart disease, and a much higher rate of survival from age-related causes.",
+    "The result helped turn aging from an unchangeable clock into something researchers now treat as potentially slowable, and it pointed at the nutrient-sensing pathways behind today's longevity drugs and fasting trends.",
+    "A parallel government study found no survival benefit, largely because of differences in what the control monkeys ate, a clean reminder that the comparison group can decide the headline."
+  ],
+  "quiz": [
+    {
+      "q": "What did caloric restriction mean in this study?",
+      "choices": [
+        "Skipping meals a few days a week",
+        "Eating about 30% fewer calories while still getting full vitamins and minerals",
+        "Cutting out all carbohydrates",
+        "Eating only at night"
+      ],
+      "answer": 1,
+      "why": "The restricted monkeys got roughly 30% fewer calories but a complete supply of vitamins and minerals. The point was to remove energy without causing malnutrition, isolating the effect of eating less."
+    },
+    {
+      "q": "What was the headline survival difference the researchers reported?",
+      "choices": [
+        "Both groups survived at the same rate",
+        "The freely fed monkeys lived longer",
+        "About 80% of restricted monkeys survived age-related causes versus about 50% of freely fed ones",
+        "All the restricted monkeys outlived all the others"
+      ],
+      "answer": 2,
+      "why": "Counting deaths from age-related causes, roughly 80% of the calorie-restricted monkeys were alive at the reported point, against about 50% of the freely fed group, alongside lower rates of diabetes, cancer, and heart disease."
+    },
+    {
+      "q": "Why is the result still debated?",
+      "choices": [
+        "A parallel NIA study found no clear survival benefit, likely tied to what the control monkeys ate",
+        "The monkeys were later found not to exist",
+        "Caloric restriction was shown to shorten lifespan",
+        "The study lasted only a few weeks"
+      ],
+      "answer": 0,
+      "why": "A similar study at the National Institute on Aging saw no clear survival edge. The leading explanation is that Wisconsin's control monkeys ate a sugary diet freely and may have been overfed, so the comparison group, not just the diet, shaped the outcome."
+    }
+  ]
+}

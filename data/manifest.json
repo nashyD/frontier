@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-24-am",
+    "date": "2026-06-24",
+    "slot": "am",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "title": "The 20-year monkey study behind 'eat less, live longer'",
+    "tldr": "After 20 years of feeding one group of monkeys 30% fewer calories, the lean monkeys had far less diabetes, cancer, and heart disease, and were dying of old age at half the rate of the normally fed group.",
+    "readMinutes": 5,
+    "citation": "Colman, Anderson, Johnson et al. (2009), \"Caloric Restriction Delays Disease Onset and Mortality in Rhesus Monkeys\", Science 325, 201-204",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-23-pm",
     "date": "2026-06-23",
     "slot": "pm",

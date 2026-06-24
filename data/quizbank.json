@@ -1198,5 +1198,53 @@
     ],
     "answer": 2,
     "why": "Games like Montezuma's Revenge require long stretches of exploration before any reward appears. The agent learns from reward signals, so when the payoff is far from the action, it had a hard time connecting the two."
+  },
+  {
+    "qid": "2026-06-24-am#0",
+    "lessonId": "2026-06-24-am",
+    "lessonTitle": "The 20-year monkey study behind 'eat less, live longer'",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What did caloric restriction mean in this study?",
+    "choices": [
+      "Skipping meals a few days a week",
+      "Eating about 30% fewer calories while still getting full vitamins and minerals",
+      "Cutting out all carbohydrates",
+      "Eating only at night"
+    ],
+    "answer": 1,
+    "why": "The restricted monkeys got roughly 30% fewer calories but a complete supply of vitamins and minerals. The point was to remove energy without causing malnutrition, isolating the effect of eating less."
+  },
+  {
+    "qid": "2026-06-24-am#1",
+    "lessonId": "2026-06-24-am",
+    "lessonTitle": "The 20-year monkey study behind 'eat less, live longer'",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What was the headline survival difference the researchers reported?",
+    "choices": [
+      "Both groups survived at the same rate",
+      "The freely fed monkeys lived longer",
+      "About 80% of restricted monkeys survived age-related causes versus about 50% of freely fed ones",
+      "All the restricted monkeys outlived all the others"
+    ],
+    "answer": 2,
+    "why": "Counting deaths from age-related causes, roughly 80% of the calorie-restricted monkeys were alive at the reported point, against about 50% of the freely fed group, alongside lower rates of diabetes, cancer, and heart disease."
+  },
+  {
+    "qid": "2026-06-24-am#2",
+    "lessonId": "2026-06-24-am",
+    "lessonTitle": "The 20-year monkey study behind 'eat less, live longer'",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "Why is the result still debated?",
+    "choices": [
+      "A parallel NIA study found no clear survival benefit, likely tied to what the control monkeys ate",
+      "The monkeys were later found not to exist",
+      "Caloric restriction was shown to shorten lifespan",
+      "The study lasted only a few weeks"
+    ],
+    "answer": 0,
+    "why": "A similar study at the National Institute on Aging saw no clear survival edge. The leading explanation is that Wisconsin's control monkeys ate a sugary diet freely and may have been overfed, so the comparison group, not just the diet, shaped the outcome."
   }
 ]
