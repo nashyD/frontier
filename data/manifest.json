@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-24-pm",
+    "date": "2026-06-24",
+    "slot": "pm",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "title": "The marshmallow test gets re-run, and the story shrinks",
+    "tldr": "When researchers re-ran the famous willpower test on ten times as many kids, a four-year-old's ability to wait for a treat barely predicted later success once you accounted for how rich and stable their family was.",
+    "readMinutes": 5,
+    "citation": "Watts, Duncan & Quan (2018), \"Revisiting the Marshmallow Test: A Conceptual Replication Investigating Links Between Early Delay of Gratification and Later Outcomes\", Psychological Science 29(7), 1159-1177",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-24-am",
     "date": "2026-06-24",
     "slot": "am",

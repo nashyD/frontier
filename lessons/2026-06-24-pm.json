@@ -1,0 +1,82 @@
+{
+  "id": "2026-06-24-pm",
+  "date": "2026-06-24",
+  "slot": "pm",
+  "topic": "learning",
+  "topicLabel": "Learning & Cognition",
+  "title": "The marshmallow test gets re-run, and the story shrinks",
+  "study": {
+    "citation": "Watts, Duncan & Quan (2018), \"Revisiting the Marshmallow Test: A Conceptual Replication Investigating Links Between Early Delay of Gratification and Later Outcomes\", Psychological Science 29(7), 1159-1177",
+    "year": 2018,
+    "link": "https://doi.org/10.1177/0956797618761661"
+  },
+  "tldr": "When researchers re-ran the famous willpower test on ten times as many kids, a four-year-old's ability to wait for a treat barely predicted later success once you accounted for how rich and stable their family was.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "You have probably heard the story: sit a four-year-old in front of a marshmallow, promise a second one if they can wait, and the kids who hold out supposedly grow up to be more successful. That comes from work by Walter Mischel starting in the 1960s, built on a small group of preschoolers at a Stanford nursery. It became one of psychology's most repeated tales, the idea that early willpower quietly sets the course of a life. Tyler Watts and his colleagues asked a fair question: would the link hold up in a much bigger, more varied group of children, with a careful look at what else might explain it?"
+    },
+    {
+      "h": "What they did",
+      "body": "They pulled data from a long-running federal study that had followed over 900 children from across the United States, roughly ten times the size of the original group and far more diverse in income and background. As toddlers, the kids had taken a version of the delay-of-gratification task, where waiting for a bigger reward instead of grabbing a smaller one right away is the thing being measured. Here a child counted as a waiter if they lasted seven minutes. The researchers then tracked the children to age 15 and, crucially, controlled for family background, the home environment, and the child's early thinking ability, asking what waiting predicted on its own."
+    },
+    {
+      "h": "What they found",
+      "body": "The link between early waiting and later achievement was real but modest, about half the size of what the original studies reported. Among children whose mothers had not finished college, each extra minute a four-year-old waited lined up with a small bump in test scores at 15. But once the researchers accounted for the family's income, education, and home life, roughly two thirds of even that small effect melted away. And the test showed no clear power to predict later behavior or personality. The headline shifted from willpower shapes your future toward the kind of household you grow up in does a lot of the work."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This is a clean example of psychology cleaning up after itself. Many famous findings came from tiny, narrow samples, and the field is now re-running them at scale to see what survives. The marshmallow result did not vanish, but it shrank and changed meaning: the ability to wait may be as much a sign of a stable, resourced home as a cause of success. That reframing matters for policy. If self-control is partly a readout of circumstances, then drilling kids on willpower may help less than easing the family stress and scarcity that shape it in the first place."
+    },
+    {
+      "h": "The catch",
+      "body": "This was a conceptual replication, meaning it tested the same idea with a different setup, including a seven-minute window rather than the original's longer wait, so it is not an exact rerun. A smaller effect is not zero, and several researchers pushed back, arguing that even a modest, durable link from something measured at age four is genuinely impressive. The study also leans on statistical controls, which can over- or under-correct. What it does not say is that self-control is worthless. It says the early marshmallow moment is a weaker crystal ball than the famous story implied."
+    }
+  ],
+  "terms": [
+    { "term": "Delay of gratification", "def": "Choosing to wait for a bigger reward later instead of taking a smaller one right now; in this test, holding off on eating a treat to earn a second." },
+    { "term": "Conceptual replication", "def": "Re-testing the same underlying idea with a fresh, often improved setup rather than copying the original experiment step for step." },
+    { "term": "Controlling for a factor", "def": "Statistically accounting for something like family income so you can see whether the thing you care about still matters once that influence is set aside." }
+  ],
+  "takeaways": [
+    "A four-year-old's ability to wait for a treat does line up with later test scores, but the effect is about half the original's size and mostly fades once you account for the family's income, education, and home life.",
+    "Big, diverse re-runs of famous studies are how a field finds out which classic results were real and which were oversold by small samples.",
+    "If self-control partly reflects a stable, resourced upbringing, the lever for helping kids may be reducing family stress rather than coaching willpower."
+  ],
+  "quiz": [
+    {
+      "q": "How did this study differ most from the original marshmallow research?",
+      "choices": [
+        "It used adults instead of children",
+        "It studied over 900 diverse children and controlled for family background",
+        "It removed the reward entirely",
+        "It only lasted a few weeks"
+      ],
+      "answer": 1,
+      "why": "The big changes were scale and rigor: roughly ten times as many children, a far more diverse sample, and statistical controls for family income, home environment, and early ability so the researchers could isolate what waiting alone predicted."
+    },
+    {
+      "q": "What happened to the link between waiting and later achievement once family background was accounted for?",
+      "choices": [
+        "It grew much stronger",
+        "It stayed exactly the same",
+        "Roughly two thirds of the already-small effect disappeared",
+        "It reversed direction"
+      ],
+      "answer": 2,
+      "why": "Even among children of mothers without a college degree, the modest link shrank by about two thirds after controlling for family income, education, and home life, suggesting circumstances explain much of what looked like pure willpower."
+    },
+    {
+      "q": "What is the fair takeaway from the study?",
+      "choices": [
+        "Self-control is worthless",
+        "The early marshmallow moment predicts the future less powerfully than the famous story implied",
+        "Family background does not matter",
+        "The original study was completely fabricated"
+      ],
+      "answer": 1,
+      "why": "The effect was real but smaller and entangled with family circumstances. The study does not say self-control is useless; it says the single early test is a weaker predictor than the popular version suggested."
+    }
+  ]
+}

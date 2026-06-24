@@ -1246,5 +1246,53 @@
     ],
     "answer": 0,
     "why": "A similar study at the National Institute on Aging saw no clear survival edge. The leading explanation is that Wisconsin's control monkeys ate a sugary diet freely and may have been overfed, so the comparison group, not just the diet, shaped the outcome."
+  },
+  {
+    "qid": "2026-06-24-pm#0",
+    "lessonId": "2026-06-24-pm",
+    "lessonTitle": "The marshmallow test gets re-run, and the story shrinks",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "How did this study differ most from the original marshmallow research?",
+    "choices": [
+      "It used adults instead of children",
+      "It studied over 900 diverse children and controlled for family background",
+      "It removed the reward entirely",
+      "It only lasted a few weeks"
+    ],
+    "answer": 1,
+    "why": "The big changes were scale and rigor: roughly ten times as many children, a far more diverse sample, and statistical controls for family income, home environment, and early ability so the researchers could isolate what waiting alone predicted."
+  },
+  {
+    "qid": "2026-06-24-pm#1",
+    "lessonId": "2026-06-24-pm",
+    "lessonTitle": "The marshmallow test gets re-run, and the story shrinks",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What happened to the link between waiting and later achievement once family background was accounted for?",
+    "choices": [
+      "It grew much stronger",
+      "It stayed exactly the same",
+      "Roughly two thirds of the already-small effect disappeared",
+      "It reversed direction"
+    ],
+    "answer": 2,
+    "why": "Even among children of mothers without a college degree, the modest link shrank by about two thirds after controlling for family income, education, and home life, suggesting circumstances explain much of what looked like pure willpower."
+  },
+  {
+    "qid": "2026-06-24-pm#2",
+    "lessonId": "2026-06-24-pm",
+    "lessonTitle": "The marshmallow test gets re-run, and the story shrinks",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What is the fair takeaway from the study?",
+    "choices": [
+      "Self-control is worthless",
+      "The early marshmallow moment predicts the future less powerfully than the famous story implied",
+      "Family background does not matter",
+      "The original study was completely fabricated"
+    ],
+    "answer": 1,
+    "why": "The effect was real but smaller and entangled with family circumstances. The study does not say self-control is useless; it says the single early test is a weaker predictor than the popular version suggested."
   }
 ]
