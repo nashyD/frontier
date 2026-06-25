@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-25-am",
+    "date": "2026-06-25",
+    "slot": "am",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "title": "1964: the year someone finally caught THC",
+    "tldr": "Two chemists in Israel pulled the single molecule that gets you high out of hashish, drew its exact structure, and named it Δ9-THC, finally giving the whole science of cannabis something concrete to study.",
+    "readMinutes": 5,
+    "citation": "Gaoni, Y. & Mechoulam, R. (1964), \"Isolation, Structure, and Partial Synthesis of an Active Constituent of Hashish\", Journal of the American Chemical Society 86, 1646-1647",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-24-pm",
     "date": "2026-06-24",
     "slot": "pm",

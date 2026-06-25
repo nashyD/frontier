@@ -1,0 +1,82 @@
+{
+  "id": "2026-06-25-am",
+  "date": "2026-06-25",
+  "slot": "am",
+  "topic": "cannabis",
+  "topicLabel": "Cannabis Science",
+  "title": "1964: the year someone finally caught THC",
+  "study": {
+    "citation": "Gaoni, Y. & Mechoulam, R. (1964), \"Isolation, Structure, and Partial Synthesis of an Active Constituent of Hashish\", Journal of the American Chemical Society 86, 1646-1647",
+    "year": 1964,
+    "link": "https://doi.org/10.1021/ja01062a046"
+  },
+  "tldr": "Two chemists in Israel pulled the single molecule that gets you high out of hashish, drew its exact structure, and named it Δ9-THC, finally giving the whole science of cannabis something concrete to study.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "People had used cannabis for thousands of years and had a rough sense of what it did, but nobody could say what, exactly, inside the plant was doing it. Cannabis is a messy soup of dozens of related compounds, and the older chemistry kept producing sticky, impure mixtures that resisted being pinned down. So the basic question was almost embarrassingly overdue: which single molecule is the active ingredient, the one responsible for the high, and what does it actually look like at the atomic level? Until you can answer that, you can't really do science on it."
+    },
+    {
+      "h": "What they did",
+      "body": "At the Weizmann Institute in Israel, Yechiel Gaoni and Raphael Mechoulam started, fittingly, with a few kilograms of hashish handed over by the police. They separated the gummy extract into its individual compounds using chromatography, a technique that drags a mixture through a material so its parts travel at different speeds and split apart. From that they pulled out one pure compound. Then they worked out its structure mostly with NMR, a tool that reads how a molecule's atoms sit relative to one another. As a final check, they chemically converted a known cannabis compound, CBD, into the new one, proving they had the structure right."
+    },
+    {
+      "h": "What they found",
+      "body": "The active molecule was a compound they named Δ9-tetrahydrocannabinol, or Δ9-THC. For the first time it existed as a pure, identified substance with a fully drawn structure, no longer a vague \"active fraction.\" Their conversion of CBD into THC nailed down exactly how the atoms were arranged, including the position of one key double bond that the \"Δ9\" in the name points to. In one short two-page paper, the thing every prior generation had been gesturing at became a specific, reproducible molecule that any lab could now make, measure, and test against the body."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "Almost everything we know about cannabis grew from this foothold. Once THC was a defined molecule, scientists could ask how it works, and that hunt eventually uncovered the body's own cannabinoid receptors and the natural \"endocannabinoid\" signaling system they belong to, a whole communication network nobody knew existed. Pure THC also made honest dosing and clinical trials possible, leading to approved medicines for nausea and other conditions. Today's labeled dispensary products, the THC-versus-CBD conversation, and modern cannabis research all trace back to two people separating one molecule from a lump of hashish."
+    },
+    {
+      "h": "The catch",
+      "body": "Identifying the molecule that causes an effect is not the same as understanding the effect. The 1964 paper said what THC is, but the deeper story of how it acts on the brain, why CBD behaves so differently, and how the dozens of other compounds interact took decades more and is still being worked out. The receptors weren't found until the late 1980s and after. So this is a true origin point rather than a finished answer: it handed everyone the right object to study, then left the hardest questions about benefit, harm, and dose wide open."
+    }
+  ],
+  "terms": [
+    { "term": "Δ9-THC", "def": "Short for delta-9-tetrahydrocannabinol, the specific molecule in cannabis chiefly responsible for the high; the '9' marks where a key chemical bond sits in its structure." },
+    { "term": "Chromatography", "def": "A lab method that pulls a mixture through a material so its different parts move at different speeds and separate out, letting you collect one pure compound at a time." },
+    { "term": "NMR", "def": "Nuclear magnetic resonance, a technique that uses magnetism to sense how a molecule's atoms are arranged relative to each other, helping reveal its structure." }
+  ],
+  "takeaways": [
+    "Before 1964, cannabis was studied as a vague mixture; Gaoni and Mechoulam isolated and fully described its main active molecule, Δ9-THC, in a single short paper.",
+    "Pinning down one molecule unlocked everything downstream: the discovery of the body's own cannabinoid receptors and endocannabinoid system, plus the ability to run real dosed clinical trials.",
+    "Naming the active ingredient is the start of the science, not the end; how THC actually acts on the brain took decades more to chase down and is still being mapped."
+  ],
+  "quiz": [
+    {
+      "q": "What was the central thing Gaoni and Mechoulam accomplished in 1964?",
+      "choices": [
+        "They proved cannabis has no active ingredient",
+        "They isolated the main psychoactive molecule and worked out its exact structure",
+        "They discovered the body's cannabinoid receptors",
+        "They invented synthetic marijuana"
+      ],
+      "answer": 1,
+      "why": "Their contribution was to take the active compound out of hashish as a pure substance and determine its structure, naming it Δ9-THC. The receptors it acts on weren't found until decades later."
+    },
+    {
+      "q": "How did they confirm they had THC's structure right?",
+      "choices": [
+        "By tasting it",
+        "By comparing it to a photograph",
+        "By chemically converting the known compound CBD into THC",
+        "By asking volunteers to smoke it"
+      ],
+      "answer": 2,
+      "why": "Alongside reading the structure with NMR, they turned CBD, a compound whose structure was already understood, into THC. Building it from a known starting point proved the arrangement of atoms they had proposed."
+    },
+    {
+      "q": "Why is this study called an origin point rather than a final answer?",
+      "choices": [
+        "Because it identified the molecule but left how it works in the body to be discovered later",
+        "Because the molecule was later shown not to exist",
+        "Because it was never published in a real journal",
+        "Because they studied the wrong plant"
+      ],
+      "answer": 0,
+      "why": "Knowing what THC is gave scientists the right object to study, but the receptors, mechanisms, and full effects took decades of further work. The paper opened the field instead of closing it."
+    }
+  ]
+}
