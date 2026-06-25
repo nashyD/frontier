@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-25-pm",
+    "date": "2026-06-25",
+    "slot": "pm",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "title": "The three mental shortcuts that quietly run your judgment",
+    "tldr": "Two psychologists showed that when people guess at odds and uncertain quantities, they lean on a handful of mental shortcuts that work most of the time and fail in the same predictable ways for everyone, which became the seed of behavioral economics.",
+    "readMinutes": 5,
+    "citation": "Tversky, A. & Kahneman, D. (1974), \"Judgment under Uncertainty: Heuristics and Biases\", Science 185(4157), 1124-1131",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-25-am",
     "date": "2026-06-25",
     "slot": "am",

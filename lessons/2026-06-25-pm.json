@@ -1,0 +1,67 @@
+{
+  "id": "2026-06-25-pm",
+  "date": "2026-06-25",
+  "slot": "pm",
+  "topic": "finance",
+  "topicLabel": "Finance & Economics",
+  "title": "The three mental shortcuts that quietly run your judgment",
+  "study": {
+    "citation": "Tversky, A. & Kahneman, D. (1974), \"Judgment under Uncertainty: Heuristics and Biases\", Science 185(4157), 1124-1131",
+    "year": 1974,
+    "link": "https://doi.org/10.1126/science.185.4157.1124"
+  },
+  "tldr": "Two psychologists showed that when people guess at odds and uncertain quantities, they lean on a handful of mental shortcuts that work most of the time and fail in the same predictable ways for everyone, which became the seed of behavioral economics.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "How do people actually estimate probabilities and quantities when they cannot do the real math? Most of life runs on guesses: how likely a sale is to close, whether a stranger is a librarian or a farmer, how big next year's revenue will be. The old assumption in economics was that people behave like careful little statisticians, weighing the evidence and landing near the right answer. Amos Tversky and Daniel Kahneman, two psychologists, suspected something simpler was going on. They thought the mind reaches for quick rules of thumb, and they wanted to show those rules were not random sloppiness but a small, describable set that everyone shares."
+    },
+    {
+      "h": "What they did",
+      "body": "They ran simple paper-and-pencil questions on ordinary people and on trained experts, then watched where the answers drifted. A heuristic, the word at the heart of this work, just means a mental shortcut, a fast rule your brain uses instead of slow careful reasoning. Rather than measure how often people were wrong in general, they designed questions where a particular shortcut would push everyone toward the same mistake. If a roomful of people all err in the same direction, that points to a shared mechanism doing the work underneath. They organized what they saw into three shortcuts and gave each one a name."
+    },
+    {
+      "h": "What they found",
+      "body": "The first shortcut is representativeness: we judge how likely something is by how much it resembles a stereotype, which makes us forget how common the thing actually is to begin with. The second is availability: we judge how frequent something is by how easily examples spring to mind, so vivid or recent events feel more likely than they are. The third is anchoring: when we estimate a number, we latch onto whatever value is in front of us and adjust too little away from it, even when that starting value is plainly arbitrary. Each shortcut is usually efficient and good enough, and each one fails in its own steady, repeatable way."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This paper rewired how we think about thinking. It said human error is not noise but has structure, a map of predictable biases you can study and anticipate. That idea grew into behavioral economics, the field that finally let economics admit people are not perfectly rational calculators. It shaped how doctors are taught to read test results, how courts weigh eyewitnesses, and how product designers nudge choices. Kahneman went on to win the 2002 Nobel Prize in economics for this line of work, after Tversky had died, and the popular book Thinking, Fast and Slow carried these ideas to millions."
+    },
+    {
+      "h": "The catch",
+      "body": "Some of the specific lab demonstrations built on this framework have come under fire in psychology's wider reckoning with shaky, hard-to-repeat results, and a few flashy follow-on effects have weakened when re-tested. The big three heuristics themselves have held up well, yet researchers still argue about why the shortcuts work, when they help, and whether calling them biases undersells how useful they are in the messy real world. Knowing about anchoring also does not make you immune to it. The value here is a vocabulary for spotting your own snap judgments, which is a long way from switching them off."
+    }
+  ],
+  "terms": [
+    { "term": "Heuristic", "def": "A mental shortcut, a fast rule of thumb the brain uses instead of slow, careful calculation." },
+    { "term": "Anchoring", "def": "The pull of a starting number on your estimate, even when that number is irrelevant, because you adjust away from it too little." },
+    { "term": "Base rate", "def": "How common something is in the world overall, the background frequency that the representativeness shortcut tempts us to ignore." }
+  ],
+  "takeaways": [
+    "Your gut estimate of odds is usually a stand-in answer to an easier question, like how familiar or vivid something feels.",
+    "Before trusting a number, ask what value you saw first, that anchor is probably tugging your guess toward it.",
+    "For a builder or investor, the edge is not being unbiased but knowing which predictable error the room is about to make."
+  ],
+  "quiz": [
+    {
+      "q": "A quiet, bookish person is described, and you guess they are more likely a librarian than a salesperson. Which shortcut is at work?",
+      "choices": ["Availability", "Representativeness", "Anchoring", "Base rate neglect alone"],
+      "answer": 1,
+      "why": "You are matching the description to a stereotype of a librarian, which is representativeness. It makes you overlook that there are vastly more salespeople than librarians, so the stereotype overrides the real odds."
+    },
+    {
+      "q": "Why did Tversky and Kahneman design questions where everyone tends to err in the same direction?",
+      "choices": ["To prove people are simply bad at math", "To show errors share a structure pointing to a common mental mechanism", "To measure individual IQ differences", "To rank experts against novices"],
+      "answer": 1,
+      "why": "Random sloppiness would scatter answers in all directions. When a whole group leans the same way, that systematic tilt reveals a shared shortcut operating underneath, which was their key insight."
+    },
+    {
+      "q": "What is the most honest description of the paper's lasting status?",
+      "choices": ["Every claim built on it has been overturned", "The three core heuristics held up, while some later spin-off effects proved fragile", "It was never replicated by anyone", "It applies only to untrained people, never experts"],
+      "answer": 1,
+      "why": "The central trio of representativeness, availability, and anchoring remains solid and even trained experts show them, while psychology's replication reckoning has dinged some flashier follow-on findings."
+    }
+  ]
+}

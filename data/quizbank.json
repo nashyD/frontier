@@ -1342,5 +1342,53 @@
     ],
     "answer": 0,
     "why": "Knowing what THC is gave scientists the right object to study, but the receptors, mechanisms, and full effects took decades of further work. The paper opened the field instead of closing it."
+  },
+  {
+    "qid": "2026-06-25-pm#0",
+    "lessonId": "2026-06-25-pm",
+    "lessonTitle": "The three mental shortcuts that quietly run your judgment",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "A quiet, bookish person is described, and you guess they are more likely a librarian than a salesperson. Which shortcut is at work?",
+    "choices": [
+      "Availability",
+      "Representativeness",
+      "Anchoring",
+      "Base rate neglect alone"
+    ],
+    "answer": 1,
+    "why": "You are matching the description to a stereotype of a librarian, which is representativeness. It makes you overlook that there are vastly more salespeople than librarians, so the stereotype overrides the real odds."
+  },
+  {
+    "qid": "2026-06-25-pm#1",
+    "lessonId": "2026-06-25-pm",
+    "lessonTitle": "The three mental shortcuts that quietly run your judgment",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "Why did Tversky and Kahneman design questions where everyone tends to err in the same direction?",
+    "choices": [
+      "To prove people are simply bad at math",
+      "To show errors share a structure pointing to a common mental mechanism",
+      "To measure individual IQ differences",
+      "To rank experts against novices"
+    ],
+    "answer": 1,
+    "why": "Random sloppiness would scatter answers in all directions. When a whole group leans the same way, that systematic tilt reveals a shared shortcut operating underneath, which was their key insight."
+  },
+  {
+    "qid": "2026-06-25-pm#2",
+    "lessonId": "2026-06-25-pm",
+    "lessonTitle": "The three mental shortcuts that quietly run your judgment",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "What is the most honest description of the paper's lasting status?",
+    "choices": [
+      "Every claim built on it has been overturned",
+      "The three core heuristics held up, while some later spin-off effects proved fragile",
+      "It was never replicated by anyone",
+      "It applies only to untrained people, never experts"
+    ],
+    "answer": 1,
+    "why": "The central trio of representativeness, availability, and anchoring remains solid and even trained experts show them, while psychology's replication reckoning has dinged some flashier follow-on findings."
   }
 ]
