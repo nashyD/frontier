@@ -3,12 +3,6 @@
   "mode": "existing",
   "queue": [
     {
-      "topic": "frontier",
-      "topicLabel": "Frontier Tech",
-      "study": "Watson & Crick (1953), 'Molecular Structure of Nucleic Acids', Nature",
-      "angle": "One page in Nature that revealed the double helix and launched modern biology."
-    },
-    {
       "topic": "ai",
       "topicLabel": "Artificial Intelligence",
       "study": "Goodfellow et al. (2014), 'Generative Adversarial Networks', NeurIPS",
@@ -46,6 +40,7 @@
     }
   ],
   "done": [
+    "2026-06-26-am — frontier — Watson & Crick (1953), Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid (Nature 171, 737-738)",
     "2026-06-24-am — biohacking — Colman, Anderson, Johnson et al. (2009), Caloric Restriction Delays Disease Onset and Mortality in Rhesus Monkeys (Science 325, 201-204)",
     "2026-06-23-pm — ai — Mnih, Kavukcuoglu, Silver et al. (2015), Human-level control through deep reinforcement learning (Nature 518, 529-533)",
     "2026-06-23-am — frontier — Arute, Arya, Babbush et al. (2019), Quantum supremacy using a programmable superconducting processor (Nature 574, 505-510)",

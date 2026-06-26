@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-26-am",
+    "date": "2026-06-26",
+    "slot": "am",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "title": "The one-page paper that drew the shape of life",
+    "tldr": "In barely a page, two researchers at Cambridge proposed that DNA is a twisted double ladder whose rungs pair up in a fixed way, and that single insight quietly explained how living things copy themselves.",
+    "readMinutes": 4,
+    "citation": "Watson, J. D. & Crick, F. H. C. (1953), \"Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid\", Nature 171, 737-738",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-25-pm",
     "date": "2026-06-25",
     "slot": "pm",

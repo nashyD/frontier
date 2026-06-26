@@ -1390,5 +1390,53 @@
     ],
     "answer": 1,
     "why": "The central trio of representativeness, availability, and anchoring remains solid and even trained experts show them, while psychology's replication reckoning has dinged some flashier follow-on findings."
+  },
+  {
+    "qid": "2026-06-26-am#0",
+    "lessonId": "2026-06-26-am",
+    "lessonTitle": "The one-page paper that drew the shape of life",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "What was the key insight that let the double-helix model explain how DNA copies itself?",
+    "choices": [
+      "The strands are made of protein",
+      "Each base pairs only with one specific partner, so each strand can rebuild the other",
+      "DNA is a single straight line",
+      "The molecule glows under X-rays"
+    ],
+    "answer": 1,
+    "why": "Because adenine always pairs with thymine and guanine with cytosine, the two strands carry the same information in complementary form. Unzip the helix and each half is a template to recreate its partner, which is exactly how a cell copies its instructions."
+  },
+  {
+    "qid": "2026-06-26-am#1",
+    "lessonId": "2026-06-26-am",
+    "lessonTitle": "The one-page paper that drew the shape of life",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "How did Watson and Crick actually arrive at the structure?",
+    "choices": [
+      "By running a large clinical trial",
+      "By building physical models constrained by others' X-ray data and known chemistry",
+      "By inventing a brand-new microscope",
+      "By sequencing the human genome"
+    ],
+    "answer": 1,
+    "why": "They did not generate the key experimental images themselves. They built scale models that obeyed the chemistry and fit the X-ray diffraction patterns, especially those made by Rosalind Franklin and Raymond Gosling at King's College London."
+  },
+  {
+    "qid": "2026-06-26-am#2",
+    "lessonId": "2026-06-26-am",
+    "lessonTitle": "The one-page paper that drew the shape of life",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "What is the honest catch behind this celebrated discovery?",
+    "choices": [
+      "The structure was later shown to be wrong",
+      "It relied heavily on Rosalind Franklin's data, used without her knowledge and under-credited for years",
+      "It was never published",
+      "DNA turned out not to carry genetic information"
+    ],
+    "answer": 1,
+    "why": "The double helix held up, but it leaned on Franklin's X-ray image, which was shown to Watson without her consent. Her contribution was recognized far too slowly, a real shadow over a landmark result."
   }
 ]
