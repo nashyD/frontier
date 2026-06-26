@@ -3,12 +3,6 @@
   "mode": "existing",
   "queue": [
     {
-      "topic": "ai",
-      "topicLabel": "Artificial Intelligence",
-      "study": "Goodfellow et al. (2014), 'Generative Adversarial Networks', NeurIPS",
-      "angle": "Two neural networks playing a forgery game — the idea behind a decade of AI image generation."
-    },
-    {
       "topic": "biohacking",
       "topicLabel": "Biohacking",
       "study": "Davidson et al. (2003), 'Alterations in Brain and Immune Function Produced by Mindfulness Meditation', Psychosomatic Medicine",
@@ -40,6 +34,7 @@
     }
   ],
   "done": [
+    "2026-06-26-pm — ai — Goodfellow, Pouget-Abadie, Mirza, Xu, Warde-Farley, Ozair, Courville & Bengio (2014), Generative Adversarial Nets (NeurIPS 27); arXiv:1406.2661",
     "2026-06-26-am — frontier — Watson & Crick (1953), Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid (Nature 171, 737-738)",
     "2026-06-24-am — biohacking — Colman, Anderson, Johnson et al. (2009), Caloric Restriction Delays Disease Onset and Mortality in Rhesus Monkeys (Science 325, 201-204)",
     "2026-06-23-pm — ai — Mnih, Kavukcuoglu, Silver et al. (2015), Human-level control through deep reinforcement learning (Nature 518, 529-533)",

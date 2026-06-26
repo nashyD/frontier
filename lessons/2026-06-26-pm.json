@@ -1,0 +1,82 @@
+{
+  "id": "2026-06-26-pm",
+  "date": "2026-06-26",
+  "slot": "pm",
+  "topic": "ai",
+  "topicLabel": "Artificial Intelligence",
+  "title": "Two networks playing a forgery game",
+  "study": {
+    "citation": "Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A. & Bengio, Y. (2014), \"Generative Adversarial Nets\", Advances in Neural Information Processing Systems 27",
+    "year": 2014,
+    "link": "https://arxiv.org/abs/1406.2661"
+  },
+  "tldr": "A 2014 paper proposed teaching a computer to invent realistic images by pitting two networks against each other, a forger and a detective, and the forger gets so good by losing that this trick powered a decade of AI image generation.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "By 2014, computers were getting good at recognizing things. Show a network a photo and it could tell you whether it held a cat or a car. The harder, almost magical task ran the other way: could a machine invent a brand-new image that looked real, a cat that never existed? Earlier attempts existed, but they were clumsy, blurry, or slow, often relying on heavy statistical machinery that was awkward to train. Ian Goodfellow and his coauthors asked whether there was a cleaner way to teach a machine to dream up convincing fakes, using only the ordinary training method that already worked for recognition."
+    },
+    {
+      "h": "What they did",
+      "body": "Their idea was a game between two neural networks, which are math systems loosely inspired by brain cells that learn by adjusting millions of internal dials. One network, the generator, takes random noise and tries to turn it into a realistic image. The second, the discriminator, is a detective: it looks at an image and guesses whether it is a real training photo or a fake from the generator. The two train together. Every time the detective catches a fake, the generator learns to forge a little better; every time it is fooled, the detective sharpens up. They chase each other toward better and better fakes."
+    },
+    {
+      "h": "What they found",
+      "body": "The setup worked. Starting from random static, the generator gradually learned to produce images that resembled the data it was trained on, like handwritten digits and small photos of faces and objects. Crucially, the whole thing could be trained with backpropagation, the same standard learning method used everywhere else in deep learning, with no need for the slow, fiddly statistical sampling that older generative methods leaned on. The authors also argued, in theory, that if both networks were powerful enough, the game has a natural balance point where the generator's fakes become statistically indistinguishable from real data and the detective is reduced to guessing."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This paper, generative adversarial networks or GANs, lit the fuse on the modern era of AI that creates rather than just classifies. In the years after, GANs learned to produce photorealistic human faces of people who do not exist, turn sketches into photos, age faces, and translate horses into zebras. The adversarial idea, training one model by having it try to beat another, spread far beyond images. It reframed a hard question, how do you teach a machine to model the world well enough to generate it, as a contest, and contests are something computers can grind at relentlessly."
+    },
+    {
+      "h": "The catch",
+      "body": "GANs are famously temperamental. Because two networks are chasing each other, training can wobble, stall, or collapse, sometimes leaving the generator stuck producing the same few images over and over, a failure called mode collapse. Getting them to work often took careful tuning and a lot of trial and error. They also opened an uncomfortable door: the same technology that makes art and design tools also makes deepfakes, convincing fake images and video of real people. And GANs are no longer the only game in town. Newer methods called diffusion models now power many of the best image generators, though they owe much to the path GANs cleared."
+    }
+  ],
+  "terms": [
+    { "term": "Neural network", "def": "A math system loosely inspired by brain cells that learns a task by adjusting many internal numbers until its outputs match the examples it is shown." },
+    { "term": "Generator and discriminator", "def": "The two networks in a GAN: the generator forges fake images from random noise, and the discriminator tries to tell those fakes apart from real ones." },
+    { "term": "Mode collapse", "def": "A common GAN failure where the generator gives up on variety and keeps producing the same handful of outputs instead of the full range of realistic ones." }
+  ],
+  "takeaways": [
+    "A GAN learns to create by competition: a forger network and a detective network train against each other until the forgeries look real.",
+    "The breakthrough was partly practical, the whole game could be trained with the same standard method as ordinary deep learning, with no slow statistical machinery.",
+    "The same forge-versus-detect idea that gave us AI art and design tools also gave us deepfakes; powerful generative tools cut both ways."
+  ],
+  "quiz": [
+    {
+      "q": "What are the two networks in a GAN trying to do?",
+      "choices": [
+        "Both try to classify images into categories",
+        "One forges fake images while the other tries to spot the fakes",
+        "Both compress images to save space",
+        "One translates text while the other checks grammar"
+      ],
+      "answer": 1,
+      "why": "A GAN is a contest between a generator, which turns random noise into realistic-looking images, and a discriminator, which judges whether an image is real or a fake. Each pushes the other to improve."
+    },
+    {
+      "q": "Why was the GAN approach considered a practical advance over earlier generative methods?",
+      "choices": [
+        "It required no training data at all",
+        "It could be trained with ordinary backpropagation, avoiding slow statistical sampling",
+        "It ran entirely on paper without a computer",
+        "It guaranteed perfect images on the first try"
+      ],
+      "answer": 1,
+      "why": "Older generative models often relied on slow, fiddly statistical procedures. GANs could be trained with backpropagation, the same standard learning method used across deep learning, which made them far easier to plug into existing tools."
+    },
+    {
+      "q": "What is 'mode collapse,' a known weakness of GANs?",
+      "choices": [
+        "The detective network shuts down permanently",
+        "The generator gets stuck producing the same few outputs instead of varied ones",
+        "The images become too large to store",
+        "The networks merge into a single model"
+      ],
+      "answer": 1,
+      "why": "Mode collapse is when the generator stops covering the full variety of realistic images and instead churns out a narrow handful that reliably fool the detective. It is one reason GANs can be tricky and unstable to train."
+    }
+  ]
+}

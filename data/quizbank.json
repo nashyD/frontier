@@ -1438,5 +1438,53 @@
     ],
     "answer": 1,
     "why": "The double helix held up, but it leaned on Franklin's X-ray image, which was shown to Watson without her consent. Her contribution was recognized far too slowly, a real shadow over a landmark result."
+  },
+  {
+    "qid": "2026-06-26-pm#0",
+    "lessonId": "2026-06-26-pm",
+    "lessonTitle": "Two networks playing a forgery game",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What are the two networks in a GAN trying to do?",
+    "choices": [
+      "Both try to classify images into categories",
+      "One forges fake images while the other tries to spot the fakes",
+      "Both compress images to save space",
+      "One translates text while the other checks grammar"
+    ],
+    "answer": 1,
+    "why": "A GAN is a contest between a generator, which turns random noise into realistic-looking images, and a discriminator, which judges whether an image is real or a fake. Each pushes the other to improve."
+  },
+  {
+    "qid": "2026-06-26-pm#1",
+    "lessonId": "2026-06-26-pm",
+    "lessonTitle": "Two networks playing a forgery game",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "Why was the GAN approach considered a practical advance over earlier generative methods?",
+    "choices": [
+      "It required no training data at all",
+      "It could be trained with ordinary backpropagation, avoiding slow statistical sampling",
+      "It ran entirely on paper without a computer",
+      "It guaranteed perfect images on the first try"
+    ],
+    "answer": 1,
+    "why": "Older generative models often relied on slow, fiddly statistical procedures. GANs could be trained with backpropagation, the same standard learning method used across deep learning, which made them far easier to plug into existing tools."
+  },
+  {
+    "qid": "2026-06-26-pm#2",
+    "lessonId": "2026-06-26-pm",
+    "lessonTitle": "Two networks playing a forgery game",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What is 'mode collapse,' a known weakness of GANs?",
+    "choices": [
+      "The detective network shuts down permanently",
+      "The generator gets stuck producing the same few outputs instead of varied ones",
+      "The images become too large to store",
+      "The networks merge into a single model"
+    ],
+    "answer": 1,
+    "why": "Mode collapse is when the generator stops covering the full variety of realistic images and instead churns out a narrow handful that reliably fool the detective. It is one reason GANs can be tricky and unstable to train."
   }
 ]
