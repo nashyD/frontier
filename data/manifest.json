@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-27-pm",
+    "date": "2026-06-27",
+    "slot": "pm",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "title": "Eight weeks of meditation, measured in the brain and the blood",
+    "tldr": "A randomized study found that an eight-week mindfulness course shifted a marker of brain activity linked to positive mood and, on average, gave people a stronger antibody response to a flu shot, with the two changes tending to move together.",
+    "readMinutes": 4,
+    "citation": "Davidson, R. J., Kabat-Zinn, J., Schumacher, J., Rosenkranz, M., Muller, D., Santorelli, S. F., Urbanowski, F., Harrington, A., Bonus, K. & Sheridan, J. F. (2003), \"Alterations in Brain and Immune Function Produced by Mindfulness Meditation\", Psychosomatic Medicine 65, 564-570",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-26-pm",
     "date": "2026-06-26",
     "slot": "pm",

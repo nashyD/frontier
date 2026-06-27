@@ -1486,5 +1486,53 @@
     ],
     "answer": 1,
     "why": "Mode collapse is when the generator stops covering the full variety of realistic images and instead churns out a narrow handful that reliably fool the detective. It is one reason GANs can be tricky and unstable to train."
+  },
+  {
+    "qid": "2026-06-27-pm#0",
+    "lessonId": "2026-06-27-pm",
+    "lessonTitle": "Eight weeks of meditation, measured in the brain and the blood",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "How did the researchers set up the study to compare meditation against no meditation?",
+    "choices": [
+      "They let people choose which group to join",
+      "They randomly assigned employees to a meditation course or a wait-list group",
+      "They only studied lifelong monks",
+      "They compared the brain during and between meditation sessions"
+    ],
+    "answer": 1,
+    "why": "Random assignment to the meditation course or a wait-list comparison group is what makes this a randomized controlled study, which helps rule out the idea that already-calm or already-healthy people simply chose to meditate."
+  },
+  {
+    "qid": "2026-06-27-pm#1",
+    "lessonId": "2026-06-27-pm",
+    "lessonTitle": "Eight weeks of meditation, measured in the brain and the blood",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What was the notable immune finding after the flu shot?",
+    "choices": [
+      "Meditators caught the flu less often that winter",
+      "Meditators produced, on average, a larger rise in flu antibodies than the comparison group",
+      "Meditation replaced the need for a vaccine",
+      "Both groups produced identical antibody levels"
+    ],
+    "answer": 1,
+    "why": "On average the meditators mounted a stronger antibody response to the same flu vaccine than the wait-list group. The study measured antibodies, so it cannot say anything about who actually got sick."
+  },
+  {
+    "qid": "2026-06-27-pm#2",
+    "lessonId": "2026-06-27-pm",
+    "lessonTitle": "Eight weeks of meditation, measured in the brain and the blood",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What did the link between the brain change and the immune change show?",
+    "choices": [
+      "The two were unrelated coincidences",
+      "People with the biggest shift toward the left-sided brain pattern also tended to have the biggest antibody rise",
+      "Only people who skipped the vaccine improved",
+      "The brain change erased the immune change"
+    ],
+    "answer": 1,
+    "why": "Within the meditation group, a greater shift toward the left-sided activation pattern tended to come with a larger antibody response. The brain and immune changes appeared in the same individuals, which is what made the result compelling."
   }
 ]

@@ -1,0 +1,82 @@
+{
+  "id": "2026-06-27-pm",
+  "date": "2026-06-27",
+  "slot": "pm",
+  "topic": "biohacking",
+  "topicLabel": "Biohacking",
+  "title": "Eight weeks of meditation, measured in the brain and the blood",
+  "study": {
+    "citation": "Davidson, R. J., Kabat-Zinn, J., Schumacher, J., Rosenkranz, M., Muller, D., Santorelli, S. F., Urbanowski, F., Harrington, A., Bonus, K. & Sheridan, J. F. (2003), \"Alterations in Brain and Immune Function Produced by Mindfulness Meditation\", Psychosomatic Medicine 65, 564-570",
+    "year": 2003,
+    "link": "https://doi.org/10.1097/01.PSY.0000077505.67574.E3"
+  },
+  "tldr": "A randomized study found that an eight-week mindfulness course shifted a marker of brain activity linked to positive mood and, on average, gave people a stronger antibody response to a flu shot, with the two changes tending to move together.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "By 2003, plenty of people swore meditation made them calmer and happier, but the biology underneath was thin. Most studies had only looked at what happens in the brain during a single meditation session, which says little about lasting change. Richard Davidson, a neuroscientist who studies emotion, teamed up with Jon Kabat-Zinn, who created a well-known mindfulness program, to ask a sharper question. Could a short, structured course in meditation leave a measurable mark on the resting brain and on the immune system itself, weeks after the training, in ordinary stressed-out office workers rather than monks?"
+    },
+    {
+      "h": "What they did",
+      "body": "They recruited employees at a biotechnology company in Madison, Wisconsin, and randomly split them into two groups. One group, 25 people, took an eight-week course in mindfulness-based stress reduction: a weekly class of a few hours, a daylong silent retreat, and about an hour of home practice most days. The other group, 16 people, waited and took the same course later, serving as a comparison. The team recorded brain electrical activity with EEG, sensors on the scalp that pick up the brain's electrical rhythms, before the course, right after, and four months later. At the end of the eight weeks, everyone got a flu shot, and the researchers later drew blood to measure the antibodies each person produced."
+    },
+    {
+      "h": "What they found",
+      "body": "The meditators shifted toward more left-sided activation in the front of the brain, a pattern that earlier work had tied to positive mood and approach-oriented feelings. They also reported less anxiety and less negative emotion. The immune result was the striking part: on average, the meditators mounted a larger rise in flu antibodies than the wait-list group. And the two changes traveled together. Within the meditation group, the people whose brains shifted most toward that left-sided pattern also tended to show the biggest antibody response. The brain change and the immune change were linked in the same individuals."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This was one of the first randomized, controlled demonstrations that a brief meditation course could change both brain function and a hard outcome like vaccine response. It moved meditation research away from soft self-reports toward measurable biology, and it gave the booming field of mindfulness-based stress reduction a piece of mechanistic evidence to build on. The idea that a mental practice could nudge the immune system, and that you could watch the brain and the blood move in step, helped open the modern study of how mind and body talk to each other through stress, mood, and inflammation."
+    },
+    {
+      "h": "The catch",
+      "body": "The study was small, just 41 people finished, which limits how confident anyone can be and how far the findings stretch. Several effects the team expected pointed the right way but fell short of statistical significance. EEG is a fairly blunt window into the brain, and a stronger antibody rise to one flu shot is a long way from proving better real-world health. The work was a promising signal that deserved bigger, tighter follow-ups, and later research has generally supported a mind-body connection while still wrestling with how large and how durable these effects really are."
+    }
+  ],
+  "terms": [
+    { "term": "Mindfulness-based stress reduction", "def": "A structured eight-week course, built around meditation and gentle body awareness, designed to help people handle stress." },
+    { "term": "EEG (electroencephalography)", "def": "A way to read the brain's electrical rhythms using sensors placed on the scalp." },
+    { "term": "Antibody titer", "def": "A measure of how many antibodies the immune system has made against something, here used to gauge the response to a flu shot." }
+  ],
+  "takeaways": [
+    "A randomized eight-week mindfulness course shifted a brain marker tied to positive mood and, on average, boosted people's antibody response to a flu vaccine.",
+    "The brain change and the immune change moved together: the meditators whose brains shifted most also tended to respond most strongly to the shot.",
+    "It is an early, small, but influential piece of evidence that a mental practice can register in measurable biology, worth treating as a promising signal rather than settled proof."
+  ],
+  "quiz": [
+    {
+      "q": "How did the researchers set up the study to compare meditation against no meditation?",
+      "choices": [
+        "They let people choose which group to join",
+        "They randomly assigned employees to a meditation course or a wait-list group",
+        "They only studied lifelong monks",
+        "They compared the brain during and between meditation sessions"
+      ],
+      "answer": 1,
+      "why": "Random assignment to the meditation course or a wait-list comparison group is what makes this a randomized controlled study, which helps rule out the idea that already-calm or already-healthy people simply chose to meditate."
+    },
+    {
+      "q": "What was the notable immune finding after the flu shot?",
+      "choices": [
+        "Meditators caught the flu less often that winter",
+        "Meditators produced, on average, a larger rise in flu antibodies than the comparison group",
+        "Meditation replaced the need for a vaccine",
+        "Both groups produced identical antibody levels"
+      ],
+      "answer": 1,
+      "why": "On average the meditators mounted a stronger antibody response to the same flu vaccine than the wait-list group. The study measured antibodies, so it cannot say anything about who actually got sick."
+    },
+    {
+      "q": "What did the link between the brain change and the immune change show?",
+      "choices": [
+        "The two were unrelated coincidences",
+        "People with the biggest shift toward the left-sided brain pattern also tended to have the biggest antibody rise",
+        "Only people who skipped the vaccine improved",
+        "The brain change erased the immune change"
+      ],
+      "answer": 1,
+      "why": "Within the meditation group, a greater shift toward the left-sided activation pattern tended to come with a larger antibody response. The brain and immune changes appeared in the same individuals, which is what made the result compelling."
+    }
+  ]
+}
