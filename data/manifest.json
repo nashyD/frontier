@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-28-am",
+    "date": "2026-06-28",
+    "slot": "am",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "title": "Why you remember the word you came up with yourself",
+    "tldr": "Across five experiments, people remembered words they produced themselves far better than the very same words they only read, a memory boost so reliable it now has a name: the generation effect.",
+    "readMinutes": 4,
+    "citation": "Slamecka, N. J. & Graf, P. (1978), \"The Generation Effect: Delineation of a Phenomenon\", Journal of Experimental Psychology: Human Learning and Memory 4(6), 592-604",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-27-pm",
     "date": "2026-06-27",
     "slot": "pm",

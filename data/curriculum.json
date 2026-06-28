@@ -3,12 +3,6 @@
   "mode": "existing",
   "queue": [
     {
-      "topic": "learning",
-      "topicLabel": "Learning & Cognition",
-      "study": "Slamecka & Graf (1978), 'The Generation Effect', Journal of Experimental Psychology",
-      "angle": "You remember words you generate yourself far better than words you simply read."
-    },
-    {
       "topic": "cannabis",
       "topicLabel": "Cannabis Science",
       "study": "Volkow et al. (2014), 'Adverse Health Effects of Marijuana Use', NEJM",
@@ -59,6 +53,7 @@
     "2026-06-22-pm — finance — Shiller (1981), Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?, American Economic Review 71(3)",
     "2026-06-24-pm — learning — Watts, Duncan & Quan (2018), 'Revisiting the Marshmallow Test', Psychological Science",
     "2026-06-25-am — cannabis — Gaoni & Mechoulam (1964), JACS 86, 1646-1647 (isolation/structure of Δ9-THC)",
-    "2026-06-25-pm — finance — Tversky & Kahneman (1974), 'Judgment under Uncertainty: Heuristics and Biases', Science 185, 1124-1131"
+    "2026-06-25-pm — finance — Tversky & Kahneman (1974), 'Judgment under Uncertainty: Heuristics and Biases', Science 185, 1124-1131",
+    "2026-06-28-am — learning — Slamecka & Graf (1978), The Generation Effect, J. Exp. Psychol.: Human Learning and Memory 4(6), 592-604"
   ]
 }

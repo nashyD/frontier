@@ -1,0 +1,82 @@
+{
+  "id": "2026-06-28-am",
+  "date": "2026-06-28",
+  "slot": "am",
+  "topic": "learning",
+  "topicLabel": "Learning & Cognition",
+  "title": "Why you remember the word you came up with yourself",
+  "study": {
+    "citation": "Slamecka, N. J. & Graf, P. (1978), \"The Generation Effect: Delineation of a Phenomenon\", Journal of Experimental Psychology: Human Learning and Memory 4(6), 592-604",
+    "year": 1978,
+    "link": "https://doi.org/10.1037/0278-7393.4.6.592"
+  },
+  "tldr": "Across five experiments, people remembered words they produced themselves far better than the very same words they only read, a memory boost so reliable it now has a name: the generation effect.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Everyone has felt that you learn something better when you work it out for yourself instead of being handed the answer. In the 1970s that was folklore, not science. Norman Slamecka and Peter Graf, two memory researchers, wanted to pin it down. Does the simple act of generating a word from your own head leave a stronger memory trace than reading the identical word off a page? If so, how big is the effect, and does it show up no matter how you later test for the memory? They set out to map the edges of the phenomenon carefully."
+    },
+    {
+      "h": "What they did",
+      "body": "They built a clever task that held the words constant and changed only how people met them. Each item came with a rule, a cue word, and a first letter. Take the rule \"synonym,\" the cue \"rapid,\" and the letter \"f.\" In the generate condition, you had to produce the answer yourself: \"fast.\" In the read condition, you were simply shown the finished pair, \"rapid - fast,\" and read it aloud. Same word either way. Later they tested memory in several ways: recognizing words on a list, free recall with no hints, and cued recall with the partner word as a prompt. Five experiments in all."
+    },
+    {
+      "h": "What they found",
+      "body": "Generating beat reading, again and again. People recognized self-generated words more accurately and felt more confident about them. They recalled them more often, both with hints and without. The pattern held across every memory test the pair tried. One revealing wrinkle: the boost attached to the word you actually produced, and not to the cue word sitting next to it. The benefit lived in the act of pulling the target out of your own mind. Strikingly, even a shallow rule like rhyming gave a boost as strong as a meaning-based rule, which puzzled the simple theories of the day."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This paper turned a hunch into a robust, named effect that thousands of later studies built on. It is part of the backbone of modern \"active learning,\" the idea that wrestling with material beats passively absorbing it. The generation effect sits alongside the testing effect and spaced repetition as one of the few study habits with strong evidence behind it. Flashcard apps that make you retrieve an answer before flipping the card, and tutors who ask you to guess first, are cashing in on exactly what Slamecka and Graf measured. It reframed memory as something you build by doing."
+    },
+    {
+      "h": "The catch",
+      "body": "The effect is real and well replicated, yet it has limits worth knowing. It shows up most cleanly with familiar material, like common words or simple pairs. When the thing you must generate is unfamiliar or you generate it wrong, the advantage can shrink or vanish, since you can only benefit from successfully pulling out the right answer. Generating also takes more effort and time than reading, so it is not always the efficient choice for every task. Later researchers spent decades arguing over the exact mechanism, and a single tidy explanation for why generation helps has stayed surprisingly hard to nail down."
+    }
+  ],
+  "terms": [
+    { "term": "Generation effect", "def": "The finding that you remember information better when you produce it yourself than when you simply read it." },
+    { "term": "Cued recall", "def": "A memory test where you are given a hint, like a partner word, to help you retrieve the target." },
+    { "term": "Free recall", "def": "A memory test where you must bring items back to mind with no hints at all." }
+  ],
+  "takeaways": [
+    "You remember a word far better when you generate it yourself than when you read the identical word, an effect that held across five experiments and many memory tests.",
+    "The boost attaches to the word you actively produced, which is why retrieving an answer before checking it beats just rereading.",
+    "It works best for familiar material you can generate correctly, and it costs more effort, so use it where the payoff is worth the work, like studying or learning a new skill."
+  ],
+  "quiz": [
+    {
+      "q": "What was the key difference between the two conditions in the study?",
+      "choices": [
+        "One group studied longer than the other",
+        "One group generated the target word themselves while the other simply read the same word",
+        "One group saw pictures and the other saw words",
+        "One group was tested immediately and the other a week later"
+      ],
+      "answer": 1,
+      "why": "The words were held constant. The only thing that changed was whether you produced the target yourself from a rule and cues or read the finished pair, which isolates the act of generating as the cause."
+    },
+    {
+      "q": "Where did the memory advantage actually show up?",
+      "choices": [
+        "On every word on the page equally",
+        "On the cue word, not the generated answer",
+        "On the word the person actively generated",
+        "Only on words people read aloud"
+      ],
+      "answer": 2,
+      "why": "The benefit attached to the target the person pulled from their own mind. The neighboring cue word did not get the same boost, which pointed to the act of generation itself as the source."
+    },
+    {
+      "q": "Which everyday study habit most directly uses the generation effect?",
+      "choices": [
+        "Highlighting passages in a textbook",
+        "Rereading your notes several times",
+        "Trying to recall an answer before flipping a flashcard",
+        "Listening to a lecture in the background"
+      ],
+      "answer": 2,
+      "why": "Forcing yourself to retrieve or produce the answer before checking it is generation in action. Highlighting and rereading are passive, which the research suggests leaves a weaker memory trace."
+    }
+  ]
+}

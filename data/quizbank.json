@@ -1534,5 +1534,53 @@
     ],
     "answer": 1,
     "why": "Within the meditation group, a greater shift toward the left-sided activation pattern tended to come with a larger antibody response. The brain and immune changes appeared in the same individuals, which is what made the result compelling."
+  },
+  {
+    "qid": "2026-06-28-am#0",
+    "lessonId": "2026-06-28-am",
+    "lessonTitle": "Why you remember the word you came up with yourself",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What was the key difference between the two conditions in the study?",
+    "choices": [
+      "One group studied longer than the other",
+      "One group generated the target word themselves while the other simply read the same word",
+      "One group saw pictures and the other saw words",
+      "One group was tested immediately and the other a week later"
+    ],
+    "answer": 1,
+    "why": "The words were held constant. The only thing that changed was whether you produced the target yourself from a rule and cues or read the finished pair, which isolates the act of generating as the cause."
+  },
+  {
+    "qid": "2026-06-28-am#1",
+    "lessonId": "2026-06-28-am",
+    "lessonTitle": "Why you remember the word you came up with yourself",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "Where did the memory advantage actually show up?",
+    "choices": [
+      "On every word on the page equally",
+      "On the cue word, not the generated answer",
+      "On the word the person actively generated",
+      "Only on words people read aloud"
+    ],
+    "answer": 2,
+    "why": "The benefit attached to the target the person pulled from their own mind. The neighboring cue word did not get the same boost, which pointed to the act of generation itself as the source."
+  },
+  {
+    "qid": "2026-06-28-am#2",
+    "lessonId": "2026-06-28-am",
+    "lessonTitle": "Why you remember the word you came up with yourself",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "Which everyday study habit most directly uses the generation effect?",
+    "choices": [
+      "Highlighting passages in a textbook",
+      "Rereading your notes several times",
+      "Trying to recall an answer before flipping a flashcard",
+      "Listening to a lecture in the background"
+    ],
+    "answer": 2,
+    "why": "Forcing yourself to retrieve or produce the answer before checking it is generation in action. Highlighting and rereading are passive, which the research suggests leaves a weaker memory trace."
   }
 ]
