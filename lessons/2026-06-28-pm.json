@@ -1,0 +1,82 @@
+{
+  "id": "2026-06-28-pm",
+  "date": "2026-06-28",
+  "slot": "pm",
+  "topic": "cannabis",
+  "topicLabel": "Cannabis Science",
+  "title": "What the science actually says about marijuana's risks",
+  "study": {
+    "citation": "Volkow, N. D., Baler, R. D., Compton, W. M. & Weiss, S. R. B. (2014), \"Adverse Health Effects of Marijuana Use\", New England Journal of Medicine 370, 2219-2227",
+    "year": 2014,
+    "link": "https://doi.org/10.1056/NEJMra1402309"
+  },
+  "tldr": "As legalization spread, four federal scientists gathered the best available evidence and concluded marijuana is far from harmless, with the clearest dangers falling on teenagers, daily users, and people behind the wheel.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "By 2014, marijuana was legal for medical use in many U.S. states and recreationally in a few, and a lot of people had started treating it as a harmless way to relax. Nora Volkow, who runs the U.S. National Institute on Drug Abuse, and three colleagues asked a plain question: what does the actual research show about the risks? They were not arguing for or against legalization. They wanted to take stock of what was well established, separate it from rumor and hype, and give doctors and the public an honest map of where the real dangers lie."
+    },
+    {
+      "h": "What they did",
+      "body": "This was a review, meaning they did not run a new experiment. Instead they read across decades of existing studies, weighed how strong each line of evidence was, and summarized the picture. They leaned hardest on findings that showed up repeatedly across many studies and many people. Some of those studies were experiments, but many were observational, simply tracking what happens to large groups of users over years. The authors were careful to flag which conclusions rested on solid ground and which were still uncertain, then laid out the main harms one by one."
+    },
+    {
+      "h": "What they found",
+      "body": "Marijuana can be addictive. About 9 percent of people who try it become dependent, rising to roughly 1 in 6 among those who start as teenagers and 25 to 50 percent among daily users. The teenage brain is the central worry. Heavy use that begins in adolescence is linked to lasting drops in attention, memory, and IQ, and to higher rates of dropping out of school. Driving while high roughly doubles the risk of a car crash. Regular use is also associated with a greater chance of developing psychosis, especially in people already prone to it."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This paper landed at the exact moment public attitudes were flipping, and it became one of the most cited sober accountings of marijuana's downsides. It gave a credible federal scientist's name to a careful middle position: the drug is neither a harmless herb nor a monster, and the risk depends heavily on who is using, how young they start, and how often. As more states and countries legalize, those distinctions matter for policy, for parents, and for the warning labels and age limits being written right now."
+    },
+    {
+      "h": "The catch",
+      "body": "The authors were upfront that much of the evidence is associational. Seeing that heavy teenage users tend to score lower on IQ tests does not by itself prove the marijuana caused the drop, since the same people may differ in other ways, such as poverty or other drug use, that also affect those outcomes. Untangling cause from coincidence in human behavior is genuinely hard. The review also predates a wave of newer research, and the marijuana sold today is often far more potent than what older studies measured, so some risk estimates may shift as the science matures."
+    }
+  ],
+  "terms": [
+    { "term": "Review article", "def": "A paper that gathers and weighs many existing studies rather than running a new experiment of its own." },
+    { "term": "Dependence", "def": "A state where someone keeps using a substance despite harm and struggles to cut down, the working definition of addiction." },
+    { "term": "Associational evidence", "def": "A link observed between two things, like teen use and lower IQ, that shows they travel together but does not by itself prove one caused the other." }
+  ],
+  "takeaways": [
+    "Marijuana is genuinely addictive for a minority of users, and the odds climb sharply the younger you start and the more often you use, from about 9 percent overall to as high as half of daily users.",
+    "The strongest concerns center on the adolescent brain and on driving while high, which roughly doubles crash risk.",
+    "Much of the evidence shows links rather than proven cause, so honest risk talk means saying clearly what we know well and what is still uncertain."
+  ],
+  "quiz": [
+    {
+      "q": "According to the review, who faces the highest risk of becoming dependent on marijuana?",
+      "choices": [
+        "People who try it once as adults",
+        "Occasional weekend users",
+        "Daily users and people who start as teenagers",
+        "Everyone equally, regardless of age or frequency"
+      ],
+      "answer": 2,
+      "why": "The dependence rate runs about 9 percent overall but climbs to roughly 1 in 6 for those who begin as teens and 25 to 50 percent for daily users, so age of onset and frequency are the big drivers."
+    },
+    {
+      "q": "What kind of paper is the Volkow 2014 article?",
+      "choices": [
+        "A new laboratory experiment on mice",
+        "A review that gathers and weighs many existing studies",
+        "A single survey of one college campus",
+        "An opinion piece with no sources"
+      ],
+      "answer": 1,
+      "why": "It is a review. The authors did not run a fresh experiment; they synthesized decades of prior research and judged how strong each line of evidence was."
+    },
+    {
+      "q": "Why did the authors caution against treating the IQ findings as settled proof of harm?",
+      "choices": [
+        "The studies used too many participants",
+        "Much of the evidence is associational, so other differences between users could explain the results",
+        "IQ tests are never reliable",
+        "Marijuana has no measurable effect on the brain"
+      ],
+      "answer": 1,
+      "why": "A link between heavy teen use and lower IQ shows the two travel together, but factors like poverty or other drug use could also be at play, so association alone does not establish cause."
+    }
+  ]
+}

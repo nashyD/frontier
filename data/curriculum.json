@@ -3,12 +3,6 @@
   "mode": "existing",
   "queue": [
     {
-      "topic": "cannabis",
-      "topicLabel": "Cannabis Science",
-      "study": "Volkow et al. (2014), 'Adverse Health Effects of Marijuana Use', NEJM",
-      "angle": "A sober, evidence-based accounting of cannabis risks — especially for the developing brain."
-    },
-    {
       "topic": "finance",
       "topicLabel": "Finance & Economics",
       "study": "Fama (1970), 'Efficient Capital Markets: A Review of Theory and Empirical Work', Journal of Finance",
@@ -54,6 +48,7 @@
     "2026-06-24-pm — learning — Watts, Duncan & Quan (2018), 'Revisiting the Marshmallow Test', Psychological Science",
     "2026-06-25-am — cannabis — Gaoni & Mechoulam (1964), JACS 86, 1646-1647 (isolation/structure of Δ9-THC)",
     "2026-06-25-pm — finance — Tversky & Kahneman (1974), 'Judgment under Uncertainty: Heuristics and Biases', Science 185, 1124-1131",
-    "2026-06-28-am — learning — Slamecka & Graf (1978), The Generation Effect, J. Exp. Psychol.: Human Learning and Memory 4(6), 592-604"
+    "2026-06-28-am — learning — Slamecka & Graf (1978), The Generation Effect, J. Exp. Psychol.: Human Learning and Memory 4(6), 592-604",
+    "2026-06-28-pm — cannabis — Volkow, Baler, Compton & Weiss (2014), Adverse Health Effects of Marijuana Use, New England Journal of Medicine 370, 2219-2227"
   ]
 }

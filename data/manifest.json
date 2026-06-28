@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-28-pm",
+    "date": "2026-06-28",
+    "slot": "pm",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "title": "What the science actually says about marijuana's risks",
+    "tldr": "As legalization spread, four federal scientists gathered the best available evidence and concluded marijuana is far from harmless, with the clearest dangers falling on teenagers, daily users, and people behind the wheel.",
+    "readMinutes": 4,
+    "citation": "Volkow, N. D., Baler, R. D., Compton, W. M. & Weiss, S. R. B. (2014), \"Adverse Health Effects of Marijuana Use\", New England Journal of Medicine 370, 2219-2227",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-28-am",
     "date": "2026-06-28",
     "slot": "am",

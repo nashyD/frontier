@@ -1582,5 +1582,53 @@
     ],
     "answer": 2,
     "why": "Forcing yourself to retrieve or produce the answer before checking it is generation in action. Highlighting and rereading are passive, which the research suggests leaves a weaker memory trace."
+  },
+  {
+    "qid": "2026-06-28-pm#0",
+    "lessonId": "2026-06-28-pm",
+    "lessonTitle": "What the science actually says about marijuana's risks",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "According to the review, who faces the highest risk of becoming dependent on marijuana?",
+    "choices": [
+      "People who try it once as adults",
+      "Occasional weekend users",
+      "Daily users and people who start as teenagers",
+      "Everyone equally, regardless of age or frequency"
+    ],
+    "answer": 2,
+    "why": "The dependence rate runs about 9 percent overall but climbs to roughly 1 in 6 for those who begin as teens and 25 to 50 percent for daily users, so age of onset and frequency are the big drivers."
+  },
+  {
+    "qid": "2026-06-28-pm#1",
+    "lessonId": "2026-06-28-pm",
+    "lessonTitle": "What the science actually says about marijuana's risks",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "What kind of paper is the Volkow 2014 article?",
+    "choices": [
+      "A new laboratory experiment on mice",
+      "A review that gathers and weighs many existing studies",
+      "A single survey of one college campus",
+      "An opinion piece with no sources"
+    ],
+    "answer": 1,
+    "why": "It is a review. The authors did not run a fresh experiment; they synthesized decades of prior research and judged how strong each line of evidence was."
+  },
+  {
+    "qid": "2026-06-28-pm#2",
+    "lessonId": "2026-06-28-pm",
+    "lessonTitle": "What the science actually says about marijuana's risks",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Why did the authors caution against treating the IQ findings as settled proof of harm?",
+    "choices": [
+      "The studies used too many participants",
+      "Much of the evidence is associational, so other differences between users could explain the results",
+      "IQ tests are never reliable",
+      "Marijuana has no measurable effect on the brain"
+    ],
+    "answer": 1,
+    "why": "A link between heavy teen use and lower IQ shows the two travel together, but factors like poverty or other drug use could also be at play, so association alone does not establish cause."
   }
 ]
