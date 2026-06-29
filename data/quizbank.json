@@ -1630,5 +1630,53 @@
     ],
     "answer": 1,
     "why": "A link between heavy teen use and lower IQ shows the two travel together, but factors like poverty or other drug use could also be at play, so association alone does not establish cause."
+  },
+  {
+    "qid": "2026-06-29-am#0",
+    "lessonId": "2026-06-29-am",
+    "lessonTitle": "Why beating the market is so hard",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "What does Fama's semi-strong form of market efficiency claim?",
+    "choices": [
+      "Prices reflect only the history of past prices",
+      "Prices reflect all publicly available information, like earnings news",
+      "Prices reflect even secret inside information",
+      "Prices are completely random and reflect nothing"
+    ],
+    "answer": 1,
+    "why": "The semi-strong form says prices already incorporate all public information. The weak form is limited to past prices, and the strong form extends all the way to private information."
+  },
+  {
+    "qid": "2026-06-29-am#1",
+    "lessonId": "2026-06-29-am",
+    "lessonTitle": "Why beating the market is so hard",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "Which form of efficiency did the evidence support the least?",
+    "choices": [
+      "The weak form",
+      "The semi-strong form",
+      "The strong form",
+      "All three were equally supported"
+    ],
+    "answer": 2,
+    "why": "Studies suggested corporate insiders with genuinely private information could earn unusual returns, which is evidence against the strong form. The weak and semi-strong forms held up better."
+  },
+  {
+    "qid": "2026-06-29-am#2",
+    "lessonId": "2026-06-29-am",
+    "lessonTitle": "Why beating the market is so hard",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "q": "Why is it so hard to definitively prove a market is inefficient?",
+    "choices": [
+      "There is not enough trading data to study",
+      "Any test of efficiency also depends on a model of what normal returns should be",
+      "Stock prices are never recorded accurately",
+      "Economists are not allowed to test the idea"
+    ],
+    "answer": 1,
+    "why": "To call a return unusual you need a benchmark for normal, so every test judges efficiency and that benchmark together. An apparent anomaly might just mean your idea of normal was wrong."
   }
 ]

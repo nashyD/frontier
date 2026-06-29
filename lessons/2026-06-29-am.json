@@ -1,0 +1,82 @@
+{
+  "id": "2026-06-29-am",
+  "date": "2026-06-29",
+  "slot": "am",
+  "topic": "finance",
+  "topicLabel": "Finance & Economics",
+  "title": "Why beating the market is so hard",
+  "study": {
+    "citation": "Fama, E. F. (1970), \"Efficient Capital Markets: A Review of Theory and Empirical Work\", The Journal of Finance 25(2), 383-417",
+    "year": 1970,
+    "link": "https://doi.org/10.1111/j.1540-6261.1970.tb00518.x"
+  },
+  "tldr": "A young economist named Eugene Fama gathered the evidence and argued that stock prices already bake in everything publicly known, so trying to outguess the market with public information is mostly a fool's errand.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Walk into any bookstore and you will find shelves of guides promising to help you beat the stock market. By the late 1960s a nagging question had been building among economists: do any of these systems actually work, or are prices already so smart that no public trick can reliably outsmart them? Eugene Fama, then a young professor at the University of Chicago, set out to organize a decade of scattered evidence into one clear framework. His underlying curiosity was simple and a little subversive. If markets are good at their job, then the price you see should already reflect what everyone knows."
+    },
+    {
+      "h": "What they did",
+      "body": "Fama wrote a review, meaning he did not run a single new experiment but instead gathered and judged many existing studies. His real contribution was a way of thinking. He defined an efficient market as one where prices fully reflect available information, then split the idea into three testable versions sorted by how much information is baked in. The weak form asks whether prices already reflect past price history. The semi-strong form asks whether they reflect all public news, like earnings reports. The strong form asks whether they reflect even private inside information. Each version became a question researchers could actually test against real trading data."
+    },
+    {
+      "h": "What they found",
+      "body": "The evidence Fama assembled leaned strongly toward efficiency in the first two forms. Stock prices behaved a lot like a random walk, a pattern where tomorrow's move is roughly unpredictable from past moves, which undercut chart-reading systems built on price history. Prices also adjusted to public news, such as a stock split or earnings announcement, very quickly, often within a day, leaving little room to profit by reacting after the fact. The strong form held up least well. Studies of corporate insiders and some specialists suggested people with genuinely private information could indeed earn unusual returns."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This paper gave the world a vocabulary it still uses every day. The phrase efficient markets and the weak, semi-strong, and strong labels trace directly to Fama. The practical fallout was enormous. If you cannot reliably beat the average with public information, then a cheap fund that simply buys the whole market should quietly outperform most expensive stock pickers over time. That logic helped power the rise of index funds, which now hold trillions of dollars. Fama shared the 2013 Nobel Prize in economics in part for this line of work, and every active manager still argues against his conclusion."
+    },
+    {
+      "h": "The catch",
+      "body": "Efficiency is genuinely hard to test, and Fama himself flagged the deepest problem. To judge whether a return is unusually large, you need a model of what counts as normal, so any test of efficiency is really a test of two things at once. If you find an anomaly, you can never be sure whether the market was inefficient or your idea of normal was simply wrong. Later researchers also documented stubborn puzzles, like bubbles and crashes, that look hard to square with perfectly rational prices. The debate is far from closed, which is exactly why behavioral finance grew up alongside it."
+    }
+  ],
+  "terms": [
+    { "term": "Efficient market", "def": "A market where prices already reflect the available information, so the price you see is a fair summary of what is publicly known." },
+    { "term": "Random walk", "def": "A pattern where each step is essentially unpredictable from the steps before it, the way a coin flip ignores the flips that came earlier." },
+    { "term": "Index fund", "def": "A fund that simply buys a whole slice of the market rather than betting on individual winners, keeping costs low." }
+  ],
+  "takeaways": [
+    "Fama split market efficiency into three flavors by how much information prices absorb: past prices (weak), all public news (semi-strong), and even private information (strong).",
+    "The evidence said public information is hard to beat, which is the core intellectual case for low-cost index funds.",
+    "Testing efficiency always means testing your model of normal returns at the same time, so the debate over whether markets are truly efficient is still alive."
+  ],
+  "quiz": [
+    {
+      "q": "What does Fama's semi-strong form of market efficiency claim?",
+      "choices": [
+        "Prices reflect only the history of past prices",
+        "Prices reflect all publicly available information, like earnings news",
+        "Prices reflect even secret inside information",
+        "Prices are completely random and reflect nothing"
+      ],
+      "answer": 1,
+      "why": "The semi-strong form says prices already incorporate all public information. The weak form is limited to past prices, and the strong form extends all the way to private information."
+    },
+    {
+      "q": "Which form of efficiency did the evidence support the least?",
+      "choices": [
+        "The weak form",
+        "The semi-strong form",
+        "The strong form",
+        "All three were equally supported"
+      ],
+      "answer": 2,
+      "why": "Studies suggested corporate insiders with genuinely private information could earn unusual returns, which is evidence against the strong form. The weak and semi-strong forms held up better."
+    },
+    {
+      "q": "Why is it so hard to definitively prove a market is inefficient?",
+      "choices": [
+        "There is not enough trading data to study",
+        "Any test of efficiency also depends on a model of what normal returns should be",
+        "Stock prices are never recorded accurately",
+        "Economists are not allowed to test the idea"
+      ],
+      "answer": 1,
+      "why": "To call a return unusual you need a benchmark for normal, so every test judges efficiency and that benchmark together. An apparent anomaly might just mean your idea of normal was wrong."
+    }
+  ]
+}

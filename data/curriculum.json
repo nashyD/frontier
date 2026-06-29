@@ -3,12 +3,6 @@
   "mode": "existing",
   "queue": [
     {
-      "topic": "finance",
-      "topicLabel": "Finance & Economics",
-      "study": "Fama (1970), 'Efficient Capital Markets: A Review of Theory and Empirical Work', Journal of Finance",
-      "angle": "The efficient-market hypothesis: the claim that you can't beat the market on public info."
-    },
-    {
       "topic": "frontier",
       "topicLabel": "Frontier Tech",
       "study": "Mayor & Queloz (1995), 'A Jupiter-mass companion to a solar-type star', Nature",
@@ -16,6 +10,7 @@
     }
   ],
   "done": [
+    "2026-06-29-am — finance — Fama, E. F. (1970), Efficient Capital Markets: A Review of Theory and Empirical Work, The Journal of Finance 25(2), 383-417",
     "2026-06-27-pm — biohacking — Davidson, Kabat-Zinn, Schumacher, Rosenkranz, Muller, Santorelli, Urbanowski, Harrington, Bonus & Sheridan (2003), Alterations in Brain and Immune Function Produced by Mindfulness Meditation (Psychosomatic Medicine 65, 564-570)",
     "2026-06-26-pm — ai — Goodfellow, Pouget-Abadie, Mirza, Xu, Warde-Farley, Ozair, Courville & Bengio (2014), Generative Adversarial Nets (NeurIPS 27); arXiv:1406.2661",
     "2026-06-26-am — frontier — Watson & Crick (1953), Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid (Nature 171, 737-738)",

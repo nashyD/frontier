@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-29-am",
+    "date": "2026-06-29",
+    "slot": "am",
+    "topic": "finance",
+    "topicLabel": "Finance & Economics",
+    "title": "Why beating the market is so hard",
+    "tldr": "A young economist named Eugene Fama gathered the evidence and argued that stock prices already bake in everything publicly known, so trying to outguess the market with public information is mostly a fool's errand.",
+    "readMinutes": 5,
+    "citation": "Fama, E. F. (1970), \"Efficient Capital Markets: A Review of Theory and Empirical Work\", The Journal of Finance 25(2), 383-417",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-28-pm",
     "date": "2026-06-28",
     "slot": "pm",
