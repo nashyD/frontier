@@ -1,15 +1,9 @@
 {
   "_README": "Ordered backlog of EXISTING landmark studies to teach, one per slot. The routine takes queue[0], writes the lesson, and moves that entry into done[]. Topics are interleaved so the cadence rotates. Add more any time; keep them real, well-documented, and teachable to a curious non-scientist. After the queue runs dry (or after a couple months), flip to surfacing NEW studies — see routines/.",
   "mode": "existing",
-  "queue": [
-    {
-      "topic": "frontier",
-      "topicLabel": "Frontier Tech",
-      "study": "Mayor & Queloz (1995), 'A Jupiter-mass companion to a solar-type star', Nature",
-      "angle": "The first planet found orbiting another sun-like star — and the method that found thousands more."
-    }
-  ],
+  "queue": [],
   "done": [
+    "2026-06-30-pm — frontier — Mayor, M. & Queloz, D. (1995), A Jupiter-mass companion to a solar-type star, Nature 378, 355-359",
     "2026-06-29-am — finance — Fama, E. F. (1970), Efficient Capital Markets: A Review of Theory and Empirical Work, The Journal of Finance 25(2), 383-417",
     "2026-06-27-pm — biohacking — Davidson, Kabat-Zinn, Schumacher, Rosenkranz, Muller, Santorelli, Urbanowski, Harrington, Bonus & Sheridan (2003), Alterations in Brain and Immune Function Produced by Mindfulness Meditation (Psychosomatic Medicine 65, 564-570)",
     "2026-06-26-pm — ai — Goodfellow, Pouget-Abadie, Mirza, Xu, Warde-Farley, Ozair, Courville & Bengio (2014), Generative Adversarial Nets (NeurIPS 27); arXiv:1406.2661",

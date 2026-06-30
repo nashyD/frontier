@@ -1678,5 +1678,53 @@
     ],
     "answer": 1,
     "why": "To call a return unusual you need a benchmark for normal, so every test judges efficiency and that benchmark together. An apparent anomaly might just mean your idea of normal was wrong."
+  },
+  {
+    "qid": "2026-06-30-pm#0",
+    "lessonId": "2026-06-30-pm",
+    "lessonTitle": "The wobble that found the first planet around another sun",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "How did Mayor and Queloz detect a planet they could not see?",
+    "choices": [
+      "They photographed it directly through a large telescope",
+      "They measured the tiny wobble its gravity caused in the star's motion",
+      "They listened for radio signals coming from the planet",
+      "They watched the planet pass in front of the star and dim it"
+    ],
+    "answer": 1,
+    "why": "They used the radial-velocity method: a planet's gravity tugs its star into a small circle, and that back-and-forth motion shows up as slight color shifts in the star's light."
+  },
+  {
+    "qid": "2026-06-30-pm#1",
+    "lessonId": "2026-06-30-pm",
+    "lessonTitle": "The wobble that found the first planet around another sun",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "What was so surprising about 51 Pegasi b?",
+    "choices": [
+      "It was a tiny rocky world like Earth",
+      "It was a giant gas planet orbiting extremely close to its star",
+      "It had no measurable effect on its star",
+      "It orbited far beyond where Pluto sits in our system"
+    ],
+    "answer": 1,
+    "why": "A Jupiter-mass planet circling in about four days, hotter than a thousand degrees, defied the textbook view that giant planets form and stay far out in the cold. It became the first known 'hot Jupiter'."
+  },
+  {
+    "qid": "2026-06-30-pm#2",
+    "lessonId": "2026-06-30-pm",
+    "lessonTitle": "The wobble that found the first planet around another sun",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "q": "Why does radial velocity give only a planet's minimum mass?",
+    "choices": [
+      "The instruments were not precise enough in 1995",
+      "Stars are too bright to measure accurately",
+      "It senses motion only along our line of sight, and the orbit's tilt is usually unknown",
+      "Planets change mass as they orbit"
+    ],
+    "answer": 2,
+    "why": "The method captures the star's motion toward and away from us. Without knowing how the orbit is tilted relative to our view, you can only set a floor on the planet's mass."
   }
 ]

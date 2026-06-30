@@ -1,0 +1,82 @@
+{
+  "id": "2026-06-30-pm",
+  "date": "2026-06-30",
+  "slot": "pm",
+  "topic": "frontier",
+  "topicLabel": "Frontier Tech",
+  "title": "The wobble that found the first planet around another sun",
+  "study": {
+    "citation": "Mayor, M. & Queloz, D. (1995), \"A Jupiter-mass companion to a solar-type star\", Nature 378, 355-359",
+    "year": 1995,
+    "link": "https://doi.org/10.1038/378355a0"
+  },
+  "tldr": "Two Swiss astronomers watched a sun-like star wobble on a four-day rhythm and realized an unseen planet was tugging it, the first world ever found orbiting a star like our own.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "For centuries people wondered whether other stars had planets like ours, but nobody had ever caught one. The trouble is that a planet is tiny and dim next to its star, like a firefly sitting beside a searchlight, so you cannot simply take a picture. By the early 1990s a few teams were trying a sneakier route. Michel Mayor and Didier Queloz, working in Switzerland, asked a sharper version of the question. Could you find a planet you cannot see by watching what it does to the star you can see? A planet's gravity should tug its star ever so slightly, and maybe that tug was finally measurable."
+    },
+    {
+      "h": "What they did",
+      "body": "They used a method called radial velocity, which means measuring how fast a star moves toward or away from us. As a planet circles a star, its gravity pulls the star into a small answering circle, so the star drifts a hair closer to Earth, then a hair farther, over and over. That motion shows up in the star's light: light shifts slightly bluer when the star approaches and slightly redder when it recedes, the same way a siren changes pitch as it passes. Mayor and Queloz built a sensitive instrument, the ELODIE spectrograph in southern France, to catch this featherweight shift in the star 51 Pegasi."
+    },
+    {
+      "h": "What they found",
+      "body": "The star was wobbling, and on a stunningly short rhythm. The whole cycle repeated about every four days, which meant a planet roughly the mass of Jupiter was whipping around 51 Pegasi in just over four days, skimming closer to its star than Mercury is to our Sun. That was shocking. A giant gas planet was not supposed to sit so close and so hot, since the textbook picture had big planets forming far out in the cold. They had found a Jupiter-sized world roasting at over a thousand degrees, a type nobody had predicted, soon nicknamed a hot Jupiter."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This was the first planet ever confirmed around a normal, sun-like star, announced in October 1995. It cracked a door that had been shut since antiquity and turned exoplanets from speculation into a field you could actually do. The radial-velocity trick they sharpened went on to reveal hundreds more worlds, and later survey telescopes pushed the count past five thousand. The discovery also forced theorists to rebuild their ideas of how planets move and settle into orbits. Mayor and Queloz shared the 2019 Nobel Prize in Physics for it, the rare case where a single measurement opened a whole branch of astronomy."
+    },
+    {
+      "h": "The catch",
+      "body": "Radial velocity has a built-in blind spot. It measures the star's wobble along our line of sight only, so it tells you a planet's minimum mass, not its exact mass, because you usually do not know the tilt of the orbit. So 51 Pegasi b is at least about half Jupiter's mass and probably near it, but the figure carries that caveat. The result was bold enough that other astronomers raced to check it, and Geoffrey Marcy and Paul Butler in California quickly confirmed the wobble was real. The method also favors big, close planets, which is partly why the first finds were strange hot Jupiters rather than cozy Earth twins."
+    }
+  ],
+  "terms": [
+    { "term": "Exoplanet", "def": "A planet that orbits a star other than our Sun." },
+    { "term": "Radial velocity", "def": "The speed at which a star is moving toward or away from us, which we read from tiny color shifts in its light." },
+    { "term": "Hot Jupiter", "def": "A giant gas planet, roughly Jupiter's size, that orbits very close to its star and is therefore extremely hot." }
+  ],
+  "takeaways": [
+    "You can find an invisible planet by watching its gravity make the star wobble, read as small color shifts in the star's light.",
+    "The first planet found around a sun-like star, 51 Pegasi b, was a giant world circling in about four days, a 'hot Jupiter' nobody expected.",
+    "One careful measurement in 1995 launched the whole field of exoplanets and earned a Nobel Prize 24 years later."
+  ],
+  "quiz": [
+    {
+      "q": "How did Mayor and Queloz detect a planet they could not see?",
+      "choices": [
+        "They photographed it directly through a large telescope",
+        "They measured the tiny wobble its gravity caused in the star's motion",
+        "They listened for radio signals coming from the planet",
+        "They watched the planet pass in front of the star and dim it"
+      ],
+      "answer": 1,
+      "why": "They used the radial-velocity method: a planet's gravity tugs its star into a small circle, and that back-and-forth motion shows up as slight color shifts in the star's light."
+    },
+    {
+      "q": "What was so surprising about 51 Pegasi b?",
+      "choices": [
+        "It was a tiny rocky world like Earth",
+        "It was a giant gas planet orbiting extremely close to its star",
+        "It had no measurable effect on its star",
+        "It orbited far beyond where Pluto sits in our system"
+      ],
+      "answer": 1,
+      "why": "A Jupiter-mass planet circling in about four days, hotter than a thousand degrees, defied the textbook view that giant planets form and stay far out in the cold. It became the first known 'hot Jupiter'."
+    },
+    {
+      "q": "Why does radial velocity give only a planet's minimum mass?",
+      "choices": [
+        "The instruments were not precise enough in 1995",
+        "Stars are too bright to measure accurately",
+        "It senses motion only along our line of sight, and the orbit's tilt is usually unknown",
+        "Planets change mass as they orbit"
+      ],
+      "answer": 2,
+      "why": "The method captures the star's motion toward and away from us. Without knowing how the orbit is tilted relative to our view, you can only set a floor on the planet's mass."
+    }
+  ]
+}

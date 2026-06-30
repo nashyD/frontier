@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-06-30-pm",
+    "date": "2026-06-30",
+    "slot": "pm",
+    "topic": "frontier",
+    "topicLabel": "Frontier Tech",
+    "title": "The wobble that found the first planet around another sun",
+    "tldr": "Two Swiss astronomers watched a sun-like star wobble on a four-day rhythm and realized an unseen planet was tugging it, the first world ever found orbiting a star like our own.",
+    "readMinutes": 5,
+    "citation": "Mayor, M. & Queloz, D. (1995), \"A Jupiter-mass companion to a solar-type star\", Nature 378, 355-359",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-29-am",
     "date": "2026-06-29",
     "slot": "am",
