@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-01-pm",
+    "date": "2026-07-01",
+    "slot": "pm",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "title": "The little shortcut that let AI networks go deep",
+    "tldr": "Four Microsoft researchers found that stacking more layers onto a neural network mysteriously made it worse, and they fixed it with a tiny shortcut wire that lets each layer learn only the small correction it needs, which let them train networks over a hundred layers deep and win the big 2015 vision contest.",
+    "readMinutes": 4,
+    "citation": "He, K., Zhang, X., Ren, S. & Sun, J. (2015), \"Deep Residual Learning for Image Recognition\", arXiv:1512.03385 (CVPR 2016)",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-01-am",
     "date": "2026-07-01",
     "slot": "am",

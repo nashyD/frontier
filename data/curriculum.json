@@ -2,7 +2,6 @@
   "_README": "Ordered backlog of EXISTING landmark studies to teach, one per slot. The routine takes queue[0], writes the lesson, and moves that entry into done[]. Topics are interleaved so the cadence rotates. Add more any time; keep them real, well-documented, and teachable to a curious non-scientist. After the queue runs dry (or after a couple months), flip to surfacing NEW studies — see routines/.",
   "mode": "existing",
   "queue": [
-    { "topic": "ai", "topicLabel": "Artificial Intelligence", "note": "He, Zhang, Ren & Sun (2015), Deep Residual Learning for Image Recognition (ResNet), arXiv:1512.03385 — skip connections that let very deep nets train" },
     { "topic": "biohacking", "topicLabel": "Biohacking & Longevity", "note": "van Praag, Christie, Sejnowski & Gage (1999), Running enhances neurogenesis, learning, and long-term potentiation in mice (PNAS 96(23), 13427-13431)" },
     { "topic": "finance", "topicLabel": "Finance & Markets", "note": "Black, F. & Scholes, M. (1973), The Pricing of Options and Corporate Liabilities, Journal of Political Economy 81(3), 637-654" },
     { "topic": "cannabis", "topicLabel": "Cannabis Science", "note": "Di Forti et al. (2019), The contribution of cannabis use to variation in the incidence of psychotic disorder across Europe (EU-GEI), Lancet Psychiatry 6(5), 427-436" },
@@ -10,6 +9,7 @@
     { "topic": "learning", "topicLabel": "Learning & Cognition", "note": "Baddeley, A. D. & Hitch, G. (1974), Working Memory, in The Psychology of Learning and Motivation, vol. 8, 47-89" }
   ],
   "done": [
+    "2026-07-01-pm — ai — He, Zhang, Ren & Sun (2015), Deep Residual Learning for Image Recognition (ResNet), arXiv:1512.03385",
     "2026-07-01-am — learning — Miller, G. A. (1956), The Magical Number Seven, Plus or Minus Two, Psychological Review 63(2), 81-97",
     "2026-06-30-pm — frontier — Mayor, M. & Queloz, D. (1995), A Jupiter-mass companion to a solar-type star, Nature 378, 355-359",
     "2026-06-29-am — finance — Fama, E. F. (1970), Efficient Capital Markets: A Review of Theory and Empirical Work, The Journal of Finance 25(2), 383-417",

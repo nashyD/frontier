@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-01-pm",
+  "date": "2026-07-01",
+  "slot": "pm",
+  "topic": "ai",
+  "topicLabel": "Artificial Intelligence",
+  "title": "The little shortcut that let AI networks go deep",
+  "study": {
+    "citation": "He, K., Zhang, X., Ren, S. & Sun, J. (2015), \"Deep Residual Learning for Image Recognition\", arXiv:1512.03385 (CVPR 2016)",
+    "year": 2015,
+    "link": "https://arxiv.org/abs/1512.03385"
+  },
+  "tldr": "Four Microsoft researchers found that stacking more layers onto a neural network mysteriously made it worse, and they fixed it with a tiny shortcut wire that lets each layer learn only the small correction it needs, which let them train networks over a hundred layers deep and win the big 2015 vision contest.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "By 2015, everyone in AI believed deeper was better. A neural network is a stack of layers, each a math system loosely modeled on brain cells that adjusts millions of internal numbers to spot patterns. More layers should mean more power to recognize complicated things. Yet researchers hit a wall. When Kaiming He and his colleagues at Microsoft Research stacked a network very deep, it did worse, and strangely it did worse even on the training data it had already seen. That ruled out the usual suspect of simply memorizing. Something about depth itself was breaking the learning. Why would adding layers hurt?"
+    },
+    {
+      "h": "What they did",
+      "body": "They reframed what each layer should learn. In a normal deep network, every layer has to reproduce the full signal it wants to pass along. The team added a shortcut, a wire that carries the layer's input straight past it and adds it back on the other side. Now the layers only need to learn the residual, the small difference between what comes in and what should go out. If a layer has nothing useful to add, it can simply learn to do almost nothing and let the shortcut pass the signal through untouched. They called the building block a residual block and stacked many of them, testing networks up to 152 layers deep."
+    },
+    {
+      "h": "What they found",
+      "body": "The shortcut fixed the depth problem. Ordinary deep networks got worse as they grew past a certain point, but the residual versions kept improving with depth, and a 152-layer model trained cleanly where a plain one of similar size stalled. On ImageNet, the giant benchmark of over a million labeled photos across a thousand categories, an ensemble of their residual networks reached about 3.57 percent error, low enough to win first place in the 2015 ImageNet competition. The same design also swept the year's top object-detection and segmentation contests, showing the trick was not a one-off but a general foundation."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "Residual networks, or ResNets, made real depth practical, and depth turned out to be the road to power. The shortcut idea, letting a signal skip ahead so later layers refine rather than rebuild it, spread far beyond image recognition. The Transformer, the architecture behind today's large language models, is packed with these same skip connections. So the wiring trick a vision team invented to classify photos now sits inside the systems that write text and code. Few papers get cited more; ResNet became a default starting point that a decade of AI quietly stands on."
+    },
+    {
+      "h": "The catch",
+      "body": "The paper showed the shortcut let very deep networks train, and it offered a clear intuition, though exactly why skip connections help so much is still debated, with later work pointing to smoother learning and healthier gradients. Extreme depth also brought diminishing returns. Pushing to 1,000 layers gave little extra accuracy for the added cost, so the sweet spot for most uses sits well below the maximum they tried. And residual networks are still ordinary pattern matchers underneath. They can be fooled by strange inputs and inherit the biases of their training photos, so depth bought capability without buying understanding."
+    }
+  ],
+  "terms": [
+    { "term": "Layer", "def": "One processing stage in a neural network that transforms the numbers passed to it before handing them to the next stage." },
+    { "term": "Residual (skip) connection", "def": "A shortcut wire that carries a layer's input straight past it and adds it back, so the layer only has to learn the small correction rather than the whole signal." },
+    { "term": "ImageNet", "def": "A benchmark dataset of over a million labeled photographs across a thousand categories, long used as the yardstick for image-recognition systems." }
+  ],
+  "takeaways": [
+    "Simply piling on more layers backfired: past a point, deeper plain networks did worse even on data they had already seen.",
+    "The fix was a shortcut that lets each layer learn only a small correction, which made networks over a hundred layers deep trainable and won the 2015 ImageNet contest.",
+    "The same skip-connection trick now lives inside the Transformers behind modern language models, making ResNet one of the quiet foundations of today's AI."
+  ],
+  "quiz": [
+    {
+      "q": "What surprising problem did the researchers set out to solve?",
+      "choices": [
+        "Very deep plain networks performed worse, even on their own training data",
+        "Networks were running out of memory",
+        "There were no large image datasets to train on",
+        "The networks were too fast to measure accurately"
+      ],
+      "answer": 0,
+      "why": "The puzzle was that stacking more layers onto an ordinary network degraded performance even on the training set, which meant the issue was the difficulty of training great depth rather than simply memorizing."
+    },
+    {
+      "q": "What does a residual (skip) connection actually do?",
+      "choices": [
+        "It deletes layers that are not needed",
+        "It carries a layer's input past it and adds it back, so the layer learns only the small correction",
+        "It compresses the image to save space",
+        "It randomly shuffles the network's numbers"
+      ],
+      "answer": 1,
+      "why": "The shortcut adds the input back to the output, so each layer only needs to learn the residual, the difference between input and desired output. A layer with nothing to add can pass the signal through nearly untouched."
+    },
+    {
+      "q": "Why does ResNet still matter well beyond image recognition?",
+      "choices": [
+        "It is only used for handwriting today",
+        "It was abandoned and replaced entirely",
+        "Its skip-connection idea is built into the Transformers behind modern language models",
+        "It only works on black-and-white photos"
+      ],
+      "answer": 2,
+      "why": "The skip connection turned out to be a general tool. Transformers, the architecture powering today's large language models, rely on the same shortcuts, so the trick invented for vision now underpins systems that generate text and code."
+    }
+  ]
+}

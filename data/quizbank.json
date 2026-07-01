@@ -1774,5 +1774,53 @@
     ],
     "answer": 1,
     "why": "Miller was half-joking about the exact figure. Later research, notably Cowan in 2001, put pure capacity closer to four, and the ceiling shifts with the material, so seven is a useful headline for a small, flexible limit."
+  },
+  {
+    "qid": "2026-07-01-pm#0",
+    "lessonId": "2026-07-01-pm",
+    "lessonTitle": "The little shortcut that let AI networks go deep",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What surprising problem did the researchers set out to solve?",
+    "choices": [
+      "Very deep plain networks performed worse, even on their own training data",
+      "Networks were running out of memory",
+      "There were no large image datasets to train on",
+      "The networks were too fast to measure accurately"
+    ],
+    "answer": 0,
+    "why": "The puzzle was that stacking more layers onto an ordinary network degraded performance even on the training set, which meant the issue was the difficulty of training great depth rather than simply memorizing."
+  },
+  {
+    "qid": "2026-07-01-pm#1",
+    "lessonId": "2026-07-01-pm",
+    "lessonTitle": "The little shortcut that let AI networks go deep",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What does a residual (skip) connection actually do?",
+    "choices": [
+      "It deletes layers that are not needed",
+      "It carries a layer's input past it and adds it back, so the layer learns only the small correction",
+      "It compresses the image to save space",
+      "It randomly shuffles the network's numbers"
+    ],
+    "answer": 1,
+    "why": "The shortcut adds the input back to the output, so each layer only needs to learn the residual, the difference between input and desired output. A layer with nothing to add can pass the signal through nearly untouched."
+  },
+  {
+    "qid": "2026-07-01-pm#2",
+    "lessonId": "2026-07-01-pm",
+    "lessonTitle": "The little shortcut that let AI networks go deep",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "Why does ResNet still matter well beyond image recognition?",
+    "choices": [
+      "It is only used for handwriting today",
+      "It was abandoned and replaced entirely",
+      "Its skip-connection idea is built into the Transformers behind modern language models",
+      "It only works on black-and-white photos"
+    ],
+    "answer": 2,
+    "why": "The skip connection turned out to be a general tool. Transformers, the architecture powering today's large language models, rely on the same shortcuts, so the trick invented for vision now underpins systems that generate text and code."
   }
 ]
