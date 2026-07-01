@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-01-am",
+    "date": "2026-07-01",
+    "slot": "am",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "title": "Why your mind can only juggle about seven things",
+    "tldr": "George Miller noticed that a strange ceiling of about seven items keeps showing up in how much the mind can hold and tell apart at once, and that the trick to beating it is bundling small items into bigger, meaningful chunks.",
+    "readMinutes": 4,
+    "citation": "Miller, G. A. (1956), \"The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information\", Psychological Review 63(2), 81-97",
+    "quizCount": 3
+  },
+  {
     "id": "2026-06-30-pm",
     "date": "2026-06-30",
     "slot": "pm",

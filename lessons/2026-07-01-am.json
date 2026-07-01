@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-01-am",
+  "date": "2026-07-01",
+  "slot": "am",
+  "topic": "learning",
+  "topicLabel": "Learning & Cognition",
+  "title": "Why your mind can only juggle about seven things",
+  "study": {
+    "citation": "Miller, G. A. (1956), \"The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information\", Psychological Review 63(2), 81-97",
+    "year": 1956,
+    "link": "https://doi.org/10.1037/h0043158"
+  },
+  "tldr": "George Miller noticed that a strange ceiling of about seven items keeps showing up in how much the mind can hold and tell apart at once, and that the trick to beating it is bundling small items into bigger, meaningful chunks.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "George Miller, a Princeton psychologist, kept bumping into the same number in unrelated experiments. When people judged how loud a tone was, or how salty a taste, or where a dot sat on a line, they could reliably sort the options into only about seven levels before they started making mistakes. When people tried to hold a fresh list in mind for a few seconds, they could keep about seven items. Why would the same suspicious number, seven give or take two, show up in two abilities that seem to have nothing to do with each other? Miller set out to make sense of the coincidence."
+    },
+    {
+      "h": "What they did",
+      "body": "This was a review, so Miller gathered dozens of existing experiments and looked for the pattern hiding across them. He borrowed a tool from engineering called information theory, which measures surprise in units called bits. One bit is the information in a single yes-or-no answer. He used it to ask a plain question: how much can a person take in from one stimulus and report back correctly? He lined up studies of hearing, taste, sight, and touch on one side, and studies of short-term memory span on the other, then compared the ceilings each one hit."
+    },
+    {
+      "h": "What they found",
+      "body": "Two different ceilings, both near seven, turned out to have different causes. For snap judgments of a single quality like pitch, the limit was the amount of information, roughly 2.5 bits, or about seven categories. Add a second dimension, say pitch and loudness together, and total capacity rose. For immediate memory the limit was the count of items, and it barely cared how much information each item carried. Miller's key insight was recoding: by grouping items into meaningful bundles he called chunks, you pack more into each of your seven slots. The phone number 8005551212 is ten digits or three easy chunks."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This paper helped launch the cognitive revolution, the shift toward treating the mind as a system that takes in, stores, and transforms information. The idea of the chunk gave psychology a unit for measuring mental workload, and it still shapes how we design. Phone numbers, license plates, and software licence keys get broken into small groups on purpose. Interface designers keep menus short. Teachers build lessons that bundle new facts onto familiar patterns so a beginner's few slots stretch further. Half a century on, chunking remains one of the most practical facts anyone can know about their own memory."
+    },
+    {
+      "h": "The catch",
+      "body": "Miller was half-joking about the number itself; his real point was the pattern, and he even teased that the recurring seven felt like being persecuted by an integer. Later work sharpened the figure downward. Nelson Cowan's influential 2001 review argued that pure short-term memory, once you strip out rehearsal and chunking tricks, holds closer to four items. The exact ceiling also depends on the material, how fast you can silently rehearse it, and how familiar it is. So treat seven as a memorable headline rather than a precise constant. The durable lesson is that capacity is small and that clever chunking is how you cheat the limit."
+    }
+  ],
+  "terms": [
+    { "term": "Chunk", "def": "A group of small items bound together into one meaningful unit, so it takes up a single slot in memory instead of several." },
+    { "term": "Bit", "def": "The basic unit of information, equal to the amount you learn from one yes-or-no answer." },
+    { "term": "Span of immediate memory", "def": "How many separate items you can hold in mind for a few seconds right after seeing or hearing them." }
+  ],
+  "takeaways": [
+    "Your mind holds only a handful of items at once, historically pegged near seven and by later work closer to four.",
+    "You beat the limit by chunking: bundling small pieces into fewer meaningful units, which is why 800-555-1212 is easier than 8005551212.",
+    "When you teach, present, or design, keep the raw item count low and group related things, since a beginner has very few slots to spend."
+  ],
+  "quiz": [
+    {
+      "q": "What did Miller identify as the trick for holding more in memory at once?",
+      "choices": [
+        "Repeating each item out loud many times",
+        "Grouping small items into larger meaningful chunks",
+        "Studying only in the morning",
+        "Writing everything down immediately"
+      ],
+      "answer": 1,
+      "why": "Miller called it recoding, or chunking. Your limited slots count chunks rather than raw items, so bundling pieces into meaningful units lets you carry far more information without adding slots."
+    },
+    {
+      "q": "Why did the same number appear in both snap judgments and memory span?",
+      "choices": [
+        "They are the same ability measured twice",
+        "It was a coincidence of two different limits landing near seven for different reasons",
+        "Both are set by how fast people can talk",
+        "Both depend only on eyesight"
+      ],
+      "answer": 1,
+      "why": "Miller's point was that two distinct ceilings happened to sit near seven. Snap judgment is capped by amount of information in bits, while memory span is capped by the number of chunks, so the shared number is partly a coincidence."
+    },
+    {
+      "q": "How should you treat the specific number seven today?",
+      "choices": [
+        "As an exact, unchanging law of the brain",
+        "As a memorable headline, with later work suggesting the true limit is smaller and depends on the material",
+        "As a myth that has been fully debunked",
+        "As a rule that applies only to phone numbers"
+      ],
+      "answer": 1,
+      "why": "Miller was half-joking about the exact figure. Later research, notably Cowan in 2001, put pure capacity closer to four, and the ceiling shifts with the material, so seven is a useful headline for a small, flexible limit."
+    }
+  ]
+}

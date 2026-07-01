@@ -1726,5 +1726,53 @@
     ],
     "answer": 2,
     "why": "The method captures the star's motion toward and away from us. Without knowing how the orbit is tilted relative to our view, you can only set a floor on the planet's mass."
+  },
+  {
+    "qid": "2026-07-01-am#0",
+    "lessonId": "2026-07-01-am",
+    "lessonTitle": "Why your mind can only juggle about seven things",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What did Miller identify as the trick for holding more in memory at once?",
+    "choices": [
+      "Repeating each item out loud many times",
+      "Grouping small items into larger meaningful chunks",
+      "Studying only in the morning",
+      "Writing everything down immediately"
+    ],
+    "answer": 1,
+    "why": "Miller called it recoding, or chunking. Your limited slots count chunks rather than raw items, so bundling pieces into meaningful units lets you carry far more information without adding slots."
+  },
+  {
+    "qid": "2026-07-01-am#1",
+    "lessonId": "2026-07-01-am",
+    "lessonTitle": "Why your mind can only juggle about seven things",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "Why did the same number appear in both snap judgments and memory span?",
+    "choices": [
+      "They are the same ability measured twice",
+      "It was a coincidence of two different limits landing near seven for different reasons",
+      "Both are set by how fast people can talk",
+      "Both depend only on eyesight"
+    ],
+    "answer": 1,
+    "why": "Miller's point was that two distinct ceilings happened to sit near seven. Snap judgment is capped by amount of information in bits, while memory span is capped by the number of chunks, so the shared number is partly a coincidence."
+  },
+  {
+    "qid": "2026-07-01-am#2",
+    "lessonId": "2026-07-01-am",
+    "lessonTitle": "Why your mind can only juggle about seven things",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "How should you treat the specific number seven today?",
+    "choices": [
+      "As an exact, unchanging law of the brain",
+      "As a memorable headline, with later work suggesting the true limit is smaller and depends on the material",
+      "As a myth that has been fully debunked",
+      "As a rule that applies only to phone numbers"
+    ],
+    "answer": 1,
+    "why": "Miller was half-joking about the exact figure. Later research, notably Cowan in 2001, put pure capacity closer to four, and the ceiling shifts with the material, so seven is a useful headline for a small, flexible limit."
   }
 ]
