@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-02-pm",
+    "date": "2026-07-02",
+    "slot": "pm",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "title": "The formula that gave options a fair price",
+    "tldr": "Black and Scholes showed you can pin down an option's fair price by imagining a risk-free bundle of the option and its stock, using five simple inputs while ignoring the one thing everyone argues about — where the stock is headed.",
+    "readMinutes": 4,
+    "citation": "Black, F. & Scholes, M. (1973), \"The Pricing of Options and Corporate Liabilities\", Journal of Political Economy 81(3), 637-654",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-02-am",
     "date": "2026-07-02",
     "slot": "am",

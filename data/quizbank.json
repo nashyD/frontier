@@ -1870,5 +1870,53 @@
     ],
     "answer": 2,
     "why": "The work is landmark mouse evidence, but human adult neurogenesis remains contested and the tools that work in mice are hard to apply to people. The result is a strong foundation, not proof that a jog rewires the human brain."
+  },
+  {
+    "qid": "2026-07-02-pm#0",
+    "lessonId": "2026-07-02-pm",
+    "lessonTitle": "The formula that gave options a fair price",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "According to the model, which of these is NOT needed to price the option?",
+    "choices": [
+      "Today's stock price",
+      "The stock's expected future return",
+      "The time left until the option expires",
+      "The stock's volatility"
+    ],
+    "answer": 1,
+    "why": "A famous feature of the formula is that the stock's expected return drops out entirely. Because the trader continuously hedges the option with the stock, personal opinions about where the price is headed cancel, and they never touch the price."
+  },
+  {
+    "qid": "2026-07-02-pm#1",
+    "lessonId": "2026-07-02-pm",
+    "lessonTitle": "The formula that gave options a fair price",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "What clever trick let Black and Scholes pin down the price?",
+    "choices": [
+      "Accurately predicting the stock's future direction",
+      "Building a continuously adjusted mix of the option and its stock that carries almost no risk, which must earn the safe interest rate",
+      "Surveying experienced traders and averaging their guesses",
+      "Copying the prices of similar options from the past"
+    ],
+    "answer": 1,
+    "why": "They imagined a hedged bundle whose value barely moves with the stock. A risk-free bundle can only earn the safe rate, or someone could make free money. That constraint is what forces the option to a single fair price."
+  },
+  {
+    "qid": "2026-07-02-pm#2",
+    "lessonId": "2026-07-02-pm",
+    "lessonTitle": "The formula that gave options a fair price",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "What is an honest limitation of the Black-Scholes formula?",
+    "choices": [
+      "It can only price stocks, never options",
+      "It assumes volatility stays constant and prices move smoothly, assumptions that markets violate during crashes and sudden jumps",
+      "It requires knowing the stock's exact future price",
+      "It was too complicated for traders to ever actually use"
+    ],
+    "answer": 1,
+    "why": "The math assumes steady volatility and smooth price paths with no trading costs. Real markets gap, crash, and see volatility surge, which is why traders adjust prices in patterns like the volatility smile rather than trusting the raw formula."
   }
 ]

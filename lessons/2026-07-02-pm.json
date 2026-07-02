@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-02-pm",
+  "date": "2026-07-02",
+  "slot": "pm",
+  "topic": "finance",
+  "topicLabel": "Finance & Markets",
+  "title": "The formula that gave options a fair price",
+  "study": {
+    "citation": "Black, F. & Scholes, M. (1973), \"The Pricing of Options and Corporate Liabilities\", Journal of Political Economy 81(3), 637-654",
+    "year": 1973,
+    "link": "https://doi.org/10.1086/260062"
+  },
+  "tldr": "Black and Scholes showed you can pin down an option's fair price by imagining a risk-free bundle of the option and its stock, using five simple inputs while ignoring the one thing everyone argues about — where the stock is headed.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "An option is a contract that gives you the right, but no obligation, to buy a stock at a set price by a set date. Before 1973 nobody had a trustworthy way to say what that right should cost today. Traders leaned on rules of thumb and gut feel. The puzzle was hard because a good answer had to account for how the stock might move over the coming months, which felt hopelessly uncertain. Fischer Black and Myron Scholes wanted a price built on something firmer than opinion: the plain idea that a fair price leaves no room for a guaranteed profit."
+    },
+    {
+      "h": "What they did",
+      "body": "Their key move was a thought experiment. Imagine holding an option alongside a carefully chosen amount of the underlying stock, and constantly adjusting that amount as the price drifts. Tuned just right, the bundle barely reacts when the stock wiggles up or down, so it carries almost no risk. And a risk-free bundle must earn the same return as money left in a safe bank account, because otherwise a trader could combine the two and pocket free money. Writing that no-free-lunch rule as an equation, and solving it, produced one clean formula for the option's fair price."
+    },
+    {
+      "h": "What they found",
+      "body": "The formula prices an option from a short list of inputs: today's stock price, the agreed purchase price, the time left until the option expires, the safe interest rate, and how jumpy the stock is, a quantity called its volatility. One thing is strikingly absent. The stock's expected return never appears. Whether you are convinced the stock will soar or sink makes no difference to the price, because the continuous hedging cancels that opinion out. The messy question of where the market is headed simply falls away, leaving a single number almost anyone can compute."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "The timing was uncanny. The formula appeared just as the first modern options exchange opened in Chicago, and traders adopted it fast, some carrying calculators and printed tables tuned to it onto the floor. It turned option pricing from guesswork into something closer to engineering and seeded the entire world of financial derivatives now measured in trillions. Robert Merton worked out much of the underlying math in a companion paper. In 1997 Scholes and Merton received the Nobel Prize in economics; Fischer Black had died in 1995, and the prize is not awarded posthumously."
+    },
+    {
+      "h": "The catch",
+      "body": "The formula rests on tidy assumptions that real markets break. It treats volatility as constant and known, assumes prices glide smoothly without sudden jumps, and ignores the cost of trading. Actual markets crash, gap overnight, and see volatility swing wildly. After the 1987 crash, traders began pricing options in a way that visibly departs from the basic formula, a pattern nicknamed the volatility smile. And in 1998 the hedge fund Long-Term Capital Management, with Scholes and Merton on its board, nearly seized up the financial system. Treat the formula as a foundation and a shared language while remembering it cannot foresee a crash."
+    }
+  ],
+  "terms": [
+    { "term": "Option", "def": "A contract giving its holder the right, but not the obligation, to buy or sell an asset at a fixed price by a set date." },
+    { "term": "Volatility", "def": "A measure of how much a stock's price tends to swing around; higher volatility means bigger, more frequent moves." },
+    { "term": "Hedging", "def": "Offsetting the risk of one position by taking an opposing one, so a gain on one side roughly cancels a loss on the other." }
+  ],
+  "takeaways": [
+    "Black and Scholes priced an option by imagining a risk-free bundle of the option and its stock; if that bundle can't beat a safe deposit, the option's price is pinned down.",
+    "The fair price depends on five inputs — stock price, agreed purchase price, time to expiry, interest rate, and volatility — and pointedly ignores whether you expect the stock to rise or fall.",
+    "It turned options into a calculable market and launched modern derivatives, yet its clean assumptions gloss over crashes, price jumps, and shifting volatility."
+  ],
+  "quiz": [
+    {
+      "q": "According to the model, which of these is NOT needed to price the option?",
+      "choices": [
+        "Today's stock price",
+        "The stock's expected future return",
+        "The time left until the option expires",
+        "The stock's volatility"
+      ],
+      "answer": 1,
+      "why": "A famous feature of the formula is that the stock's expected return drops out entirely. Because the trader continuously hedges the option with the stock, personal opinions about where the price is headed cancel, and they never touch the price."
+    },
+    {
+      "q": "What clever trick let Black and Scholes pin down the price?",
+      "choices": [
+        "Accurately predicting the stock's future direction",
+        "Building a continuously adjusted mix of the option and its stock that carries almost no risk, which must earn the safe interest rate",
+        "Surveying experienced traders and averaging their guesses",
+        "Copying the prices of similar options from the past"
+      ],
+      "answer": 1,
+      "why": "They imagined a hedged bundle whose value barely moves with the stock. A risk-free bundle can only earn the safe rate, or someone could make free money. That constraint is what forces the option to a single fair price."
+    },
+    {
+      "q": "What is an honest limitation of the Black-Scholes formula?",
+      "choices": [
+        "It can only price stocks, never options",
+        "It assumes volatility stays constant and prices move smoothly, assumptions that markets violate during crashes and sudden jumps",
+        "It requires knowing the stock's exact future price",
+        "It was too complicated for traders to ever actually use"
+      ],
+      "answer": 1,
+      "why": "The math assumes steady volatility and smooth price paths with no trading costs. Real markets gap, crash, and see volatility surge, which is why traders adjust prices in patterns like the volatility smile rather than trusting the raw formula."
+    }
+  ]
+}
