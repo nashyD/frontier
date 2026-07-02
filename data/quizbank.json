@@ -1822,5 +1822,53 @@
     ],
     "answer": 2,
     "why": "The skip connection turned out to be a general tool. Transformers, the architecture powering today's large language models, rely on the same shortcuts, so the trick invented for vision now underpins systems that generate text and code."
+  },
+  {
+    "qid": "2026-07-02-am#0",
+    "lessonId": "2026-07-02-am",
+    "lessonTitle": "Mice on a running wheel grew new brain cells and learned faster",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking & Longevity",
+    "q": "How did the researchers count newly born brain cells in the mice?",
+    "choices": [
+      "They weighed each mouse's brain before and after",
+      "They injected BrdU, which tags any cell that is dividing so it can be counted later",
+      "They watched the neurons form under a live microscope",
+      "They measured how much the mice ran"
+    ],
+    "answer": 1,
+    "why": "BrdU gets built into the DNA of dividing cells, leaving a permanent tag. By counting BrdU-marked cells in the dentate gyrus, the team could measure how many new neurons had been born during the study."
+  },
+  {
+    "qid": "2026-07-02-am#1",
+    "lessonId": "2026-07-02-am",
+    "lessonTitle": "Mice on a running wheel grew new brain cells and learned faster",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking & Longevity",
+    "q": "Where in the brain did the improvements concentrate?",
+    "choices": [
+      "Across the entire brain equally",
+      "In the dentate gyrus of the hippocampus, while a neighboring region showed no boost",
+      "Only in the visual cortex",
+      "In the muscles the mice used to run"
+    ],
+    "answer": 1,
+    "why": "New neurons and stronger connections both showed up in the dentate gyrus, one slice of the hippocampus. A nearby hippocampal region did not show the same strengthening, so the effect was specific rather than brain-wide."
+  },
+  {
+    "qid": "2026-07-02-am#2",
+    "lessonId": "2026-07-02-am",
+    "lessonTitle": "Mice on a running wheel grew new brain cells and learned faster",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking & Longevity",
+    "q": "What is the most honest limitation of this study?",
+    "choices": [
+      "It proved exercise makes humans smarter",
+      "The mice did not actually run",
+      "It was done in mice, and whether adult humans grow meaningful numbers of new neurons is still debated",
+      "The researchers never measured learning"
+    ],
+    "answer": 2,
+    "why": "The work is landmark mouse evidence, but human adult neurogenesis remains contested and the tools that work in mice are hard to apply to people. The result is a strong foundation, not proof that a jog rewires the human brain."
   }
 ]

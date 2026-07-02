@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-02-am",
+  "date": "2026-07-02",
+  "slot": "am",
+  "topic": "biohacking",
+  "topicLabel": "Biohacking & Longevity",
+  "title": "Mice on a running wheel grew new brain cells and learned faster",
+  "study": {
+    "citation": "van Praag, H., Christie, B. R., Sejnowski, T. J. & Gage, F. H. (1999), \"Running Enhances Neurogenesis, Learning, and Long-Term Potentiation in Mice\", Proceedings of the National Academy of Sciences 96(23), 13427-13431",
+    "year": 1999,
+    "link": "https://doi.org/10.1073/pnas.96.23.13427"
+  },
+  "tldr": "Mice that chose to run on a wheel roughly boosted the birth of new neurons in a memory region of the brain and learned a spatial task faster than couch-potato mice.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "For most of the twentieth century, scientists believed the adult brain was fixed: you were born with all the neurons you would ever have. By the late 1990s that dogma was cracking. Evidence showed that one small region, the hippocampus, keeps minting fresh neurons throughout life. Fred Gage's lab and his colleagues wanted to know whether everyday behavior could speed that process up. Their question was simple and testable: if a mouse chooses to run on a wheel, does its brain make more new neurons, and does the animal actually learn better because of it?"
+    },
+    {
+      "h": "What they did",
+      "body": "They kept mice in two setups. One group had a running wheel and used it freely; the other lived in a plain cage. To spot newborn brain cells, they injected the mice with bromodeoxyuridine, or BrdU, a chemical that lodges in the DNA of any cell that is dividing, tagging it so it can be counted later under a microscope. They tested memory with the Morris water maze, a pool of cloudy water hiding a submerged platform the mouse must learn to locate. Finally, in thin slices of hippocampus kept alive in a dish, they measured how strongly neurons could reinforce their connections."
+    },
+    {
+      "h": "What they found",
+      "body": "Runners came out ahead across the board. In the water maze they reached the hidden platform faster and by shorter paths, a mark of sharper spatial memory. Their brains held far more BrdU-tagged cells in the dentate gyrus, a slice of the hippocampus, meaning running had strongly increased the birth of new neurons there. In that same region, the strengthening of neuron-to-neuron connections was more pronounced in runners, while a neighboring region showed no such change. New neurons, stronger connections, and better learning had all risen together, and all in one place."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "The study tied a plain behavior, voluntary running, straight to the machinery of memory in the adult brain. It helped cement the then-startling idea that adult brains keep growing new neurons and that how we live can tune the pace. It kicked off a whole field on how exercise reshapes the brain, and pointed toward the chemical messengers, like a growth factor called BDNF, that later work showed carry exercise's signal to neurons. The finding still underpins the everyday advice that moving your body is good for your mind, and it shaped research on aging and mood."
+    },
+    {
+      "h": "The catch",
+      "body": "These were mice, and mouse brains are not human brains. A rodent doubling its new-neuron count in one region does not promise a person will think faster after a jog. Whether adult humans grow meaningful numbers of new neurons is still genuinely debated: some studies find strong evidence, others find little, and the tools that work in mice are hard to use in people. The study also shows running and better memory traveling together without fully proving the new neurons caused the learning gain. Treat it as strong, foundational evidence rather than a closed case."
+    }
+  ],
+  "terms": [
+    { "term": "Neurogenesis", "def": "The birth of brand-new neurons; once thought to stop after childhood, it continues in parts of the adult brain." },
+    { "term": "Bromodeoxyuridine (BrdU)", "def": "A chemical marker that slips into the DNA of dividing cells, tagging newborn cells so scientists can count them later." },
+    { "term": "Long-term potentiation (LTP)", "def": "A lasting strengthening of the connection between two neurons, widely treated as a physical stand-in for a memory being stored." }
+  ],
+  "takeaways": [
+    "In mice, voluntary running strongly increased the birth of new neurons in a memory region of the brain and came with better performance on a spatial memory test.",
+    "The gains clustered in one spot, the dentate gyrus of the hippocampus, where new neurons, stronger cell connections, and learning all improved together.",
+    "It is landmark evidence that ordinary behavior can tune the adult brain, though whether the same thing happens in humans is still actively debated."
+  ],
+  "quiz": [
+    {
+      "q": "How did the researchers count newly born brain cells in the mice?",
+      "choices": [
+        "They weighed each mouse's brain before and after",
+        "They injected BrdU, which tags any cell that is dividing so it can be counted later",
+        "They watched the neurons form under a live microscope",
+        "They measured how much the mice ran"
+      ],
+      "answer": 1,
+      "why": "BrdU gets built into the DNA of dividing cells, leaving a permanent tag. By counting BrdU-marked cells in the dentate gyrus, the team could measure how many new neurons had been born during the study."
+    },
+    {
+      "q": "Where in the brain did the improvements concentrate?",
+      "choices": [
+        "Across the entire brain equally",
+        "In the dentate gyrus of the hippocampus, while a neighboring region showed no boost",
+        "Only in the visual cortex",
+        "In the muscles the mice used to run"
+      ],
+      "answer": 1,
+      "why": "New neurons and stronger connections both showed up in the dentate gyrus, one slice of the hippocampus. A nearby hippocampal region did not show the same strengthening, so the effect was specific rather than brain-wide."
+    },
+    {
+      "q": "What is the most honest limitation of this study?",
+      "choices": [
+        "It proved exercise makes humans smarter",
+        "The mice did not actually run",
+        "It was done in mice, and whether adult humans grow meaningful numbers of new neurons is still debated",
+        "The researchers never measured learning"
+      ],
+      "answer": 2,
+      "why": "The work is landmark mouse evidence, but human adult neurogenesis remains contested and the tools that work in mice are hard to apply to people. The result is a strong foundation, not proof that a jog rewires the human brain."
+    }
+  ]
+}

@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-02-am",
+    "date": "2026-07-02",
+    "slot": "am",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking & Longevity",
+    "title": "Mice on a running wheel grew new brain cells and learned faster",
+    "tldr": "Mice that chose to run on a wheel roughly boosted the birth of new neurons in a memory region of the brain and learned a spatial task faster than couch-potato mice.",
+    "readMinutes": 4,
+    "citation": "van Praag, H., Christie, B. R., Sejnowski, T. J. & Gage, F. H. (1999), \"Running Enhances Neurogenesis, Learning, and Long-Term Potentiation in Mice\", Proceedings of the National Academy of Sciences 96(23), 13427-13431",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-01-pm",
     "date": "2026-07-01",
     "slot": "pm",
