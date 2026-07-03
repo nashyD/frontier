@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-03-am",
+    "date": "2026-07-03",
+    "slot": "am",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "title": "Where strong cannabis is common, psychosis is too",
+    "tldr": "Across European cities, people who used cannabis every day had about triple the odds of a first psychotic episode, and those who used high-strength cannabis daily had roughly five times the odds — and the cities where such use was common were exactly the cities with the most psychosis.",
+    "readMinutes": 4,
+    "citation": "Di Forti, M. et al. (2019), \"The contribution of cannabis use to variation in the incidence of psychotic disorder across Europe (EU-GEI): a multicentre case-control study\", The Lancet Psychiatry 6(5), 427-436",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-02-pm",
     "date": "2026-07-02",
     "slot": "pm",

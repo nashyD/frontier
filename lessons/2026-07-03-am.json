@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-03-am",
+  "date": "2026-07-03",
+  "slot": "am",
+  "topic": "cannabis",
+  "topicLabel": "Cannabis Science",
+  "title": "Where strong cannabis is common, psychosis is too",
+  "study": {
+    "citation": "Di Forti, M. et al. (2019), \"The contribution of cannabis use to variation in the incidence of psychotic disorder across Europe (EU-GEI): a multicentre case-control study\", The Lancet Psychiatry 6(5), 427-436",
+    "year": 2019,
+    "link": "https://doi.org/10.1016/S2215-0366(19)30048-3"
+  },
+  "tldr": "Across European cities, people who used cannabis every day had about triple the odds of a first psychotic episode, and those who used high-strength cannabis daily had roughly five times the odds — and the cities where such use was common were exactly the cities with the most psychosis.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Psychosis, a state where the mind loses contact with reality through hallucinations or delusions, does not strike every city equally. New cases are several times more common in some European cities than in others, and for years nobody could fully explain the gap. Marta Di Forti and a large team wondered whether cannabis had a hand in it. People had long suspected a link between heavy cannabis use and psychosis, but a nagging question remained: could differences in how much cannabis people smoke, and how strong it is, actually help explain why one city sees far more psychosis than another?"
+    },
+    {
+      "h": "What they did",
+      "body": "They ran a case-control study, meaning they compared two groups: people who had just had their first psychotic episode, and healthy neighbours from the same areas. In total they gathered 901 first-episode cases and 1237 controls across 11 sites in Europe and Brazil. Everyone answered detailed questions about their cannabis habits, including how often they used it and which type. The team then rated each type's strength using market data on THC, the main mind-altering ingredient in cannabis, labelling anything with a THC level of 10% or more as high-potency. That let them compare gentle occasional use against strong daily use."
+    },
+    {
+      "h": "What they found",
+      "body": "The pattern was steep. Compared with people who had never used cannabis, daily users had about three times the odds of a psychotic episode. Those who used high-potency cannabis every day fared worse still, with close to five times the odds. The city-level picture lined up with the personal one. In places like Amsterdam and London, where strong daily use was common, psychosis was common too. The researchers estimated that if high-potency cannabis vanished from Amsterdam, roughly half of new psychosis cases there might not occur; in London, about a third — assuming the link truly runs from cannabis to illness."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This study connected a private habit to a public health map. It suggested that the differing intensity and strength of cannabis use could account for a large slice of why psychosis rates swing so widely between cities. That matters now because cannabis is being legalised and commercialised in many places, and the average product keeps getting stronger. The work gives policymakers something concrete to weigh: the strength of what is sold, not merely whether it is legal, may shape how many people develop a serious mental illness. It reframed potency as a public health lever worth watching."
+    },
+    {
+      "h": "The catch",
+      "body": "A case-control study can reveal a strong association, yet it cannot prove that cannabis causes psychosis. The arrow might partly run the other way, if people in the early, unsettling stages of illness reach for cannabis to cope. Memory is another weak point: people recalled past habits, and memories bend. Potency was estimated from what the local market typically sold rather than measured in each person's blood, so it is an approximation. The headline claim that removing high-potency cannabis would prevent many cases rests on the assumption of causation, which this design alone cannot establish."
+    }
+  ],
+  "terms": [
+    { "term": "Psychosis", "def": "A mental state in which someone loses touch with reality, often through hallucinations (sensing things that aren't there) or delusions (firmly held false beliefs)." },
+    { "term": "THC (potency)", "def": "Tetrahydrocannabinol, the main ingredient in cannabis that produces the high; a higher THC percentage means a stronger, more potent product." },
+    { "term": "Case-control study", "def": "A study that compares people who have a condition with similar people who don't, then looks backward for differences in their past habits or exposures." }
+  ],
+  "takeaways": [
+    "Daily cannabis use was tied to roughly triple the odds of a first psychotic episode, and daily use of high-strength cannabis to nearly five times the odds.",
+    "The cities awash in strong daily use, such as Amsterdam and London, were also the cities with the most psychosis — linking an individual habit to a population-wide pattern.",
+    "Because this is a case-control study, it shows a strong association and a plausible story, yet it cannot by itself prove that cannabis causes psychosis."
+  ],
+  "quiz": [
+    {
+      "q": "Which pattern of use was linked to the highest odds of a psychotic episode?",
+      "choices": [
+        "Occasional use of low-strength cannabis",
+        "Daily use of high-potency cannabis",
+        "Having tried cannabis once or twice",
+        "Never using cannabis at all"
+      ],
+      "answer": 1,
+      "why": "The odds climbed with both frequency and strength. Daily users had about three times the odds versus never-users, and those using high-potency cannabis daily had close to five times the odds — the steepest risk in the study."
+    },
+    {
+      "q": "Why can't this study prove that cannabis causes psychosis?",
+      "choices": [
+        "It didn't include enough people to matter",
+        "It only studied people in a single city",
+        "Its case-control design shows association, and the link could partly run the other way or reflect other factors",
+        "The researchers never asked about cannabis use"
+      ],
+      "answer": 2,
+      "why": "A case-control study compares people with and without a condition and looks backward at their habits. That reveals strong associations but can't rule out reverse causation — such as early illness prompting cannabis use — or other hidden differences between the groups."
+    },
+    {
+      "q": "How did the researchers judge whether cannabis was 'high-potency'?",
+      "choices": [
+        "By testing each participant's blood for THC",
+        "By asking participants how high they felt",
+        "By using market data on typical THC levels, labelling 10% or more as high-potency",
+        "By the colour and smell of the cannabis"
+      ],
+      "answer": 2,
+      "why": "They estimated potency from data on what each local market typically sold, treating products at 10% THC or above as high-potency. That's an approximation rather than a direct measurement in each person, which is one of the study's limitations."
+    }
+  ]
+}

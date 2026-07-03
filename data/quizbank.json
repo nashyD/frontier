@@ -1918,5 +1918,53 @@
     ],
     "answer": 1,
     "why": "The math assumes steady volatility and smooth price paths with no trading costs. Real markets gap, crash, and see volatility surge, which is why traders adjust prices in patterns like the volatility smile rather than trusting the raw formula."
+  },
+  {
+    "qid": "2026-07-03-am#0",
+    "lessonId": "2026-07-03-am",
+    "lessonTitle": "Where strong cannabis is common, psychosis is too",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Which pattern of use was linked to the highest odds of a psychotic episode?",
+    "choices": [
+      "Occasional use of low-strength cannabis",
+      "Daily use of high-potency cannabis",
+      "Having tried cannabis once or twice",
+      "Never using cannabis at all"
+    ],
+    "answer": 1,
+    "why": "The odds climbed with both frequency and strength. Daily users had about three times the odds versus never-users, and those using high-potency cannabis daily had close to five times the odds — the steepest risk in the study."
+  },
+  {
+    "qid": "2026-07-03-am#1",
+    "lessonId": "2026-07-03-am",
+    "lessonTitle": "Where strong cannabis is common, psychosis is too",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Why can't this study prove that cannabis causes psychosis?",
+    "choices": [
+      "It didn't include enough people to matter",
+      "It only studied people in a single city",
+      "Its case-control design shows association, and the link could partly run the other way or reflect other factors",
+      "The researchers never asked about cannabis use"
+    ],
+    "answer": 2,
+    "why": "A case-control study compares people with and without a condition and looks backward at their habits. That reveals strong associations but can't rule out reverse causation — such as early illness prompting cannabis use — or other hidden differences between the groups."
+  },
+  {
+    "qid": "2026-07-03-am#2",
+    "lessonId": "2026-07-03-am",
+    "lessonTitle": "Where strong cannabis is common, psychosis is too",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "How did the researchers judge whether cannabis was 'high-potency'?",
+    "choices": [
+      "By testing each participant's blood for THC",
+      "By asking participants how high they felt",
+      "By using market data on typical THC levels, labelling 10% or more as high-potency",
+      "By the colour and smell of the cannabis"
+    ],
+    "answer": 2,
+    "why": "They estimated potency from data on what each local market typically sold, treating products at 10% THC or above as high-potency. That's an approximation rather than a direct measurement in each person, which is one of the study's limitations."
   }
 ]
