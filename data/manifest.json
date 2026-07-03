@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-03-pm",
+    "date": "2026-07-03",
+    "slot": "pm",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "title": "How DNA copies itself: the most beautiful experiment",
+    "tldr": "By weighing DNA before and after cells divided, two young scientists showed that each new DNA molecule keeps one old strand and builds one fresh one — settling how life copies its own instructions.",
+    "readMinutes": 4,
+    "citation": "Meselson, M. & Stahl, F. W. (1958), \"The Replication of DNA in Escherichia coli\", PNAS 44(7), 671-682",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-03-am",
     "date": "2026-07-03",
     "slot": "am",

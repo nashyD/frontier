@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-03-pm",
+  "date": "2026-07-03",
+  "slot": "pm",
+  "topic": "frontier",
+  "topicLabel": "Frontier Science",
+  "title": "How DNA copies itself: the most beautiful experiment",
+  "study": {
+    "citation": "Meselson, M. & Stahl, F. W. (1958), \"The Replication of DNA in Escherichia coli\", PNAS 44(7), 671-682",
+    "year": 1958,
+    "link": "https://doi.org/10.1073/pnas.44.7.671"
+  },
+  "tldr": "By weighing DNA before and after cells divided, two young scientists showed that each new DNA molecule keeps one old strand and builds one fresh one — settling how life copies its own instructions.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "In 1953 Watson and Crick described DNA as a twisted ladder of two strands. Their model hinted at how it might copy itself: unzip the ladder, and let each old strand serve as a template for a new partner. That idea was called semiconservative, meaning each copy keeps half of the original. But it was only a guess. Two rival ideas were alive too: maybe the whole ladder stayed intact and spat out a brand-new one, or maybe it shattered and rebuilt in pieces. Nobody had a way to watch DNA copy itself and tell which story was true."
+    },
+    {
+      "h": "What they did",
+      "body": "Matthew Meselson and Franklin Stahl found a way to weigh DNA. They fed the bacterium E. coli a heavy form of nitrogen, called nitrogen-15, so every DNA strand the cells built came out slightly heavier than normal. Then they switched the food to ordinary light nitrogen and let the cells divide. At each generation they spun the extracted DNA in a fast centrifuge filled with a salt solution, which sorts molecules by density: heavier DNA sinks lower, lighter DNA floats higher. By reading where the DNA settled into bands, they could tell heavy, light, and half-and-half apart."
+    },
+    {
+      "h": "What they found",
+      "body": "The bands told a clean story. Before the switch, all the DNA was heavy and formed one low band. After one round of copying in light food, the heavy band was gone and a single band appeared exactly halfway between heavy and light. That meant every new molecule was a blend of old and new material. After a second round, two bands showed up: one fully light, and one still half-and-half. That is precisely the pattern the semiconservative idea predicts, and it ruled out the other two models."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This was the proof that DNA copies itself by keeping one original strand as a guide. It turned a sketch on paper into a settled fact, and it explained how a cell can pass faithful instructions to its descendants for billions of years. Everything downstream leans on it: how mutations arise, how cells repair damage, and the whole toolkit of modern biology, including the copying reactions inside a DNA test and a genome sequencer. Its elegance earned it a nickname among biologists, the most beautiful experiment in biology, because it answered a deep question with such a simple, clear picture."
+    },
+    {
+      "h": "The catch",
+      "body": "The experiment was done in a single bacterium under tidy lab conditions, and it showed the overall pattern of copying without revealing the machinery that does the work. It could not name the enzymes that unzip and build the strands, or explain how the cell manages the tangle of unwinding a long, twisted molecule. Those details took decades of further work. The result is rock-solid for the big question it asked, yet it is one clean snapshot of a process that turned out to be far more intricate than two bands in a tube could ever show."
+    }
+  ],
+  "terms": [
+    { "term": "DNA strand", "def": "One side of the DNA ladder — a long chain that carries the genetic code and can serve as a template for building its matching partner." },
+    { "term": "Semiconservative replication", "def": "The way DNA copies itself: the two strands separate, and each old strand becomes the guide for a new partner, so every copy is half old and half new." },
+    { "term": "Density-gradient centrifugation", "def": "Spinning a sample very fast in a salt solution so molecules settle into layers by weight, letting scientists sort heavier DNA from lighter DNA." }
+  ],
+  "takeaways": [
+    "DNA copies itself semiconservatively: each new molecule keeps one original strand and pairs it with a freshly built one.",
+    "By labeling DNA with heavy nitrogen and then watching where it settled in a spinning tube, Meselson and Stahl could literally weigh the difference between old and new copies.",
+    "A well-designed measurement can decide between competing theories cleanly — one halfway band was enough to rule out two rival models at once."
+  ],
+  "quiz": [
+    {
+      "q": "What does 'semiconservative' replication mean?",
+      "choices": [
+        "The original DNA stays whole and produces a brand-new copy",
+        "The DNA breaks into pieces and reassembles randomly",
+        "Each new DNA molecule has one old strand and one new strand",
+        "Only half of the DNA is ever copied"
+      ],
+      "answer": 2,
+      "why": "Semiconservative means each copy conserves half of the original. The two strands separate, and each old strand acts as a template for a new partner, so every daughter molecule is one old strand paired with one freshly built strand."
+    },
+    {
+      "q": "How did Meselson and Stahl tell old DNA from newly made DNA?",
+      "choices": [
+        "They stained the two with different colors",
+        "They made old DNA heavier using nitrogen-15, then sorted DNA by weight in a centrifuge",
+        "They counted the DNA molecules under a microscope",
+        "They measured how fast each type of DNA glowed"
+      ],
+      "answer": 1,
+      "why": "They grew cells on heavy nitrogen-15 so the original DNA was denser, then switched to light nitrogen. Spinning the DNA in a salt solution sorted it by density, so heavy, light, and half-and-half DNA settled into distinguishable bands."
+    },
+    {
+      "q": "After one round of copying in light nitrogen, what did they see?",
+      "choices": [
+        "Two separate bands, one heavy and one light",
+        "A single band of fully light DNA",
+        "A single band exactly halfway between heavy and light",
+        "No DNA band at all"
+      ],
+      "answer": 2,
+      "why": "One round produced a single intermediate band, meaning every molecule was a blend of one heavy old strand and one light new strand. That halfway result is the signature of semiconservative copying and ruled out the competing models."
+    }
+  ]
+}

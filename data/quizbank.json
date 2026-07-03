@@ -1966,5 +1966,53 @@
     ],
     "answer": 2,
     "why": "They estimated potency from data on what each local market typically sold, treating products at 10% THC or above as high-potency. That's an approximation rather than a direct measurement in each person, which is one of the study's limitations."
+  },
+  {
+    "qid": "2026-07-03-pm#0",
+    "lessonId": "2026-07-03-pm",
+    "lessonTitle": "How DNA copies itself: the most beautiful experiment",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "What does 'semiconservative' replication mean?",
+    "choices": [
+      "The original DNA stays whole and produces a brand-new copy",
+      "The DNA breaks into pieces and reassembles randomly",
+      "Each new DNA molecule has one old strand and one new strand",
+      "Only half of the DNA is ever copied"
+    ],
+    "answer": 2,
+    "why": "Semiconservative means each copy conserves half of the original. The two strands separate, and each old strand acts as a template for a new partner, so every daughter molecule is one old strand paired with one freshly built strand."
+  },
+  {
+    "qid": "2026-07-03-pm#1",
+    "lessonId": "2026-07-03-pm",
+    "lessonTitle": "How DNA copies itself: the most beautiful experiment",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "How did Meselson and Stahl tell old DNA from newly made DNA?",
+    "choices": [
+      "They stained the two with different colors",
+      "They made old DNA heavier using nitrogen-15, then sorted DNA by weight in a centrifuge",
+      "They counted the DNA molecules under a microscope",
+      "They measured how fast each type of DNA glowed"
+    ],
+    "answer": 1,
+    "why": "They grew cells on heavy nitrogen-15 so the original DNA was denser, then switched to light nitrogen. Spinning the DNA in a salt solution sorted it by density, so heavy, light, and half-and-half DNA settled into distinguishable bands."
+  },
+  {
+    "qid": "2026-07-03-pm#2",
+    "lessonId": "2026-07-03-pm",
+    "lessonTitle": "How DNA copies itself: the most beautiful experiment",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "After one round of copying in light nitrogen, what did they see?",
+    "choices": [
+      "Two separate bands, one heavy and one light",
+      "A single band of fully light DNA",
+      "A single band exactly halfway between heavy and light",
+      "No DNA band at all"
+    ],
+    "answer": 2,
+    "why": "One round produced a single intermediate band, meaning every molecule was a blend of one heavy old strand and one light new strand. That halfway result is the signature of semiconservative copying and ruled out the competing models."
   }
 ]
