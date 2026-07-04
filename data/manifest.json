@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-04-pm",
+    "date": "2026-07-04",
+    "slot": "pm",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "title": "Your mind's whiteboard: why short-term memory is a workspace, not a shelf",
+    "tldr": "By making people juggle a task while holding numbers in their head, two psychologists showed that short-term memory is an active workspace with separate slots for sound and for sight — the model we now call working memory.",
+    "readMinutes": 5,
+    "citation": "Baddeley, A. D. & Hitch, G. (1974), \"Working Memory\", in The Psychology of Learning and Motivation, vol. 8, 47-89",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-03-pm",
     "date": "2026-07-03",
     "slot": "pm",

@@ -2014,5 +2014,53 @@
     ],
     "answer": 2,
     "why": "One round produced a single intermediate band, meaning every molecule was a blend of one heavy old strand and one light new strand. That halfway result is the signature of semiconservative copying and ruled out the competing models."
+  },
+  {
+    "qid": "2026-07-04-pm#0",
+    "lessonId": "2026-07-04-pm",
+    "lessonTitle": "Your mind's whiteboard: why short-term memory is a workspace, not a shelf",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What did Baddeley and Hitch conclude short-term memory actually is?",
+    "choices": [
+      "A single small store that holds everything you're thinking about",
+      "An active workspace with separate components for different kinds of information",
+      "A permanent record of everything you have ever seen",
+      "A copy of long-term memory that fades after a day"
+    ],
+    "answer": 1,
+    "why": "Their dual-task results showed that holding numbers barely disrupted a reasoning task. A single shared store would have jammed both jobs, so they proposed a system with separate parts — a manager plus specialized helpers for sound and for images."
+  },
+  {
+    "qid": "2026-07-04-pm#1",
+    "lessonId": "2026-07-04-pm",
+    "lessonTitle": "Your mind's whiteboard: why short-term memory is a workspace, not a shelf",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "Why could people hold digits in mind and still reason at the same time?",
+    "choices": [
+      "The two tasks were too easy to cause any interference",
+      "Reasoning does not use memory at all",
+      "The tasks leaned on different components of working memory",
+      "The brain pauses one task completely while doing the other"
+    ],
+    "answer": 2,
+    "why": "The digit task used the sound-based phonological loop while the reasoning task drew on other parts of the system. Because they tapped different helpers rather than one shared shelf, they could run in parallel with only mild interference."
+  },
+  {
+    "qid": "2026-07-04-pm#2",
+    "lessonId": "2026-07-04-pm",
+    "lessonTitle": "Your mind's whiteboard: why short-term memory is a workspace, not a shelf",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What is the job of the phonological loop?",
+    "choices": [
+      "To store visual scenes and mental maps",
+      "To hold sounds and words by silently rehearsing them",
+      "To move memories into permanent storage",
+      "To decide which task deserves your attention"
+    ],
+    "answer": 1,
+    "why": "The phonological loop is the sound-and-word slot of working memory. It keeps verbal information alive by inner rehearsal — the silent voice that repeats a number under your breath. Steering attention is the central executive's job, and storing scenes is the visuospatial sketchpad's."
   }
 ]

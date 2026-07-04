@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-04-pm",
+  "date": "2026-07-04",
+  "slot": "pm",
+  "topic": "learning",
+  "topicLabel": "Learning & Cognition",
+  "title": "Your mind's whiteboard: why short-term memory is a workspace, not a shelf",
+  "study": {
+    "citation": "Baddeley, A. D. & Hitch, G. (1974), \"Working Memory\", in The Psychology of Learning and Motivation, vol. 8, 47-89",
+    "year": 1974,
+    "link": "https://doi.org/10.1016/S0079-7421(08)60452-1"
+  },
+  "tldr": "By making people juggle a task while holding numbers in their head, two psychologists showed that short-term memory is an active workspace with separate slots for sound and for sight — the model we now call working memory.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "For years psychologists pictured short-term memory as a single small box: a shelf that briefly holds a phone number before you dial. But that picture had a puzzle. If the shelf is one box with a tiny capacity, then filling it should jam everything else. Reciting a few numbers should wreck your ability to read a sentence or solve a puzzle at the same time. Yet in daily life we do exactly that — hold a number in mind while still following a conversation. Alan Baddeley and Graham Hitch wanted to know what short-term memory really is. Is it one crowded shelf, or something with moving parts?"
+    },
+    {
+      "h": "What they did",
+      "body": "They ran what are called dual-task experiments: get someone to do two things at once and watch what breaks. Volunteers held a string of spoken digits in their head — sometimes one or two, sometimes up to six or eight — while at the same time doing a second task, such as judging whether a short sentence about letters was true or reasoning through a small problem. The idea is simple. If both jobs draw from the very same memory store, loading it with digits should badly slow the other job. If they lean on different parts, the digits should barely get in the way."
+    },
+    {
+      "h": "What they found",
+      "body": "The interference was mild. Holding even a fairly heavy load of digits slowed the reasoning task only a little, and people stayed accurate. A single shelf could not explain that. So Baddeley and Hitch proposed working memory as a system with parts. A boss they called the central executive steers attention and splits effort between jobs. It commands two helpers: a phonological loop that holds sound and words by silently rehearsing them, like repeating a number under your breath, and a visuospatial sketchpad that holds pictures and layouts, like a mental map. Because the digit task and the reasoning task used different helpers, they could run side by side."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This turned short-term memory from a passive shelf into a working desk — a place where you actively hold and manipulate information while you think. The idea reshaped how researchers study attention, reading, and problem-solving, and it became one of the most cited frameworks in all of psychology. It explains everyday things: why saying a phone number out loud protects it, why a talking passenger disrupts driving less than a hard visual puzzle would. Baddeley later added a fourth part, the episodic buffer, to explain how the pieces bind together. Working memory capacity even tracks with reasoning ability, which is why the model still anchors research on learning today."
+    },
+    {
+      "h": "The catch",
+      "body": "The model is a useful map rather than a photograph of the brain. Its parts were inferred from behavior — from what slows down when — before anyone could point to matching machinery inside the head. Later brain imaging lined up loosely with the sketch, yet researchers still argue about the details: how many stores there really are, what the central executive actually does, and whether some findings fit rival theories just as well. The 1974 experiments also used simple lab tasks with small groups of adults. The core insight has held up remarkably well, but the tidy boxes are a working sketch that newer work keeps refining."
+    }
+  ],
+  "terms": [
+    { "term": "Working memory", "def": "The mental workspace that holds a small amount of information in mind and lets you actively use it — juggle it, reason with it — for a few seconds at a time." },
+    { "term": "Phonological loop", "def": "The part of working memory that stores sounds and words by quietly rehearsing them, the voice in your head that repeats a phone number so you don't lose it." },
+    { "term": "Central executive", "def": "The attention manager of working memory that decides what to focus on and divides effort between tasks, directing its helper systems." }
+  ],
+  "takeaways": [
+    "Short-term memory is an active workspace with separate slots — one for sound and words, one for images and space — rather than a single crowded shelf.",
+    "Because verbal and visual information live in different slots, you can hold a number in mind and still follow a conversation without much interference.",
+    "The trick that revealed this was the dual task: make someone do two things at once and see what breaks, which tells you whether they share the same mental machinery."
+  ],
+  "quiz": [
+    {
+      "q": "What did Baddeley and Hitch conclude short-term memory actually is?",
+      "choices": [
+        "A single small store that holds everything you're thinking about",
+        "An active workspace with separate components for different kinds of information",
+        "A permanent record of everything you have ever seen",
+        "A copy of long-term memory that fades after a day"
+      ],
+      "answer": 1,
+      "why": "Their dual-task results showed that holding numbers barely disrupted a reasoning task. A single shared store would have jammed both jobs, so they proposed a system with separate parts — a manager plus specialized helpers for sound and for images."
+    },
+    {
+      "q": "Why could people hold digits in mind and still reason at the same time?",
+      "choices": [
+        "The two tasks were too easy to cause any interference",
+        "Reasoning does not use memory at all",
+        "The tasks leaned on different components of working memory",
+        "The brain pauses one task completely while doing the other"
+      ],
+      "answer": 2,
+      "why": "The digit task used the sound-based phonological loop while the reasoning task drew on other parts of the system. Because they tapped different helpers rather than one shared shelf, they could run in parallel with only mild interference."
+    },
+    {
+      "q": "What is the job of the phonological loop?",
+      "choices": [
+        "To store visual scenes and mental maps",
+        "To hold sounds and words by silently rehearsing them",
+        "To move memories into permanent storage",
+        "To decide which task deserves your attention"
+      ],
+      "answer": 1,
+      "why": "The phonological loop is the sound-and-word slot of working memory. It keeps verbal information alive by inner rehearsal — the silent voice that repeats a number under your breath. Steering attention is the central executive's job, and storing scenes is the visuospatial sketchpad's."
+    }
+  ]
+}
