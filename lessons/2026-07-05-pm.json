@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-05-pm",
+  "date": "2026-07-05",
+  "slot": "pm",
+  "topic": "frontier",
+  "topicLabel": "Frontier Science",
+  "title": "The hum that turned out to be the Big Bang",
+  "study": {
+    "citation": "Penzias, A. A. & Wilson, R. W. (1965), \"A Measurement of Excess Antenna Temperature at 4080 Mc/s\", Astrophysical Journal 142, 419-421",
+    "year": 1965,
+    "link": "https://doi.org/10.1086/148307"
+  },
+  "tldr": "Two radio astronomers hunting down a stubborn hiss in their antenna accidentally found the faint microwave glow left over from the Big Bang — the strongest evidence that the universe began hot and dense.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "In the early 1960s cosmologists argued about how the universe began. One idea said it started hot and dense and has been expanding and cooling ever since. That picture made a bold prediction: leftover heat from the fiery beginning should still fill all of space today, stretched and chilled by billions of years of expansion to just a few degrees above the coldest temperature possible. It would be a faint glow coming from every direction at once. A rival idea said the universe had no beginning and always looked roughly the same. Nobody had detected the predicted glow, so the question stayed open."
+    },
+    {
+      "h": "What they did",
+      "body": "Arno Penzias and Robert Wilson were not chasing cosmology. At Bell Labs in Holmdel, New Jersey, they had a sensitive twenty-foot horn-shaped antenna and wanted to use it for radio astronomy. First they had to account for every source of noise, so they measured the faint hiss the antenna picked up at a wavelength of about seven centimeters. They tried to explain away every last bit of it: warmth from the antenna itself, signals from the ground, static from the atmosphere. A steady hum refused to go away. It came from every direction, held constant through the seasons, and survived even after they cleaned out a pair of nesting pigeons and their droppings from inside the horn."
+    },
+    {
+      "h": "What they found",
+      "body": "The leftover hum matched a faint microwave signal filling the whole sky, as if space itself glowed at only about three degrees above absolute zero, the coldest temperature there is. It looked the same in every direction they pointed, showed no preferred orientation, and stayed steady across many months of watching. They had no cosmic explanation for it. A group of physicists at nearby Princeton, led by Robert Dicke, had been preparing to search for exactly such a glow. When the two teams connected, the Princeton group supplied the interpretation, and the two papers were published back to back."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "That faint glow is the afterglow of the hot young universe, the heat released when it first cooled enough for light to travel freely. Detecting it turned the hot-beginning picture from one contender into the leading account of how the universe started, and it handed scientists a real signal they could measure. Later missions mapped tiny ripples in this glow, and those ripples encode the age, the ingredients, and the overall shape of the cosmos. Penzias and Wilson shared the 1978 Nobel Prize in Physics for a discovery they made while trying to get rid of it."
+    },
+    {
+      "h": "The catch",
+      "body": "They found the signal by accident and at first had no idea what it was. A single measurement at one wavelength showed a faint, even hum, but on its own it could not prove the hum came from the birth of the universe. The meaning came from the Princeton theorists and, crucially, from later measurements at many wavelengths that confirmed the glow's telltale shape. Their reported temperature carried real uncertainty. Pinning down the precise value and mapping the faint ripples inside the glow took satellites and decades of painstaking follow-up work."
+    }
+  ],
+  "terms": [
+    { "term": "Cosmic microwave background", "def": "A faint microwave glow that fills all of space in every direction — the cooled leftover heat from the hot early universe." },
+    { "term": "Absolute zero", "def": "The coldest temperature possible, where the jiggling of matter all but stops; the background glow sits only about three degrees above it." },
+    { "term": "Isotropic", "def": "The same in every direction — the hum looked identical no matter where in the sky the antenna was aimed." }
+  ],
+  "takeaways": [
+    "All of space is bathed in a faint microwave glow, the cooled afterglow of the universe's hot beginning, only about three degrees above absolute zero.",
+    "Two radio astronomers found it by accident while tracking down every source of noise in their antenna, including a nest of pigeons.",
+    "A stubborn signal you cannot explain away can be the discovery itself — the hum they tried to erase became the strongest evidence for a hot early universe."
+  ],
+  "quiz": [
+    {
+      "q": "What is the cosmic microwave background?",
+      "choices": [
+        "The combined glow of distant stars",
+        "The cooled leftover heat from the hot early universe, filling all of space",
+        "Radio interference from Earth's atmosphere",
+        "Sunlight reflected off the Moon"
+      ],
+      "answer": 1,
+      "why": "The background is the afterglow of the universe's hot beginning — heat released when the young cosmos first cooled enough for light to travel freely, now stretched to microwaves and sitting only about three degrees above absolute zero."
+    },
+    {
+      "q": "How did Penzias and Wilson first treat the signal they detected?",
+      "choices": [
+        "They immediately recognized it as the afterglow of the early universe",
+        "They treated it as unwanted noise and tried to eliminate its sources",
+        "They ignored it as too faint to matter",
+        "They assumed it came from a single nearby star"
+      ],
+      "answer": 1,
+      "why": "They were not searching for cosmic radiation. They tried to explain the hum away as instrument or environmental noise, even removing nesting pigeons from the antenna, and only learned its meaning from the Princeton group next door."
+    },
+    {
+      "q": "Which features of the hum hinted it came from the whole sky rather than one object?",
+      "choices": [
+        "It flickered on and off through the night",
+        "It came from every direction equally and stayed steady over many months",
+        "It only appeared after sunset",
+        "It shifted in strength each season"
+      ],
+      "answer": 1,
+      "why": "The hum was isotropic, the same in every direction, and unchanging across seasons and times of day. A local or single-object source would come and go; a uniform, steady signal pointed to something filling all of space."
+    }
+  ]
+}

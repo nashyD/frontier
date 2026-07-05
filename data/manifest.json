@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-05-pm",
+    "date": "2026-07-05",
+    "slot": "pm",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "title": "The hum that turned out to be the Big Bang",
+    "tldr": "Two radio astronomers hunting down a stubborn hiss in their antenna accidentally found the faint microwave glow left over from the Big Bang — the strongest evidence that the universe began hot and dense.",
+    "readMinutes": 4,
+    "citation": "Penzias, A. A. & Wilson, R. W. (1965), \"A Measurement of Excess Antenna Temperature at 4080 Mc/s\", Astrophysical Journal 142, 419-421",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-04-pm",
     "date": "2026-07-04",
     "slot": "pm",

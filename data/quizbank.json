@@ -2062,5 +2062,53 @@
     ],
     "answer": 1,
     "why": "The phonological loop is the sound-and-word slot of working memory. It keeps verbal information alive by inner rehearsal — the silent voice that repeats a number under your breath. Steering attention is the central executive's job, and storing scenes is the visuospatial sketchpad's."
+  },
+  {
+    "qid": "2026-07-05-pm#0",
+    "lessonId": "2026-07-05-pm",
+    "lessonTitle": "The hum that turned out to be the Big Bang",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "What is the cosmic microwave background?",
+    "choices": [
+      "The combined glow of distant stars",
+      "The cooled leftover heat from the hot early universe, filling all of space",
+      "Radio interference from Earth's atmosphere",
+      "Sunlight reflected off the Moon"
+    ],
+    "answer": 1,
+    "why": "The background is the afterglow of the universe's hot beginning — heat released when the young cosmos first cooled enough for light to travel freely, now stretched to microwaves and sitting only about three degrees above absolute zero."
+  },
+  {
+    "qid": "2026-07-05-pm#1",
+    "lessonId": "2026-07-05-pm",
+    "lessonTitle": "The hum that turned out to be the Big Bang",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "How did Penzias and Wilson first treat the signal they detected?",
+    "choices": [
+      "They immediately recognized it as the afterglow of the early universe",
+      "They treated it as unwanted noise and tried to eliminate its sources",
+      "They ignored it as too faint to matter",
+      "They assumed it came from a single nearby star"
+    ],
+    "answer": 1,
+    "why": "They were not searching for cosmic radiation. They tried to explain the hum away as instrument or environmental noise, even removing nesting pigeons from the antenna, and only learned its meaning from the Princeton group next door."
+  },
+  {
+    "qid": "2026-07-05-pm#2",
+    "lessonId": "2026-07-05-pm",
+    "lessonTitle": "The hum that turned out to be the Big Bang",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "Which features of the hum hinted it came from the whole sky rather than one object?",
+    "choices": [
+      "It flickered on and off through the night",
+      "It came from every direction equally and stayed steady over many months",
+      "It only appeared after sunset",
+      "It shifted in strength each season"
+    ],
+    "answer": 1,
+    "why": "The hum was isotropic, the same in every direction, and unchanging across seasons and times of day. A local or single-object source would come and go; a uniform, steady signal pointed to something filling all of space."
   }
 ]
