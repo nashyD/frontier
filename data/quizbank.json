@@ -2110,5 +2110,53 @@
     ],
     "answer": 1,
     "why": "The hum was isotropic, the same in every direction, and unchanging across seasons and times of day. A local or single-object source would come and go; a uniform, steady signal pointed to something filling all of space."
+  },
+  {
+    "qid": "2026-07-06-pm#0",
+    "lessonId": "2026-07-06-pm",
+    "lessonTitle": "King minus man plus woman: how computers learned that words have directions",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "How did the models learn what words mean without any human labeling?",
+    "choices": [
+      "A team of linguists tagged every word by hand",
+      "By playing a guessing game — predicting a word from its neighbors, or its neighbors from the word",
+      "By looking each word up in a dictionary",
+      "By translating the text into a second language first"
+    ],
+    "answer": 1,
+    "why": "The models learn by prediction over ordinary text. One hides a word and guesses it from surrounding words; the other takes a word and guesses its neighbors. Each guess nudges the numbers, so meaning emerges from usage alone with nobody labeling anything."
+  },
+  {
+    "qid": "2026-07-06-pm#1",
+    "lessonId": "2026-07-06-pm",
+    "lessonTitle": "King minus man plus woman: how computers learned that words have directions",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What did \"king minus man plus woman lands near queen\" demonstrate?",
+    "choices": [
+      "That the model had memorized a list of royal titles",
+      "That relationships between words show up as consistent directions in the vector space",
+      "That the computer understood human emotion",
+      "That subtraction is impossible with words"
+    ],
+    "answer": 1,
+    "why": "Relationships appeared as repeatable directions: the step from man to woman pointed the same way as king to queen. Because the geometry captured that regularity, plain arithmetic on the vectors could travel along the relationship and land on a sensible word."
+  },
+  {
+    "qid": "2026-07-06-pm#2",
+    "lessonId": "2026-07-06-pm",
+    "lessonTitle": "King minus man plus woman: how computers learned that words have directions",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "Which limitation of these word vectors did the study's later critics highlight?",
+    "choices": [
+      "They took several weeks to train on any dataset",
+      "They could only handle the English language",
+      "Each word gets a single vector, so different meanings of one spelling are jammed together, and the vectors absorb biases from the text",
+      "They required expensive human labels for every word"
+    ],
+    "answer": 2,
+    "why": "A single vector per word cannot separate the two senses of \"bank\", and because the vectors are shaped by whatever text they read, they also pick up its biases. Speed and no-labeling were strengths of the method; later context-aware models addressed the one-vector problem."
   }
 ]

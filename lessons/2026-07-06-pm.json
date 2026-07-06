@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-06-pm",
+  "date": "2026-07-06",
+  "slot": "pm",
+  "topic": "ai",
+  "topicLabel": "Artificial Intelligence",
+  "title": "King minus man plus woman: how computers learned that words have directions",
+  "study": {
+    "citation": "Mikolov, T., Chen, K., Corrado, G. & Dean, J. (2013), \"Efficient Estimation of Word Representations in Vector Space\", arXiv:1301.3781",
+    "year": 2013,
+    "link": "https://arxiv.org/abs/1301.3781"
+  },
+  "tldr": "Four Google researchers found a cheap way to turn every word into a list of numbers, and the numbers lined up so neatly that plain arithmetic on them — king minus man plus woman — landed on queen.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Computers do not read. To a machine a word is just a symbol, and \"cat\" and \"dog\" are as unrelated as \"cat\" and \"Thursday\". For years the workaround was to give each word its own slot in a giant list, one that says nothing about meaning. Researchers knew a better idea existed: represent each word as a short string of numbers — a point in space — so that similar words sit close together. The catch was cost. The methods that could learn such points were so slow they choked on large text. Tomas Mikolov and three colleagues at Google asked a blunt question: could you learn good word representations from billions of words without waiting weeks for a computer to finish?"
+    },
+    {
+      "h": "What they did",
+      "body": "They stripped the models down to the bone. Instead of a heavy network with many layers, they built two very simple ones that learn by playing a guessing game across ordinary text. One, called Continuous Bag of Words, hides a word and tries to guess it from the handful of words around it. The other, called Skip-gram, flips the game: it takes one word and tries to guess its neighbors. Each word starts as a random string of numbers — its vector — and every time the model guesses, it nudges those numbers to guess a little better next time. Run this over billions of words and the numbers settle into place on their own, with no human labeling anything."
+    },
+    {
+      "h": "What they found",
+      "body": "Two things stood out. First, speed. Because the models were so lean, they learned high-quality word vectors from a 1.6-billion-word dataset in under a day, far faster than earlier methods. Second, and stranger, the geometry carried meaning. Words with similar uses landed near each other, but relationships also showed up as consistent directions in the space. The step from \"man\" to \"woman\" pointed the same way as the step from \"king\" to \"queen\". So you could do arithmetic on words: take the vector for king, subtract man, add woman, and the closest point was queen. The same trick found capitals from countries and plurals from singulars."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This showed that meaning could be squeezed out of raw text by a machine, cheaply, with nobody hand-labeling anything. The word vectors — soon packaged as a tool called word2vec — became a standard first ingredient for search engines, translation, recommendation, and spam filters. More deeply, it planted an idea that runs through modern AI: turn things into points in space, let a model arrange them by how they are used, and useful structure falls out. The large language models people use today are distant descendants of this move. They still begin by converting words into vectors, just far richer ones learned at enormous scale."
+    },
+    {
+      "h": "The catch",
+      "body": "The tidy arithmetic is real but easy to oversell. It works cleanly on a curated set of relationships and gets shakier out in the wild, where later researchers showed the \"nearest\" answer is sometimes nudged by quirks of how the sum is scored. A bigger problem: each word gets exactly one vector, so \"bank\" the riverside and \"bank\" the money-holder are jammed into a single point. And because the vectors soak up whatever is in the text, they also soak up its biases, linking jobs or traits to gender in ways that reflect the data rather than any truth. Newer models that read a word in context fixed much of this."
+    }
+  ],
+  "terms": [
+    { "term": "Word vector", "def": "A word turned into a short list of numbers that marks its position in space, arranged so words used in similar ways sit close together." },
+    { "term": "Skip-gram", "def": "One of the two models in the paper: it takes a single word and learns to predict the words that tend to appear around it." },
+    { "term": "Vector arithmetic", "def": "Adding and subtracting word vectors as if they were directions, so king minus man plus woman lands near queen." }
+  ],
+  "takeaways": [
+    "A word can be stored as a point in space, and if you place similar words near each other, the layout starts to carry real meaning.",
+    "The models learned entirely from a guessing game over plain text, with no human labels — a preview of how today's language models are trained.",
+    "Turning things into points and letting a model arrange them by use is a core AI move you now see everywhere, from search to the vectors inside large language models."
+  ],
+  "quiz": [
+    {
+      "q": "How did the models learn what words mean without any human labeling?",
+      "choices": [
+        "A team of linguists tagged every word by hand",
+        "By playing a guessing game — predicting a word from its neighbors, or its neighbors from the word",
+        "By looking each word up in a dictionary",
+        "By translating the text into a second language first"
+      ],
+      "answer": 1,
+      "why": "The models learn by prediction over ordinary text. One hides a word and guesses it from surrounding words; the other takes a word and guesses its neighbors. Each guess nudges the numbers, so meaning emerges from usage alone with nobody labeling anything."
+    },
+    {
+      "q": "What did \"king minus man plus woman lands near queen\" demonstrate?",
+      "choices": [
+        "That the model had memorized a list of royal titles",
+        "That relationships between words show up as consistent directions in the vector space",
+        "That the computer understood human emotion",
+        "That subtraction is impossible with words"
+      ],
+      "answer": 1,
+      "why": "Relationships appeared as repeatable directions: the step from man to woman pointed the same way as king to queen. Because the geometry captured that regularity, plain arithmetic on the vectors could travel along the relationship and land on a sensible word."
+    },
+    {
+      "q": "Which limitation of these word vectors did the study's later critics highlight?",
+      "choices": [
+        "They took several weeks to train on any dataset",
+        "They could only handle the English language",
+        "Each word gets a single vector, so different meanings of one spelling are jammed together, and the vectors absorb biases from the text",
+        "They required expensive human labels for every word"
+      ],
+      "answer": 2,
+      "why": "A single vector per word cannot separate the two senses of \"bank\", and because the vectors are shaped by whatever text they read, they also pick up its biases. Speed and no-labeling were strengths of the method; later context-aware models addressed the one-vector problem."
+    }
+  ]
+}

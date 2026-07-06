@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-06-pm",
+    "date": "2026-07-06",
+    "slot": "pm",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "title": "King minus man plus woman: how computers learned that words have directions",
+    "tldr": "Four Google researchers found a cheap way to turn every word into a list of numbers, and the numbers lined up so neatly that plain arithmetic on them — king minus man plus woman — landed on queen.",
+    "readMinutes": 5,
+    "citation": "Mikolov, T., Chen, K., Corrado, G. & Dean, J. (2013), \"Efficient Estimation of Word Representations in Vector Space\", arXiv:1301.3781",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-05-pm",
     "date": "2026-07-05",
     "slot": "pm",
