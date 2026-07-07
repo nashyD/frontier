@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-07-pm",
+    "date": "2026-07-07",
+    "slot": "pm",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "title": "The furnace under your collarbones: how cold switched on adult 'brown fat'",
+    "tldr": "By putting men in a cool room and scanning them, Dutch researchers showed that adults still carry heat-burning 'brown fat' that switches on in the cold — and that heavier people tend to have less of it.",
+    "readMinutes": 5,
+    "citation": "van Marken Lichtenbelt, W. D., Vanhommerig, J. W., Smulders, N. M., Drossaerts, J. M. A. F. L., Kemerink, G. J., Bouvy, N. D., Schrauwen, P. & Teule, G. J. (2009), \"Cold-Activated Brown Adipose Tissue in Healthy Men\", New England Journal of Medicine 360(15), 1500-1508",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-06-pm",
     "date": "2026-07-06",
     "slot": "pm",

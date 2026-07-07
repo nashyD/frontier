@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-07-pm",
+  "date": "2026-07-07",
+  "slot": "pm",
+  "topic": "biohacking",
+  "topicLabel": "Biohacking",
+  "title": "The furnace under your collarbones: how cold switched on adult 'brown fat'",
+  "study": {
+    "citation": "van Marken Lichtenbelt, W. D., Vanhommerig, J. W., Smulders, N. M., Drossaerts, J. M. A. F. L., Kemerink, G. J., Bouvy, N. D., Schrauwen, P. & Teule, G. J. (2009), \"Cold-Activated Brown Adipose Tissue in Healthy Men\", New England Journal of Medicine 360(15), 1500-1508",
+    "year": 2009,
+    "link": "https://doi.org/10.1056/NEJMoa0808718"
+  },
+  "tldr": "By putting men in a cool room and scanning them, Dutch researchers showed that adults still carry heat-burning 'brown fat' that switches on in the cold — and that heavier people tend to have less of it.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Fat comes in two flavors. White fat is the familiar padding that stores spare energy. Brown fat is different: it burns energy to make heat, keeping the body warm. For decades scientists assumed brown fat was a baby thing — useful for newborns and small animals that lose heat fast, but gone or useless by adulthood. That belief left a puzzle. If a tissue whose whole job is to burn calories for warmth really vanished, why did faint traces keep showing up in adult scans? Wouter van Marken Lichtenbelt and his team in the Netherlands asked a direct question: do healthy grown men still have working brown fat, and can you catch it in the act?"
+    },
+    {
+      "h": "What they did",
+      "body": "They recruited 24 healthy men, some lean and some overweight, and studied each one twice. First in a comfortable room at 22 degrees Celsius, then during mild cold at 16 degrees Celsius — chilly enough to make you want a sweater, but not shivering cold. To spot active tissue they used a scan called PET-CT. The person swallows or is injected with a tiny amount of tagged sugar, and the scanner lights up wherever cells are gulping that sugar for fuel. Tissue that is burning energy hard glows brightest. So the plan was simple: cool the body a little, then look for a patch of fat that suddenly starts eating sugar to make heat."
+    },
+    {
+      "h": "What they found",
+      "body": "In the warm room, almost nothing lit up. In the cold, a bright patch flared to life in nearly every man — 23 of the 24. It sat mostly around the neck and collarbones and along the upper spine, exactly where brown fat lives in animals. Cold flipped it on; warmth switched it off. The team also noticed a pattern in who had more. Leaner men tended to show more active brown fat, while heavier men showed less. The amount of glowing tissue lined up inversely with body-fat percentage and body weight, hinting that this little furnace might matter for how easily a person burns calories."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This overturned a textbook assumption. Adults were not supposed to have functioning brown fat, and here it was in almost everyone, waking up on demand. Two other teams published the same core result in the same journal the same year, so the finding landed with unusual force. It opened a fresh idea for treating obesity and diabetes: if you could grow or switch on a tissue that burns calories for heat, you might help the body spend energy rather than only store it. It also gave a serious footing to a popular habit — cold exposure, from brisk rooms to cold plunges — as a real trigger for this heat-making tissue."
+    },
+    {
+      "h": "The catch",
+      "body": "Finding the tissue is not the same as proving it melts away pounds. The study was small, all men, and it measured a snapshot of activity rather than long-term fat loss. Having active brown fat lined up with being leaner, yet that link runs both ways — we cannot tell from this whether the brown fat helped keep them lean or whether being lean simply lets the tissue show up more. The heat it makes is modest next to a full day's calorie burn. And the scan captures a moment in a cold room, so it says little about whether regular cold exposure builds lasting, weight-shifting amounts of the tissue."
+    }
+  ],
+  "terms": [
+    { "term": "Brown fat (brown adipose tissue)", "def": "A special kind of body fat that burns energy to produce heat instead of storing it, common in babies and cold-adapted animals." },
+    { "term": "White fat", "def": "The everyday fat that stores spare energy as padding around the body." },
+    { "term": "PET-CT scan", "def": "An imaging method that tags sugar in the body and lights up the tissues gulping it for fuel, showing where cells are burning energy hardest." }
+  ],
+  "takeaways": [
+    "Adults keep pockets of heat-burning brown fat around the neck and collarbones, and mild cold — not warmth — switches it on.",
+    "Leaner people in this study tended to have more active brown fat, though the study cannot say which one causes the other.",
+    "Cold exposure has a real biological target here, but the calorie burn is modest and this snapshot does not prove it drives lasting fat loss."
+  ],
+  "quiz": [
+    {
+      "q": "What made the brown fat light up on the scans?",
+      "choices": [
+        "A warm room at 22 degrees Celsius",
+        "Mild cold at 16 degrees Celsius",
+        "Eating a large meal",
+        "Intense exercise before the scan"
+      ],
+      "answer": 1,
+      "why": "In the comfortable 22-degree room almost nothing glowed. Only during mild cold at 16 degrees did the brown fat flare to life in 23 of the 24 men, because cold is what signals the tissue to start burning energy for heat."
+    },
+    {
+      "q": "What is the main difference between brown fat and white fat?",
+      "choices": [
+        "Brown fat stores energy while white fat burns it",
+        "Brown fat burns energy to make heat while white fat stores energy",
+        "They are the same tissue under different names",
+        "White fat only exists in babies"
+      ],
+      "answer": 1,
+      "why": "White fat is the familiar padding that stores spare energy. Brown fat does the opposite job — it burns energy to generate warmth, which is why researchers hoped switching it on might help the body spend calories."
+    },
+    {
+      "q": "Why can't this study prove that brown fat keeps people lean?",
+      "choices": [
+        "The scans could not detect brown fat at all",
+        "It only studied children",
+        "It shows an association at one moment, so cause and effect could run either way",
+        "The men never actually got cold"
+      ],
+      "answer": 2,
+      "why": "Active brown fat lined up with being leaner, but the study captured a single cold-room snapshot. That kind of association cannot tell whether the brown fat helped keep the men lean or whether being lean simply let more of the tissue show up."
+    }
+  ]
+}

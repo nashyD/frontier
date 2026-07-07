@@ -2158,5 +2158,53 @@
     ],
     "answer": 2,
     "why": "A single vector per word cannot separate the two senses of \"bank\", and because the vectors are shaped by whatever text they read, they also pick up its biases. Speed and no-labeling were strengths of the method; later context-aware models addressed the one-vector problem."
+  },
+  {
+    "qid": "2026-07-07-pm#0",
+    "lessonId": "2026-07-07-pm",
+    "lessonTitle": "The furnace under your collarbones: how cold switched on adult 'brown fat'",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What made the brown fat light up on the scans?",
+    "choices": [
+      "A warm room at 22 degrees Celsius",
+      "Mild cold at 16 degrees Celsius",
+      "Eating a large meal",
+      "Intense exercise before the scan"
+    ],
+    "answer": 1,
+    "why": "In the comfortable 22-degree room almost nothing glowed. Only during mild cold at 16 degrees did the brown fat flare to life in 23 of the 24 men, because cold is what signals the tissue to start burning energy for heat."
+  },
+  {
+    "qid": "2026-07-07-pm#1",
+    "lessonId": "2026-07-07-pm",
+    "lessonTitle": "The furnace under your collarbones: how cold switched on adult 'brown fat'",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What is the main difference between brown fat and white fat?",
+    "choices": [
+      "Brown fat stores energy while white fat burns it",
+      "Brown fat burns energy to make heat while white fat stores energy",
+      "They are the same tissue under different names",
+      "White fat only exists in babies"
+    ],
+    "answer": 1,
+    "why": "White fat is the familiar padding that stores spare energy. Brown fat does the opposite job — it burns energy to generate warmth, which is why researchers hoped switching it on might help the body spend calories."
+  },
+  {
+    "qid": "2026-07-07-pm#2",
+    "lessonId": "2026-07-07-pm",
+    "lessonTitle": "The furnace under your collarbones: how cold switched on adult 'brown fat'",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "Why can't this study prove that brown fat keeps people lean?",
+    "choices": [
+      "The scans could not detect brown fat at all",
+      "It only studied children",
+      "It shows an association at one moment, so cause and effect could run either way",
+      "The men never actually got cold"
+    ],
+    "answer": 2,
+    "why": "Active brown fat lined up with being leaner, but the study captured a single cold-room snapshot. That kind of association cannot tell whether the brown fat helped keep the men lean or whether being lean simply let more of the tissue show up."
   }
 ]
