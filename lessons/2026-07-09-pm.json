@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-09-pm",
+  "date": "2026-07-09",
+  "slot": "pm",
+  "topic": "finance",
+  "topicLabel": "Finance & Markets",
+  "title": "Beta's bad day: the study that broke the market's favorite risk formula",
+  "study": {
+    "citation": "Fama, E. F. & French, K. R. (1992), \"The Cross-Section of Expected Stock Returns\", The Journal of Finance 47(2), 427-465",
+    "year": 1992,
+    "link": "https://doi.org/10.1111/j.1540-6261.1992.tb04398.x"
+  },
+  "tldr": "Two economists sifted nearly thirty years of U.S. stock data and found that the textbook measure of risk barely predicted returns, while a company's size and how cheap it looked on paper predicted them well.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "For decades, finance had one clean answer to a hard question: why does one stock earn more than another over the long run? The answer was risk, measured by a single number called beta. Beta says how violently a stock swings when the whole market moves. A high-beta stock is a rollercoaster; a low-beta stock is a gentle ride. The going theory promised that riskier, high-beta stocks should reward you with higher average returns, and that beta was basically all you needed to know. By 1992, cracks were showing. Eugene Fama and Kenneth French decided to test the promise against the largest pile of real stock data anyone had assembled."
+    },
+    {
+      "h": "What they did",
+      "body": "They gathered almost every U.S. non-financial company traded on the major exchanges from 1963 through 1990 — thousands of stocks over nearly three decades. Then they sorted the stocks by different traits and watched how each group actually performed. They looked at beta, at company size (the total market value of its shares), and at the book-to-market ratio, which compares a company's accounting net worth to what the stock market says it is worth. A high book-to-market stock is one the market prices cheaply relative to its books. The plan was simple: line stocks up by each trait, then ask which trait actually lined up with higher returns."
+    },
+    {
+      "h": "What they found",
+      "body": "Beta, the crown jewel, fell flat. Once they separated beta from company size, stocks with high beta earned about the same as stocks with low beta. The rollercoaster paid no reward. Two humbler traits did the real work. Smaller companies tended to earn higher average returns than big ones. And cheap-looking stocks — those with a high book-to-market ratio — beat expensive ones. Together, size and book-to-market captured most of the differences in returns that beta was supposed to explain. Two numbers a beginner could pull off a page did what the celebrated risk measure could not."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This landed like a bomb in a field that had leaned on beta for a generation. The next year Fama and French turned the result into a recipe, the three-factor model, which explains a stock's returns using the whole market, company size, and the value trait together. That framework became the backbone of modern factor investing, the idea that you can tilt a portfolio toward small and cheap stocks to chase higher long-run returns. Trillions of dollars now sit in funds built on descendants of this paper, and it reshaped how professionals argue about what risk even means."
+    },
+    {
+      "h": "The catch",
+      "body": "A pattern in past data is not a law of nature. This was one country over one stretch of history, and the small-company edge in particular has looked weak or absent in many periods since. Economists still argue about why the value effect exists at all. One camp says cheap stocks are secretly riskier in ways beta misses, so the extra return is fair pay. Another says investors simply overreact and misprice them. And when you test enough traits against returns, some will look powerful by luck alone. The finding is real and influential, yet it is a description of markets, not a guarantee about your next trade."
+    }
+  ],
+  "terms": [
+    { "term": "Beta", "def": "A number that measures how strongly a stock tends to move when the overall market moves; above one means it swings more than the market, below one means less." },
+    { "term": "Book-to-market ratio", "def": "A company's accounting net worth divided by its stock-market value; a high ratio means the market is pricing the company cheaply relative to its books, the mark of a 'value' stock." },
+    { "term": "Capital Asset Pricing Model (CAPM)", "def": "The classic theory that a stock's expected return depends only on its beta — its sensitivity to the whole market — and nothing else." }
+  ],
+  "takeaways": [
+    "The single 'risk equals reward' number, beta, barely predicted which U.S. stocks earned more over 1963-1990 once company size was accounted for.",
+    "Two plain traits did the predicting instead: smaller companies and cheaper-looking (high book-to-market) stocks tended to earn higher average returns.",
+    "This built the three-factor model and modern factor investing, but the patterns are historical tendencies that can weaken, so they are no promise about any single stock."
+  ],
+  "quiz": [
+    {
+      "q": "What surprised Fama and French about beta in this study?",
+      "choices": [
+        "High-beta stocks earned far more than low-beta stocks, as expected",
+        "Once size was separated out, high and low beta earned about the same",
+        "Beta could not be measured for most companies",
+        "Only high-beta stocks existed in their data"
+      ],
+      "answer": 1,
+      "why": "The whole theory said higher beta should mean higher reward. But once the researchers separated beta from company size, the high-beta and low-beta groups earned roughly the same average return, so beta on its own did little to explain who won."
+    },
+    {
+      "q": "Which two traits actually lined up with higher average returns?",
+      "choices": [
+        "Beta and trading volume",
+        "Company age and dividend size",
+        "Small company size and a high book-to-market ratio",
+        "Big company size and a low book-to-market ratio"
+      ],
+      "answer": 2,
+      "why": "Smaller companies tended to beat larger ones, and cheap-looking stocks with a high book-to-market ratio tended to beat expensive ones. Together these two simple numbers captured most of the return differences beta was supposed to explain."
+    },
+    {
+      "q": "Why should a reader be cautious about acting on this finding?",
+      "choices": [
+        "The study used made-up data",
+        "It is a historical pattern from one market that can weaken and does not guarantee any single trade",
+        "It proved beta is the only thing that matters",
+        "It only looked at a single week of trading"
+      ],
+      "answer": 1,
+      "why": "The result came from one country over one 1963-1990 window. The small-company edge has looked weak in later periods, economists still debate why value works, and a pattern in past data describes tendencies rather than promising the outcome of your next trade."
+    }
+  ]
+}

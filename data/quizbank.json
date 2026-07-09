@@ -2206,5 +2206,53 @@
     ],
     "answer": 2,
     "why": "Active brown fat lined up with being leaner, but the study captured a single cold-room snapshot. That kind of association cannot tell whether the brown fat helped keep the men lean or whether being lean simply let more of the tissue show up."
+  },
+  {
+    "qid": "2026-07-09-pm#0",
+    "lessonId": "2026-07-09-pm",
+    "lessonTitle": "Beta's bad day: the study that broke the market's favorite risk formula",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "What surprised Fama and French about beta in this study?",
+    "choices": [
+      "High-beta stocks earned far more than low-beta stocks, as expected",
+      "Once size was separated out, high and low beta earned about the same",
+      "Beta could not be measured for most companies",
+      "Only high-beta stocks existed in their data"
+    ],
+    "answer": 1,
+    "why": "The whole theory said higher beta should mean higher reward. But once the researchers separated beta from company size, the high-beta and low-beta groups earned roughly the same average return, so beta on its own did little to explain who won."
+  },
+  {
+    "qid": "2026-07-09-pm#1",
+    "lessonId": "2026-07-09-pm",
+    "lessonTitle": "Beta's bad day: the study that broke the market's favorite risk formula",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "Which two traits actually lined up with higher average returns?",
+    "choices": [
+      "Beta and trading volume",
+      "Company age and dividend size",
+      "Small company size and a high book-to-market ratio",
+      "Big company size and a low book-to-market ratio"
+    ],
+    "answer": 2,
+    "why": "Smaller companies tended to beat larger ones, and cheap-looking stocks with a high book-to-market ratio tended to beat expensive ones. Together these two simple numbers captured most of the return differences beta was supposed to explain."
+  },
+  {
+    "qid": "2026-07-09-pm#2",
+    "lessonId": "2026-07-09-pm",
+    "lessonTitle": "Beta's bad day: the study that broke the market's favorite risk formula",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "Why should a reader be cautious about acting on this finding?",
+    "choices": [
+      "The study used made-up data",
+      "It is a historical pattern from one market that can weaken and does not guarantee any single trade",
+      "It proved beta is the only thing that matters",
+      "It only looked at a single week of trading"
+    ],
+    "answer": 1,
+    "why": "The result came from one country over one 1963-1990 window. The small-company edge has looked weak in later periods, economists still debate why value works, and a pattern in past data describes tendencies rather than promising the outcome of your next trade."
   }
 ]

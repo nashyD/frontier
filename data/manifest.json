@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-09-pm",
+    "date": "2026-07-09",
+    "slot": "pm",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "title": "Beta's bad day: the study that broke the market's favorite risk formula",
+    "tldr": "Two economists sifted nearly thirty years of U.S. stock data and found that the textbook measure of risk barely predicted returns, while a company's size and how cheap it looked on paper predicted them well.",
+    "readMinutes": 5,
+    "citation": "Fama, E. F. & French, K. R. (1992), \"The Cross-Section of Expected Stock Returns\", The Journal of Finance 47(2), 427-465",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-07-pm",
     "date": "2026-07-07",
     "slot": "pm",
