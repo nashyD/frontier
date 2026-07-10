@@ -2254,5 +2254,53 @@
     ],
     "answer": 1,
     "why": "The result came from one country over one 1963-1990 window. The small-company edge has looked weak in later periods, economists still debate why value works, and a pattern in past data describes tendencies rather than promising the outcome of your next trade."
+  },
+  {
+    "qid": "2026-07-10-pm#0",
+    "lessonId": "2026-07-10-pm",
+    "lessonTitle": "A second inner cannabis: the molecule your body makes the most of",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Where did the team first isolate 2-AG?",
+    "choices": [
+      "Dog intestines",
+      "Human brain tissue",
+      "Cannabis plant leaves",
+      "Mouse blood"
+    ],
+    "answer": 0,
+    "why": "The researchers ground up canine gut, a tissue known to carry cannabinoid receptors, and purified 2-AG from it. Only later did other work confirm that the same molecule is abundant in the brain."
+  },
+  {
+    "qid": "2026-07-10-pm#1",
+    "lessonId": "2026-07-10-pm",
+    "lessonTitle": "A second inner cannabis: the molecule your body makes the most of",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "What made 2-AG important beyond simply being 'another' endocannabinoid?",
+    "choices": [
+      "It was the first molecule ever shown to bind a cannabinoid receptor",
+      "It later proved to be the most abundant endocannabinoid in the brain and body",
+      "It is found only in dogs",
+      "It replaced THC as a prescription medicine"
+    ],
+    "answer": 1,
+    "why": "Anandamide came first, in 1992. What lifted 2-AG's significance was the later finding that it is by far the most plentiful of these signals, which put it at the heart of how neurons regulate their own activity."
+  },
+  {
+    "qid": "2026-07-10-pm#2",
+    "lessonId": "2026-07-10-pm",
+    "lessonTitle": "A second inner cannabis: the molecule your body makes the most of",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Why does this study stop short of proving what 2-AG does in a living human brain?",
+    "choices": [
+      "The scanner used to detect it malfunctioned",
+      "The team never worked out the molecule's structure",
+      "The evidence came from lab dishes, dog tissue, and mice, which cannot show moment-to-moment activity in a human brain",
+      "2-AG failed to bind either cannabinoid receptor"
+    ],
+    "answer": 2,
+    "why": "The experiments used purified tissue, cell assays, and mice. Those show that 2-AG can act cannabis-like, yet they cannot capture its ongoing role in a working human brain, which later research had to tackle."
   }
 ]

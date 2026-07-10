@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-10-pm",
+  "date": "2026-07-10",
+  "slot": "pm",
+  "topic": "cannabis",
+  "topicLabel": "Cannabis Science",
+  "title": "A second inner cannabis: the molecule your body makes the most of",
+  "study": {
+    "citation": "Mechoulam, R., Ben-Shabat, S., Hanuš, L., Ligumsky, M., Kaminski, N. E., Schatz, A. R., Gopher, A., Almog, S., Martin, B. R., Compton, D. R., et al. (1995), \"Identification of an endogenous 2-monoglyceride, present in canine gut, that binds to cannabinoid receptors\", Biochemical Pharmacology 50(1), 83-90",
+    "year": 1995,
+    "link": "https://doi.org/10.1016/0006-2952(95)00109-D"
+  },
+  "tldr": "Three years after finding the body's first cannabis-like signal, Raphael Mechoulam's team pulled a second one from dog intestines — 2-AG — which later turned out to be the most abundant such molecule in the brain and body.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Your body builds its own cannabis-like signals. In 1992 Raphael Mechoulam's lab found the first, a molecule called anandamide that plugs into the very same docking points as THC, the active ingredient in cannabis. But anandamide seemed scarce and a little fragile, and that raised a nagging question. The body has whole families of receptors for these signals — one type common in the brain, another in immune tissue — so why would evolution wire up all that hardware for a single, thinly stocked messenger? Mechoulam suspected there had to be more of these home-made molecules waiting to be found. So his team went hunting for a second one."
+    },
+    {
+      "h": "What they did",
+      "body": "They started somewhere unglamorous: dog intestines, a tissue known to carry cannabinoid receptors. Grinding up the gut and running the extract through rounds of chemical purification, they fished out a candidate molecule and worked out its structure with mass spectrometry, a machine that weighs fragments of a molecule to reveal what it is made of. The answer was 2-arachidonoylglycerol, mercifully shortened to 2-AG: a common fatty acid stuck onto glycerol, the backbone of ordinary fats. To be sure, they built the same molecule from scratch in the lab and checked that the natural and synthetic versions matched. Then they asked the real question — does it behave like cannabis?"
+    },
+    {
+      "h": "What they found",
+      "body": "It did. 2-AG latched onto both cannabinoid receptors, gripping the brain-type one several times more tightly than the immune-type one. Inside cells it turned down the same internal machinery that THC quiets. And when the team injected it into mice, the animals showed the four classic signs researchers use to screen for cannabis-like drugs: less sensitivity to pain, stillness, reduced movement, and a drop in body temperature. In a strip of isolated mouse tissue it also hushed electrically triggered muscle twitches, though more weakly than THC. A fatty molecule scraped from a dog's gut was, by every test they ran, acting like a home-grown relative of the cannabis high."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This was the second endocannabinoid ever identified, and that number matters. Later work revealed that 2-AG is by far the most abundant of these molecules in the brain and body, dwarfing anandamide. It became a linchpin of how neurons calm their own chatter, released backward across a connection to tell an overactive neighbor to ease off. Today it sits near the center of drug programs aimed at pain, anxiety, and epilepsy, where researchers try to nudge the body's own supply up or down. Together with anandamide, this discovery turned a lone 'cannabis receptor' into a full signaling system the body runs on its own."
+    },
+    {
+      "h": "The catch",
+      "body": "Every result here came from lab dishes, dog tissue, and mice, so it shows what 2-AG can do rather than what it does moment to moment in a living human brain. Its grip on the receptor was weaker than THC's, and whether 2-AG flips the receptor fully on or only part way stayed contested for years afterward. A Japanese team led by Takayuki Sugiura reported 2-AG from brain tissue in the same year, so the credit for uncovering it is genuinely shared. Naming a molecule and watching it act cannabis-like in animals was the opening move; pinning down its everyday job in people took decades more."
+    }
+  ],
+  "terms": [
+    { "term": "Endocannabinoid", "def": "A cannabis-like signaling molecule the body makes for itself, which plugs into the same receptors as THC from the cannabis plant." },
+    { "term": "2-AG (2-arachidonoylglycerol)", "def": "A fatty molecule — a common fatty acid joined to glycerol — that turned out to be the most plentiful endocannabinoid in the brain and body." },
+    { "term": "Cannabinoid receptor", "def": "A docking point on cells, one kind common in the brain and nerves and another in immune tissue, that both THC and the body's own endocannabinoids fit into." }
+  ],
+  "takeaways": [
+    "Your body makes its own cannabis-like molecules, and 2-AG, identified in 1995, is the most abundant of them.",
+    "It was first pulled from dog gut, confirmed by rebuilding it in the lab, and shown to trigger the standard cannabis-like signs in mice.",
+    "One receptor with several home-made keys: anandamide and 2-AG together revealed a full signaling system that today's pain and anxiety drugs try to tune."
+  ],
+  "quiz": [
+    {
+      "q": "Where did the team first isolate 2-AG?",
+      "choices": [
+        "Dog intestines",
+        "Human brain tissue",
+        "Cannabis plant leaves",
+        "Mouse blood"
+      ],
+      "answer": 0,
+      "why": "The researchers ground up canine gut, a tissue known to carry cannabinoid receptors, and purified 2-AG from it. Only later did other work confirm that the same molecule is abundant in the brain."
+    },
+    {
+      "q": "What made 2-AG important beyond simply being 'another' endocannabinoid?",
+      "choices": [
+        "It was the first molecule ever shown to bind a cannabinoid receptor",
+        "It later proved to be the most abundant endocannabinoid in the brain and body",
+        "It is found only in dogs",
+        "It replaced THC as a prescription medicine"
+      ],
+      "answer": 1,
+      "why": "Anandamide came first, in 1992. What lifted 2-AG's significance was the later finding that it is by far the most plentiful of these signals, which put it at the heart of how neurons regulate their own activity."
+    },
+    {
+      "q": "Why does this study stop short of proving what 2-AG does in a living human brain?",
+      "choices": [
+        "The scanner used to detect it malfunctioned",
+        "The team never worked out the molecule's structure",
+        "The evidence came from lab dishes, dog tissue, and mice, which cannot show moment-to-moment activity in a human brain",
+        "2-AG failed to bind either cannabinoid receptor"
+      ],
+      "answer": 2,
+      "why": "The experiments used purified tissue, cell assays, and mice. Those show that 2-AG can act cannabis-like, yet they cannot capture its ongoing role in a working human brain, which later research had to tackle."
+    }
+  ]
+}

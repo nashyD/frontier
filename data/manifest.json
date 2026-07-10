@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-10-pm",
+    "date": "2026-07-10",
+    "slot": "pm",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "title": "A second inner cannabis: the molecule your body makes the most of",
+    "tldr": "Three years after finding the body's first cannabis-like signal, Raphael Mechoulam's team pulled a second one from dog intestines — 2-AG — which later turned out to be the most abundant such molecule in the brain and body.",
+    "readMinutes": 5,
+    "citation": "Mechoulam, R., Ben-Shabat, S., Hanuš, L., Ligumsky, M., Kaminski, N. E., Schatz, A. R., Gopher, A., Almog, S., Martin, B. R., Compton, D. R., et al. (1995), \"Identification of an endogenous 2-monoglyceride, present in canine gut, that binds to cannabinoid receptors\", Biochemical Pharmacology 50(1), 83-90",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-09-pm",
     "date": "2026-07-09",
     "slot": "pm",
