@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-11-pm",
+    "date": "2026-07-11",
+    "slot": "pm",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "title": "Learn it underwater, remember it underwater: how your surroundings become part of the memory",
+    "tldr": "Two psychologists had scuba divers memorize word lists on the beach or twenty feet under the sea, then tested them in the same or the opposite place — and people remembered far more when the surroundings matched, showing that where you learn quietly becomes part of what you remember.",
+    "readMinutes": 5,
+    "citation": "Godden, D. R. & Baddeley, A. D. (1975), \"Context-Dependent Memory in Two Natural Environments: On Land and Underwater\", British Journal of Psychology 66(3), 325-331",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-10-pm",
     "date": "2026-07-10",
     "slot": "pm",

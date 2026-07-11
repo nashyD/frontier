@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-11-pm",
+  "date": "2026-07-11",
+  "slot": "pm",
+  "topic": "learning",
+  "topicLabel": "Learning & Cognition",
+  "title": "Learn it underwater, remember it underwater: how your surroundings become part of the memory",
+  "study": {
+    "citation": "Godden, D. R. & Baddeley, A. D. (1975), \"Context-Dependent Memory in Two Natural Environments: On Land and Underwater\", British Journal of Psychology 66(3), 325-331",
+    "year": 1975,
+    "link": "https://doi.org/10.1111/j.2044-8295.1975.tb01468.x"
+  },
+  "tldr": "Two psychologists had scuba divers memorize word lists on the beach or twenty feet under the sea, then tested them in the same or the opposite place — and people remembered far more when the surroundings matched, showing that where you learn quietly becomes part of what you remember.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "We like to think a memory is a clean recording of a fact, sealed off from wherever we happened to be standing when we learned it. But everyday life keeps hinting otherwise. You walk into the kitchen and forget why you came, then remember the moment you step back into the room where the thought started. Duncan Godden and Alan Baddeley wanted to test that hunch somewhere far more vivid than a quiet lab room. Does the place where you learn something get bundled into the memory, so that returning to that place helps you pull the memory back out? To find out, they needed two settings that felt genuinely different."
+    },
+    {
+      "h": "What they did",
+      "body": "They recruited 18 members of a university diving club and gave each of them lists of 36 unrelated words to memorize. Here is the clever part. Sometimes a diver learned a list sitting on dry land by the shore. Other times they learned it while fully submerged, about twenty feet under the sea off the coast of Scotland, breathing through scuba gear. Four minutes later, each diver tried to recall the words — but the test happened either in the same setting where they had learned or in the opposite one. Every diver went through all four combinations: learn dry and test dry, learn dry and test wet, learn wet and test wet, learn wet and test dry."
+    },
+    {
+      "h": "What they found",
+      "body": "The surroundings mattered, and clearly. Words learned underwater came back best underwater. Words learned on land came back best on land. When the learning place and the testing place matched, divers recalled far more of their list. When the two settings were mismatched — learn wet, test dry, or the reverse — recall dropped sharply, even though the words themselves and the four-minute delay were identical. Nothing about the divers' knowledge had changed between the two tests. The only thing that changed was the room, so to speak. That was enough to swing how much they could dredge up, which told Godden and Baddeley that the environment had been quietly filed alongside the words."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This became the textbook demonstration of context-dependent memory: the idea that recall improves when your surroundings at test match your surroundings during learning. The sights, sounds, and even the feel of a place act as extra hooks. Return to the place and you tug on those hooks, and the memory comes with them. The insight rippled outward. It helps explain why witnesses recall more when walked back through a scene, why studying in varied places can make knowledge less tied to any single room, and why a familiar setting can unlock a memory that felt gone. It reframed memory as something woven into where you are, tangled up with the setting that surrounds it."
+    },
+    {
+      "h": "The catch",
+      "body": "The effect is real but fragile, and it depends heavily on how you test. A companion finding showed that when divers took a recognition test — picking learned words out of a lineup rather than recalling them from scratch — the matching-place advantage nearly vanished. The environmental boost seems to help most when you have few other cues to lean on. The sample was also small, just 18 divers doing a specific task in the open sea. And decades later, a 2021 attempt to repeat the study in a heated indoor pool did not reproduce the effect at all. That mismatch is a healthy reminder: a striking classic result can hold in one setting and slip away in another."
+    }
+  ],
+  "terms": [
+    { "term": "Context-dependent memory", "def": "The tendency to remember something better when your physical surroundings during recall match the surroundings where you first learned it." },
+    { "term": "Retrieval cue", "def": "Any hint — a smell, a sound, a place — that helps yank a stored memory back into your conscious mind." },
+    { "term": "Recognition test", "def": "A memory test where you pick the right answer out of options you are shown, rather than dredging it up from nothing on your own." }
+  ],
+  "takeaways": [
+    "Where you learn something gets quietly stored alongside it, so returning to that place can help you remember more.",
+    "The boost is strongest for free recall, when you have to summon information from scratch; it fades when a test hands you cues, like a multiple-choice lineup.",
+    "If you want knowledge that travels, study it in several different places so it is not welded to one single room or setting."
+  ],
+  "quiz": [
+    {
+      "q": "What was the main result of the diver experiment?",
+      "choices": [
+        "Divers remembered words best when the learning and testing environments matched",
+        "Divers always remembered more underwater than on land",
+        "The environment made no difference to how much they recalled",
+        "Words learned on land could only be recalled on land, never underwater"
+      ],
+      "answer": 0,
+      "why": "Recall was highest when the place of learning matched the place of testing — learned wet, tested wet, or learned dry, tested dry. Mismatched settings dragged recall down, showing the surroundings had been filed along with the words. Underwater was not inherently better; matching was what mattered."
+    },
+    {
+      "q": "Why did testing each diver in all four combinations strengthen the study?",
+      "choices": [
+        "It let them use fewer words in each list",
+        "It meant the same people faced both matched and mismatched conditions, so differences came from the setting rather than from different divers",
+        "It made the underwater test easier than the land test",
+        "It removed the need for any memorization at all"
+      ],
+      "answer": 1,
+      "why": "Because every diver experienced all four learn-and-test combinations, the comparison is within the same people. That rules out the worry that one group simply had better memories, so any swing in recall can be pinned on the matching or mismatching of the environment."
+    },
+    {
+      "q": "When did the matching-environment advantage nearly disappear?",
+      "choices": [
+        "When divers were tested after a longer delay",
+        "When the word lists were made shorter",
+        "When divers took a recognition test instead of recalling words from scratch",
+        "When the water was warmer"
+      ],
+      "answer": 2,
+      "why": "A companion result showed that on a recognition test — picking learned words out of a set of options — the place-matching benefit shrank close to nothing. The environmental cue helps most during free recall, when you have no other hooks to grab; a recognition lineup supplies its own cues."
+    }
+  ]
+}
