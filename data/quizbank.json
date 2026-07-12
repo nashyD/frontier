@@ -2350,5 +2350,53 @@
     ],
     "answer": 2,
     "why": "A companion result showed that on a recognition test — picking learned words out of a set of options — the place-matching benefit shrank close to nothing. The environmental cue helps most during free recall, when you have no other hooks to grab; a recognition lineup supplies its own cues."
+  },
+  {
+    "qid": "2026-07-12-pm#0",
+    "lessonId": "2026-07-12-pm",
+    "lessonTitle": "Four genes that wound a skin cell back to the beginning",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "What did Takahashi and Yamanaka show was possible?",
+    "choices": [
+      "Growing a whole mouse from a single skin cell",
+      "Reprogramming an adult specialized cell back into a flexible, embryo-like stem cell",
+      "Curing cancer using four genes",
+      "Cloning an animal by transferring a nucleus"
+    ],
+    "answer": 1,
+    "why": "Their four factors turned ordinary adult fibroblasts into induced pluripotent stem cells that behaved like embryonic stem cells, showing specialization can be reversed. Nuclear-transfer cloning is a separate technique, and the study neither grew a whole animal from one skin cell nor cured cancer."
+  },
+  {
+    "qid": "2026-07-12-pm#1",
+    "lessonId": "2026-07-12-pm",
+    "lessonTitle": "Four genes that wound a skin cell back to the beginning",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "How did the team arrive at their four genes?",
+    "choices": [
+      "They guessed the four at random",
+      "They used only a single gene from the start",
+      "They began with twenty-four candidate genes and removed them one at a time to find the essential ones",
+      "They copied the recipe from an earlier human study"
+    ],
+    "answer": 2,
+    "why": "They introduced all twenty-four pluripotency-associated genes together, saw reprogramming occur, then subtracted genes one by one until only the four indispensable ones remained: Oct3/4, Sox2, Klf4, and c-Myc."
+  },
+  {
+    "qid": "2026-07-12-pm#2",
+    "lessonId": "2026-07-12-pm",
+    "lessonTitle": "Four genes that wound a skin cell back to the beginning",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "What is one honest limitation of the original 2006 experiment?",
+    "choices": [
+      "It only worked on plant cells",
+      "The reprogrammed cells could never divide",
+      "It required a fresh embryo as its starting material",
+      "The reprogramming was very inefficient and used a virus plus a cancer-linked gene, all in mouse cells"
+    ],
+    "answer": 3,
+    "why": "Only a tiny fraction of cells reprogrammed, the delivery virus splices into the cell's DNA, the factor c-Myc can drive cancer, and the work was done in mice, with human iPS cells arriving in 2007. Avoiding embryos was actually a benefit of the method."
   }
 ]

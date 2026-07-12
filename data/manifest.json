@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-12-pm",
+    "date": "2026-07-12",
+    "slot": "pm",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "title": "Four genes that wound a skin cell back to the beginning",
+    "tldr": "Two scientists in Kyoto showed that just four genes can wind an adult skin cell all the way back to an embryo-like state able to become almost any tissue, resetting a cell's fate and reshaping regenerative medicine.",
+    "readMinutes": 4,
+    "citation": "Takahashi, K. & Yamanaka, S. (2006), \"Induction of Pluripotent Stem Cells from Mouse Embryonic and Adult Fibroblast Cultures by Defined Factors\", Cell 126(4), 663-676",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-11-pm",
     "date": "2026-07-11",
     "slot": "pm",
