@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-13-pm",
+    "date": "2026-07-13",
+    "slot": "pm",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "title": "The trick that lets a machine learn from its own mistakes",
+    "tldr": "Three researchers showed that a network of simple artificial neurons could teach itself by running its own errors backward through its wiring, nudging thousands of connections until the middle layers discovered useful ideas nobody had programmed in.",
+    "readMinutes": 5,
+    "citation": "Rumelhart, D. E., Hinton, G. E. & Williams, R. J. (1986), \"Learning representations by back-propagating errors\", Nature 323, 533-536",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-12-pm",
     "date": "2026-07-12",
     "slot": "pm",

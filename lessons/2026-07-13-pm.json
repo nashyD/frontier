@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-13-pm",
+  "date": "2026-07-13",
+  "slot": "pm",
+  "topic": "ai",
+  "topicLabel": "Artificial Intelligence",
+  "title": "The trick that lets a machine learn from its own mistakes",
+  "study": {
+    "citation": "Rumelhart, D. E., Hinton, G. E. & Williams, R. J. (1986), \"Learning representations by back-propagating errors\", Nature 323, 533-536",
+    "year": 1986,
+    "link": "https://doi.org/10.1038/323533a0"
+  },
+  "tldr": "Three researchers showed that a network of simple artificial neurons could teach itself by running its own errors backward through its wiring, nudging thousands of connections until the middle layers discovered useful ideas nobody had programmed in.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "An artificial neural network is a stack of simple units, loosely inspired by brain cells, wired together by connections called weights. Feed numbers into the first layer, let them flow through, and an answer comes out the far end. By the 1980s researchers could train a network with no middle layer, but those could only learn the simplest patterns. Adding a middle layer of \"hidden\" units promised far more power. There was a wall in the way: nobody had a good, general method to tell those hidden units how to change. You could see the final answer was wrong, but which inner connection deserved the blame?"
+    },
+    {
+      "h": "What they did",
+      "body": "David Rumelhart, Geoffrey Hinton, and Ronald Williams described a procedure called back-propagation. It runs in two passes. First, forward: feed in an example, let the numbers flow through the layers, and read the network's answer. Compare it to the desired answer to get an error, a single measure of how wrong the guess was. Second, backward: using calculus, spread the blame for that error back through the network, working out how much each connection pushed the answer off course. Then adjust every weight a small step in the direction that shrinks the error. Repeat this over thousands of examples, and the whole network slowly tunes itself toward right answers."
+    },
+    {
+      "h": "What they found",
+      "body": "The procedure worked, and the surprise was what happened in the middle. Nobody told the hidden units what to represent, yet they organized themselves into useful internal features. On a task of learning family relationships, hidden units quietly came to stand for things like a person's generation or which side of the family they belonged to, structure the researchers never wrote down. On a task of spotting whether a pattern was symmetric, the network found a tidy internal solution on its own. Rather than memorizing answers, the network was learning how to represent the problem itself."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This is the engine under modern AI. Almost every deep network you hear about, the ones that recognize photos, translate languages, or power chatbots, is trained by back-propagation, scaled up on faster hardware and vastly more data. The core loop has not changed: make a guess, measure the error, send it backward, nudge the weights. The paper's deeper lesson holds too. Give a network enough layers and enough examples and it will invent its own internal representations, its own way of carving up a problem, without a human specifying the features by hand. That idea runs straight through the AI people use today."
+    },
+    {
+      "h": "The catch",
+      "body": "A few honest caveats. The idea was not brand new in 1986; related methods had appeared earlier, and this paper's real gift was showing clearly that a network could learn rich internal features. Back-propagation can also stall: because it only ever steps downhill, it can settle into a merely-okay solution and stop, though this troubled the authors less in practice than they feared. It needs examples with known right answers, so it cannot learn from raw experience alone. And despite the brain-cell inspiration, most neuroscientists doubt real brains learn this exact way. It also sat mostly idle for years, waiting for computers to catch up."
+    }
+  ],
+  "terms": [
+    { "term": "Weight", "def": "A number on a connection between two units that sets how strongly one unit's signal affects the next; learning means adjusting these numbers." },
+    { "term": "Hidden units", "def": "The middle units of a network, sitting between the input and the output, where the network builds its own internal picture of the problem." },
+    { "term": "Back-propagation", "def": "The method of sending a network's output error backward through its layers to work out how each connection should be adjusted." }
+  ],
+  "takeaways": [
+    "A network learns by a simple loop: make a guess, measure how wrong it is, send that error backward, and nudge every connection a little toward being right.",
+    "Given enough layers and examples, the middle of the network invents its own useful features, with nobody hand-coding what to look for.",
+    "This 1986 procedure is still the training engine inside today's image recognizers, translators, and chatbots, just run at enormous scale."
+  ],
+  "quiz": [
+    {
+      "q": "What core problem did back-propagation solve?",
+      "choices": [
+        "How to build a network with no middle layer",
+        "How to tell the hidden middle units how to adjust, by spreading the output error back through the network",
+        "How to make computer chips run faster",
+        "How to label training data by hand"
+      ],
+      "answer": 1,
+      "why": "Training a network with no hidden layer was already possible but limited. The breakthrough was assigning blame to the hidden units: back-propagation sends the final error backward through the layers so each connection learns how much it should change."
+    },
+    {
+      "q": "In the studies, what did the hidden units end up representing?",
+      "choices": [
+        "Exact copies of the input, stored for later",
+        "Random noise that had no effect on the answer",
+        "Useful features of the task that nobody programmed in, such as a person's generation in a family tree",
+        "A lookup table of every possible answer"
+      ],
+      "answer": 2,
+      "why": "The striking result was self-organization. Without being told what to encode, hidden units came to represent meaningful structure, for instance a person's generation or family branch, showing the network discovered its own way to represent the problem."
+    },
+    {
+      "q": "Which is an honest limitation of back-propagation?",
+      "choices": [
+        "It cannot be used on more than one example",
+        "It only steps downhill, so it can settle into a merely-okay solution, and it needs examples with known right answers",
+        "It requires a human to set every weight by hand",
+        "It was shown not to work on real tasks"
+      ],
+      "answer": 1,
+      "why": "Because it always moves in the direction that reduces error, back-propagation can get stuck in a decent-but-not-best solution. It is also supervised: it learns from examples paired with desired answers, so it cannot learn from raw experience alone."
+    }
+  ]
+}

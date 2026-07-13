@@ -2398,5 +2398,53 @@
     ],
     "answer": 3,
     "why": "Only a tiny fraction of cells reprogrammed, the delivery virus splices into the cell's DNA, the factor c-Myc can drive cancer, and the work was done in mice, with human iPS cells arriving in 2007. Avoiding embryos was actually a benefit of the method."
+  },
+  {
+    "qid": "2026-07-13-pm#0",
+    "lessonId": "2026-07-13-pm",
+    "lessonTitle": "The trick that lets a machine learn from its own mistakes",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What core problem did back-propagation solve?",
+    "choices": [
+      "How to build a network with no middle layer",
+      "How to tell the hidden middle units how to adjust, by spreading the output error back through the network",
+      "How to make computer chips run faster",
+      "How to label training data by hand"
+    ],
+    "answer": 1,
+    "why": "Training a network with no hidden layer was already possible but limited. The breakthrough was assigning blame to the hidden units: back-propagation sends the final error backward through the layers so each connection learns how much it should change."
+  },
+  {
+    "qid": "2026-07-13-pm#1",
+    "lessonId": "2026-07-13-pm",
+    "lessonTitle": "The trick that lets a machine learn from its own mistakes",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "In the studies, what did the hidden units end up representing?",
+    "choices": [
+      "Exact copies of the input, stored for later",
+      "Random noise that had no effect on the answer",
+      "Useful features of the task that nobody programmed in, such as a person's generation in a family tree",
+      "A lookup table of every possible answer"
+    ],
+    "answer": 2,
+    "why": "The striking result was self-organization. Without being told what to encode, hidden units came to represent meaningful structure, for instance a person's generation or family branch, showing the network discovered its own way to represent the problem."
+  },
+  {
+    "qid": "2026-07-13-pm#2",
+    "lessonId": "2026-07-13-pm",
+    "lessonTitle": "The trick that lets a machine learn from its own mistakes",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "Which is an honest limitation of back-propagation?",
+    "choices": [
+      "It cannot be used on more than one example",
+      "It only steps downhill, so it can settle into a merely-okay solution, and it needs examples with known right answers",
+      "It requires a human to set every weight by hand",
+      "It was shown not to work on real tasks"
+    ],
+    "answer": 1,
+    "why": "Because it always moves in the direction that reduces error, back-propagation can get stuck in a decent-but-not-best solution. It is also supervised: it learns from examples paired with desired answers, so it cannot learn from raw experience alone."
   }
 ]
