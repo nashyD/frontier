@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-14-pm",
+    "date": "2026-07-14",
+    "slot": "pm",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "title": "Eat less, age slower: the 20-year monkey study that put a diet myth to the test",
+    "tldr": "Trimming a monkey's calories by 30 percent for twenty years, while keeping its nutrition complete, roughly tripled its odds of avoiding an age-related death and cut its diabetes, cancer, and heart disease.",
+    "readMinutes": 5,
+    "citation": "Colman, R. J. et al. (2009), \"Caloric Restriction Delays Disease Onset and Mortality in Rhesus Monkeys\", Science 325(5937), 201-204",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-13-pm",
     "date": "2026-07-13",
     "slot": "pm",

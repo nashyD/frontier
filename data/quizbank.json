@@ -2446,5 +2446,53 @@
     ],
     "answer": 1,
     "why": "Because it always moves in the direction that reduces error, back-propagation can get stuck in a decent-but-not-best solution. It is also supervised: it learns from examples paired with desired answers, so it cannot learn from raw experience alone."
+  },
+  {
+    "qid": "2026-07-14-pm#0",
+    "lessonId": "2026-07-14-pm",
+    "lessonTitle": "Eat less, age slower: the 20-year monkey study that put a diet myth to the test",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What was the single main difference between the two groups of monkeys?",
+    "choices": [
+      "The restricted group ate 30 percent fewer calories while getting the same complete nutrition",
+      "The restricted group ate an entirely different type of food",
+      "The restricted group exercised far more",
+      "The restricted group was much younger at the start"
+    ],
+    "answer": 0,
+    "why": "Both groups received identical vitamins, minerals, and protein; the only real change was total energy. The restricted monkeys had their calories trimmed by about 30 percent, phased in gradually, which let researchers tie any difference in aging to calories alone."
+  },
+  {
+    "qid": "2026-07-14-pm#1",
+    "lessonId": "2026-07-14-pm",
+    "lessonTitle": "Eat less, age slower: the 20-year monkey study that put a diet myth to the test",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What happened to age-related deaths in the calorie-restricted monkeys?",
+    "choices": [
+      "They rose sharply",
+      "They stayed exactly the same as the control group",
+      "They fell to roughly a third of the control group's rate",
+      "They could not be measured"
+    ],
+    "answer": 2,
+    "why": "About 37 percent of the normally fed monkeys died of age-related causes, versus roughly 13 percent of the restricted group — close to a threefold difference, alongside less diabetes, cancer, and heart disease."
+  },
+  {
+    "qid": "2026-07-14-pm#2",
+    "lessonId": "2026-07-14-pm",
+    "lessonTitle": "Eat less, age slower: the 20-year monkey study that put a diet myth to the test",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "Why did a second monkey study at first seem to contradict this one?",
+    "choices": [
+      "It used mice instead of monkeys",
+      "Its comparison monkeys were already eating a lean, portioned diet, which shrank the difference",
+      "It only lasted a few weeks",
+      "It fed both groups unlimited junk food"
+    ],
+    "answer": 1,
+    "why": "The National Institute on Aging's control monkeys ate a tightly portioned, healthier diet, so they were effectively mildly restricted already. That narrowed the gap and hid a survival benefit; a 2017 joint reanalysis of both studies concluded that restriction does help."
   }
 ]
