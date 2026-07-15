@@ -2494,5 +2494,53 @@
     ],
     "answer": 1,
     "why": "The National Institute on Aging's control monkeys ate a tightly portioned, healthier diet, so they were effectively mildly restricted already. That narrowed the gap and hid a survival benefit; a 2017 joint reanalysis of both studies concluded that restriction does help."
+  },
+  {
+    "qid": "2026-07-15-pm#0",
+    "lessonId": "2026-07-15-pm",
+    "lessonTitle": "The winners kept winning: the study that found the market has a memory",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "What did the reigning theory of markets predict about a stock's recent price history?",
+    "choices": [
+      "That it strongly predicts the next few months of returns",
+      "That it is useless for predicting future returns, since prices already reflect known information",
+      "That only the past week of prices matters",
+      "That rising stocks are guaranteed to fall next"
+    ],
+    "answer": 1,
+    "why": "Under the Efficient Market Hypothesis, prices already absorb everything knowable, so a stock's past run should carry no clue about its future. Jegadeesh and Titman's finding that recent winners kept winning is exactly what that theory said should not happen."
+  },
+  {
+    "qid": "2026-07-15-pm#1",
+    "lessonId": "2026-07-15-pm",
+    "lessonTitle": "The winners kept winning: the study that found the market has a memory",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "How did the researchers build their momentum bet?",
+    "choices": [
+      "They bought only the largest companies and held forever",
+      "They bought recent winners and short-sold recent losers, a self-funding wager",
+      "They bought whichever stocks had the highest dividends",
+      "They picked stocks at random to form a benchmark"
+    ],
+    "answer": 1,
+    "why": "They ranked stocks by their past 3-to-12-month returns, bought the top group of winners, and short-sold the bottom group of losers. Because the short sales fund the purchases, the combined position costs nothing up front and isolates the momentum effect."
+  },
+  {
+    "qid": "2026-07-15-pm#2",
+    "lessonId": "2026-07-15-pm",
+    "lessonTitle": "The winners kept winning: the study that found the market has a memory",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "Why should a reader be cautious about treating momentum as a safe money machine?",
+    "choices": [
+      "The returns were made up",
+      "It only worked for a single day",
+      "The gains reverse after about a year and the strategy suffers rare, sharp crashes",
+      "Beta fully explained all of the profits"
+    ],
+    "answer": 2,
+    "why": "The winning streak fades and partly reverses after roughly a year, so timing is delicate. Momentum also crashes hard when beaten-down losers rebound, and the real-world trading and short-selling costs eat into the paper returns."
   }
 ]

@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-15-pm",
+    "date": "2026-07-15",
+    "slot": "pm",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "title": "The winners kept winning: the study that found the market has a memory",
+    "tldr": "Two economists showed that stocks which had risen over the past several months tended to keep rising for months more, a simple pattern that the reigning theory of markets said should not exist.",
+    "readMinutes": 5,
+    "citation": "Jegadeesh, N. & Titman, S. (1993), \"Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency\", The Journal of Finance 48(1), 65-91",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-14-pm",
     "date": "2026-07-14",
     "slot": "pm",

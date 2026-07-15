@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-15-pm",
+  "date": "2026-07-15",
+  "slot": "pm",
+  "topic": "finance",
+  "topicLabel": "Finance & Markets",
+  "title": "The winners kept winning: the study that found the market has a memory",
+  "study": {
+    "citation": "Jegadeesh, N. & Titman, S. (1993), \"Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency\", The Journal of Finance 48(1), 65-91",
+    "year": 1993,
+    "link": "https://doi.org/10.1111/j.1540-6261.1993.tb04702.x"
+  },
+  "tldr": "Two economists showed that stocks which had risen over the past several months tended to keep rising for months more, a simple pattern that the reigning theory of markets said should not exist.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "The dominant idea in finance said the recent price history of a stock should be useless. If everyone can see that a stock has been climbing, they should have already bought it and pushed the price to fair value, leaving nothing on the table for the next buyer. In that world, last month's chart tells you nothing about next month. Narasimhan Jegadeesh and Sheridan Titman decided to check whether that clean idea held up. They asked a blunt question: if you simply bought the stocks that had gone up the most lately and bet against the ones that had fallen, would you make money?"
+    },
+    {
+      "h": "What they did",
+      "body": "They took monthly returns for stocks on the two big U.S. exchanges from 1965 through 1989. For each stretch of the past 3 to 12 months, they ranked every stock by how it had performed, then bought the top group of past winners and short-sold the bottom group of past losers. Short-selling means betting a price will fall, so the winners and losers together formed a self-funding wager that costs nothing up front. They held each bet for 3 to 12 months, tried all sixteen combinations of ranking window and holding window, and skipped the most recent week to avoid quirks in day-to-day trading."
+    },
+    {
+      "h": "What they found",
+      "body": "Every one of the sixteen versions made money. Buying recent winners and shorting recent losers earned on the order of one percent a month, and the strongest recipe, ranking on the past year and holding three months, ran higher still. The edge did not come from taking on obviously scarier stocks. When the authors adjusted for a stock's swing with the market and for company size, the profits stayed. Recent price direction, on its own, carried real information about the coming months. The market, it seemed, kept a short memory that a patient trader could read."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This gave a name and hard numbers to momentum, and momentum became one of the most stubborn patterns in all of finance. Later researchers found the same tendency in stock markets around the world, and in bonds, currencies, and commodities. It punched a hole in the comfortable belief that prices instantly reflect everything knowable, and it pushed economists toward theories about how crowds of investors underreact to news and drift into a trend. Today momentum sits beside size and value as a core factor that quantitative funds tilt toward, steering real money by the billions."
+    },
+    {
+      "h": "The catch",
+      "body": "The memory is short and it turns on you. The same winner stocks that surged tended to give much of it back after about a year, so the timing window matters enormously. Momentum also suffers rare, violent crashes, usually when a beaten-down market snaps back and the shorted losers rocket upward. Running the strategy for real means constant trading and short-selling, which carry costs and risks the paper's tidy returns understate. And economists still argue over the cause: some read it as investors being slow and irrational, others suspect a subtle risk that plain measures miss."
+    }
+  ],
+  "terms": [
+    { "term": "Momentum", "def": "The tendency for a stock's recent direction to persist, so that recent winners keep rising and recent losers keep falling for a while longer." },
+    { "term": "Efficient Market Hypothesis", "def": "The theory that stock prices already reflect all available information, which implies that past prices cannot help you predict future returns." },
+    { "term": "Short-selling", "def": "Betting that a price will fall by borrowing shares to sell now and buying them back later, ideally cheaper; it lets a trader profit from a decline." }
+  ],
+  "takeaways": [
+    "From 1965 to 1989, buying the stocks that had risen most over the past 3 to 12 months and betting against the biggest losers earned roughly one percent a month.",
+    "The profits survived adjustments for market swings and company size, so this momentum was not just a reward for holding scarier stocks.",
+    "The effect is real and worldwide, but it reverses after about a year and is prone to sharp crashes, so it describes a tendency rather than a safe recipe."
+  ],
+  "quiz": [
+    {
+      "q": "What did the reigning theory of markets predict about a stock's recent price history?",
+      "choices": [
+        "That it strongly predicts the next few months of returns",
+        "That it is useless for predicting future returns, since prices already reflect known information",
+        "That only the past week of prices matters",
+        "That rising stocks are guaranteed to fall next"
+      ],
+      "answer": 1,
+      "why": "Under the Efficient Market Hypothesis, prices already absorb everything knowable, so a stock's past run should carry no clue about its future. Jegadeesh and Titman's finding that recent winners kept winning is exactly what that theory said should not happen."
+    },
+    {
+      "q": "How did the researchers build their momentum bet?",
+      "choices": [
+        "They bought only the largest companies and held forever",
+        "They bought recent winners and short-sold recent losers, a self-funding wager",
+        "They bought whichever stocks had the highest dividends",
+        "They picked stocks at random to form a benchmark"
+      ],
+      "answer": 1,
+      "why": "They ranked stocks by their past 3-to-12-month returns, bought the top group of winners, and short-sold the bottom group of losers. Because the short sales fund the purchases, the combined position costs nothing up front and isolates the momentum effect."
+    },
+    {
+      "q": "Why should a reader be cautious about treating momentum as a safe money machine?",
+      "choices": [
+        "The returns were made up",
+        "It only worked for a single day",
+        "The gains reverse after about a year and the strategy suffers rare, sharp crashes",
+        "Beta fully explained all of the profits"
+      ],
+      "answer": 2,
+      "why": "The winning streak fades and partly reverses after roughly a year, so timing is delicate. Momentum also crashes hard when beaten-down losers rebound, and the real-world trading and short-selling costs eat into the paper returns."
+    }
+  ]
+}
