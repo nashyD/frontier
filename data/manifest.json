@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-16-pm",
+    "date": "2026-07-16",
+    "slot": "pm",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "title": "The other cannabis receptor — the one in your immune system",
+    "tldr": "Three years after the brain's cannabis receptor was cloned, a Cambridge team pulled a second one out of immune cells — CB2 — which barely shows up in the brain and reframed cannabis as a body-wide signaling system.",
+    "readMinutes": 5,
+    "citation": "Munro, S., Thomas, K. L. & Abu-Shaar, M. (1993), \"Molecular characterization of a peripheral receptor for cannabinoids\", Nature 365(6441), 61-65",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-15-pm",
     "date": "2026-07-15",
     "slot": "pm",

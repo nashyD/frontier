@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-16-pm",
+  "date": "2026-07-16",
+  "slot": "pm",
+  "topic": "cannabis",
+  "topicLabel": "Cannabis Science",
+  "title": "The other cannabis receptor — the one in your immune system",
+  "study": {
+    "citation": "Munro, S., Thomas, K. L. & Abu-Shaar, M. (1993), \"Molecular characterization of a peripheral receptor for cannabinoids\", Nature 365(6441), 61-65",
+    "year": 1993,
+    "link": "https://doi.org/10.1038/365061a0"
+  },
+  "tldr": "Three years after the brain's cannabis receptor was cloned, a Cambridge team pulled a second one out of immune cells — CB2 — which barely shows up in the brain and reframed cannabis as a body-wide signaling system.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "By 1990 scientists had cloned the first cannabinoid receptor, a docking point in the brain that THC — the active ingredient in cannabis — plugs into to produce a high. That receptor, later named CB1, explained the mental effects nicely. But it left a loose end. Cannabis compounds also tug on the immune system, quieting inflammation and dialing down the body's defenses, and the brain receptor could not account for that. So Sean Munro's group in Cambridge asked a simple question: is there a second cannabinoid receptor sitting somewhere outside the brain, in the tissues that run our immune defenses?"
+    },
+    {
+      "h": "What they did",
+      "body": "They went looking at the level of genes. In a line of human immune cells called HL-60 — white-blood-cell precursors grown in the lab — they combed for genes that build G-protein-coupled receptors, the body's largest family of cell-surface antennae that catch an outside signal and relay it inward. One gene's blueprint looked oddly familiar. When they read out its protein sequence and lined it up against the known brain receptor, roughly 44 percent of the letters matched, climbing to about 68 percent across the stretches that thread through the cell membrane. Then they ran the real test: do cannabis compounds actually latch onto this new receptor?"
+    },
+    {
+      "h": "What they found",
+      "body": "They do. Cannabinoid molecules docked into the receptor, and switching it on turned down cyclic AMP, a common inside-the-cell messenger that the brain receptor controls the same way. The location told the sharper story. The gene was busy in the spleen and immune tissue and nearly silent in the brain — a near-mirror image of the brain receptor, which is abundant in nerve tissue. Here was a cannabinoid receptor living in the body's defense system, far from the wiring that governs mood and perception. The team had found the second member of a small, important family."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This receptor became CB2, and it split cannabis research into two lanes. CB1 in the brain explains the high; CB2 in immune cells suggested cannabinoids can speak to inflammation and pain without touching thought or feeling. Drug makers seized on that gap. A medicine aimed only at CB2 might calm swelling or ease pain and skip the psychoactive side effects that make CB1 drugs hard to use. Paired with the endocannabinoids — the cannabis-like molecules the body makes for itself — CB2 helped turn a lone 'cannabis receptor' into a signaling system that reaches across the whole body."
+    },
+    {
+      "h": "The catch",
+      "body": "This was a discovery of a gene, a protein sequence, and a tissue map. It showed where CB2 lives and that cannabinoids bind it, yet it did not show what the receptor actually does inside a living animal — that took years of follow-up. The tidy 'absent from the brain' label also frayed later, when other groups found low levels of CB2 in certain brain immune cells called microglia, a claim still argued over today. And rodent and human versions of CB2 differ more than the brain receptor does, which has made translating this target into approved drugs slower than the early promise suggested."
+    }
+  ],
+  "terms": [
+    { "term": "CB1 and CB2 receptors", "def": "The two main cannabinoid docking points: CB1 concentrated in the brain and nerves, CB2 concentrated in immune tissue like the spleen." },
+    { "term": "G-protein-coupled receptor", "def": "A cell-surface antenna that catches a signal from outside and relays it inward; it is the largest such receptor family in the body." },
+    { "term": "Cyclic AMP", "def": "A common messenger molecule inside cells that receptors turn up or down to change how the cell behaves." }
+  ],
+  "takeaways": [
+    "In 1993 researchers found a second cannabinoid receptor, CB2, hiding in immune tissue far from the brain.",
+    "It shares about 44 percent of its sequence with the brain receptor and dampens the same internal messenger, yet it is busiest in the spleen and immune cells.",
+    "CB2 is the reason scientists chase cannabis-based drugs for inflammation and pain that leave the high behind."
+  ],
+  "quiz": [
+    {
+      "q": "Where was the newly found receptor most active?",
+      "choices": [
+        "The spleen and immune tissue",
+        "The outer layer of the brain",
+        "The leaves of the cannabis plant",
+        "The lining of the stomach only"
+      ],
+      "answer": 0,
+      "why": "The gene for CB2 was busy in the spleen and immune tissue and nearly silent in the brain, a near-mirror image of the brain-based CB1 receptor. That immune-system home is what made it a distinct discovery."
+    },
+    {
+      "q": "Why did finding CB2 in immune cells excite drug developers?",
+      "choices": [
+        "It meant cannabis could finally be grown in a lab",
+        "A drug hitting only CB2 might treat inflammation or pain without the psychoactive high",
+        "It proved THC has no effect on the body",
+        "It replaced the need for the brain receptor entirely"
+      ],
+      "answer": 1,
+      "why": "Because CB2 sits in immune tissue rather than the brain, a medicine that targets it specifically could calm inflammation or pain while skipping the mood and perception effects that come from the brain's CB1 receptor."
+    },
+    {
+      "q": "What is an honest limitation of this 1993 study?",
+      "choices": [
+        "The researchers never worked out the receptor's sequence",
+        "It showed cannabinoids have no effect on immune cells",
+        "It mapped where CB2 lives and that cannabinoids bind it, but not what the receptor does in a living animal",
+        "The receptor turned out to exist only in the cannabis plant"
+      ],
+      "answer": 2,
+      "why": "The work identified the gene, its protein, and its tissue location, and showed binding in the lab. Demonstrating CB2's actual job inside a living body required many later studies, and some early claims about its distribution were later contested."
+    }
+  ]
+}

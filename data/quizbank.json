@@ -2542,5 +2542,53 @@
     ],
     "answer": 2,
     "why": "The winning streak fades and partly reverses after roughly a year, so timing is delicate. Momentum also crashes hard when beaten-down losers rebound, and the real-world trading and short-selling costs eat into the paper returns."
+  },
+  {
+    "qid": "2026-07-16-pm#0",
+    "lessonId": "2026-07-16-pm",
+    "lessonTitle": "The other cannabis receptor — the one in your immune system",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Where was the newly found receptor most active?",
+    "choices": [
+      "The spleen and immune tissue",
+      "The outer layer of the brain",
+      "The leaves of the cannabis plant",
+      "The lining of the stomach only"
+    ],
+    "answer": 0,
+    "why": "The gene for CB2 was busy in the spleen and immune tissue and nearly silent in the brain, a near-mirror image of the brain-based CB1 receptor. That immune-system home is what made it a distinct discovery."
+  },
+  {
+    "qid": "2026-07-16-pm#1",
+    "lessonId": "2026-07-16-pm",
+    "lessonTitle": "The other cannabis receptor — the one in your immune system",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Why did finding CB2 in immune cells excite drug developers?",
+    "choices": [
+      "It meant cannabis could finally be grown in a lab",
+      "A drug hitting only CB2 might treat inflammation or pain without the psychoactive high",
+      "It proved THC has no effect on the body",
+      "It replaced the need for the brain receptor entirely"
+    ],
+    "answer": 1,
+    "why": "Because CB2 sits in immune tissue rather than the brain, a medicine that targets it specifically could calm inflammation or pain while skipping the mood and perception effects that come from the brain's CB1 receptor."
+  },
+  {
+    "qid": "2026-07-16-pm#2",
+    "lessonId": "2026-07-16-pm",
+    "lessonTitle": "The other cannabis receptor — the one in your immune system",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "What is an honest limitation of this 1993 study?",
+    "choices": [
+      "The researchers never worked out the receptor's sequence",
+      "It showed cannabinoids have no effect on immune cells",
+      "It mapped where CB2 lives and that cannabinoids bind it, but not what the receptor does in a living animal",
+      "The receptor turned out to exist only in the cannabis plant"
+    ],
+    "answer": 2,
+    "why": "The work identified the gene, its protein, and its tissue location, and showed binding in the lab. Demonstrating CB2's actual job inside a living body required many later studies, and some early claims about its distribution were later contested."
   }
 ]
