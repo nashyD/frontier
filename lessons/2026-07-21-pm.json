@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-21-pm",
+  "date": "2026-07-21",
+  "slot": "pm",
+  "topic": "learning",
+  "topicLabel": "Learning & Cognition",
+  "title": "The question you ask about a word decides whether you keep it",
+  "study": {
+    "citation": "Craik, F. I. M. & Tulving, E. (1975), \"Depth of processing and the retention of words in episodic memory\", Journal of Experimental Psychology: General 104(3), 268-294",
+    "year": 1975,
+    "link": "https://doi.org/10.1037/0096-3445.104.3.268"
+  },
+  "tldr": "People who were never told to memorize anything still remembered words far better when they had been asked what the word meant instead of how it looked or sounded — the mental work you do in the moment is what makes a memory stick.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "For decades the popular picture of memory was a set of containers. Information landed in a short-term store, and if you rehearsed it enough — repeated it over and over — some of it transferred into a long-term store. Rehearsal was the engine. Then in 1972 Fergus Craik and Robert Lockhart floated a different idea: what matters is the kind of mental work you do on something the moment you encounter it. Craik and Endel Tulving set out to test it directly, with a sneaky twist. What if nobody in the experiment was trying to remember anything at all?"
+    },
+    {
+      "h": "What they did",
+      "body": "They told participants the study was about perception and reaction time, so nobody was studying for a test. Each person saw a series of short, ordinary nouns, and before each word came a question that forced a specific kind of attention. Some questions were about appearance: is this word printed in capital letters? Some were about sound: does this word rhyme with 'weight'? Some were about meaning: would this word fit in the sentence 'He met a ______ in the street'? Participants pressed yes or no and moved on. Then came the trick — a surprise memory test, with the original words hidden among a much larger pile of words they had never seen."
+    },
+    {
+      "h": "What they found",
+      "body": "A clean ladder. Words that had arrived with a meaning question were recognized far more often than words that had arrived with a sound question, and those in turn beat words that had arrived with a question about capital letters. The gap between the top and bottom rungs was large. A second pattern showed up too: words where the honest answer was yes were remembered better than words where the answer was no, even though the two kinds of judgment took similar time. Craik and Tulving ran ten experiments in the paper, and the ordering held up across them."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This moved the conversation about memory away from how long something sits in a mental container and toward what you actually did with it. Repetition alone turned out to be a weak lever. Connecting a thing to meaning — fitting it into a sentence, relating it to something you already know, deciding whether it is true of you — turned out to be a strong one. Fifty years on, that idea underwrites most of what we tell students: explain it in your own words, generate examples, ask why. Highlighting a page keeps you at the capital-letters level of the experiment."
+    },
+    {
+      "h": "The catch",
+      "body": "The framework drew a sharp objection from Alan Baddeley in 1978: 'depth' had no independent yardstick. Deep processing was whatever produced better memory, and better memory was the proof that processing had been deep, which makes the claim hard to disprove. Then Morris, Bransford and Franks in 1977 landed a harder punch. When the later test asked about rhymes, words that had been processed for sound beat words processed for meaning. So the winner depends on the match between how you encoded something and how you will be asked for it. This was also short lists of single words in a lab, a long way from learning a subject."
+    }
+  ],
+  "terms": [
+    { "term": "Levels of processing", "def": "The idea that how deeply you engage with something when you meet it — its look, its sound, or its meaning — predicts how well you will remember it." },
+    { "term": "Incidental learning", "def": "Remembering something you were never told to memorize, because the task you were doing happened to make you process it." },
+    { "term": "Orienting question", "def": "A question asked right before you see an item, used to steer what kind of attention you pay to it." }
+  ],
+  "takeaways": [
+    "Memory follows attention quality, so the question you ask yourself about new material matters more than how many times you reread it.",
+    "Participants who never intended to learn still remembered meaning-processed words far better than words they had only judged by shape or sound.",
+    "Before you reread a page, ask what it means, where it fits, and whether it is true of you — that single move does more than another pass of highlighting."
+  ],
+  "quiz": [
+    {
+      "q": "Why were the participants not trying to memorize the words?",
+      "choices": [
+        "They were told the study was about perception and reaction time",
+        "They were asleep during the word presentation",
+        "They were paid only for speed, so memory was banned",
+        "The words were shown too quickly to read"
+      ],
+      "answer": 0,
+      "why": "The cover story kept everyone in an incidental learning setup, so any memory differences came from the kind of processing each question forced rather than from different amounts of deliberate studying."
+    },
+    {
+      "q": "Which kind of question produced the best recognition later?",
+      "choices": [
+        "Whether the word was in capital letters",
+        "Whether the word rhymed with another word",
+        "Whether the word fit into a sentence",
+        "All three produced the same recognition"
+      ],
+      "answer": 2,
+      "why": "The sentence question forced participants to handle the word's meaning, and meaning-level processing produced the highest recognition. Sound came second and appearance came last, forming a consistent ladder."
+    },
+    {
+      "q": "What did Morris, Bransford and Franks show in 1977 that complicates the depth story?",
+      "choices": [
+        "That the original results could not be reproduced at all",
+        "That sound-processed words won when the later test was about rhymes",
+        "That capital letters are the deepest form of processing",
+        "That memory has nothing to do with attention"
+      ],
+      "answer": 1,
+      "why": "They flipped the test rather than the encoding. When the final test asked about rhymes, words originally processed for sound beat words processed for meaning, which points to the match between encoding and retrieval as the deciding factor."
+    }
+  ]
+}

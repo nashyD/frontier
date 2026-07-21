@@ -2590,5 +2590,53 @@
     ],
     "answer": 2,
     "why": "The work identified the gene, its protein, and its tissue location, and showed binding in the lab. Demonstrating CB2's actual job inside a living body required many later studies, and some early claims about its distribution were later contested."
+  },
+  {
+    "qid": "2026-07-21-pm#0",
+    "lessonId": "2026-07-21-pm",
+    "lessonTitle": "The question you ask about a word decides whether you keep it",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "Why were the participants not trying to memorize the words?",
+    "choices": [
+      "They were told the study was about perception and reaction time",
+      "They were asleep during the word presentation",
+      "They were paid only for speed, so memory was banned",
+      "The words were shown too quickly to read"
+    ],
+    "answer": 0,
+    "why": "The cover story kept everyone in an incidental learning setup, so any memory differences came from the kind of processing each question forced rather than from different amounts of deliberate studying."
+  },
+  {
+    "qid": "2026-07-21-pm#1",
+    "lessonId": "2026-07-21-pm",
+    "lessonTitle": "The question you ask about a word decides whether you keep it",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "Which kind of question produced the best recognition later?",
+    "choices": [
+      "Whether the word was in capital letters",
+      "Whether the word rhymed with another word",
+      "Whether the word fit into a sentence",
+      "All three produced the same recognition"
+    ],
+    "answer": 2,
+    "why": "The sentence question forced participants to handle the word's meaning, and meaning-level processing produced the highest recognition. Sound came second and appearance came last, forming a consistent ladder."
+  },
+  {
+    "qid": "2026-07-21-pm#2",
+    "lessonId": "2026-07-21-pm",
+    "lessonTitle": "The question you ask about a word decides whether you keep it",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What did Morris, Bransford and Franks show in 1977 that complicates the depth story?",
+    "choices": [
+      "That the original results could not be reproduced at all",
+      "That sound-processed words won when the later test was about rhymes",
+      "That capital letters are the deepest form of processing",
+      "That memory has nothing to do with attention"
+    ],
+    "answer": 1,
+    "why": "They flipped the test rather than the encoding. When the final test asked about rhymes, words originally processed for sound beat words processed for meaning, which points to the match between encoding and retrieval as the deciding factor."
   }
 ]

@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-21-pm",
+    "date": "2026-07-21",
+    "slot": "pm",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "title": "The question you ask about a word decides whether you keep it",
+    "tldr": "People who were never told to memorize anything still remembered words far better when they had been asked what the word meant instead of how it looked or sounded — the mental work you do in the moment is what makes a memory stick.",
+    "readMinutes": 5,
+    "citation": "Craik, F. I. M. & Tulving, E. (1975), \"Depth of processing and the retention of words in episodic memory\", Journal of Experimental Psychology: General 104(3), 268-294",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-16-pm",
     "date": "2026-07-16",
     "slot": "pm",
