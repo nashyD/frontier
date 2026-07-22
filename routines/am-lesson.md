@@ -13,11 +13,41 @@ JSON file that the static site renders.
 2. Today's date: `date +%F` (LOCAL America/New_York — never UTC). Slot is **am**, so
    `id = <date>-am`. If `lessons/<id>.json` already exists, STOP (already filed).
 3. Open `data/curriculum.json`.
-   - If `mode` is `"existing"` (the default for the first couple of months): take the
-     FIRST entry in `queue`. That is your study.
-   - If `mode` is `"new"`: instead, use WebSearch/WebFetch to find a genuinely
-     interesting study published recently (last ~2 weeks) in one of the six topics,
-     rotating topics day to day. Verify it with a real source.
+   - If `queue` has entries: take the FIRST entry. That is your study (a human queued
+     it deliberately, so it wins regardless of mode). Skip to step 4.
+   - If `mode` is `"existing"`: take the first `queue` entry; if the queue is empty,
+     follow the `"new"` procedure below for the day and say so in the commit.
+   - If `mode` is `"new"` (current since 2026-07-21): surface a study that is
+     genuinely NEW. Procedure:
+     a. **Pick the topic.** Read `data/manifest.json` and list the topics of the last
+        6 lessons. Choose a topic from `biohacking / ai / learning / cannabis /
+        finance / frontier` that appears least recently in that list, so all six
+        rotate roughly every three days.
+     b. **Recency bar.** The study must have been published or posted within the last
+        ~30 days; prefer the last 14. "Published" means a dated primary source: a
+        journal article, an arXiv/bioRxiv/medRxiv/SSRN preprint, or a peer-reviewed
+        conference paper. A press release or news story is a lead, never the source.
+     c. **Where to hunt** (2-4 distinct searches minimum):
+        - `ai` / `frontier`: arXiv listings, major-lab publications, NeurIPS/ICML/ICLR
+          accepted papers, Nature/Science news coverage of new results.
+        - `biohacking` / `cannabis`: PubMed "sort by most recent", medRxiv/bioRxiv,
+          journal new-issue pages (e.g. Cell Metabolism, JAMA, Journal of Cannabis
+          Research), NIH press releases.
+        - `learning`: Psychological Science, Nature Human Behaviour, npj Science of
+          Learning, Cognition recent issues.
+        - `finance`: NBER working papers this week, SSRN top recent, Journal of
+          Finance/AER early-access, FRED/central-bank research blogs.
+        General sweeps of Quanta, Nature news, Science news, and Ars Technica science
+        also surface candidates across topics; always chase the primary paper behind
+        the coverage.
+     d. **Selection bar.** Real methods and a concrete finding a curious layperson can
+        grasp; big-if-true is fine when the evidence is real. Skip papers whose only
+        substance is a benchmark table, an opinion/position piece, or a press release
+        with no paper behind it. Check `done` in `data/curriculum.json` so you never
+        repeat a study.
+     e. **If the chosen topic has nothing fresh worth teaching**, rotate to the
+        next-least-recent topic rather than reaching back to an older classic. The
+        whole point of `"new"` mode is that the site covers the frontier as it moves.
 4. **Research the study** with WebSearch/WebFetch. Confirm the authors, year, venue,
    and a working link (DOI or arXiv). Read enough to get the method and findings right.
 5. **Write** `lessons/<id>.json`, following `templates/lesson-template.json` exactly
@@ -35,8 +65,10 @@ JSON file that the static site renders.
      number, or finding. If you can't source it, pick a different study.
    - **Never use the "X, not Y" contrastive construction** anywhere in the prose.
    - No hype, no "as an AI", no marketing tone. Concrete and vivid beats abstract.
-7. **Update the queue** (only in `existing` mode): remove the entry you used from
-   `queue` and append a one-line record to `done` (e.g. `"<id> — <topic> — <citation>"`).
+7. **Update the curriculum bookkeeping.** In `existing` mode (or when you consumed a
+   queued entry): remove the entry you used from `queue`. In EVERY mode: append a
+   one-line record to `done` (e.g. `"<id> — <topic> — <citation>"`) — `done` is the
+   dedupe ledger that stops a future run from re-teaching the same study.
 8. **Publish:**
    ```
    node scripts/build-manifest.mjs
@@ -46,7 +78,11 @@ JSON file that the static site renders.
    ```
 
 ## Notes
-- Pick studies that are real, well-documented, and teachable. When in doubt, prefer the
-  landmark/most-cited version over an obscure follow-up.
-- If the queue is empty in `existing` mode, either add a few solid studies to it or
-  switch behavior to `new` mode for the day — and mention it in the commit.
+- Pick studies that are real, well-documented, and teachable.
+- In `"new"` mode, "The catch" section is where preprint status, small samples, and
+  unreplicated-yet caveats live — state them plainly. A brand-new result with honest
+  caveats beats a safe classic; an unsourced hype story beats nothing at all and must
+  still be skipped.
+- Fresh preprints often have thin secondary coverage. That is fine: the arXiv/DOI page
+  itself is the source. Cite what the paper says and resist filling gaps from
+  imagination.
