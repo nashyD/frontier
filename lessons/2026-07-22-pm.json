@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-22-pm",
+  "date": "2026-07-22",
+  "slot": "pm",
+  "topic": "frontier",
+  "topicLabel": "Frontier Science",
+  "title": "There is sugar floating between the stars",
+  "study": {
+    "citation": "Jiménez-Serra, I. et al. (2026), \"Detection of a four-carbon sugar in interstellar space\", Nature Astronomy",
+    "year": 2026,
+    "link": "https://doi.org/10.1038/s41550-026-02905-7"
+  },
+  "tldr": "Astronomers picked up the radio fingerprint of erythrulose, a four-carbon sugar, in a cloud of gas and dust near the center of our galaxy, the first real sugar ever spotted in interstellar space.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Life runs on sugars. The backbone of RNA is a sugar called ribose, and cells burn sugars for energy. So where did the first ones come from? Chemists have long had trouble making sugars under the conditions of the early Earth, because they fall apart about as fast as they form. That leaves an alternative worth testing: maybe sugars were already drifting around in space and rained down on the young planet. Meteorites that landed on Earth do carry ribose and glucose. The open question was whether sugar exists out in the cold clouds between the stars in the first place."
+    },
+    {
+      "h": "What they did",
+      "body": "A team led by Izaskun Jiménez-Serra pointed two radio telescopes in Spain, the 40-metre dish at Yebes and the 30-metre IRAM dish, at a giant cloud of gas and dust called G+0.693−0.027, sitting near the center of the Milky Way about 27,000 light-years away. Molecules tumbling in space give off radio waves at a set of frequencies unique to their shape, like a barcode. Chemists in the Basque Country measured that barcode for erythrulose in the lab first. The astronomers then hunted for the same pattern in their sky data and found twelve matching sets of lines."
+    },
+    {
+      "h": "What they found",
+      "body": "The barcode belonged to erythrulose, a sugar built from four carbon atoms. On Earth it shows up in raspberries and in sunless tanning lotion. Chemists reserve the word sugar for molecules of three carbons or more, so this is the first genuine sugar found in interstellar space. The surprise came next. Simpler three-carbon sugars did not show up in the same cloud at all, meaning erythrulose is at least eight times more common there than its smaller cousins. Chemical modelling suggested it assembles on the icy coats of dust grains out of simpler two-carbon alcohols and aldehydes."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "Astrochemists had assumed molecules in space grow one carbon at a time, so finding the bigger sugar while the smaller ones stayed missing scrambles that picture and points to a different assembly route on dust grains. It also gives the origin of life an outside supplier. From the measured abundance, the team estimates somewhere between half a million and fifty million metric tons of erythrulose could have reached Earth's surface during the Late Heavy Bombardment, the era of heavy asteroid and comet impacts roughly 4.1 to 3.8 billion years ago. The team's next target is ribose itself, the sugar inside RNA."
+    },
+    {
+      "h": "The catch",
+      "body": "This is one detection in one unusual cloud, a place already famous for being unusually rich in complex molecules, so it may not represent space generally. The identification rests on matching laboratory line patterns inside a radio spectrum crowded with signals from hundreds of other molecules, which is careful work that other groups will want to repeat. The delivery estimate spans a hundredfold range, a sign of how loose those numbers are. And erythrulose is a cousin of ribose rather than ribose itself. Nothing here shows that any sugar survived the fall to Earth or that early life ever used it."
+    }
+  ],
+  "terms": [
+    { "term": "Sugar (monosaccharide)", "def": "A small carbon-based molecule with at least three carbon atoms, the simplest unit of the sugars life uses for fuel and structure." },
+    { "term": "Rotational spectroscopy", "def": "Reading the specific radio frequencies a tumbling molecule emits, which act as a fingerprint for that exact molecule." },
+    { "term": "Molecular cloud", "def": "A vast, cold region of gas and dust between the stars where chemistry happens on the surfaces of tiny grains." }
+  ],
+  "takeaways": [
+    "Sugar is not an Earth invention: a four-carbon sugar has now been found drifting in a cloud near the galactic center.",
+    "Space chemistry can skip steps. The four-carbon sugar was there while the simpler three-carbon ones were undetectable, which upends the usual grow-one-carbon-at-a-time story.",
+    "The ingredients for life may arrive from outside. Comet and asteroid impacts could have delivered millions of tons of this sugar to the young Earth."
+  ],
+  "quiz": [
+    {
+      "q": "What made this detection a first?",
+      "choices": [
+        "It was the first molecule ever found in space",
+        "It was the first true sugar, a molecule of three or more carbons, identified in interstellar space",
+        "It was the first sugar found inside a meteorite",
+        "It was the first time a telescope detected ribose"
+      ],
+      "answer": 1,
+      "why": "Sugar-related two-carbon molecules had been seen in space before, but chemists count a molecule as a sugar only at three carbons or more. Erythrulose has four. Ribose and glucose had already turned up in meteorites, which is a different kind of evidence from spotting a molecule out in a cloud."
+    },
+    {
+      "q": "How did the astronomers know they were looking at erythrulose?",
+      "choices": [
+        "They collected a sample with a space probe",
+        "They photographed the molecule directly",
+        "They matched twelve sets of radio lines against the molecule's fingerprint measured in a laboratory",
+        "They inferred it from the cloud's color"
+      ],
+      "answer": 2,
+      "why": "Tumbling molecules emit radio waves at frequencies set by their shape. Chemists measured that pattern for erythrulose in the lab, and the team found twelve matching sets of lines in data from the Yebes and IRAM telescopes."
+    },
+    {
+      "q": "Why did the abundance result surprise astrochemists?",
+      "choices": [
+        "The sugar was found in a star instead of a cloud",
+        "The four-carbon sugar was plentiful while simpler three-carbon sugars went undetected",
+        "The sugar turned out to be far colder than expected",
+        "No carbon-based molecules had ever been seen near the galactic center"
+      ],
+      "answer": 1,
+      "why": "The standard picture has molecules growing by adding carbon atoms one at a time, which would leave the smaller sugars more common than the bigger one. Here the four-carbon sugar was at least eight times more abundant than the three-carbon versions, which did not appear at all, pointing to a different formation route on icy dust grains."
+    }
+  ]
+}

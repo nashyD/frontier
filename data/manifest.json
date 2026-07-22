@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-22-pm",
+    "date": "2026-07-22",
+    "slot": "pm",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "title": "There is sugar floating between the stars",
+    "tldr": "Astronomers picked up the radio fingerprint of erythrulose, a four-carbon sugar, in a cloud of gas and dust near the center of our galaxy, the first real sugar ever spotted in interstellar space.",
+    "readMinutes": 5,
+    "citation": "Jiménez-Serra, I. et al. (2026), \"Detection of a four-carbon sugar in interstellar space\", Nature Astronomy",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-21-pm",
     "date": "2026-07-21",
     "slot": "pm",

@@ -2638,5 +2638,53 @@
     ],
     "answer": 1,
     "why": "They flipped the test rather than the encoding. When the final test asked about rhymes, words originally processed for sound beat words processed for meaning, which points to the match between encoding and retrieval as the deciding factor."
+  },
+  {
+    "qid": "2026-07-22-pm#0",
+    "lessonId": "2026-07-22-pm",
+    "lessonTitle": "There is sugar floating between the stars",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "What made this detection a first?",
+    "choices": [
+      "It was the first molecule ever found in space",
+      "It was the first true sugar, a molecule of three or more carbons, identified in interstellar space",
+      "It was the first sugar found inside a meteorite",
+      "It was the first time a telescope detected ribose"
+    ],
+    "answer": 1,
+    "why": "Sugar-related two-carbon molecules had been seen in space before, but chemists count a molecule as a sugar only at three carbons or more. Erythrulose has four. Ribose and glucose had already turned up in meteorites, which is a different kind of evidence from spotting a molecule out in a cloud."
+  },
+  {
+    "qid": "2026-07-22-pm#1",
+    "lessonId": "2026-07-22-pm",
+    "lessonTitle": "There is sugar floating between the stars",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "How did the astronomers know they were looking at erythrulose?",
+    "choices": [
+      "They collected a sample with a space probe",
+      "They photographed the molecule directly",
+      "They matched twelve sets of radio lines against the molecule's fingerprint measured in a laboratory",
+      "They inferred it from the cloud's color"
+    ],
+    "answer": 2,
+    "why": "Tumbling molecules emit radio waves at frequencies set by their shape. Chemists measured that pattern for erythrulose in the lab, and the team found twelve matching sets of lines in data from the Yebes and IRAM telescopes."
+  },
+  {
+    "qid": "2026-07-22-pm#2",
+    "lessonId": "2026-07-22-pm",
+    "lessonTitle": "There is sugar floating between the stars",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "Why did the abundance result surprise astrochemists?",
+    "choices": [
+      "The sugar was found in a star instead of a cloud",
+      "The four-carbon sugar was plentiful while simpler three-carbon sugars went undetected",
+      "The sugar turned out to be far colder than expected",
+      "No carbon-based molecules had ever been seen near the galactic center"
+    ],
+    "answer": 1,
+    "why": "The standard picture has molecules growing by adding carbon atoms one at a time, which would leave the smaller sugars more common than the bigger one. Here the four-carbon sugar was at least eight times more abundant than the three-carbon versions, which did not appear at all, pointing to a different formation route on icy dust grains."
   }
 ]
