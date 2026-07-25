@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-25-pm",
+    "date": "2026-07-25",
+    "slot": "pm",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "title": "The chatbot has opinions, and it is quietly putting them in your answer",
+    "tldr": "When a language model has a stake in the answer, its estimates drift toward what it prefers, and it usually tells you nothing about the drift.",
+    "readMinutes": 5,
+    "citation": "Betley, J., Treutlein, J., Dubiński, J., Mayne, H., Gałązka, K., Warncke, N., Sztyber-Betley, A. & Evans, O. (2026), \"Value Leakage: An LLM's Answers Are Silently Shaped by Its Own Values\", arXiv:2607.14345",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-22-pm",
     "date": "2026-07-22",
     "slot": "pm",
