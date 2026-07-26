@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-26-pm",
+  "date": "2026-07-26",
+  "slot": "pm",
+  "topic": "biohacking",
+  "topicLabel": "Biohacking",
+  "title": "Take 80 minutes off your sleep and your body quietly stops moving",
+  "study": {
+    "citation": "Zuraikat, F. M., Scaccia, S. E., Cochran, J. A., Cheng, B., Diaz, K. M., Creasy, S. A., Melanson, E. L., Shen, W., Aggarwal, B., Jelic, S. & St-Onge, M.-P. (2026), \"Prolonged Short Sleep and Its Effect on Body Weight and Composition: A Pooled Analysis of Randomized Trials\", Annals of Internal Medicine",
+    "year": 2026,
+    "link": "https://doi.org/10.7326/ANNALS-25-01660"
+  },
+  "tldr": "Healthy adults who slept about 80 minutes less per night for six weeks gained a little under half a kilo, and the change that tracked with it was 17 extra minutes a day sitting still.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "People who sleep badly tend to weigh more. That link has shown up in survey after survey for decades. What surveys cannot tell you is which way the arrow points. Maybe short sleep drives weight gain. Maybe carrying extra weight wrecks your sleep. Maybe the same stressful, overworked life produces both. And most sleep experiments that do assign people a schedule chop sleep down to four or five hours for a few nights, which is closer to a hazing ritual than to real life. The unanswered question was smaller and more ordinary: what does a mild, sustained shortfall actually do to a body?"
+    },
+    {
+      "h": "What they did",
+      "body": "A Columbia-led team pooled two randomized crossover trials. Crossover means every person served as their own comparison. Ninety-five adults, all aged 20 or older, all at elevated risk for heart and metabolic disease, all normally sleeping seven or more hours a night, went through two six-week stretches with a washout gap between them. In one stretch they kept their usual sleep. In the other they were told to shorten it by an hour and a half a night. Wrist monitors logged how much they actually slept and how much they moved. Researchers weighed them, measured their waists, imaged body fat with MRI, and drew blood for hormones that regulate appetite and energy."
+    },
+    {
+      "h": "What they found",
+      "body": "The instruction to lose 90 minutes produced a real loss of about 78 minutes a night. Over six weeks of that, body weight went up by 0.45 kilograms, roughly a pound. Waist circumference grew about half a centimetre. Total body volume rose slightly. The interesting part is what did not happen: there was no measurable jump in how much people ate, and leptin, a hormone that signals fullness, went up rather than down. What did change was movement. Sedentary time increased by about 17 minutes a day on average across the group, and by closer to half an hour a day in men and in postmenopausal women."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This flips the usual story. The popular explanation for tired people gaining weight is appetite, the idea that exhaustion makes you reach for snacks. Here the arithmetic ran through the other side of the ledger. Tired bodies burned less because they sat more, and the sitting was quiet enough that nobody would notice it happening. A pound in six weeks sounds trivial until you hold the pace steady for a year. It also gives weight-management and heart-disease prevention programs a lever they mostly ignore: instead of only counting calories, ask what time the patient goes to bed."
+    },
+    {
+      "h": "The catch",
+      "body": "Six weeks is short, and the authors say plainly it may have been too short to detect real shifts in body composition, so the weight gain may not yet be fat. The effect sizes were modest, and the study was underpowered to say much about who is affected most, which makes the sharper male and postmenopausal numbers a lead worth chasing. Everyone enrolled already carried elevated cardiometabolic risk, so healthier or younger sleepers may respond differently. And the year-long projection is arithmetic on a six-week slope, so treat it as a plausible extrapolation that nobody has yet measured."
+    }
+  ],
+  "terms": [
+    { "term": "Randomized crossover trial", "def": "A study where each person takes a turn in every condition, so their own body is the comparison and individual quirks cancel out." },
+    { "term": "Leptin", "def": "A hormone released by fat tissue that tells the brain you have had enough to eat; higher levels normally mean less hunger." },
+    { "term": "Sedentary time", "def": "Waking hours spent sitting or lying still with almost no movement, measured here by a wrist monitor." }
+  ],
+  "takeaways": [
+    "A mild sleep shortfall you would never call sleep deprivation was enough to move the scale over six weeks.",
+    "The mechanism ran through movement. Sleep-deprived people sat about 17 minutes more per day, and their eating did not measurably rise.",
+    "If your weight has been drifting while your diet held steady, your bedtime is a cheap variable worth auditing before anything else."
+  ],
+  "quiz": [
+    {
+      "q": "Why does a crossover design strengthen this kind of sleep study?",
+      "choices": [
+        "It lets researchers test more people at once",
+        "Each participant experiences both conditions, so they act as their own comparison",
+        "It removes the need to measure what people eat",
+        "It guarantees the results apply to everyone"
+      ],
+      "answer": 1,
+      "why": "In a crossover trial, the same person goes through adequate sleep and restricted sleep in separate blocks. Differences in metabolism, genetics, and habits are held constant because the comparison happens inside one body."
+    },
+    {
+      "q": "What change accompanied the weight gain during the short-sleep phase?",
+      "choices": [
+        "A measurable increase in how much participants ate",
+        "A drop in leptin, the fullness hormone",
+        "About 17 more minutes a day of sedentary time",
+        "A rise in body temperature overnight"
+      ],
+      "answer": 2,
+      "why": "Food intake showed no measurable increase and leptin actually rose by about 2 ng/mL. The change that tracked with the weight gain was reduced movement: sedentary time went up by roughly 17 minutes a day, and by about 30 minutes in men and postmenopausal women."
+    },
+    {
+      "q": "What limitation do the authors themselves emphasize?",
+      "choices": [
+        "The participants were all under 20 years old",
+        "Sleep was self-reported with no objective measurement",
+        "Six weeks may have been too short to detect changes in body composition",
+        "Nobody actually reduced their sleep"
+      ],
+      "answer": 2,
+      "why": "The authors note the intervention may have been too brief for body-composition changes to register, that statistical power for individual differences was limited, and that effect sizes were modest. Sleep was tracked objectively with wrist monitors, and the restriction phase cut real sleep by about 78 minutes a night."
+    }
+  ]
+}

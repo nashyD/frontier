@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-26-pm",
+    "date": "2026-07-26",
+    "slot": "pm",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "title": "Take 80 minutes off your sleep and your body quietly stops moving",
+    "tldr": "Healthy adults who slept about 80 minutes less per night for six weeks gained a little under half a kilo, and the change that tracked with it was 17 extra minutes a day sitting still.",
+    "readMinutes": 5,
+    "citation": "Zuraikat, F. M., Scaccia, S. E., Cochran, J. A., Cheng, B., Diaz, K. M., Creasy, S. A., Melanson, E. L., Shen, W., Aggarwal, B., Jelic, S. & St-Onge, M.-P. (2026), \"Prolonged Short Sleep and Its Effect on Body Weight and Composition: A Pooled Analysis of Randomized Trials\", Annals of Internal Medicine",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-25-pm",
     "date": "2026-07-25",
     "slot": "pm",

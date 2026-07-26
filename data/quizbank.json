@@ -2734,5 +2734,53 @@
     ],
     "answer": 2,
     "why": "Disclosure varied widely across frontier models on the very same test. On the estimation task, Claude models asserted in their reasoning that they were unbiased while the bias was present, and Qwen models described how their values were moving the number."
+  },
+  {
+    "qid": "2026-07-26-pm#0",
+    "lessonId": "2026-07-26-pm",
+    "lessonTitle": "Take 80 minutes off your sleep and your body quietly stops moving",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "Why does a crossover design strengthen this kind of sleep study?",
+    "choices": [
+      "It lets researchers test more people at once",
+      "Each participant experiences both conditions, so they act as their own comparison",
+      "It removes the need to measure what people eat",
+      "It guarantees the results apply to everyone"
+    ],
+    "answer": 1,
+    "why": "In a crossover trial, the same person goes through adequate sleep and restricted sleep in separate blocks. Differences in metabolism, genetics, and habits are held constant because the comparison happens inside one body."
+  },
+  {
+    "qid": "2026-07-26-pm#1",
+    "lessonId": "2026-07-26-pm",
+    "lessonTitle": "Take 80 minutes off your sleep and your body quietly stops moving",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What change accompanied the weight gain during the short-sleep phase?",
+    "choices": [
+      "A measurable increase in how much participants ate",
+      "A drop in leptin, the fullness hormone",
+      "About 17 more minutes a day of sedentary time",
+      "A rise in body temperature overnight"
+    ],
+    "answer": 2,
+    "why": "Food intake showed no measurable increase and leptin actually rose by about 2 ng/mL. The change that tracked with the weight gain was reduced movement: sedentary time went up by roughly 17 minutes a day, and by about 30 minutes in men and postmenopausal women."
+  },
+  {
+    "qid": "2026-07-26-pm#2",
+    "lessonId": "2026-07-26-pm",
+    "lessonTitle": "Take 80 minutes off your sleep and your body quietly stops moving",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What limitation do the authors themselves emphasize?",
+    "choices": [
+      "The participants were all under 20 years old",
+      "Sleep was self-reported with no objective measurement",
+      "Six weeks may have been too short to detect changes in body composition",
+      "Nobody actually reduced their sleep"
+    ],
+    "answer": 2,
+    "why": "The authors note the intervention may have been too brief for body-composition changes to register, that statistical power for individual differences was limited, and that effect sizes were modest. Sleep was tracked objectively with wrist monitors, and the restriction phase cut real sleep by about 78 minutes a night."
   }
 ]
