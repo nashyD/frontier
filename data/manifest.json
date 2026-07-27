@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-27-pm",
+    "date": "2026-07-27",
+    "slot": "pm",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "title": "Someone finally graded the chart tricks retail traders swear by",
+    "tldr": "Five of the most-promoted chart-reading strategies were put through a test whose rules were written in advance, and four of them were ruled out while none of them passed.",
+    "readMinutes": 5,
+    "citation": "Darmanin, A. (2026), \"Retail Trader's Ruin: An Anatomy of Popular Signal Failure\", arXiv:2607.20093 [q-fin.ST]",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-26-pm",
     "date": "2026-07-26",
     "slot": "pm",

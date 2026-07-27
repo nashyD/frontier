@@ -2782,5 +2782,53 @@
     ],
     "answer": 2,
     "why": "The authors note the intervention may have been too brief for body-composition changes to register, that statistical power for individual differences was limited, and that effect sizes were modest. Sleep was tracked objectively with wrist monitors, and the restriction phase cut real sleep by about 78 minutes a night."
+  },
+  {
+    "qid": "2026-07-27-pm#0",
+    "lessonId": "2026-07-27-pm",
+    "lessonTitle": "Someone finally graded the chart tricks retail traders swear by",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "Why did the study include academic momentum, a strategy already believed to be real?",
+    "choices": [
+      "To give retail traders a strategy they could copy instead",
+      "As a control, to check the method could still detect a real effect",
+      "Because momentum is the most popular retail signal",
+      "To measure how much trading costs have risen since the 1990s"
+    ],
+    "answer": 1,
+    "why": "A test that flunks everything is worthless, since you cannot tell a strict test from a broken one. Slipping in a case you believe is genuine checks that the machinery still responds when there is something to find. Momentum landed in the unresolved bucket, which shows the design was not simply condemning every strategy it touched."
+  },
+  {
+    "qid": "2026-07-27-pm#1",
+    "lessonId": "2026-07-27-pm",
+    "lessonTitle": "Someone finally graded the chart tricks retail traders swear by",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "What is the multiple-testing problem the study had to correct for?",
+    "choices": [
+      "Trading the same signal on several exchanges at once",
+      "Running the same backtest twice and getting different answers",
+      "Testing many rules, so a few look profitable by luck alone",
+      "Using data from more than one country"
+    ],
+    "answer": 2,
+    "why": "Try a hundred coin-flipping rules on the same price history and a handful will show a beautiful record for no reason at all. Corrections raise the bar in proportion to how many rules were tried, so only a genuinely strong strategy clears the bar, and the luckiest member of a big batch gets filtered out."
+  },
+  {
+    "qid": "2026-07-27-pm#2",
+    "lessonId": "2026-07-27-pm",
+    "lessonTitle": "Someone finally graded the chart tricks retail traders swear by",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "What did the study conclude about the five popular signal families?",
+    "choices": [
+      "All five worked once trading costs were removed",
+      "Four were ruled out and none passed all three hurdles",
+      "Candlestick patterns passed while the rest failed",
+      "The results were identical across every family tested"
+    ],
+    "answer": 1,
+    "why": "Oscillators, on-balance volume, the calendar rule, and the candlestick battery were ruled out on statistical or economic grounds. Trend following was left unresolved, its range of outcomes too wide to call either way. Zero of the tested families cleared all three hurdles, which is a harsher result than any single failure."
   }
 ]
