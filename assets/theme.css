@@ -273,3 +273,11 @@ nav a.cta:hover { background: color-mix(in srgb, var(--accent-2) 12%, transparen
   nav a { padding: 7px 9px; }
   .hero { padding: 44px 0 24px; }
 }
+
+/* Collapsed archives — the hub shows the 4 newest per view until "Show more".
+   The n+5 cutoffs must match MAX_VISIBLE in index.html. */
+.grid[data-collapsed] > .card:nth-child(n+5) { display: none; }
+.ep-list[data-collapsed] button.ep-item:nth-of-type(n+5) { display: none; }
+.more-row { display: flex; justify-content: center; margin-top: 18px; }
+.ep-list .ep-more { display: block; width: 100%; padding: 12px 16px; background: none; border: none; color: var(--muted); font-family: var(--ui); font-size: 13px; font-weight: 600; letter-spacing: 0.02em; cursor: pointer; transition: 0.15s; }
+.ep-list .ep-more:hover { background: var(--surface-2); color: var(--ink); }

@@ -8,7 +8,7 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%238b7cff'/><text x='16' y='23' font-size='20' text-anchor='middle' fill='%230b0c12' font-family='Arial' font-weight='bold'>✦</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="assets/theme.css" />
+  <link rel="stylesheet" href="assets/theme.css?v=2026-07-29" />
 </head>
 <body>
   <header class="topbar">
@@ -61,6 +61,7 @@
   <script>
     let ALL = [];
     let activeTopic = 'all';
+    const MAX_VISIBLE = 4;
 
     function card(r, feature) {
       const color = topicColor(r.topic);
@@ -103,15 +104,29 @@
       const featuredHtml = featured ? `<div class="grid" style="margin-bottom:16px">${card(featured, true)}</div>` : '';
       const restList = activeTopic === 'all' ? rest : sorted.filter(r => r.topic === activeTopic && r !== featured);
 
+      const extra = restList.length - MAX_VISIBLE;
       el.innerHTML = `<div class="section-head"><h2><span class="spark">✦</span> Library</h2><span class="count">${ALL.length} lesson${ALL.length === 1 ? '' : 's'}</span></div>
         ${renderFilters()}
         ${featuredHtml}
-        <div class="grid">${restList.map(r => card(r, false)).join('')}</div>`;
+        <div class="grid"${extra > 0 ? ' data-collapsed' : ''}>${restList.map(r => card(r, false)).join('')}</div>
+        ${extra > 0 ? `<div class="more-row"><button class="btn more-btn" type="button" data-more="${extra}">Show ${extra} more</button></div>` : ''}`;
 
       el.querySelectorAll('.chip').forEach(c => c.addEventListener('click', () => {
         activeTopic = c.dataset.t; renderLibrary();
         document.getElementById('library').scrollIntoView({ behavior: 'smooth', block: 'start' });
       }));
+      const mb = el.querySelector('.more-btn');
+      mb && mb.addEventListener('click', () => {
+        const grid = mb.closest('.more-row').previousElementSibling;
+        if (grid.hasAttribute('data-collapsed')) {
+          grid.removeAttribute('data-collapsed');
+          mb.textContent = 'Show less';
+        } else {
+          grid.setAttribute('data-collapsed', '');
+          mb.textContent = `Show ${mb.dataset.more} more`;
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
     }
 
     function renderHero() {
@@ -149,6 +164,7 @@
         return;
       }
       const e = eps[0];
+      const extra = eps.length - MAX_VISIBLE;
       const list = eps.map((ep, i) => `<button class="ep-item${i === 0 ? ' active' : ''}" data-file="${esc(ep.file)}" data-title="${esc(ep.title)}" data-date="${esc(ep.date)}" data-dur="${ep.durationSec || 0}">
           <span class="ep-play">▶</span>
           <span class="ep-info"><span class="ep-t">${fmtDate(ep.date)} · ${mins(ep.durationSec)}</span><span class="ep-d">${esc(ep.summary || '')}</span></span>
@@ -165,7 +181,7 @@
           <button class="btn" id="copyFeed" type="button">Copy feed link</button>
           <span class="feed-url">${esc(feedUrl)}</span>
         </div>
-      </div>` + (eps.length > 1 ? `<div class="ep-list"><div class="ep-label">✦ All episodes</div>${list}</div>` : '');
+      </div>` + (eps.length > 1 ? `<div class="ep-list"${extra > 0 ? ' data-collapsed' : ''}><div class="ep-label">✦ All episodes</div>${list}${extra > 0 ? `<button class="ep-more" type="button" data-more="${extra}">Show ${extra} more</button>` : ''}</div>` : '');
 
       const audio = document.getElementById('pc-audio');
       el.querySelectorAll('.ep-item').forEach(b => b.addEventListener('click', () => {
@@ -175,6 +191,18 @@
         el.querySelector('.pc-title').textContent = b.dataset.title;
         el.querySelector('.pc-meta').textContent = fmtDate(b.dataset.date) + ' · ' + mins(Number(b.dataset.dur));
       }));
+      const em = el.querySelector('.ep-more');
+      em && em.addEventListener('click', () => {
+        const listEl = em.closest('.ep-list');
+        if (listEl.hasAttribute('data-collapsed')) {
+          listEl.removeAttribute('data-collapsed');
+          em.textContent = 'Show less';
+        } else {
+          listEl.setAttribute('data-collapsed', '');
+          em.textContent = `Show ${em.dataset.more} more`;
+          listEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
       const cb = document.getElementById('copyFeed');
       cb && cb.addEventListener('click', async () => {
         try { await navigator.clipboard.writeText(feedUrl); cb.textContent = 'Copied ✓'; }
