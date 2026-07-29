@@ -2830,5 +2830,53 @@
     ],
     "answer": 1,
     "why": "Oscillators, on-balance volume, the calendar rule, and the candlestick battery were ruled out on statistical or economic grounds. Trend following was left unresolved, its range of outcomes too wide to call either way. Zero of the tested families cleared all three hurdles, which is a harsher result than any single failure."
+  },
+  {
+    "qid": "2026-07-29-pm#0",
+    "lessonId": "2026-07-29-pm",
+    "lessonTitle": "A few text messages cut how often young adults drove high",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "What did the intervention ask participants to change?",
+    "choices": [
+      "To stop using cannabis entirely",
+      "To cut their cannabis use in half",
+      "To stop driving after using cannabis, without changing their use",
+      "To switch from smoking to edibles"
+    ],
+    "answer": 2,
+    "why": "The whole design bets on a narrow target. Asking young adults to quit cannabis is an ask most of them decline, so the trial went after the driving alone. Earlier work from the same group found the driving dropped while overall use held steady, which suggests the two behaviors can be pried apart."
+  },
+  {
+    "qid": "2026-07-29-pm#1",
+    "lessonId": "2026-07-29-pm",
+    "lessonTitle": "A few text messages cut how often young adults drove high",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Which result did NOT improve in any group?",
+    "choices": [
+      "Driving after using cannabis at three months",
+      "Driving after using cannabis at six months",
+      "Driving after using cannabis and alcohol together",
+      "Willingness to complete the follow-up surveys"
+    ],
+    "answer": 2,
+    "why": "Simultaneous alcohol and cannabis use before driving showed no reliable difference between the groups. That is the most dangerous version of the behavior, and it is also the one most tangled up with heavy drinking, so it may need a different intervention than a few texts about cannabis."
+  },
+  {
+    "qid": "2026-07-29-pm#2",
+    "lessonId": "2026-07-29-pm",
+    "lessonTitle": "A few text messages cut how often young adults drove high",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Why is self-report the study's biggest weakness?",
+    "choices": [
+      "Self-reported data cannot be analyzed statistically",
+      "Participants who were just told the behavior is risky have reason to under-report it",
+      "The researchers did not ask about cannabis use at all",
+      "Self-report always produces smaller effects than objective measures"
+    ],
+    "answer": 1,
+    "why": "The people who got the strongest anti-driving message are the same people reporting how often they did it, and the pull toward giving the answer you know is wanted is real. No odometer data, crash records, or blood tests were collected, so a real drop in driving and a drop only in what people admit to look identical in this data."
   }
 ]

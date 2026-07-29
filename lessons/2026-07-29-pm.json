@@ -1,0 +1,91 @@
+{
+  "id": "2026-07-29-pm",
+  "date": "2026-07-29",
+  "slot": "pm",
+  "topic": "cannabis",
+  "topicLabel": "Cannabis Science",
+  "title": "A few text messages cut how often young adults drove high",
+  "study": {
+    "citation": "Teeters, J. B., Moskal, K. R. & Traxler, S. M. (2026), \"The effect of an interactive mobile phone-based brief intervention on driving under the influence of cannabis among emerging adults: A randomized controlled trial\", Addiction",
+    "year": 2026,
+    "link": "https://doi.org/10.1111/add.70554"
+  },
+  "tldr": "A one-time personalized feedback session plus a few weeks of back-and-forth texts left young adults driving high roughly a third to two-thirds less often than a control group, and it did it without asking them to quit cannabis.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Cannabis-impaired driving is one of the hardest habits in public health to move. The people doing it are mostly young, mostly convinced they drive fine or even more carefully when high, and mostly not looking for treatment. Telling them to stop using cannabis is a big ask that usually fails. So Jenni Teeters and colleagues at Western Kentucky University asked a narrower question: forget the cannabis itself, can you talk somebody out of the driving part alone, using nothing but a phone and about an hour of their attention?"
+    },
+    {
+      "h": "What they did",
+      "body": "They recruited 149 young adults who admitted to driving after using cannabis at least three times in the previous three months, then split them at random into three groups. Everything was delivered remotely by phone. One group got personalized feedback: their own use and driving numbers reflected back at them, what their peers actually do rather than what they assume, an estimate of how impaired they were on the occasions they drove, the real dollar cost of a Kentucky DUI, and the added risk of mixing cannabis with alcohol. A second group got that same feedback plus several weeks of interactive text messages written in a counseling style that asks questions instead of lecturing. The third group got standard, generic substance-use information. Everyone reported back at three and six months."
+    },
+    {
+      "h": "What they found",
+      "body": "The feedback-plus-texting group reported driving high about two-thirds less often than the control group at three months, and the gap was still there at six. The feedback-only group showed no significant separation at three months, then caught up and passed it by six, reporting roughly three-quarters fewer episodes than controls. One outcome refused to budge in any group: driving after using cannabis and alcohol together, the riskiest version of the behavior, showed no reliable between-group difference. In earlier work from this group the behavior change happened without overall cannabis use dropping, which is the point of targeting the driving instead of the drug."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "Legalization has spread far faster than any proven way of handling the driving problem that rides along with it. Roadside cannabis testing is still unreliable, because blood levels of THC track poorly with how impaired somebody actually is, so enforcement cannot carry the load the way breathalyzers do for alcohol. That leaves persuasion. What is striking here is the price: one tailored feedback session and a text thread, no clinic, no counselor hours, no requirement that anybody quit. If it holds up, it is the kind of thing a university health center or a state agency could actually afford to run at scale."
+    },
+    {
+      "h": "The catch",
+      "body": "Every outcome is self-reported. Nobody checked odometers, crash records, or blood levels, and people who just spent an hour being told this behavior is risky have an obvious reason to shade their answers downward. The sample was 149 people drawn from one Kentucky university and the towns around it, which is thin ground for a national claim, and the arms were small enough that the timing differences between them could easily be noise. Nothing here measures actual impairment or driving performance. And these were people already driving high repeatedly, so the result says nothing about preventing the habit before it starts."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Randomized controlled trial",
+      "def": "A study where a coin flip decides who gets which version of the treatment, so the groups start out comparable and any later difference is more likely caused by the treatment itself."
+    },
+    {
+      "term": "Personalized normative feedback",
+      "def": "Showing somebody their own behavior next to what their peers really do, on the theory that people badly overestimate how common their risky habit is and pull back once they see the real number."
+    },
+    {
+      "term": "Motivational interviewing",
+      "def": "A counseling style that draws reasons for changing out of the person through questions, rather than supplying the reasons for them, because arguing tends to make people defend the habit."
+    }
+  ],
+  "takeaways": [
+    "Aiming at one specific risky moment can work better than aiming at the whole habit, and it is a far easier thing to get somebody to agree to.",
+    "The cheap version was not the weak version here. A feedback screen and a text thread moved a behavior that clinics struggle with.",
+    "When a trial's outcome is something only the participant can report, ask who benefits from the number looking good before you trust the size of the effect."
+  ],
+  "quiz": [
+    {
+      "q": "What did the intervention ask participants to change?",
+      "choices": [
+        "To stop using cannabis entirely",
+        "To cut their cannabis use in half",
+        "To stop driving after using cannabis, without changing their use",
+        "To switch from smoking to edibles"
+      ],
+      "answer": 2,
+      "why": "The whole design bets on a narrow target. Asking young adults to quit cannabis is an ask most of them decline, so the trial went after the driving alone. Earlier work from the same group found the driving dropped while overall use held steady, which suggests the two behaviors can be pried apart."
+    },
+    {
+      "q": "Which result did NOT improve in any group?",
+      "choices": [
+        "Driving after using cannabis at three months",
+        "Driving after using cannabis at six months",
+        "Driving after using cannabis and alcohol together",
+        "Willingness to complete the follow-up surveys"
+      ],
+      "answer": 2,
+      "why": "Simultaneous alcohol and cannabis use before driving showed no reliable difference between the groups. That is the most dangerous version of the behavior, and it is also the one most tangled up with heavy drinking, so it may need a different intervention than a few texts about cannabis."
+    },
+    {
+      "q": "Why is self-report the study's biggest weakness?",
+      "choices": [
+        "Self-reported data cannot be analyzed statistically",
+        "Participants who were just told the behavior is risky have reason to under-report it",
+        "The researchers did not ask about cannabis use at all",
+        "Self-report always produces smaller effects than objective measures"
+      ],
+      "answer": 1,
+      "why": "The people who got the strongest anti-driving message are the same people reporting how often they did it, and the pull toward giving the answer you know is wanted is real. No odometer data, crash records, or blood tests were collected, so a real drop in driving and a drop only in what people admit to look identical in this data."
+    }
+  ]
+}
