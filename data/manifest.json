@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-30-pm",
+    "date": "2026-07-30",
+    "slot": "pm",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "title": "The famous deadline study just failed to replicate",
+    "tldr": "A careful redo of the most-cited experiment on deadlines and procrastination found no effect at all, which means one of behavioral science's favorite pieces of advice is resting on shakier ground than almost anyone realized.",
+    "readMinutes": 5,
+    "citation": "Hyndman, K. & Bisin, A. (2026), \"Replication of 'Procrastination, Deadlines, and Performance: Self-Control by Precommitment'\", Psychological Science (published online 15 July 2026)",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-29-pm",
     "date": "2026-07-29",
     "slot": "pm",

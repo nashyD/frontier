@@ -2878,5 +2878,53 @@
     ],
     "answer": 1,
     "why": "The people who got the strongest anti-driving message are the same people reporting how often they did it, and the pull toward giving the answer you know is wanted is real. No odometer data, crash records, or blood tests were collected, so a real drop in driving and a drop only in what people admit to look identical in this data."
+  },
+  {
+    "qid": "2026-07-30-pm#0",
+    "lessonId": "2026-07-30-pm",
+    "lessonTitle": "The famous deadline study just failed to replicate",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What was the headline claim of the 2002 study being replicated?",
+    "choices": [
+      "That deadlines make people enjoy tedious work more",
+      "That performance was best when evenly spaced deadlines were imposed by someone else",
+      "That people who procrastinate earn more money overall",
+      "That removing all deadlines improves the quality of written work"
+    ],
+    "answer": 1,
+    "why": "The original found the best results in the group given evenly spaced deadlines by the experimenters, with self-chosen deadlines in the middle and a single end deadline worst. That ranking is exactly what the new study looked for and failed to find."
+  },
+  {
+    "qid": "2026-07-30-pm#1",
+    "lessonId": "2026-07-30-pm",
+    "lessonTitle": "The famous deadline study just failed to replicate",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What did the replication find across errors caught, days late, and money earned?",
+    "choices": [
+      "The opposite ranking, with the end-deadline group clearly winning",
+      "The same ranking but with smaller differences",
+      "No statistically meaningful differences between the three groups",
+      "Results too incomplete to analyze"
+    ],
+    "answer": 2,
+    "why": "All three performance measures came out statistically indistinguishable across the three deadline conditions, and the survey measures were flat as well. The deadline structure had no detectable effect on how people performed."
+  },
+  {
+    "qid": "2026-07-30-pm#2",
+    "lessonId": "2026-07-30-pm",
+    "lessonTitle": "The famous deadline study just failed to replicate",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "Why does it matter that the authors preregistered the study?",
+    "choices": [
+      "It guaranteed the original result would be confirmed",
+      "It locked in the hypotheses and analysis plan before any data arrived",
+      "It meant the study did not need ethical approval",
+      "It allowed them to exclude participants who performed poorly"
+    ],
+    "answer": 1,
+    "why": "Filing the plan in advance removes the freedom to reinterpret the question once the numbers are in. A null result from a preregistered study is much harder to wave away as the researchers looking in the wrong place."
   }
 ]

@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-30-pm",
+  "date": "2026-07-30",
+  "slot": "pm",
+  "topic": "learning",
+  "topicLabel": "Learning & Cognition",
+  "title": "The famous deadline study just failed to replicate",
+  "study": {
+    "citation": "Hyndman, K. & Bisin, A. (2026), \"Replication of 'Procrastination, Deadlines, and Performance: Self-Control by Precommitment'\", Psychological Science (published online 15 July 2026)",
+    "year": 2026,
+    "link": "https://doi.org/10.1177/09567976261460772"
+  },
+  "tldr": "A careful redo of the most-cited experiment on deadlines and procrastination found no effect at all, which means one of behavioral science's favorite pieces of advice is resting on shakier ground than almost anyone realized.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "In 2002, Dan Ariely and Klaus Wertenbroch published an experiment that became one of the most quoted results in behavioral science. Its punchline: deadlines fight procrastination, and the evenly spaced deadlines somebody else hands you beat the ones you set for yourself. It has been cited close to two thousand times and repeated in books, columns and syllabi ever since. Kyle Hyndman and Alberto Bisin had run their own deadline experiments and kept getting different answers. So they asked the plainest question available. Run the original again, as closely as possible, and does the same thing happen?"
+    },
+    {
+      "h": "What they did",
+      "body": "They rebuilt the original's second study almost part for part. Around 120 university students came to a lab for instructions, then went home to proofread three long texts over three weeks, hunting spelling and grammar mistakes. Each text ran roughly two thousand words with exactly 100 errors planted inside, produced by the same nonsense-prose generator the 2002 authors used. People earned twenty cents per error caught and lost two dollars for each day they submitted late. Random assignment put each person into one of three groups: evenly spaced deadlines imposed by the experimenters, deadlines each person chose for themselves, or one single deadline at the end. The whole plan was preregistered before any data came in."
+    },
+    {
+      "h": "What they found",
+      "body": "Nothing. On all three of the original's yardsticks — errors caught, days late, money earned — the three groups came out statistically indistinguishable, and the small differences that did appear pointed in directions the 2002 paper would not predict. The follow-up survey questions were just as flat. One number jumped out for a different reason: 51 of the roughly 120 students never submitted even the first text, and only 54 finished all three. The original reports that everybody completed everything, which turns out to be the part of the old result that looks least like the real world."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This is a load-bearing citation. It is the study people reach for when they argue that commitment devices work, that managers should chunk projects into interim due dates, that students need checkpoints rather than one final deadline. A close, preregistered redo landing on zero is a genuine update to what we know. The authors also stress-tested their own data: students who reported spending more time found more errors, and someone who caught many errors on one text caught many on the next. The experiment was clearly measuring effort and ability. The deadline effect simply was not there."
+    },
+    {
+      "h": "The catch",
+      "body": "One failed replication does not prove an effect is zero. It shows the original result is fragile, which is a weaker and more honest claim. This was a single subject pool at one American university in 2024, and it redoes only the lab study; the original's classroom study cannot really be rerun. The design differed in real ways: computerized instead of paper, incentives doubled, a participation fee added to avoid people losing money. The heavy dropout also shrank the fully-completing group to 54 people, which leaves less statistical power for that slice of the analysis."
+    }
+  ],
+  "terms": [
+    { "term": "Replication", "def": "Running someone else's experiment again, as closely as you can, to see whether the original finding shows up a second time." },
+    { "term": "Preregistration", "def": "Filing your hypotheses and analysis plan publicly before you collect data, so you cannot quietly reshape the question after seeing the results." },
+    { "term": "Commitment device", "def": "Something you set up in advance to bind your future self, like a deadline you cannot move or money you forfeit if you skip the gym." }
+  ],
+  "takeaways": [
+    "The single most-cited experiment on deadlines and procrastination did not hold up when two economists ran it again with a preregistered plan and twice the sample.",
+    "A useful tell in the old data: it reported that every participant finished every task, and in the redo, 51 of about 120 people never turned in the first one.",
+    "Before you build a system on a famous finding — in a product, a course, or a team process — check whether anyone has actually run it a second time."
+  ],
+  "quiz": [
+    {
+      "q": "What was the headline claim of the 2002 study being replicated?",
+      "choices": [
+        "That deadlines make people enjoy tedious work more",
+        "That performance was best when evenly spaced deadlines were imposed by someone else",
+        "That people who procrastinate earn more money overall",
+        "That removing all deadlines improves the quality of written work"
+      ],
+      "answer": 1,
+      "why": "The original found the best results in the group given evenly spaced deadlines by the experimenters, with self-chosen deadlines in the middle and a single end deadline worst. That ranking is exactly what the new study looked for and failed to find."
+    },
+    {
+      "q": "What did the replication find across errors caught, days late, and money earned?",
+      "choices": [
+        "The opposite ranking, with the end-deadline group clearly winning",
+        "The same ranking but with smaller differences",
+        "No statistically meaningful differences between the three groups",
+        "Results too incomplete to analyze"
+      ],
+      "answer": 2,
+      "why": "All three performance measures came out statistically indistinguishable across the three deadline conditions, and the survey measures were flat as well. The deadline structure had no detectable effect on how people performed."
+    },
+    {
+      "q": "Why does it matter that the authors preregistered the study?",
+      "choices": [
+        "It guaranteed the original result would be confirmed",
+        "It locked in the hypotheses and analysis plan before any data arrived",
+        "It meant the study did not need ethical approval",
+        "It allowed them to exclude participants who performed poorly"
+      ],
+      "answer": 1,
+      "why": "Filing the plan in advance removes the freedom to reinterpret the question once the numbers are in. A null result from a preregistered study is much harder to wave away as the researchers looking in the wrong place."
+    }
+  ]
+}
