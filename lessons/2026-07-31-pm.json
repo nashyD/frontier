@@ -1,0 +1,82 @@
+{
+  "id": "2026-07-31-pm",
+  "date": "2026-07-31",
+  "slot": "pm",
+  "topic": "frontier",
+  "topicLabel": "Frontier Science",
+  "title": "The Earth twists spacetime as it spins, and lasers just measured the twist",
+  "study": {
+    "citation": "Ciufolini, I. et al. (2026), \"LARES-2 satellite measures frame-dragging effect around the Earth\", Nature 655(8122), 332-335",
+    "year": 2026,
+    "link": "https://doi.org/10.1038/s41586-026-10715-0"
+  },
+  "tldr": "Two metal spheres circling the Earth, tracked by laser pulses for three years, confirmed that our spinning planet drags the fabric of spacetime around with it, and pinned the size of that drag to about one part in a thousand.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Einstein's picture of gravity says mass bends spacetime, the four-dimensional fabric that space and time are woven from. Three years later, in 1918, two physicists named Josef Lense and Hans Thirring worked out a stranger consequence. A massive object that spins should also drag that fabric around with it, the way a spoon turning in honey pulls the honey along. Around a spinning black hole the effect is violent. Around the Earth it is almost unimaginably feeble. Physicists have spent decades asking whether they could measure it here at home, and whether its size matches the number Einstein's equations demand."
+    },
+    {
+      "h": "What they did",
+      "body": "The tool is a satellite with no instruments at all. LARES-2 is a solid ball of tungsten alloy about 42 centimetres across, weighing 296 kilograms, studded with 303 mirrors cut so they bounce light straight back where it came from. It launched on 13 July 2022 into a circular orbit about 5,893 kilometres up. Ground stations fire laser pulses at it and time the round trip, fixing its position to roughly a millimetre. The team tracked LARES-2 alongside LAGEOS, a similar sphere NASA launched in 1976, and used gravity maps from the GRACE mission to model the Earth's lumpy pull."
+    },
+    {
+      "h": "What they found",
+      "body": "Frame-dragging shows up as a slow swivel of a satellite's orbital plane, an angle of a few tens of milliarcseconds per year. A milliarcsecond is about one 3.6-millionth of a degree. Both spheres swivelled at the rate general relativity predicts. The headline is the sharpness: a relative uncertainty at the one-part-in-a-thousand level, roughly ten times tighter than any previous measurement of the effect. That precision also squeezes competing theories of gravity, including one called Chern-Simons gravity, and the same analysis improved measurements of the tides the Moon and Sun raise in the Earth."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "The clever part is the geometry. Earth's equator bulges, and that bulge tugs on orbits far harder than relativity does, swamping the signal. LARES-2 was flown at a tilt of 70.16 degrees and LAGEOS sits at 109.84 degrees, which add to almost exactly 180. The bulge pushes their orbital planes in opposite directions, so adding the two drifts together cancels most of that error while the relativity signal survives. Frame-dragging is the same physics that shapes the jets blasting out of spinning black holes, and the space near Earth is the cleanest bench available for measuring it."
+    },
+    {
+      "h": "The catch",
+      "body": "The accuracy claim rests on how well the Earth's uneven, shifting gravity field is modelled, and that has been contested for years. Lorenzo Iorio argued in the European Physical Journal C in 2025 that the real satellites depart enough from the perfect mirror-image setup that leftover error from the equatorial bulge could be larger than the team estimates, and he has proposed a different pair of counter-orbiting polar satellites instead. Independent groups reanalysing the same laser data is the real test. Worth remembering too: this confirms a century-old prediction and uncovers nothing new about gravity."
+    }
+  ],
+  "terms": [
+    { "term": "Frame-dragging (the Lense-Thirring effect)", "def": "The prediction that a spinning mass pulls the surrounding fabric of spacetime around with it, like a spoon dragging honey." },
+    { "term": "Satellite laser ranging", "def": "Firing a laser pulse from the ground at a mirrored satellite and timing the round trip to work out exactly where it is." },
+    { "term": "Milliarcsecond", "def": "A tiny angle, about one 3.6-millionth of a degree, the unit used here to describe how far an orbit swivels in a year." }
+  ],
+  "takeaways": [
+    "A spinning planet does more than bend spacetime. It drags spacetime around with it, and that drag has now been measured near Earth to about a tenth of a percent.",
+    "The experiment's real invention is cancellation: two satellites tilted to add up to 180 degrees, so the biggest source of error pushes them opposite ways and largely subtracts out.",
+    "Precision is how physics kills theories. A tighter number around Earth narrows the room left for proposed alternatives to Einstein's gravity."
+  ],
+  "quiz": [
+    {
+      "q": "What does frame-dragging predict about a spinning object like the Earth?",
+      "choices": [
+        "Its gravity gets stronger the faster it spins",
+        "It pulls the surrounding fabric of spacetime around with it as it rotates",
+        "It slows the passage of time everywhere in the solar system",
+        "It emits gravitational waves that ground detectors can hear"
+      ],
+      "answer": 1,
+      "why": "Lense and Thirring showed in 1918 that rotation adds an extra twist to Einstein's gravity: the spinning mass drags spacetime around, so orbits circling it slowly swivel. The effect is dramatic near a spinning black hole and extremely faint around the Earth."
+    },
+    {
+      "q": "Why were LARES-2 and LAGEOS flown at tilts of 70.16 and 109.84 degrees?",
+      "choices": [
+        "Those angles keep both satellites permanently in sunlight",
+        "They add to about 180 degrees, so the error from Earth's equatorial bulge pushes the two orbits opposite ways and mostly cancels",
+        "They are the only orbits reachable by the Vega-C rocket",
+        "The angles make the satellites visible from every ground station at once"
+      ],
+      "answer": 1,
+      "why": "Earth's equatorial bulge swivels orbital planes far more strongly than relativity does. With the two tilts summing to 180 degrees, that bulge effect acts in opposite directions on the two satellites, so adding their measured drifts together subtracts most of the error while leaving the frame-dragging signal."
+    },
+    {
+      "q": "What is the main honest caveat on the result?",
+      "choices": [
+        "The satellites carried no clocks, so no timing was possible",
+        "The measurement disagreed with general relativity",
+        "The accuracy depends on modelling Earth's uneven gravity field, and at least one physicist argues the leftover error is larger than claimed",
+        "The data covered only a single orbit"
+      ],
+      "answer": 2,
+      "why": "The signal has to be dug out from under the much larger pull of Earth's non-spherical, shifting gravity field. Lorenzo Iorio has argued in a 2025 paper that the satellites deviate enough from the ideal mirror-image configuration that residual error from the equatorial bulge may exceed the team's estimate, which is why independent reanalysis matters."
+    }
+  ]
+}

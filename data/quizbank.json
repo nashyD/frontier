@@ -2926,5 +2926,53 @@
     ],
     "answer": 1,
     "why": "Filing the plan in advance removes the freedom to reinterpret the question once the numbers are in. A null result from a preregistered study is much harder to wave away as the researchers looking in the wrong place."
+  },
+  {
+    "qid": "2026-07-31-pm#0",
+    "lessonId": "2026-07-31-pm",
+    "lessonTitle": "The Earth twists spacetime as it spins, and lasers just measured the twist",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "What does frame-dragging predict about a spinning object like the Earth?",
+    "choices": [
+      "Its gravity gets stronger the faster it spins",
+      "It pulls the surrounding fabric of spacetime around with it as it rotates",
+      "It slows the passage of time everywhere in the solar system",
+      "It emits gravitational waves that ground detectors can hear"
+    ],
+    "answer": 1,
+    "why": "Lense and Thirring showed in 1918 that rotation adds an extra twist to Einstein's gravity: the spinning mass drags spacetime around, so orbits circling it slowly swivel. The effect is dramatic near a spinning black hole and extremely faint around the Earth."
+  },
+  {
+    "qid": "2026-07-31-pm#1",
+    "lessonId": "2026-07-31-pm",
+    "lessonTitle": "The Earth twists spacetime as it spins, and lasers just measured the twist",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "Why were LARES-2 and LAGEOS flown at tilts of 70.16 and 109.84 degrees?",
+    "choices": [
+      "Those angles keep both satellites permanently in sunlight",
+      "They add to about 180 degrees, so the error from Earth's equatorial bulge pushes the two orbits opposite ways and mostly cancels",
+      "They are the only orbits reachable by the Vega-C rocket",
+      "The angles make the satellites visible from every ground station at once"
+    ],
+    "answer": 1,
+    "why": "Earth's equatorial bulge swivels orbital planes far more strongly than relativity does. With the two tilts summing to 180 degrees, that bulge effect acts in opposite directions on the two satellites, so adding their measured drifts together subtracts most of the error while leaving the frame-dragging signal."
+  },
+  {
+    "qid": "2026-07-31-pm#2",
+    "lessonId": "2026-07-31-pm",
+    "lessonTitle": "The Earth twists spacetime as it spins, and lasers just measured the twist",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "What is the main honest caveat on the result?",
+    "choices": [
+      "The satellites carried no clocks, so no timing was possible",
+      "The measurement disagreed with general relativity",
+      "The accuracy depends on modelling Earth's uneven gravity field, and at least one physicist argues the leftover error is larger than claimed",
+      "The data covered only a single orbit"
+    ],
+    "answer": 2,
+    "why": "The signal has to be dug out from under the much larger pull of Earth's non-spherical, shifting gravity field. Lorenzo Iorio has argued in a 2025 paper that the satellites deviate enough from the ideal mirror-image configuration that residual error from the equatorial bulge may exceed the team's estimate, which is why independent reanalysis matters."
   }
 ]

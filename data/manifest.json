@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-31-pm",
+    "date": "2026-07-31",
+    "slot": "pm",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "title": "The Earth twists spacetime as it spins, and lasers just measured the twist",
+    "tldr": "Two metal spheres circling the Earth, tracked by laser pulses for three years, confirmed that our spinning planet drags the fabric of spacetime around with it, and pinned the size of that drag to about one part in a thousand.",
+    "readMinutes": 5,
+    "citation": "Ciufolini, I. et al. (2026), \"LARES-2 satellite measures frame-dragging effect around the Earth\", Nature 655(8122), 332-335",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-30-pm",
     "date": "2026-07-30",
     "slot": "pm",
