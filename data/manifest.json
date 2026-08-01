@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-01-pm",
+    "date": "2026-08-01",
+    "slot": "pm",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "title": "The small space where Claude keeps the thoughts it could tell you about",
+    "tldr": "Researchers found a tiny slice of Claude's internal activity that holds the few concepts it is actively working with, and editing that slice changes both what the model says it is thinking and what it concludes.",
+    "readMinutes": 5,
+    "citation": "Anthropic Interpretability Team (2026), \"A global workspace in language models\", Transformer Circuits Thread, published 2026-07-06",
+    "quizCount": 3
+  },
+  {
     "id": "2026-07-31-pm",
     "date": "2026-07-31",
     "slot": "pm",

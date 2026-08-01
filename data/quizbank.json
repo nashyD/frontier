@@ -2974,5 +2974,53 @@
     ],
     "answer": 2,
     "why": "The signal has to be dug out from under the much larger pull of Earth's non-spherical, shifting gravity field. Lorenzo Iorio has argued in a 2025 paper that the satellites deviate enough from the ideal mirror-image configuration that residual error from the equatorial bulge may exceed the team's estimate, which is why independent reanalysis matters."
+  },
+  {
+    "qid": "2026-08-01-pm#0",
+    "lessonId": "2026-08-01-pm",
+    "lessonTitle": "The small space where Claude keeps the thoughts it could tell you about",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What did the Jacobian lens let researchers read out of the model?",
+    "choices": [
+      "The exact training data a response was copied from",
+      "Words the model was leaning toward saying later, before it said them",
+      "How confident the model was in its final answer",
+      "Which company's servers the model was running on"
+    ],
+    "answer": 1,
+    "why": "The lens finds, for each vocabulary word, the internal pattern that raises the chance of producing that word later. Reading it mid-computation gives a ranked list of concepts the model is currently holding, including ones that never appear in the output."
+  },
+  {
+    "qid": "2026-08-01-pm#1",
+    "lessonId": "2026-08-01-pm",
+    "lessonTitle": "The small space where Claude keeps the thoughts it could tell you about",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "Swapping the hidden \"spider\" pattern for \"ant\" changed the model's answer from 8 legs to 6. Why does that matter more than simply spotting \"spider\" in there?",
+    "choices": [
+      "It shows the lens works on every model architecture",
+      "It proves the model memorized how many legs ants have",
+      "It shows the hidden concept actually drives the later reasoning rather than just accompanying it",
+      "It shows the model was guessing at random"
+    ],
+    "answer": 2,
+    "why": "Seeing a pattern is a correlation. Editing it and watching the downstream answer change is causal evidence: the rest of the computation was genuinely reading from that slot."
+  },
+  {
+    "qid": "2026-08-01-pm#2",
+    "lessonId": "2026-08-01-pm",
+    "lessonTitle": "The small space where Claude keeps the thoughts it could tell you about",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "When researchers deleted the J-space entirely, what survived?",
+    "choices": [
+      "Multi-step reasoning and summarization",
+      "Fluent speech, sentiment classification, and basic fact retrieval",
+      "Nothing; the model produced no output at all",
+      "Only its ability to refuse harmful requests"
+    ],
+    "answer": 1,
+    "why": "Automatic skills kept working without the workspace, while multi-step reasoning dropped to near zero and summarization and poetry fell below what a smaller intact model could do. That split is the evidence that the space is special rather than just busy."
   }
 ]
