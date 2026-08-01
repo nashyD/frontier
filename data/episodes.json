@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-08-01",
+    "title": "Frontier — August 1, 2026",
+    "summary": "Anthropic's interpretability team finds a small internal workspace inside Claude that holds the concepts it is actively thinking about, and editing that space changes what the model reports and what it concludes.",
+    "file": "audio/2026-08-01.mp3",
+    "durationSec": 330,
+    "bytes": 3960333
+  },
+  {
     "date": "2026-07-31",
     "title": "Frontier — July 31, 2026",
     "summary": "How two mirrored spheres and three years of laser pulses measured the twist a spinning Earth puts in spacetime, to about a tenth of a percent.",
