@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-02-pm",
+    "date": "2026-08-02",
+    "slot": "pm",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "title": "Melatonin moved blood sugar, and one common gene decided who felt it",
+    "tldr": "A single 5 mg melatonin pill measurably worsened how volunteers handled a sugar load, and the whole effect showed up in the ten people carrying a common diabetes-risk gene variant.",
+    "readMinutes": 5,
+    "citation": "Qian, J., Stefanovski, D., Andersen, P. A. K., Vujovic, N., Kelly, L., Lepson, J., Nguyen, H., Byrne, S., Wang, W., Mandrup-Poulsen, T., Adler, G., Garaulet, M., Saxena, R. & Scheer, F. A. J. L. (2026), \"Melatonin Impairs Glucose Tolerance, First-Phase Insulin Secretion, and Insulin Feedback Inhibition; Interaction With MTNR1B Diabetes Risk Variant\", Diabetes Care 49(8), 1498-1506",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-01-pm",
     "date": "2026-08-01",
     "slot": "pm",

@@ -1,0 +1,82 @@
+{
+  "id": "2026-08-02-pm",
+  "date": "2026-08-02",
+  "slot": "pm",
+  "topic": "biohacking",
+  "topicLabel": "Biohacking",
+  "title": "Melatonin moved blood sugar, and one common gene decided who felt it",
+  "study": {
+    "citation": "Qian, J., Stefanovski, D., Andersen, P. A. K., Vujovic, N., Kelly, L., Lepson, J., Nguyen, H., Byrne, S., Wang, W., Mandrup-Poulsen, T., Adler, G., Garaulet, M., Saxena, R. & Scheer, F. A. J. L. (2026), \"Melatonin Impairs Glucose Tolerance, First-Phase Insulin Secretion, and Insulin Feedback Inhibition; Interaction With MTNR1B Diabetes Risk Variant\", Diabetes Care 49(8), 1498-1506",
+    "year": 2026,
+    "link": "https://doi.org/10.2337/dc26-0164"
+  },
+  "tldr": "A single 5 mg melatonin pill measurably worsened how volunteers handled a sugar load, and the whole effect showed up in the ten people carrying a common diabetes-risk gene variant.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Melatonin is the sleep aid people treat as furniture. It sits next to the vitamins, it comes in gummies, and the paper's own opening line is that use has quintupled in recent decades. Meanwhile geneticists kept turning up something uncomfortable. A common variant in a gene called MTNR1B, which builds a melatonin receptor sitting right on the insulin-producing cells of the pancreas, raises a person's risk of type 2 diabetes. The statistical link was solid. The machinery behind it was murky. So a Harvard-led team went looking for the actual mechanism inside living people."
+    },
+    {
+      "h": "What they did",
+      "body": "Twenty-one healthy adults of European ancestry came into a lab for a tightly controlled five-day stay. Ten carried the MTNR1B risk version of the gene and eleven did not. On two separate days each person swallowed either 5 mg of melatonin or a matching dummy pill. The order was randomized and both the volunteers and the researchers were blind to which was which, so expectations could not tilt the result. Then came an insulin-modified intravenous glucose tolerance test: sugar delivered straight into a vein, blood drawn repeatedly, and a shot of insulin partway through to see how the pancreas reacts to being overruled."
+    },
+    {
+      "h": "What they found",
+      "body": "The gene carriers had a rough time on melatonin. Their glucose response worsened by about 11.7 percent and their early C-peptide response, a direct readout of how much insulin the pancreas just released, fell by roughly 19.2 percent. The first-phase burst of insulin, the fast squirt a healthy pancreas fires within minutes of sensing sugar, was suppressed by about 40 percent. The brake that circulating insulin normally applies to further insulin release loosened badly. And during the insulin portion of the test, carriers on melatonin had zero episodes of blood sugar dropping too low, where on placebo they had seven. Non-carriers showed none of this."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This turns a population statistic into a described mechanism. The old finding was that people with a certain gene variant get diabetes more often. The new finding names the two things going wrong in real time: the pancreas is slow to fire when sugar arrives, and it is slow to stand down when insulin tells it to. It also drags an over-the-counter supplement into precision medicine. Your body already floods itself with melatonin every night, so a genotype that changes how those cells listen to the signal has implications well past the supplement aisle."
+    },
+    {
+      "h": "The catch",
+      "body": "Twenty-one people is a very small room. Ten carriers is smaller still, so treat every percentage as a rough magnitude rather than a settled number. This was one 5 mg dose on isolated test days, which says nothing about what months of nightly use does to anyone. Sugar injected into a vein is a laboratory stress test that no dinner resembles. Everyone enrolled was healthy and of European ancestry, so people with existing diabetes and people of other ancestries are simply not covered. And almost nobody knows their MTNR1B genotype, which makes the personalized advice hard to act on today."
+    }
+  ],
+  "terms": [
+    { "term": "MTNR1B", "def": "A gene that builds one of the body's melatonin receptors; a common version of it is linked to higher type 2 diabetes risk, and the receptor sits on the pancreas cells that make insulin." },
+    { "term": "First-phase insulin response", "def": "The quick burst of already-made insulin a healthy pancreas releases in the first minutes after blood sugar rises, before it starts producing more." },
+    { "term": "C-peptide", "def": "A fragment the pancreas snips off and releases alongside insulin, which makes it a clean way to measure how much insulin the body itself just produced." }
+  ],
+  "takeaways": [
+    "A single ordinary dose of melatonin measurably worsened glucose handling, and it happened in one genetic subgroup while the other subgroup was untouched.",
+    "The mechanism has two halves: a blunted first burst of insulin when sugar shows up, and a weakened brake when insulin says stop.",
+    "Twenty-one people is not a prescription. Take it as a reason to ask better questions about a supplement most people swallow without thinking."
+  ],
+  "quiz": [
+    {
+      "q": "What made the crossover design important here?",
+      "choices": [
+        "It allowed the researchers to skip a placebo",
+        "Every participant took both melatonin and placebo, so each person served as their own comparison",
+        "It made the study apply to the whole population",
+        "It let them test the two gene groups on different days"
+      ],
+      "answer": 1,
+      "why": "Each volunteer went through both the melatonin day and the placebo day, and neither they nor the researchers knew which was which. That holds a person's own metabolism, genetics, and habits constant, which matters enormously when you only have 21 participants."
+    },
+    {
+      "q": "What does C-peptide tell researchers that measuring insulin alone does not?",
+      "choices": [
+        "How much sugar is currently in the blood",
+        "How sensitive muscle tissue is to insulin",
+        "How much insulin the pancreas itself produced, separate from any insulin given by injection",
+        "Whether the person carries the MTNR1B risk variant"
+      ],
+      "answer": 2,
+      "why": "The pancreas releases C-peptide alongside its own insulin in equal amounts. Since the injected insulin in this test carries no C-peptide with it, measuring C-peptide lets researchers see exactly what the body produced on its own."
+    },
+    {
+      "q": "Which limitation most restricts how far you can push these results?",
+      "choices": [
+        "The participants were never given real melatonin",
+        "The sample was 21 healthy adults of European ancestry tested with a single dose",
+        "Nobody measured blood sugar during the test",
+        "The researchers knew who received melatonin"
+      ],
+      "answer": 1,
+      "why": "Ten carriers and eleven non-carriers, all healthy, all of European ancestry, each tested with one 5 mg dose on isolated days. The effects were large and consistent enough to publish, and the study still cannot speak to nightly long-term use, to other ancestries, or to people who already have diabetes."
+    }
+  ]
+}

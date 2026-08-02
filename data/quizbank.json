@@ -3022,5 +3022,53 @@
     ],
     "answer": 1,
     "why": "Automatic skills kept working without the workspace, while multi-step reasoning dropped to near zero and summarization and poetry fell below what a smaller intact model could do. That split is the evidence that the space is special rather than just busy."
+  },
+  {
+    "qid": "2026-08-02-pm#0",
+    "lessonId": "2026-08-02-pm",
+    "lessonTitle": "Melatonin moved blood sugar, and one common gene decided who felt it",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What made the crossover design important here?",
+    "choices": [
+      "It allowed the researchers to skip a placebo",
+      "Every participant took both melatonin and placebo, so each person served as their own comparison",
+      "It made the study apply to the whole population",
+      "It let them test the two gene groups on different days"
+    ],
+    "answer": 1,
+    "why": "Each volunteer went through both the melatonin day and the placebo day, and neither they nor the researchers knew which was which. That holds a person's own metabolism, genetics, and habits constant, which matters enormously when you only have 21 participants."
+  },
+  {
+    "qid": "2026-08-02-pm#1",
+    "lessonId": "2026-08-02-pm",
+    "lessonTitle": "Melatonin moved blood sugar, and one common gene decided who felt it",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What does C-peptide tell researchers that measuring insulin alone does not?",
+    "choices": [
+      "How much sugar is currently in the blood",
+      "How sensitive muscle tissue is to insulin",
+      "How much insulin the pancreas itself produced, separate from any insulin given by injection",
+      "Whether the person carries the MTNR1B risk variant"
+    ],
+    "answer": 2,
+    "why": "The pancreas releases C-peptide alongside its own insulin in equal amounts. Since the injected insulin in this test carries no C-peptide with it, measuring C-peptide lets researchers see exactly what the body produced on its own."
+  },
+  {
+    "qid": "2026-08-02-pm#2",
+    "lessonId": "2026-08-02-pm",
+    "lessonTitle": "Melatonin moved blood sugar, and one common gene decided who felt it",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "Which limitation most restricts how far you can push these results?",
+    "choices": [
+      "The participants were never given real melatonin",
+      "The sample was 21 healthy adults of European ancestry tested with a single dose",
+      "Nobody measured blood sugar during the test",
+      "The researchers knew who received melatonin"
+    ],
+    "answer": 1,
+    "why": "Ten carriers and eleven non-carriers, all healthy, all of European ancestry, each tested with one 5 mg dose on isolated days. The effects were large and consistent enough to publish, and the study still cannot speak to nightly long-term use, to other ancestries, or to people who already have diabetes."
   }
 ]
