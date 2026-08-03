@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-08-03",
+    "title": "Frontier — August 3, 2026",
+    "summary": "Why a five-year track record can't tell you whether a fund manager, a venture partner, or a chief executive is actually any good, and what to look at instead.",
+    "file": "audio/2026-08-03.mp3",
+    "durationSec": 348,
+    "bytes": 4180653
+  },
+  {
     "date": "2026-08-01",
     "title": "Frontier — August 1, 2026",
     "summary": "Anthropic's interpretability team finds a small internal workspace inside Claude that holds the concepts it is actively thinking about, and editing that space changes what the model reports and what it concludes.",
