@@ -3070,5 +3070,53 @@
     ],
     "answer": 1,
     "why": "Ten carriers and eleven non-carriers, all healthy, all of European ancestry, each tested with one 5 mg dose on isolated days. The effects were large and consistent enough to publish, and the study still cannot speak to nightly long-term use, to other ancestries, or to people who already have diabetes."
+  },
+  {
+    "qid": "2026-08-03-pm#0",
+    "lessonId": "2026-08-03-pm",
+    "lessonTitle": "Two numbers decide whether a track record means anything",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "Why do a fund manager's thirty annual returns count for far less than thirty independent observations?",
+    "choices": [
+      "Because management fees are deducted from every year",
+      "Because the returns overlap and move together, so they carry less independent information",
+      "Because reliable return data only goes back a few decades",
+      "Because most careers never reach thirty years"
+    ],
+    "answer": 1,
+    "why": "The framework counts independent information rather than calendar years. A manager holds many of the same positions from one year to the next and rides the same market, so consecutive returns are correlated and each new year adds only a fraction of a fresh observation. Once a person's outcomes share even modest correlation, the effective count hits a ceiling, and no amount of extra career length pushes past it."
+  },
+  {
+    "qid": "2026-08-03-pm#1",
+    "lessonId": "2026-08-03-pm",
+    "lessonTitle": "Two numbers decide whether a track record means anything",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "Which of these did the paper place in the knowable region, where skill can be read from the record?",
+    "choices": [
+      "A founder's first company",
+      "A venture partner's thirty investments",
+      "An NBA player's career free-throw record",
+      "A Fortune 500 chief executive's tenure"
+    ],
+    "answer": 2,
+    "why": "Free throws are the cleanest case in the paper. The shot is nearly identical every time, the result is unambiguous, feedback is instant, and a career holds thousands of attempts. That combination of low noise and a huge number of independent tries clears the bar by a wide margin. The other three are all low-count, high-noise records, and each lands in the essentially unknowable region."
+  },
+  {
+    "qid": "2026-08-03-pm#2",
+    "lessonId": "2026-08-03-pm",
+    "lessonTitle": "Two numbers decide whether a track record means anything",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "What does the paper propose doing when a record is too noisy to judge someone individually?",
+    "choices": [
+      "Simply wait longer until the record grows into a usable sample",
+      "Rank candidates against each other instead of against a benchmark",
+      "Rely on an experienced evaluator's accumulated judgment",
+      "Use process measures whose link to good outcomes was established across a large population"
+    ],
+    "answer": 3,
+    "why": "This is the medical move: Framingham could not forecast one patient from their own sparse history, so it learned which features predicted trouble across thousands of people and applied that to individuals. Waiting fails because correlation caps how much a longer career adds. Ranking people against each other is statistically harder than comparing one against a benchmark. And seasoned judgment is itself learned from the same sparse, biased feedback."
   }
 ]

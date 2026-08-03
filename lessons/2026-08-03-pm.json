@@ -1,0 +1,91 @@
+{
+  "id": "2026-08-03-pm",
+  "date": "2026-08-03",
+  "slot": "pm",
+  "topic": "finance",
+  "topicLabel": "Finance & Markets",
+  "title": "Two numbers decide whether a track record means anything",
+  "study": {
+    "citation": "Ulrich, K. T. (2026), \"Lucky or Good? Outcome Noise, Effective Sample Size, and the Attribution of Skill\", arXiv:2607.27544 [econ.GN]",
+    "year": 2026,
+    "link": "https://arxiv.org/abs/2607.27544"
+  },
+  "tldr": "A Wharton professor worked out how much a career record can actually tell you about the person behind it, and the fields where we trust records most — fund managers, venture partners, chief executives — turn out to be the ones where records tell us least.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Everyone is comfortable saying a chess grandmaster is better than a club player. Almost nobody is comfortable saying a fund manager who beat the market for five years is better than one who did not. Karl Ulrich, a professor at the Wharton School, wanted to know exactly where that line sits and why. When does a record of results carry enough information to support a real claim about the person who produced it? And in the cases where it does not, what should a board or an investor look at instead? His answer depends on only two things."
+    },
+    {
+      "h": "What they did",
+      "body": "The two things are how noisy a single result is, and how many genuinely independent results a person accumulates. Noise is everything that moves an outcome besides the person: luck, the market, the industry, the weather. Independence matters because a fund manager's thirty annual returns overlap and move together, so they carry far less information than thirty separate coin flips. Ulrich folds both into one figure he calls a detection budget, drawn from the ordinary statistics of sample size, then sets a bar that budget has to clear. He then places ten fields on a map, from free throws and tournament chess to venture capital and the corner office."
+    },
+    {
+      "h": "What they found",
+      "body": "Free throws sit far above the bar. A player takes thousands of nearly identical shots with instant feedback, so a gap of one or two percentage points in career accuracy is genuinely detectable, and a moderate skill difference shows up inside a single season. The money fields sit far below it. Active stock-picking funds, venture capital, and non-founder chief executives all land in what Ulrich calls the essentially unknowable region, where even a large true skill difference cannot be separated from luck across a whole career. A founder with one company is the extreme case: one outcome, however spectacular, offers no way to split skill from favorable weather."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "Those three unknowable fields govern trillions of dollars of capital and the bulk of executive pay in the developed world, and all three hand out money and jobs largely on the basis of track records. Boards fire chief executives after three poor years. Investors commit billions after seeing three fund vintages. The map says that habit is backwards, since outcomes get the heaviest weight precisely where they carry the least signal. Ulrich's second move is the useful one. He borrows from medicine: the Framingham heart study could not read any one patient's future from their thin personal history, so it measured which features predicted heart attacks across a whole population and applied those to individuals."
+    },
+    {
+      "h": "The catch",
+      "body": "This is a preprint by a single author, posted on July 30, 2026, and it has not been through peer review. It also produces no new data. Every noise figure and skill figure is a calibration assembled from earlier published work, and Ulrich says his claims rest on the rough region where a field lands rather than on the exact placement. The verdict is about what an observer can know, so real skill may well exist where the record cannot reveal it. His proposed replacement carries its own problems: the population-validated measures he points to are disputed, they can be confounded by who chooses them, and people who know they are graded on a measure will start playing to it."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Effective sample size",
+      "def": "The number of genuinely independent results inside a record, which is usually far smaller than the raw count because outcomes overlap and move together."
+    },
+    {
+      "term": "Signal-to-noise ratio",
+      "def": "How large the real spread of skill between people is compared with how much any single result bounces around for reasons nobody controls."
+    },
+    {
+      "term": "Population validation",
+      "def": "Rather than judging one person by their own thin record, you find the features that track good outcomes across thousands of people, then check whether this person has them."
+    }
+  ],
+  "takeaways": [
+    "A track record is evidence in proportion to how many independent attempts it contains and how quiet each one is. Five years of returns is a handful of very loud attempts.",
+    "The fields where we lean hardest on results — fund managers, venture partners, chief executives, founders — are the ones where results reveal the least about the individual.",
+    "When the record cannot carry the weight, ask which practices are linked to good outcomes across a whole population, then check whether this person actually follows them."
+  ],
+  "quiz": [
+    {
+      "q": "Why do a fund manager's thirty annual returns count for far less than thirty independent observations?",
+      "choices": [
+        "Because management fees are deducted from every year",
+        "Because the returns overlap and move together, so they carry less independent information",
+        "Because reliable return data only goes back a few decades",
+        "Because most careers never reach thirty years"
+      ],
+      "answer": 1,
+      "why": "The framework counts independent information rather than calendar years. A manager holds many of the same positions from one year to the next and rides the same market, so consecutive returns are correlated and each new year adds only a fraction of a fresh observation. Once a person's outcomes share even modest correlation, the effective count hits a ceiling, and no amount of extra career length pushes past it."
+    },
+    {
+      "q": "Which of these did the paper place in the knowable region, where skill can be read from the record?",
+      "choices": [
+        "A founder's first company",
+        "A venture partner's thirty investments",
+        "An NBA player's career free-throw record",
+        "A Fortune 500 chief executive's tenure"
+      ],
+      "answer": 2,
+      "why": "Free throws are the cleanest case in the paper. The shot is nearly identical every time, the result is unambiguous, feedback is instant, and a career holds thousands of attempts. That combination of low noise and a huge number of independent tries clears the bar by a wide margin. The other three are all low-count, high-noise records, and each lands in the essentially unknowable region."
+    },
+    {
+      "q": "What does the paper propose doing when a record is too noisy to judge someone individually?",
+      "choices": [
+        "Simply wait longer until the record grows into a usable sample",
+        "Rank candidates against each other instead of against a benchmark",
+        "Rely on an experienced evaluator's accumulated judgment",
+        "Use process measures whose link to good outcomes was established across a large population"
+      ],
+      "answer": 3,
+      "why": "This is the medical move: Framingham could not forecast one patient from their own sparse history, so it learned which features predicted trouble across thousands of people and applied that to individuals. Waiting fails because correlation caps how much a longer career adds. Ranking people against each other is statistically harder than comparing one against a benchmark. And seasoned judgment is itself learned from the same sparse, biased feedback."
+    }
+  ]
+}

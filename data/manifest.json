@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-03-pm",
+    "date": "2026-08-03",
+    "slot": "pm",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "title": "Two numbers decide whether a track record means anything",
+    "tldr": "A Wharton professor worked out how much a career record can actually tell you about the person behind it, and the fields where we trust records most — fund managers, venture partners, chief executives — turn out to be the ones where records tell us least.",
+    "readMinutes": 5,
+    "citation": "Ulrich, K. T. (2026), \"Lucky or Good? Outcome Noise, Effective Sample Size, and the Attribution of Skill\", arXiv:2607.27544 [econ.GN]",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-02-pm",
     "date": "2026-08-02",
     "slot": "pm",
