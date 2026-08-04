@@ -3118,5 +3118,53 @@
     ],
     "answer": 3,
     "why": "This is the medical move: Framingham could not forecast one patient from their own sparse history, so it learned which features predicted trouble across thousands of people and applied that to individuals. Waiting fails because correlation caps how much a longer career adds. Ranking people against each other is statistically harder than comparing one against a benchmark. And seasoned judgment is itself learned from the same sparse, biased feedback."
+  },
+  {
+    "qid": "2026-08-04-pm#0",
+    "lessonId": "2026-08-04-pm",
+    "lessonTitle": "CBD quieted a heart inflammation that keeps coming back",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Why does the absence of a placebo group matter so much for this particular result?",
+    "choices": [
+      "Because CBD is illegal in most states",
+      "Because the main outcome was pain that patients rated themselves, and a condition that flares and fades on its own",
+      "Because blood tests cannot be measured without a control group",
+      "Because the trial ran for only eight weeks"
+    ],
+    "answer": 1,
+    "why": "Self-rated pain is exactly the kind of measure that improves when a patient believes in the treatment, and recurrent pericarditis naturally has good stretches and bad ones. With no comparison group you cannot separate the drug from the expectation and the calendar. The blood marker helps, since C-reactive protein is harder to wish downward, though it was only elevated in ten patients here."
+  },
+  {
+    "qid": "2026-08-04-pm#1",
+    "lessonId": "2026-08-04-pm",
+    "lessonTitle": "CBD quieted a heart inflammation that keeps coming back",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "What was the point of the 18-week extension period after the first eight weeks?",
+    "choices": [
+      "To slowly increase the CBD dose to the maximum tolerated level",
+      "To test CBD against a placebo",
+      "To taper the patients' existing anti-inflammatory drugs and see if they stayed episode-free",
+      "To recruit additional patients into the trial"
+    ],
+    "answer": 2,
+    "why": "For the first eight weeks CBD rode on top of the usual treatment, so any benefit could have come from the combination. The extension weaned the background drugs away, which is the harder test: it asks whether patients hold steady with less of everything else. Seventeen of 24 made it through with no new episode."
+  },
+  {
+    "qid": "2026-08-04-pm#2",
+    "lessonId": "2026-08-04-pm",
+    "lessonTitle": "CBD quieted a heart inflammation that keeps coming back",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "What is the NLRP3 inflammasome, and why is it the interesting part of this story?",
+    "choices": [
+      "A brain receptor that THC binds to, explaining the high",
+      "An alarm assembly inside immune cells that can get stuck on, and the same target the expensive biologic drugs for this condition aim at",
+      "A gene that determines whether someone will develop pericarditis",
+      "A blood test used to diagnose heart inflammation"
+    ],
+    "answer": 1,
+    "why": "The inflammasome is a protein complex that immune cells assemble to trigger an inflammatory response. When it misfires, inflammation keeps relaunching itself, which fits a disease defined by relapse. The drugs that work best for stubborn pericarditis are costly injected biologics aimed at that pathway, so a cheap oral molecule reaching for the same switch is worth taking seriously even from a small trial."
   }
 ]

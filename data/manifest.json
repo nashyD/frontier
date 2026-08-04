@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-04-pm",
+    "date": "2026-08-04",
+    "slot": "pm",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "title": "CBD quieted a heart inflammation that keeps coming back",
+    "tldr": "In a small open-label trial, a pharmaceutical-grade CBD added to standard treatment cut the chest pain of recurrent pericarditis from about a 6 to about a 2 in eight weeks, and most patients stayed episode-free while their other drugs were tapered off.",
+    "readMinutes": 5,
+    "citation": "Luis, S. A., Klein, A. L., Cremer, P. C. et al. (2026), \"Efficacy and Safety of Pharmaceutically Manufactured Cannabidiol in Recurrent Pericarditis: A Phase II Clinical Trial\", Journal of the American Heart Association 15(14), e047605",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-03-pm",
     "date": "2026-08-03",
     "slot": "pm",

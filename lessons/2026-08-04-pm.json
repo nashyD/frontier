@@ -1,0 +1,91 @@
+{
+  "id": "2026-08-04-pm",
+  "date": "2026-08-04",
+  "slot": "pm",
+  "topic": "cannabis",
+  "topicLabel": "Cannabis Science",
+  "title": "CBD quieted a heart inflammation that keeps coming back",
+  "study": {
+    "citation": "Luis, S. A., Klein, A. L., Cremer, P. C. et al. (2026), \"Efficacy and Safety of Pharmaceutically Manufactured Cannabidiol in Recurrent Pericarditis: A Phase II Clinical Trial\", Journal of the American Heart Association 15(14), e047605",
+    "year": 2026,
+    "link": "https://doi.org/10.1161/JAHA.125.047605"
+  },
+  "tldr": "In a small open-label trial, a pharmaceutical-grade CBD added to standard treatment cut the chest pain of recurrent pericarditis from about a 6 to about a 2 in eight weeks, and most patients stayed episode-free while their other drugs were tapered off.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Your heart sits inside a thin double-layered sac called the pericardium. When that sac gets inflamed, it hurts in a way people describe as sharp and stabbing, worse lying down, better sitting forward. Most cases settle. In some people it comes back again and again for years, and the standard answer is a stack of anti-inflammatory drugs, sometimes including steroids, that carry their own costs the longer you stay on them. Cannabidiol, the non-intoxicating molecule in cannabis, damps down one of the specific inflammation switches suspected of driving these relapses. So a group of cardiologists asked a simple question: give it to real patients and does the pain go away?"
+    },
+    {
+      "h": "What they did",
+      "body": "Twenty-seven adults with recurrent pericarditis enrolled across eight U.S. clinical sites. All of them were already on standard anti-inflammatory treatment and still having episodes. Each took a twice-daily oral cannabidiol made to pharmaceutical standards, meaning a known, consistent dose of the purified molecule rather than an off-the-shelf supplement. For the first eight weeks the CBD was simply added on top of whatever they were already taking. Then an 18-week extension followed, and during that stretch doctors deliberately weaned the background medications down to see whether the patients held steady without them. Patients rated their chest pain on a zero-to-ten scale, and blood was drawn to track inflammation."
+    },
+    {
+      "h": "What they found",
+      "body": "Average pain started at 5.8 out of 10 and sat at 2.1 by week eight. It moved fast: the typical patient reached a pain score of 2 or lower within about five days. The blood work moved with it. C-reactive protein is a protein the liver pumps out when the body is inflamed, and among the ten patients whose level was high at the start, eight had returned to normal by week eight. Through the extension period, as the other drugs were being tapered, 17 of 24 patients stayed completely free of a new pericarditis episode. One patient had a serious adverse event and stopped treatment."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "Most cannabis headlines are about pain you feel or moods you notice. This one is about a specific immune machine. The researchers point to the NLRP3 inflammasome, a protein assembly inside immune cells that acts like an alarm, and when it misfires it keeps the inflammation cycle looping. The expensive biologic drugs that work best for stubborn pericarditis target that same pathway. A cheap, orally dosed small molecule reaching for the same target would change who can afford treatment. It also reframes CBD as a candidate anti-inflammatory drug with a mechanism worth arguing about, well outside the seizure indication it is already approved for."
+    },
+    {
+      "h": "The catch",
+      "body": "This was open-label with no placebo group, so every patient knew they were getting CBD and so did every doctor rating them. Pericarditis pain flares and fades on its own, which means some of that improvement would likely have shown up anyway, and belief in a new treatment reliably moves self-reported pain. Twenty-seven people is tiny. The C-reactive protein result rests on just ten patients who had elevated levels to begin with. The trial was funded by the company developing the drug. The authors say plainly that this is groundwork for a proper randomized, double-blind, placebo-controlled trial, which is now underway."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Pericarditis",
+      "def": "Inflammation of the thin sac around the heart, which typically causes sharp chest pain that eases when you sit up and lean forward."
+    },
+    {
+      "term": "Open-label trial",
+      "def": "A study where everyone knows who is getting the treatment, which is faster and cheaper to run and also leaves the results wide open to expectation and wishful thinking."
+    },
+    {
+      "term": "C-reactive protein",
+      "def": "A protein the liver releases when the body is inflamed, used as a rough thermometer for how much inflammation is running in the bloodstream."
+    }
+  ],
+  "takeaways": [
+    "Purified CBD is being tested as a serious anti-inflammatory drug, aimed at a specific immune switch rather than at a vague sense of calm.",
+    "Pain scores dropped from about 6 to about 2 in eight weeks, and most patients stayed episode-free while their other medications were tapered away.",
+    "An open-label trial with 27 patients and no placebo arm is a reason to keep watching, and a poor reason to conclude anything yet."
+  ],
+  "quiz": [
+    {
+      "q": "Why does the absence of a placebo group matter so much for this particular result?",
+      "choices": [
+        "Because CBD is illegal in most states",
+        "Because the main outcome was pain that patients rated themselves, and a condition that flares and fades on its own",
+        "Because blood tests cannot be measured without a control group",
+        "Because the trial ran for only eight weeks"
+      ],
+      "answer": 1,
+      "why": "Self-rated pain is exactly the kind of measure that improves when a patient believes in the treatment, and recurrent pericarditis naturally has good stretches and bad ones. With no comparison group you cannot separate the drug from the expectation and the calendar. The blood marker helps, since C-reactive protein is harder to wish downward, though it was only elevated in ten patients here."
+    },
+    {
+      "q": "What was the point of the 18-week extension period after the first eight weeks?",
+      "choices": [
+        "To slowly increase the CBD dose to the maximum tolerated level",
+        "To test CBD against a placebo",
+        "To taper the patients' existing anti-inflammatory drugs and see if they stayed episode-free",
+        "To recruit additional patients into the trial"
+      ],
+      "answer": 2,
+      "why": "For the first eight weeks CBD rode on top of the usual treatment, so any benefit could have come from the combination. The extension weaned the background drugs away, which is the harder test: it asks whether patients hold steady with less of everything else. Seventeen of 24 made it through with no new episode."
+    },
+    {
+      "q": "What is the NLRP3 inflammasome, and why is it the interesting part of this story?",
+      "choices": [
+        "A brain receptor that THC binds to, explaining the high",
+        "An alarm assembly inside immune cells that can get stuck on, and the same target the expensive biologic drugs for this condition aim at",
+        "A gene that determines whether someone will develop pericarditis",
+        "A blood test used to diagnose heart inflammation"
+      ],
+      "answer": 1,
+      "why": "The inflammasome is a protein complex that immune cells assemble to trigger an inflammatory response. When it misfires, inflammation keeps relaunching itself, which fits a disease defined by relapse. The drugs that work best for stubborn pericarditis are costly injected biologics aimed at that pathway, so a cheap oral molecule reaching for the same switch is worth taking seriously even from a small trial."
+    }
+  ]
+}
