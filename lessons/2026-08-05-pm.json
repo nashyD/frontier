@@ -1,0 +1,77 @@
+{
+  "id": "2026-08-05-pm",
+  "date": "2026-08-05",
+  "slot": "pm",
+  "topic": "learning",
+  "topicLabel": "Learning & Cognition",
+  "title": "The year a kid joins social media shows up in their test scores",
+  "study": {
+    "citation": "Gui, M., Respi, C., Abbiati, G. et al. (2026), \"Longitudinal effect of early social media use on standardized learning outcomes during school career\", Nature Human Behaviour (published 3 August 2026)",
+    "year": 2026,
+    "link": "https://doi.org/10.1038/s41562-026-02522-4"
+  },
+  "tldr": "Italian students who opened their first social media account in sixth grade were measurably behind their matched classmates in reading and math years later, and the gap kept widening instead of closing.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Everyone has an opinion about kids and social media, and almost all of it rests on snapshots: survey a group of teenagers once, notice that the heavy users have worse grades, argue forever about which caused which. The obvious hole is that struggling students might reach for their phones more in the first place. A team at the University of Milano-Bicocca went after a sharper version of the question. Hold the child's earlier school record fixed and ask what happens to their learning after the account gets created. Does the age you join actually leave a mark on what you know?"
+    },
+    {
+      "h": "What they did",
+      "body": "They surveyed 5,227 students across schools in northern Italy about their lifetime digital habits, including the grade in which they opened their first account on a platform like Instagram or TikTok. Then they merged those answers with each student's own INVALSI scores, the standardized tests Italian schools give in Italian, English and mathematics as children move up through the grades. That gave them a before and an after for the same child. They matched early adopters in sixth, seventh or eighth grade against otherwise similar students who waited until ninth grade, then compared how each group's scores moved over time, a method economists call difference-in-differences."
+    },
+    {
+      "h": "What they found",
+      "body": "Joining early tracked with falling behind, and the earlier the joining, the bigger the drop. Sixth-grade adopters were roughly a fifth of a standard deviation below their matched peers in Italian and in mathematics by eighth grade, and by tenth grade the gaps had grown to about 0.22 in Italian and 0.27 in math. The authors put a fifth of a standard deviation at something like six months of schooling. Seventh-grade adopters showed smaller gaps in the same direction. English scores were the odd exception, showing no reliable effect, which the authors suspect reflects how much online content teenagers absorb in English."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "Phone and social media policy for schools is being written right now, mostly from cross-sectional surveys and from adults arguing from instinct. This study brings two things that were missing: the same child measured before and after the account, and an outcome nobody can fudge, since a national standardized test is not a self-reported wellbeing score. It also points at a mechanism. Students who described their phones as woven through meals, bedtime and school hours had both earlier accounts and lower scores, and accounting for that pattern absorbed a real chunk of the effect. The suspect is the always-on habit an account starts."
+    },
+    {
+      "h": "The catch",
+      "body": "Nobody randomly assigned a child to get Instagram in sixth grade, so this remains observational. Matching handles the differences researchers could measure and stays blind to the ones they could not, and the sign-up date came from teenagers recalling it years later. There was no direct screen-time measurement, only self-described phone habits, and the authors call the mechanism analysis exploratory and correlational. The sample sits in one prosperous region of Italy and misses students who dropped out or left the academic track. Whether the same gaps appear in a different country with different schools is untested."
+    }
+  ],
+  "terms": [
+    { "term": "Standard deviation", "def": "A yardstick for how spread out scores are; moving a student a fifth of a standard deviation is a small shift for one person and a large one when it happens to a whole cohort." },
+    { "term": "Difference-in-differences", "def": "Comparing how two similar groups change over time rather than comparing their levels once, so that whatever made them different at the start cancels out." },
+    { "term": "Standardized test score", "def": "A result from the same exam given the same way to everyone, which makes one student's number directly comparable to another's across schools and years." }
+  ],
+  "takeaways": [
+    "The age at which a kid opens a first social media account lines up with measurable differences in reading and math years later.",
+    "The gaps grew between eighth and tenth grade, which is the opposite of what you would expect if this were a brief adjustment period.",
+    "The evidence here comes from careful observation, so treat it as a strong reason to delay and a weak basis for certainty."
+  ],
+  "quiz": [
+    {
+      "q": "What made this design stronger than the usual survey of teenagers and screens?",
+      "choices": [
+        "It randomly assigned some students to open accounts early",
+        "It tracked the same students' standardized test scores before and after they opened an account",
+        "It measured every minute of screen time with software on the phones",
+        "It followed students into adulthood and tracked their salaries"
+      ],
+      "answer": 1,
+      "why": "Linking each child's own earlier and later test records means the comparison is with that student's own trajectory, which strips out the fixed differences between kids that ruin a one-time snapshot survey."
+    },
+    {
+      "q": "Which subject showed no reliable effect of early social media adoption?",
+      "choices": ["Italian", "Mathematics", "English", "All three showed equal effects"],
+      "answer": 2,
+      "why": "English scores held up, and the authors' suggested explanation is that so much of the online content Italian teenagers consume is in English that the exposure may offset the cost elsewhere."
+    },
+    {
+      "q": "What is the honest limitation a careful reader should hold onto?",
+      "choices": [
+        "The sample was too small to analyze",
+        "The tests were graded by the students themselves",
+        "No one was randomly assigned, so unmeasured differences between early and late adopters could still explain part of the gap",
+        "The study only looked at students in one classroom"
+      ],
+      "answer": 2,
+      "why": "Matching plus before-and-after comparison rules out a lot, and it cannot rule out everything. Something the researchers never measured could push a child both toward an early account and toward lower scores."
+    }
+  ]
+}

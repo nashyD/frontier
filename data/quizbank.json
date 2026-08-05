@@ -3166,5 +3166,53 @@
     ],
     "answer": 1,
     "why": "The inflammasome is a protein complex that immune cells assemble to trigger an inflammatory response. When it misfires, inflammation keeps relaunching itself, which fits a disease defined by relapse. The drugs that work best for stubborn pericarditis are costly injected biologics aimed at that pathway, so a cheap oral molecule reaching for the same switch is worth taking seriously even from a small trial."
+  },
+  {
+    "qid": "2026-08-05-pm#0",
+    "lessonId": "2026-08-05-pm",
+    "lessonTitle": "The year a kid joins social media shows up in their test scores",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What made this design stronger than the usual survey of teenagers and screens?",
+    "choices": [
+      "It randomly assigned some students to open accounts early",
+      "It tracked the same students' standardized test scores before and after they opened an account",
+      "It measured every minute of screen time with software on the phones",
+      "It followed students into adulthood and tracked their salaries"
+    ],
+    "answer": 1,
+    "why": "Linking each child's own earlier and later test records means the comparison is with that student's own trajectory, which strips out the fixed differences between kids that ruin a one-time snapshot survey."
+  },
+  {
+    "qid": "2026-08-05-pm#1",
+    "lessonId": "2026-08-05-pm",
+    "lessonTitle": "The year a kid joins social media shows up in their test scores",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "Which subject showed no reliable effect of early social media adoption?",
+    "choices": [
+      "Italian",
+      "Mathematics",
+      "English",
+      "All three showed equal effects"
+    ],
+    "answer": 2,
+    "why": "English scores held up, and the authors' suggested explanation is that so much of the online content Italian teenagers consume is in English that the exposure may offset the cost elsewhere."
+  },
+  {
+    "qid": "2026-08-05-pm#2",
+    "lessonId": "2026-08-05-pm",
+    "lessonTitle": "The year a kid joins social media shows up in their test scores",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What is the honest limitation a careful reader should hold onto?",
+    "choices": [
+      "The sample was too small to analyze",
+      "The tests were graded by the students themselves",
+      "No one was randomly assigned, so unmeasured differences between early and late adopters could still explain part of the gap",
+      "The study only looked at students in one classroom"
+    ],
+    "answer": 2,
+    "why": "Matching plus before-and-after comparison rules out a lot, and it cannot rule out everything. Something the researchers never measured could push a child both toward an early account and toward lower scores."
   }
 ]
