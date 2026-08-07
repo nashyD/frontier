@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-06-pm",
+    "date": "2026-08-06",
+    "slot": "pm",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "title": "Two mummies in the Atacama finally named the virus that emptied a continent",
+    "tldr": "Smallpox DNA pulled from the thigh bones of two people buried on the Chilean coast around the time of the Spanish conquest is the first hard genetic evidence that the virus which devastated the Americas came from Europe.",
+    "readMinutes": 5,
+    "citation": "Romero González, B., Reyes-Madrid, M., Arriaza, B., Cassidy, L. M., Moraga, M., de la Fuente Castro, C. & Nakagome, S. (2026), \"The genomic identity of early smallpox in South America\", Science 393(6810), 504-508",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-05-pm",
     "date": "2026-08-05",
     "slot": "pm",

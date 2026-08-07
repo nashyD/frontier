@@ -3214,5 +3214,53 @@
     ],
     "answer": 2,
     "why": "Matching plus before-and-after comparison rules out a lot, and it cannot rule out everything. Something the researchers never measured could push a child both toward an early account and toward lower scores."
+  },
+  {
+    "qid": "2026-08-06-pm#0",
+    "lessonId": "2026-08-06-pm",
+    "lessonTitle": "Two mummies in the Atacama finally named the virus that emptied a continent",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "What made the Camarones 9 site suitable for this kind of study?",
+    "choices": [
+      "The bodies were embalmed with preservatives by Inca specialists",
+      "The extreme dryness of the Atacama desert mummified the remains naturally, preserving tissue for centuries",
+      "The burials were sealed inside airtight stone tombs",
+      "The site was permanently frozen, like a glacier burial"
+    ],
+    "answer": 1,
+    "why": "Northern Chile's Atacama coast is one of the driest environments on the planet. Bodies buried there dry out and mummify without any human intervention, and that lack of moisture is what slows the chemical breakdown of DNA enough for fragments of a virus to still be readable 500 years later."
+  },
+  {
+    "qid": "2026-08-06-pm#1",
+    "lessonId": "2026-08-06-pm",
+    "lessonTitle": "Two mummies in the Atacama finally named the virus that emptied a continent",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "Why does the position of the CAM9 lineage on the smallpox family tree matter?",
+    "choices": [
+      "It shows the virus originated independently in South America",
+      "It proves the two individuals died of smallpox rather than another disease",
+      "It descends from strains circulating in medieval Europe, tying the American outbreak to an Old World source",
+      "It is identical to the strain eradicated in 1980, showing the virus never changed"
+    ],
+    "answer": 2,
+    "why": "Genetic relatedness is directional. CAM9 branches off from lineages known in medieval Europe and sits below the strains of later centuries, so the virus found in an Inca-affiliated community on the Chilean coast traces back to European ancestry. That is the molecular version of the historians' argument about colonisation."
+  },
+  {
+    "qid": "2026-08-06-pm#2",
+    "lessonId": "2026-08-06-pm",
+    "lessonTitle": "Two mummies in the Atacama finally named the virus that emptied a continent",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "What is the most important limitation the researchers acknowledged?",
+    "choices": [
+      "The virus genomes were too similar to each other to be informative",
+      "Finding variola DNA in the bones does not establish that smallpox caused these two deaths",
+      "The Atacama samples were contaminated beyond use",
+      "Smallpox cannot be detected in bone at all"
+    ],
+    "answer": 1,
+    "why": "The team recovered the virus from two skeletons, which shows infection and nothing more. The lead author described the link to their deaths as suspicious rather than proven. That distinction between presence and cause, along with a sample of only two genomes and a burial date range spanning about 140 years, is what keeps the finding honest."
   }
 ]

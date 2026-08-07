@@ -1,0 +1,82 @@
+{
+  "id": "2026-08-06-pm",
+  "date": "2026-08-06",
+  "slot": "pm",
+  "topic": "frontier",
+  "topicLabel": "Frontier Science",
+  "title": "Two mummies in the Atacama finally named the virus that emptied a continent",
+  "study": {
+    "citation": "Romero González, B., Reyes-Madrid, M., Arriaza, B., Cassidy, L. M., Moraga, M., de la Fuente Castro, C. & Nakagome, S. (2026), \"The genomic identity of early smallpox in South America\", Science 393(6810), 504-508",
+    "year": 2026,
+    "link": "https://doi.org/10.1126/science.aee6957"
+  },
+  "tldr": "Smallpox DNA pulled from the thigh bones of two people buried on the Chilean coast around the time of the Spanish conquest is the first hard genetic evidence that the virus which devastated the Americas came from Europe.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "For five centuries the story of what happened to the Indigenous population of the Americas after 1492 has rested on paperwork. Spanish chroniclers described towns emptying, and the first documented smallpox outbreak in the New World hit the island of Hispaniola in 1518. Historians have long argued that European ships carried the virus across the Atlantic. But written accounts from that period are secondhand, politically loaded, and often confuse one disease with another. Nobody had ever recovered the virus itself from a body of that age in the Americas. Without that, the link between colonisation and the epidemics stayed circumstantial."
+    },
+    {
+      "h": "What they did",
+      "body": "A team led by Bruno Romero González at Trinity College Dublin worked with remains from Camarones 9, a burial site on the parched northern coast of Chile. The Atacama is one of the driest places on Earth, so bodies buried there mummify naturally and their tissue survives for centuries. The researchers sampled bone from thirteen individuals and ran the extracted DNA through software that sifts the jumble of fragments for genetic signatures belonging to bacteria and viruses. Two people came back carrying variola virus, the agent of smallpox: a woman in her early thirties and a man around eighteen or twenty."
+    },
+    {
+      "h": "What they found",
+      "body": "Both genomes came out of thigh bone, and they were nearly identical to each other, which points to a single outbreak sweeping through one community rather than two unrelated infections years apart. The individuals lived somewhere between 1492 and 1631. When the team placed the virus on the smallpox family tree, it landed in a gap: descended from the strains circulating in medieval Europe, and sitting below the lineages that produced the smallpox of later centuries. That branch, which the researchers named CAM9, has no living descendants. It is an extinct chapter of the virus, recovered from the people it infected."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This is molecular evidence doing a historian's job. The phylogenetic placement is the argument: a virus whose nearest relatives are European, found in an Inca-affiliated community on the Pacific coast of South America, within roughly a generation of contact. Ancient pathogen genomics has already rewritten the history of plague and tuberculosis, and this extends the method to a virus, which is much harder because viral DNA is scarcer in a skeleton than human DNA. It also shows how fast the disease travelled inland and down the continent, far ahead of the colonisers themselves."
+    },
+    {
+      "h": "The catch",
+      "body": "Two genomes is a thin sample, and the researchers say so. The date range for the burials spans nearly 140 years, which is wide enough to blur exactly when the infection arrived. Most importantly, finding the virus in someone's bones does not prove it killed them. Romero González has been careful on this point, describing the association as suspicious rather than causal. Ancient DNA is also degraded and present in tiny quantities, so every result depends on careful controls against contamination from modern sources. Independent recovery of variola from other sites and periods is what turns this into a settled picture."
+    }
+  ],
+  "terms": [
+    { "term": "Variola virus", "def": "The virus that causes smallpox, a disfiguring and frequently fatal disease declared eradicated worldwide in 1980." },
+    { "term": "Ancient DNA", "def": "Genetic material recovered from old remains; it survives only in short, chemically damaged fragments, so reading it takes heavy computational reconstruction." },
+    { "term": "Phylogenetic tree", "def": "A family tree built from genetic differences, showing which version of an organism descended from which and roughly when the branches split." }
+  ],
+  "takeaways": [
+    "A virus carries its own paper trail. Where a strain sits on the family tree can settle a historical question that documents left open for 500 years.",
+    "Extreme environments are archives. The Atacama's dryness preserved tissue well enough to yield viral DNA from the era of the Spanish conquest.",
+    "Presence is weaker evidence than cause. The team found smallpox in two people and stopped short of claiming it killed them, which is what makes the claim credible."
+  ],
+  "quiz": [
+    {
+      "q": "What made the Camarones 9 site suitable for this kind of study?",
+      "choices": [
+        "The bodies were embalmed with preservatives by Inca specialists",
+        "The extreme dryness of the Atacama desert mummified the remains naturally, preserving tissue for centuries",
+        "The burials were sealed inside airtight stone tombs",
+        "The site was permanently frozen, like a glacier burial"
+      ],
+      "answer": 1,
+      "why": "Northern Chile's Atacama coast is one of the driest environments on the planet. Bodies buried there dry out and mummify without any human intervention, and that lack of moisture is what slows the chemical breakdown of DNA enough for fragments of a virus to still be readable 500 years later."
+    },
+    {
+      "q": "Why does the position of the CAM9 lineage on the smallpox family tree matter?",
+      "choices": [
+        "It shows the virus originated independently in South America",
+        "It proves the two individuals died of smallpox rather than another disease",
+        "It descends from strains circulating in medieval Europe, tying the American outbreak to an Old World source",
+        "It is identical to the strain eradicated in 1980, showing the virus never changed"
+      ],
+      "answer": 2,
+      "why": "Genetic relatedness is directional. CAM9 branches off from lineages known in medieval Europe and sits below the strains of later centuries, so the virus found in an Inca-affiliated community on the Chilean coast traces back to European ancestry. That is the molecular version of the historians' argument about colonisation."
+    },
+    {
+      "q": "What is the most important limitation the researchers acknowledged?",
+      "choices": [
+        "The virus genomes were too similar to each other to be informative",
+        "Finding variola DNA in the bones does not establish that smallpox caused these two deaths",
+        "The Atacama samples were contaminated beyond use",
+        "Smallpox cannot be detected in bone at all"
+      ],
+      "answer": 1,
+      "why": "The team recovered the virus from two skeletons, which shows infection and nothing more. The lead author described the link to their deaths as suspicious rather than proven. That distinction between presence and cause, along with a sample of only two genomes and a burial date range spanning about 140 years, is what keeps the finding honest."
+    }
+  ]
+}
