@@ -15,12 +15,22 @@
     <itunes:owner><itunes:name>Frontier</itunes:name><itunes:email>nashdavis@tsd-ventures.com</itunes:email></itunes:owner>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://nashyd.github.io/frontier/podcast.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Frontier — August 9, 2026</title>
+      <description>What 13.5 million real AI coding sessions look like: 87 percent of the model calls are the agent prompting itself, and it reads far more than it writes.</description>
+      <itunes:summary>What 13.5 million real AI coding sessions look like: 87 percent of the model calls are the agent prompting itself, and it reads far more than it writes.</itunes:summary>
+      <enclosure url="https://nashyd.github.io/frontier/audio/2026-08-09.mp3" length="4003533" type="audio/mpeg"/>
+      <guid isPermaLink="false">frontier-2026-08-09</guid>
+      <pubDate>Sun, 09 Aug 2026 12:00:00 GMT</pubDate>
+      <itunes:duration>5:34</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>Frontier — August 6, 2026</title>
       <description>Ancient DNA from two naturally mummified people in Chile&apos;s Atacama desert yields the first direct genetic evidence that the smallpox which devastated the Americas came from Europe.</description>
       <itunes:summary>Ancient DNA from two naturally mummified people in Chile&apos;s Atacama desert yields the first direct genetic evidence that the smallpox which devastated the Americas came from Europe.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-08-06.mp3" length="3892077" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-08-06</guid>
-      <pubDate>Thu, 06 Aug 2026 12:00:00 GMT</pubDate>
+      <pubDate>Thu, 06 Aug 2026 12:00:01 GMT</pubDate>
       <itunes:duration>5:24</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -30,7 +40,7 @@
       <itunes:summary>One study tonight: Italian students who opened a social media account in sixth grade were measurably behind in reading and math years later, and the gap kept growing.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-08-05.mp3" length="3621357" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-08-05</guid>
-      <pubDate>Wed, 05 Aug 2026 12:00:01 GMT</pubDate>
+      <pubDate>Wed, 05 Aug 2026 12:00:02 GMT</pubDate>
       <itunes:duration>5:02</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -40,7 +50,7 @@
       <itunes:summary>A small phase II trial testing pharmaceutical-grade CBD in people whose heart-sac inflammation keeps coming back, and why the missing placebo group is the whole story.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-08-04.mp3" length="4135149" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-08-04</guid>
-      <pubDate>Tue, 04 Aug 2026 12:00:02 GMT</pubDate>
+      <pubDate>Tue, 04 Aug 2026 12:00:03 GMT</pubDate>
       <itunes:duration>5:45</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -50,7 +60,7 @@
       <itunes:summary>Why a five-year track record can&apos;t tell you whether a fund manager, a venture partner, or a chief executive is actually any good, and what to look at instead.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-08-03.mp3" length="4180653" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-08-03</guid>
-      <pubDate>Mon, 03 Aug 2026 12:00:03 GMT</pubDate>
+      <pubDate>Mon, 03 Aug 2026 12:00:04 GMT</pubDate>
       <itunes:duration>5:48</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -60,7 +70,7 @@
       <itunes:summary>Anthropic&apos;s interpretability team finds a small internal workspace inside Claude that holds the concepts it is actively thinking about, and editing that space changes what the model reports and what it concludes.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-08-01.mp3" length="3960333" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-08-01</guid>
-      <pubDate>Sat, 01 Aug 2026 12:00:04 GMT</pubDate>
+      <pubDate>Sat, 01 Aug 2026 12:00:05 GMT</pubDate>
       <itunes:duration>5:30</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -70,7 +80,7 @@
       <itunes:summary>How two mirrored spheres and three years of laser pulses measured the twist a spinning Earth puts in spacetime, to about a tenth of a percent.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-31.mp3" length="3895533" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 12:00:05 GMT</pubDate>
+      <pubDate>Fri, 31 Jul 2026 12:00:06 GMT</pubDate>
       <itunes:duration>5:25</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -80,7 +90,7 @@
       <itunes:summary>Two economists re-ran the most-cited experiment on deadlines and procrastination, and the famous result vanished.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-30.mp3" length="4028589" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-30</guid>
-      <pubDate>Thu, 30 Jul 2026 12:00:06 GMT</pubDate>
+      <pubDate>Thu, 30 Jul 2026 12:00:07 GMT</pubDate>
       <itunes:duration>5:36</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -90,7 +100,7 @@
       <itunes:summary>One study tonight: a randomized trial found that a personalized feedback session plus a few weeks of texts cut how often young adults drove after using cannabis, with self-report as the catch.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-29.mp3" length="3810573" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-29</guid>
-      <pubDate>Wed, 29 Jul 2026 12:00:07 GMT</pubDate>
+      <pubDate>Wed, 29 Jul 2026 12:00:08 GMT</pubDate>
       <itunes:duration>5:17</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -100,7 +110,7 @@
       <itunes:summary>One study tonight: a fresh preprint puts five of the most popular retail chart signals through a test whose passing grade was written in advance, and four of them are ruled out while none pass.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-27.mp3" length="3806829" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-27</guid>
-      <pubDate>Mon, 27 Jul 2026 12:00:08 GMT</pubDate>
+      <pubDate>Mon, 27 Jul 2026 12:00:09 GMT</pubDate>
       <itunes:duration>5:17</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -110,7 +120,7 @@
       <itunes:summary>One study tonight: shaving about eighty minutes off your sleep for six weeks nudged the scale up by a pound, and the culprit was seventeen extra minutes a day of sitting still.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-26.mp3" length="3900717" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-26</guid>
-      <pubDate>Sun, 26 Jul 2026 12:00:09 GMT</pubDate>
+      <pubDate>Sun, 26 Jul 2026 12:00:10 GMT</pubDate>
       <itunes:duration>5:25</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -120,7 +130,7 @@
       <itunes:summary>A new preprint shows chatbots quietly bending their factual estimates toward their own preferences, including favoring the company that built them, while often claiming to be neutral.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-25.mp3" length="3549357" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-25</guid>
-      <pubDate>Sat, 25 Jul 2026 12:00:10 GMT</pubDate>
+      <pubDate>Sat, 25 Jul 2026 12:00:11 GMT</pubDate>
       <itunes:duration>4:56</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -130,7 +140,7 @@
       <itunes:summary>Astronomers picked up the radio fingerprint of erythrulose, a four-carbon sugar, in a cloud near the center of the Milky Way, the first true sugar ever found in interstellar space.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-22.mp3" length="4068333" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-22</guid>
-      <pubDate>Wed, 22 Jul 2026 12:00:11 GMT</pubDate>
+      <pubDate>Wed, 22 Jul 2026 12:00:12 GMT</pubDate>
       <itunes:duration>5:39</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -140,7 +150,7 @@
       <itunes:summary>A 1975 experiment showed that people who never tried to memorize anything still remembered words far better when they had judged the word&apos;s meaning instead of its shape or sound.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-21.mp3" length="3799917" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-21</guid>
-      <pubDate>Tue, 21 Jul 2026 12:00:12 GMT</pubDate>
+      <pubDate>Tue, 21 Jul 2026 12:00:13 GMT</pubDate>
       <itunes:duration>5:17</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -150,7 +160,7 @@
       <itunes:summary>The 1993 discovery of CB2, the cannabis receptor that lives in the immune system rather than the brain, and why it reframed cannabis as a body-wide signaling system.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-16.mp3" length="3980493" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-16</guid>
-      <pubDate>Thu, 16 Jul 2026 12:00:13 GMT</pubDate>
+      <pubDate>Thu, 16 Jul 2026 12:00:14 GMT</pubDate>
       <itunes:duration>5:32</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -160,7 +170,7 @@
       <itunes:summary>One study tonight: the 1993 Jegadeesh and Titman paper showing that recent winning stocks tend to keep winning, the momentum pattern that dented the efficient-market view.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-15.mp3" length="3419469" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-15</guid>
-      <pubDate>Wed, 15 Jul 2026 12:00:14 GMT</pubDate>
+      <pubDate>Wed, 15 Jul 2026 12:00:15 GMT</pubDate>
       <itunes:duration>4:45</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -170,7 +180,7 @@
       <itunes:summary>A 20-year Wisconsin study on whether cutting a monkey&apos;s calories by a third can delay the diseases of aging.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-14.mp3" length="3898413" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-14</guid>
-      <pubDate>Tue, 14 Jul 2026 12:00:15 GMT</pubDate>
+      <pubDate>Tue, 14 Jul 2026 12:00:16 GMT</pubDate>
       <itunes:duration>5:25</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -180,7 +190,7 @@
       <itunes:summary>One study tonight: the 1986 back-propagation paper by Rumelhart, Hinton, and Williams, the learning trick that lets a neural network improve by sending its own errors backward through its wiring.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-13.mp3" length="3865293" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-13</guid>
-      <pubDate>Mon, 13 Jul 2026 12:00:16 GMT</pubDate>
+      <pubDate>Mon, 13 Jul 2026 12:00:17 GMT</pubDate>
       <itunes:duration>5:22</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -190,7 +200,7 @@
       <itunes:summary>One study tonight: how Takahashi and Yamanaka reprogrammed adult skin cells into embryo-like stem cells with just four genes.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-12.mp3" length="4015917" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-12</guid>
-      <pubDate>Sun, 12 Jul 2026 12:00:17 GMT</pubDate>
+      <pubDate>Sun, 12 Jul 2026 12:00:18 GMT</pubDate>
       <itunes:duration>5:35</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -200,7 +210,7 @@
       <itunes:summary>A classic 1975 diving experiment showing your surroundings quietly become part of what you remember — plus why the effect fades on recognition tests and slipped in a modern replication.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-11.mp3" length="3536397" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-11</guid>
-      <pubDate>Sat, 11 Jul 2026 12:00:18 GMT</pubDate>
+      <pubDate>Sat, 11 Jul 2026 12:00:19 GMT</pubDate>
       <itunes:duration>4:55</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -210,7 +220,7 @@
       <itunes:summary>One study tonight: how Raphael Mechoulam&apos;s team pulled 2-AG from dog gut in 1995 and revealed the body&apos;s most abundant home-made cannabis-like molecule.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-10.mp3" length="3698253" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-10</guid>
-      <pubDate>Fri, 10 Jul 2026 12:00:19 GMT</pubDate>
+      <pubDate>Fri, 10 Jul 2026 12:00:20 GMT</pubDate>
       <itunes:duration>5:08</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -220,7 +230,7 @@
       <itunes:summary>One landmark finance study: how Fama and French showed the market&apos;s favorite risk number, beta, barely predicted returns while company size and cheapness did.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-09.mp3" length="3717837" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-09</guid>
-      <pubDate>Thu, 09 Jul 2026 12:00:20 GMT</pubDate>
+      <pubDate>Thu, 09 Jul 2026 12:00:21 GMT</pubDate>
       <itunes:duration>5:10</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -230,7 +240,7 @@
       <itunes:summary>The 2009 study that caught adults&apos; cold-activated brown fat in the act — a heat-burning tissue textbooks said grown-ups had lost.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-07.mp3" length="3617613" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 12:00:21 GMT</pubDate>
+      <pubDate>Tue, 07 Jul 2026 12:00:22 GMT</pubDate>
       <itunes:duration>5:01</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -240,7 +250,7 @@
       <itunes:summary>How Google&apos;s 2013 word2vec turned words into points in space, so that king minus man plus woman lands on queen — and where that idea leads.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-06.mp3" length="4324653" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-06</guid>
-      <pubDate>Mon, 06 Jul 2026 12:00:22 GMT</pubDate>
+      <pubDate>Mon, 06 Jul 2026 12:00:23 GMT</pubDate>
       <itunes:duration>6:00</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -250,7 +260,7 @@
       <itunes:summary>How two radio astronomers accidentally found the leftover glow of the Big Bang while trying to scrub the noise out of their antenna.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-05.mp3" length="4066317" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 12:00:23 GMT</pubDate>
+      <pubDate>Sun, 05 Jul 2026 12:00:24 GMT</pubDate>
       <itunes:duration>5:39</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -260,7 +270,7 @@
       <itunes:summary>How Baddeley and Hitch&apos;s 1974 dual-task experiments revealed working memory as an active workspace with separate slots for sound and for sight.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-04.mp3" length="4008717" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-04</guid>
-      <pubDate>Sat, 04 Jul 2026 12:00:24 GMT</pubDate>
+      <pubDate>Sat, 04 Jul 2026 12:00:25 GMT</pubDate>
       <itunes:duration>5:34</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -270,7 +280,7 @@
       <itunes:summary>Two careful measurements: how cannabis potency tracks psychosis across European cities, and how Meselson and Stahl proved DNA copies itself semiconservatively.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-03.mp3" length="3845709" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-03</guid>
-      <pubDate>Fri, 03 Jul 2026 12:00:25 GMT</pubDate>
+      <pubDate>Fri, 03 Jul 2026 12:00:26 GMT</pubDate>
       <itunes:duration>5:20</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -280,7 +290,7 @@
       <itunes:summary>New brain cells from a running wheel in mice, and the Black-Scholes formula that gave options a fair price.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-02.mp3" length="4095693" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-02</guid>
-      <pubDate>Thu, 02 Jul 2026 12:00:26 GMT</pubDate>
+      <pubDate>Thu, 02 Jul 2026 12:00:27 GMT</pubDate>
       <itunes:duration>5:41</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -290,7 +300,7 @@
       <itunes:summary>Why the human mind can only hold about seven things at once, and the tiny shortcut that let AI neural networks finally go deep.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-07-01.mp3" length="3925773" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-07-01</guid>
-      <pubDate>Wed, 01 Jul 2026 12:00:27 GMT</pubDate>
+      <pubDate>Wed, 01 Jul 2026 12:00:28 GMT</pubDate>
       <itunes:duration>5:27</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -300,7 +310,7 @@
       <itunes:summary>How two astronomers found the first planet around a sun-like star in 1995, by watching its gravity make the star wobble.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-30.mp3" length="4004109" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-30</guid>
-      <pubDate>Tue, 30 Jun 2026 12:00:28 GMT</pubDate>
+      <pubDate>Tue, 30 Jun 2026 12:00:29 GMT</pubDate>
       <itunes:duration>5:34</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -310,7 +320,7 @@
       <itunes:summary>Two studies on intellectual honesty: the generation effect, why you remember what you produce yourself, and Volkow&apos;s sober accounting of marijuana&apos;s real risks.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-28.mp3" length="4047597" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-28</guid>
-      <pubDate>Sun, 28 Jun 2026 12:00:29 GMT</pubDate>
+      <pubDate>Sun, 28 Jun 2026 12:00:30 GMT</pubDate>
       <itunes:duration>5:37</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -320,7 +330,7 @@
       <itunes:summary>How a randomized study tied an eight-week mindfulness course to changes in the brain and a stronger antibody response to a flu shot.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-27.mp3" length="3987693" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-27</guid>
-      <pubDate>Sat, 27 Jun 2026 12:00:30 GMT</pubDate>
+      <pubDate>Sat, 27 Jun 2026 12:00:31 GMT</pubDate>
       <itunes:duration>5:32</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -330,7 +340,7 @@
       <itunes:summary>The double helix that explained how life copies itself, and the two-network forgery game that launched modern AI image generation.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-26.mp3" length="4539789" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-26</guid>
-      <pubDate>Fri, 26 Jun 2026 12:00:31 GMT</pubDate>
+      <pubDate>Fri, 26 Jun 2026 12:00:32 GMT</pubDate>
       <itunes:duration>6:18</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -340,7 +350,7 @@
       <itunes:summary>Two chemists isolate THC from hashish in 1964, and Tversky and Kahneman map the three mental shortcuts that quietly bias human judgment.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-25.mp3" length="4573197" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-25</guid>
-      <pubDate>Thu, 25 Jun 2026 12:00:32 GMT</pubDate>
+      <pubDate>Thu, 25 Jun 2026 12:00:33 GMT</pubDate>
       <itunes:duration>6:21</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -350,7 +360,7 @@
       <itunes:summary>Two Google landmarks: the Sycamore chip&apos;s contested quantum-supremacy run, and DeepMind&apos;s Deep Q-Network learning 49 Atari games from pixels and score alone.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-23.mp3" length="4212333" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-23</guid>
-      <pubDate>Tue, 23 Jun 2026 12:00:33 GMT</pubDate>
+      <pubDate>Tue, 23 Jun 2026 12:00:34 GMT</pubDate>
       <itunes:duration>5:51</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -360,7 +370,7 @@
       <itunes:summary>Two beloved explanations fall apart: the runner&apos;s high turns out to run on your body&apos;s own cannabis-like molecules, and the stock market swings far more wildly than dividends can justify.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-22.mp3" length="4260717" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-22</guid>
-      <pubDate>Mon, 22 Jun 2026 12:00:34 GMT</pubDate>
+      <pubDate>Mon, 22 Jun 2026 12:00:35 GMT</pubDate>
       <itunes:duration>5:55</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -370,7 +380,7 @@
       <itunes:summary>Two studies: how a glowing screen before bed cuts your sleep hormone and delays your body clock, and the real research behind the 10,000-hour rule.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-21.mp3" length="4123629" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-21</guid>
-      <pubDate>Sun, 21 Jun 2026 12:00:35 GMT</pubDate>
+      <pubDate>Sun, 21 Jun 2026 12:00:36 GMT</pubDate>
       <itunes:duration>5:44</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -380,7 +390,7 @@
       <itunes:summary>Two studies that each turned a tiny change into a revolution: the one-letter mRNA swap behind the COVID vaccines, and AlexNet, the 2012 image contest entry that kicked off the modern AI era.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-20.mp3" length="4225293" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-20</guid>
-      <pubDate>Sat, 20 Jun 2026 12:00:36 GMT</pubDate>
+      <pubDate>Sat, 20 Jun 2026 12:00:37 GMT</pubDate>
       <itunes:duration>5:52</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -390,7 +400,7 @@
       <itunes:summary>Two studies: the 1990 discovery of the brain&apos;s cannabinoid receptor, and the coffee-mug experiment that proved owning something makes you value it more.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-19.mp3" length="3996909" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-19</guid>
-      <pubDate>Fri, 19 Jun 2026 12:00:37 GMT</pubDate>
+      <pubDate>Fri, 19 Jun 2026 12:00:38 GMT</pubDate>
       <itunes:duration>5:33</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -400,7 +410,7 @@
       <itunes:summary>Two landmark studies: the first direct detection of gravitational waves from colliding black holes, and AlphaGo becoming the first program to beat a professional human at Go.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-17.mp3" length="4863789" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-17</guid>
-      <pubDate>Wed, 17 Jun 2026 12:00:38 GMT</pubDate>
+      <pubDate>Wed, 17 Jun 2026 12:00:39 GMT</pubDate>
       <itunes:duration>6:45</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -410,7 +420,7 @@
       <itunes:summary>Two studies on turning belief into proof: the 2017 trial that made CBD an FDA-approved seizure medicine, and Markowitz&apos;s 1952 paper that turned diversification into the math behind modern investing.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-15.mp3" length="4244589" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-15</guid>
-      <pubDate>Mon, 15 Jun 2026 12:00:39 GMT</pubDate>
+      <pubDate>Mon, 15 Jun 2026 12:00:40 GMT</pubDate>
       <itunes:duration>5:54</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -420,7 +430,7 @@
       <itunes:summary>Two hidden systems: how your brain power-washes itself during sleep, and why the least skilled are often the most confident.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-14.mp3" length="4497453" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-14</guid>
-      <pubDate>Sun, 14 Jun 2026 12:00:40 GMT</pubDate>
+      <pubDate>Sun, 14 Jun 2026 12:00:41 GMT</pubDate>
       <itunes:duration>6:15</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
@@ -430,7 +440,7 @@
       <itunes:summary>Two studies that rhyme: the testing effect, why quizzing yourself beats re-reading, and AlphaFold, the AI that cracked the 50-year protein-folding problem.</itunes:summary>
       <enclosure url="https://nashyd.github.io/frontier/audio/2026-06-13.mp3" length="4874445" type="audio/mpeg"/>
       <guid isPermaLink="false">frontier-2026-06-13</guid>
-      <pubDate>Sat, 13 Jun 2026 12:00:41 GMT</pubDate>
+      <pubDate>Sat, 13 Jun 2026 12:00:42 GMT</pubDate>
       <itunes:duration>6:46</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
