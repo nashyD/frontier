@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-09-pm",
+    "date": "2026-08-09",
+    "slot": "pm",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "title": "You type once, and then the agent talks to itself",
+    "tldr": "The first large look at how AI coding agents actually behave found that 87 percent of the model calls are the agent prompting itself, and that these agents read hundreds of times more text than they write.",
+    "readMinutes": 5,
+    "citation": "Liu, B., Qiu, H., Goiri, Í., Fonseca, R., Bianchini, R. & Choukse, E. (2026), \"Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale\", arXiv:2608.00101, posted 2026-07-30",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-06-pm",
     "date": "2026-08-06",
     "slot": "pm",

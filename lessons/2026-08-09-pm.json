@@ -1,0 +1,82 @@
+{
+  "id": "2026-08-09-pm",
+  "date": "2026-08-09",
+  "slot": "pm",
+  "topic": "ai",
+  "topicLabel": "Artificial Intelligence",
+  "title": "You type once, and then the agent talks to itself",
+  "study": {
+    "citation": "Liu, B., Qiu, H., Goiri, Í., Fonseca, R., Bianchini, R. & Choukse, E. (2026), \"Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale\", arXiv:2608.00101, posted 2026-07-30",
+    "year": 2026,
+    "link": "https://arxiv.org/abs/2608.00101"
+  },
+  "tldr": "The first large look at how AI coding agents actually behave found that 87 percent of the model calls are the agent prompting itself, and that these agents read hundreds of times more text than they write.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "A chatbot conversation has a simple rhythm. You type, it answers, you type again. A coding agent behaves differently. You ask for one thing and it goes off on its own, reading files, running commands, checking its work, calling the model over and over before it comes back to you. The companies running these agents are buying the servers that do all of that, and they have been sizing those servers using what they learned from chatbots. Until now nobody had published a look at what the agent workload really looks like once millions of people are using it every day."
+    },
+    {
+      "h": "What they did",
+      "body": "The team pulled usage logs from GitHub Copilot's coding agent for the first week of June 2026: 3.2 million users, 13.5 million sessions, 761 million calls to a language model, 775 million tool invocations, and 95 trillion tokens, spread across 27 different models and 45 different tools. A token is roughly a fragment of a word, the unit these models read and write in. A tool invocation is the agent doing something concrete, like opening a file or running a test. To protect privacy they recorded only structure, meaning counts, sizes, and timings. No prompt text, no source code, no model output, no tool arguments."
+    },
+    {
+      "h": "What they found",
+      "body": "The work is mostly the agent talking to itself. Of those 761 million model calls, 87 percent were kicked off by the agent rather than typed by a person, and model calls came out almost exactly one to one with tool invocations. A typical user turn triggered about 4.5 model calls and 4 tool invocations, and it fed the model a median of roughly 227,600 tokens of context while producing about 1,900 tokens of output. These agents read enormously more than they write. The timing split is starker still. The median agent turn finished in 63 seconds. The median wait before the human came back was 25 minutes."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "Those numbers break assumptions baked into today's serving systems. Agents reuse a huge shared opening chunk of context, and servers cache it: about 90 percent of the tokens in a session hit that cache. Boundaries wreck it. Turn boundaries cost 26 points on average, switching models wipes out roughly 67 percent of the cache, and compacting a long context throws away over 70 percent of the prompt tokens. Idle time is the median 80 percent of a multi-turn session's wall clock, which is expensive capacity sitting warm and unused. The authors trained a small predictor on 150,000 sessions that spots those long gaps well enough to reclaim 86 to 90 percent of the idle time."
+    },
+    {
+      "h": "The catch",
+      "body": "This is a preprint posted to arXiv, so it has not been through peer review. It covers one week, one product, and one company's agent, and five of the six authors work at Microsoft Azure Research, measuring a product Microsoft owns. Because they deliberately logged no content, they say plainly that they cannot connect any of this to whether the work was any good. A session that burned 40 model calls and a session that actually solved the problem look identical in this data. They also had no server-side numbers such as GPU utilization. And the agent changes weekly, so what they measured has a short shelf life."
+    }
+  ],
+  "terms": [
+    { "term": "Coding agent", "def": "A program that takes a request in plain language and then works on its own inside your code, reading files, running commands, and calling a language model repeatedly until it has an answer." },
+    { "term": "Turn", "def": "One round of the exchange: everything the agent does between your message and the moment it hands control back to you." },
+    { "term": "Prefix cache", "def": "Saved server-side work for the beginning of a prompt, so when the next request starts with the same text the machine can skip re-reading it." }
+  ],
+  "takeaways": [
+    "One instruction from you can set off a dozen model calls, because the agent generates most of its own traffic.",
+    "These agents read far more than they write, so the cost of running one is mostly the cost of feeding it context over and over.",
+    "Switching models mid-session or letting a long context get compacted throws away cached work the server then has to redo from scratch."
+  ],
+  "quiz": [
+    {
+      "q": "Of the 761 million model calls in the dataset, roughly what share were started by the agent itself rather than typed by a user?",
+      "choices": [
+        "About 12 percent",
+        "About 45 percent",
+        "About 87 percent",
+        "Essentially all of them"
+      ],
+      "answer": 2,
+      "why": "87 percent of the calls were agent-initiated. A person's single request unfolds into a loop where the agent keeps calling the model to read a file, interpret what it found, decide the next step, and check its own work. That is why the median turn contained about 4.5 model calls."
+    },
+    {
+      "q": "A median turn sent roughly 227,600 tokens into the model and got about 1,900 back. What is the practical implication?",
+      "choices": [
+        "Language models are unusually bad at writing long answers",
+        "Most of the work and cost is in feeding context, which is why caching that context matters so much",
+        "Users are writing extremely long prompts by hand",
+        "The agent must have been stuck in an infinite loop"
+      ],
+      "answer": 1,
+      "why": "The lopsidedness is the whole story of the workload. The agent re-sends a growing pile of files, history, and tool output every time it calls the model, and it writes back only a short instruction or snippet. That is exactly why servers cache the shared opening chunk, and why losing that cache is expensive."
+    },
+    {
+      "q": "Why do turn boundaries matter so much to the people running the servers?",
+      "choices": [
+        "Because the agent uses the most electricity at the exact moment it finishes",
+        "Because users almost always switch models between turns",
+        "Because the agent's own turn ends in about a minute while the human typically takes about 25 minutes to come back, leaving resources idle",
+        "Because the model forgets the whole conversation at the end of every turn"
+      ],
+      "answer": 2,
+      "why": "The median agent turn took 63 seconds and the median gap before the user returned was 25 minutes, so idle time made up around 80 percent of a multi-turn session's wall clock. Predicting those gaps lets a provider reclaim the machine instead of holding it warm for someone who has wandered off."
+    }
+  ]
+}

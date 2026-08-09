@@ -3262,5 +3262,53 @@
     ],
     "answer": 1,
     "why": "The team recovered the virus from two skeletons, which shows infection and nothing more. The lead author described the link to their deaths as suspicious rather than proven. That distinction between presence and cause, along with a sample of only two genomes and a burial date range spanning about 140 years, is what keeps the finding honest."
+  },
+  {
+    "qid": "2026-08-09-pm#0",
+    "lessonId": "2026-08-09-pm",
+    "lessonTitle": "You type once, and then the agent talks to itself",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "Of the 761 million model calls in the dataset, roughly what share were started by the agent itself rather than typed by a user?",
+    "choices": [
+      "About 12 percent",
+      "About 45 percent",
+      "About 87 percent",
+      "Essentially all of them"
+    ],
+    "answer": 2,
+    "why": "87 percent of the calls were agent-initiated. A person's single request unfolds into a loop where the agent keeps calling the model to read a file, interpret what it found, decide the next step, and check its own work. That is why the median turn contained about 4.5 model calls."
+  },
+  {
+    "qid": "2026-08-09-pm#1",
+    "lessonId": "2026-08-09-pm",
+    "lessonTitle": "You type once, and then the agent talks to itself",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "A median turn sent roughly 227,600 tokens into the model and got about 1,900 back. What is the practical implication?",
+    "choices": [
+      "Language models are unusually bad at writing long answers",
+      "Most of the work and cost is in feeding context, which is why caching that context matters so much",
+      "Users are writing extremely long prompts by hand",
+      "The agent must have been stuck in an infinite loop"
+    ],
+    "answer": 1,
+    "why": "The lopsidedness is the whole story of the workload. The agent re-sends a growing pile of files, history, and tool output every time it calls the model, and it writes back only a short instruction or snippet. That is exactly why servers cache the shared opening chunk, and why losing that cache is expensive."
+  },
+  {
+    "qid": "2026-08-09-pm#2",
+    "lessonId": "2026-08-09-pm",
+    "lessonTitle": "You type once, and then the agent talks to itself",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "Why do turn boundaries matter so much to the people running the servers?",
+    "choices": [
+      "Because the agent uses the most electricity at the exact moment it finishes",
+      "Because users almost always switch models between turns",
+      "Because the agent's own turn ends in about a minute while the human typically takes about 25 minutes to come back, leaving resources idle",
+      "Because the model forgets the whole conversation at the end of every turn"
+    ],
+    "answer": 2,
+    "why": "The median agent turn took 63 seconds and the median gap before the user returned was 25 minutes, so idle time made up around 80 percent of a multi-turn session's wall clock. Predicting those gaps lets a provider reclaim the machine instead of holding it warm for someone who has wandered off."
   }
 ]
