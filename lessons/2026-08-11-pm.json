@@ -1,0 +1,91 @@
+{
+  "id": "2026-08-11-pm",
+  "date": "2026-08-11",
+  "slot": "pm",
+  "topic": "finance",
+  "topicLabel": "Finance & Markets",
+  "title": "The fund that has to buy at the price it just pushed up",
+  "study": {
+    "citation": "Zhao, Y. (2026), \"Preying on Leveraged ETFs\", arXiv:2608.03703 [econ.GN]",
+    "year": 2026,
+    "link": "https://arxiv.org/abs/2608.03703"
+  },
+  "tldr": "Korea listed sixteen leveraged funds whose daily buy orders were both perfectly predictable and bigger when the price went up, and a Princeton economist traces about 4 trillion won of retail losses to what other traders did with that information.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Korea's stock market spent the summer of 2026 behaving like a penny stock. In the nine weeks after May 27 the main index tripped its market-wide emergency halt seven times, more than in the twenty-six years since that mechanism was introduced. The average day moved 3.7 percent, against 1.0 percent the year before. Almost everyone pointed at the same culprit: sixteen leveraged funds the Korea Exchange listed on May 27, tied to Samsung Electronics and SK Hynix. Standard finance says those funds cannot be the cause, because their trading is mechanical and announced in advance. Yinhong Zhao, a Princeton economist, asked how a fully predictable trade could do this much damage."
+    },
+    {
+      "h": "What they did",
+      "body": "Start with the mechanism. A fund promising twice a stock's daily return has to trade in the direction of each day's move. If the stock rises one percent, the fund's value rises two percent while its holdings rise only one, so it must buy roughly two percent of its assets before the day ends. Here is the twist: the day's return is measured at the closing price, and the fund's order goes into the auction that sets that closing price. The higher the close, the more it is obliged to buy. Zhao modeled that loop, then tested it on 15,108 stock-days from January 2024 through July 2026."
+    },
+    {
+      "h": "What they found",
+      "body": "His test uses American news. US chip stocks close about four hours before Korea opens, so he checked whether Korea prices that overnight news and then gives part of it back the next day. In Samsung and SK Hynix after the launch, it does. A one percent overnight gain in the US semiconductor index was followed by a next-day loss of about 0.93 percentage points. That reversal appears in no comparison group: not those same two stocks before the funds existed, not ten Korean control stocks, and not Nvidia, AMD or six other American names carrying leveraged funds of their own. It shows up only on big-news days, and it runs in both directions."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "The same product has been studied in the United States and found close to harmless. Zhao's framework says why: what matters is the size of the forced order compared with the auction that has to absorb it. The largest American single-stock funds demand two to six percent of their stock's closing auction per one percent move. SK Hynix's demanded thirty-eight percent, and on half of all days after the launch the order was bigger than the entire auction. Replaying the period with the loop switched off, SK Hynix's annualized volatility falls from 121 percent to 74, and about 4 trillion won stays with the funds' holders."
+    },
+    {
+      "h": "The catch",
+      "body": "This is a preprint posted August 4, 2026, with no peer review, and the author labels it preliminary and incomplete. He also credits AI assistants with helping build the data, run the analysis and draft the manuscript. The design rests on two stocks in one country over eight weeks, which Zhao addresses by re-running his test on every possible pair of Korean stocks and on 47 fake launch dates, where the real result stands out. The headline volatility and won figures come from a model replay rather than a direct measurement. And the loop shaped the path of July's crash rather than its depth; the fall itself was real news about AI memory chips."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Leveraged ETF",
+      "def": "A fund that promises a fixed multiple of something's daily return, such as two times, which forces it to trade in the same direction as that day's move, every single day."
+    },
+    {
+      "term": "Closing auction",
+      "def": "A single batched trade at the end of the session that sets the official closing price, so all the orders in it are settled at one number."
+    },
+    {
+      "term": "Loop gain",
+      "def": "Zhao's one-number summary of the danger: how much fund money is keyed to a closing price, multiplied by how far that price moves when someone trades into it."
+    }
+  ],
+  "takeaways": [
+    "A trade can be perfectly predictable and still be costly, once the order gets larger the further you push the price it is measured against.",
+    "The funds tracked their promised multiples almost perfectly the entire time, because a fund's own value is struck at the very price being distorted. Holder losses of this kind are invisible in tracking error.",
+    "Whether a financial product is safe can depend less on the product than on the market it lands in. Evidence that it behaved well somewhere deeper is evidence about that market."
+  ],
+  "quiz": [
+    {
+      "q": "Why does a fund promising twice a stock's daily return have to trade every day?",
+      "choices": [
+        "Investors constantly move money in and out, forcing it to adjust",
+        "A daily multiple only holds if it resets its borrowing to match each day's move",
+        "Exchange rules require leveraged funds to trade at the close",
+        "Its holdings expire each day and have to be repurchased"
+      ],
+      "answer": 1,
+      "why": "The promise is about each single day, so the fund has to start every day with exposure equal to twice its current value. When the stock rises, the fund's value grows faster than its holdings do, so it buys more to restore the ratio. When the stock falls, it sells. That rebalancing is required by the arithmetic of the promise, and it happens whether or not anyone buys or sells shares of the fund."
+    },
+    {
+      "q": "What makes the closing auction the heart of the problem in this paper?",
+      "choices": [
+        "It is the least liquid moment of the day for every stock",
+        "Funds get worse prices there than they would earlier in the session",
+        "The order is executed at the same price that determines how big the order must be",
+        "Regulators do not monitor closing auctions as closely"
+      ],
+      "answer": 2,
+      "why": "This self-reference is the whole mechanism. The fund's required trade is sized by the day's return, and the day's return is measured at the closing price, which is set inside the auction where the fund's order lands. So pushing the close up makes the fund's buy order bigger, which pushes the close up further. A trader buying beforehand does not merely anticipate the order, they enlarge the one they will sell into."
+    },
+    {
+      "q": "Zhao argues the remedy Korea chose, spreading the rebalance across the trading session, may not help. Why?",
+      "choices": [
+        "Spreading the order out increases the fees the fund pays",
+        "It moves when the fund trades while leaving the closing price as the number that sizes the order",
+        "Traders can simply follow the fund through the whole session instead",
+        "Splitting orders is illegal for funds of this size"
+      ],
+      "answer": 1,
+      "why": "The paper separates the timing of the order from the reference price that determines its size. Dispersing execution addresses the first and leaves the second untouched, so the incentive to push the closing price is still there, and Zhao's numbers suggest the toll can even rise. His alternative changes the reference itself: size the trade against an average of two prices instead of one, which he calculates roughly halves how much of the fund's order a trader can manufacture."
+    }
+  ]
+}

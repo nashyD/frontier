@@ -3358,5 +3358,53 @@
     ],
     "answer": 2,
     "why": "Metabolic chamber measurements showed higher energy expenditure in the restricted mice, and spontaneous activity was unchanged, which points at heat generation. That is why leanness showed up without any reduction in how much they ate."
+  },
+  {
+    "qid": "2026-08-11-pm#0",
+    "lessonId": "2026-08-11-pm",
+    "lessonTitle": "The fund that has to buy at the price it just pushed up",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "Why does a fund promising twice a stock's daily return have to trade every day?",
+    "choices": [
+      "Investors constantly move money in and out, forcing it to adjust",
+      "A daily multiple only holds if it resets its borrowing to match each day's move",
+      "Exchange rules require leveraged funds to trade at the close",
+      "Its holdings expire each day and have to be repurchased"
+    ],
+    "answer": 1,
+    "why": "The promise is about each single day, so the fund has to start every day with exposure equal to twice its current value. When the stock rises, the fund's value grows faster than its holdings do, so it buys more to restore the ratio. When the stock falls, it sells. That rebalancing is required by the arithmetic of the promise, and it happens whether or not anyone buys or sells shares of the fund."
+  },
+  {
+    "qid": "2026-08-11-pm#1",
+    "lessonId": "2026-08-11-pm",
+    "lessonTitle": "The fund that has to buy at the price it just pushed up",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "What makes the closing auction the heart of the problem in this paper?",
+    "choices": [
+      "It is the least liquid moment of the day for every stock",
+      "Funds get worse prices there than they would earlier in the session",
+      "The order is executed at the same price that determines how big the order must be",
+      "Regulators do not monitor closing auctions as closely"
+    ],
+    "answer": 2,
+    "why": "This self-reference is the whole mechanism. The fund's required trade is sized by the day's return, and the day's return is measured at the closing price, which is set inside the auction where the fund's order lands. So pushing the close up makes the fund's buy order bigger, which pushes the close up further. A trader buying beforehand does not merely anticipate the order, they enlarge the one they will sell into."
+  },
+  {
+    "qid": "2026-08-11-pm#2",
+    "lessonId": "2026-08-11-pm",
+    "lessonTitle": "The fund that has to buy at the price it just pushed up",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "Zhao argues the remedy Korea chose, spreading the rebalance across the trading session, may not help. Why?",
+    "choices": [
+      "Spreading the order out increases the fees the fund pays",
+      "It moves when the fund trades while leaving the closing price as the number that sizes the order",
+      "Traders can simply follow the fund through the whole session instead",
+      "Splitting orders is illegal for funds of this size"
+    ],
+    "answer": 1,
+    "why": "The paper separates the timing of the order from the reference price that determines its size. Dispersing execution addresses the first and leaves the second untouched, so the incentive to push the closing price is still there, and Zhao's numbers suggest the toll can even rise. His alternative changes the reference itself: size the trade against an average of two prices instead of one, which he calculates roughly halves how much of the fund's order a trader can manufacture."
   }
 ]

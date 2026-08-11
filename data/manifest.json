@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-11-pm",
+    "date": "2026-08-11",
+    "slot": "pm",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "title": "The fund that has to buy at the price it just pushed up",
+    "tldr": "Korea listed sixteen leveraged funds whose daily buy orders were both perfectly predictable and bigger when the price went up, and a Princeton economist traces about 4 trillion won of retail losses to what other traders did with that information.",
+    "readMinutes": 5,
+    "citation": "Zhao, Y. (2026), \"Preying on Leveraged ETFs\", arXiv:2608.03703 [econ.GN]",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-10-pm",
     "date": "2026-08-10",
     "slot": "pm",
