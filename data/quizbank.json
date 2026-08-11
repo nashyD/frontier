@@ -3310,5 +3310,53 @@
     ],
     "answer": 2,
     "why": "The median agent turn took 63 seconds and the median gap before the user returned was 25 minutes, so idle time made up around 80 percent of a multi-turn session's wall clock. Predicting those gaps lets a provider reclaim the machine instead of holding it warm for someone who has wandered off."
+  },
+  {
+    "qid": "2026-08-10-pm#0",
+    "lessonId": "2026-08-10-pm",
+    "lessonTitle": "They took two-thirds of one amino acid out of the chow, and the male mice lived 23% longer",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "Why does it matter that the two diets had identical calories, fat, carbohydrate, and total protein share?",
+    "choices": [
+      "It let the researchers feed the mice less overall",
+      "It isolates valine as the variable, so the results cannot be explained by eating less or by a general protein cut",
+      "It made the chow cheaper to produce",
+      "It guaranteed the mice would eat the same amount"
+    ],
+    "answer": 1,
+    "why": "Calorie restriction and general protein restriction already have known longevity effects. By matching everything except valine, and by refilling the gap with amino acids the body can make on its own, the team made sure any difference in outcome pointed at valine itself."
+  },
+  {
+    "qid": "2026-08-10-pm#1",
+    "lessonId": "2026-08-10-pm",
+    "lessonTitle": "They took two-thirds of one amino acid out of the chow, and the male mice lived 23% longer",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What happened to the female mice on the low-valine diet?",
+    "choices": [
+      "They lived 23 percent longer, same as the males",
+      "They got worse on every measure",
+      "They gained healthspan benefits like lower body fat, lower frailty, and better memory scores, with no gain in lifespan",
+      "They were excluded from the lifespan analysis"
+    ],
+    "answer": 2,
+    "why": "This is the sex-specific part of the finding. Females showed the metabolic and frailty improvements and did better on a memory test, and their survival curve still landed on top of the control females. The authors suspect a different level of restriction might change that, which no one has tested yet."
+  },
+  {
+    "qid": "2026-08-10-pm#2",
+    "lessonId": "2026-08-10-pm",
+    "lessonTitle": "They took two-thirds of one amino acid out of the chow, and the male mice lived 23% longer",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "The low-valine mice ate more calories relative to their body size and were still leaner. What explained it?",
+    "choices": [
+      "They ran on the wheel far more than control mice",
+      "They absorbed less of their food and lost the rest",
+      "Their energy expenditure rose, driven by heat production rather than by extra movement",
+      "They were weighed at a different time of day"
+    ],
+    "answer": 2,
+    "why": "Metabolic chamber measurements showed higher energy expenditure in the restricted mice, and spontaneous activity was unchanged, which points at heat generation. That is why leanness showed up without any reduction in how much they ate."
   }
 ]

@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-10-pm",
+    "date": "2026-08-10",
+    "slot": "pm",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "title": "They took two-thirds of one amino acid out of the chow, and the male mice lived 23% longer",
+    "tldr": "Cutting one of the twenty amino acids in protein by two-thirds made mice of both sexes leaner and less frail for life, and it stretched median male lifespan by 23%.",
+    "readMinutes": 5,
+    "citation": "Calubag, M. F., Ademi, I., Green, C. L., Manchanayake, D. N. H., Jayarathne, H. S. M., Marshall, R. N., Le, S. M., Lialios, P., Breuer, L. E., Yakar, S., Babygirija, R., Sonsalla, M. M., Grunow, I., Yeh, C.-Y., Liu, Y., Knopf, B. A., Yandell, S., Opara, C. I., Ricke, W. A., Liu, T. T., Keller, M. P., Attie, A. D., Sadagurski, M. & Lamming, D. W. (2026), \"Lifelong restriction of dietary valine has sex-specific benefits for health and lifespan in mice\", Nature Aging",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-09-pm",
     "date": "2026-08-09",
     "slot": "pm",
