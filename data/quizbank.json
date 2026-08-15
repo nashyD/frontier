@@ -3406,5 +3406,53 @@
     ],
     "answer": 1,
     "why": "The paper separates the timing of the order from the reference price that determines its size. Dispersing execution addresses the first and leaves the second untouched, so the incentive to push the closing price is still there, and Zhao's numbers suggest the toll can even rise. His alternative changes the reference itself: size the trade against an average of two prices instead of one, which he calculates roughly halves how much of the fund's order a trader can manufacture."
+  },
+  {
+    "qid": "2026-08-15-pm#0",
+    "lessonId": "2026-08-15-pm",
+    "lessonTitle": "A bedtime THC drop that ended trauma nightmares for a third of patients",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Why is blinding especially difficult in a trial of THC?",
+    "choices": [
+      "Because THC cannot be manufactured at a consistent dose",
+      "Because THC produces effects the person taking it can feel, so many participants can guess which group they are in",
+      "Because placebo drops are illegal in Germany",
+      "Because the doctors administering it are required to know the assignment"
+    ],
+    "answer": 1,
+    "why": "A placebo works by being indistinguishable. THC has noticeable effects, so a participant who feels something can reasonably conclude they got the real drug, and belief in a treatment reliably improves symptoms people report themselves. That is why a moderate effect on a self-described symptom deserves more caution here than the same effect on, say, a blood test."
+  },
+  {
+    "qid": "2026-08-15-pm#1",
+    "lessonId": "2026-08-15-pm",
+    "lessonTitle": "A bedtime THC drop that ended trauma nightmares for a third of patients",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "What did the trial fail to show?",
+    "choices": [
+      "That dronabinol reduced nightmare frequency and intensity more than placebo",
+      "That most side effects were mild",
+      "That overall PTSD severity and depression clearly improved",
+      "That the drug could be given as drops before bed"
+    ],
+    "answer": 2,
+    "why": "The nightmare measure moved, and the broader picture stayed murky: the researchers could not conclusively show that overall PTSD severity or accompanying depression got better. That narrows the claim to something useful and specific. Relief from the nightmares themselves is worth a great deal to someone dreading sleep, and it falls well short of treating the disorder."
+  },
+  {
+    "qid": "2026-08-15-pm#2",
+    "lessonId": "2026-08-15-pm",
+    "lessonTitle": "A bedtime THC drop that ended trauma nightmares for a third of patients",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Why does it matter that dronabinol is already an approved drug for other conditions?",
+    "choices": [
+      "It means the trial did not need a placebo group",
+      "It means doctors could prescribe it off-label today rather than waiting years for a new drug approval",
+      "It proves the drug is safe for long-term use in PTSD",
+      "It means the results apply to smoked cannabis as well"
+    ],
+    "answer": 1,
+    "why": "New molecules take a decade and a fortune to reach patients. An approved drug has already cleared manufacturing and basic safety review, so a positive trial in a new condition can change practice quickly through off-label prescribing. Approval for one use says nothing about long-term safety in another, and these results come from a purified, dosed THC preparation rather than from cannabis you smoke."
   }
 ]

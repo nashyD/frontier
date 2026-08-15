@@ -1,0 +1,91 @@
+{
+  "id": "2026-08-15-pm",
+  "date": "2026-08-15",
+  "slot": "pm",
+  "topic": "cannabis",
+  "topicLabel": "Cannabis Science",
+  "title": "A bedtime THC drop that ended trauma nightmares for a third of patients",
+  "study": {
+    "citation": "Roepke, S., Schoofs, N., Priebe, K. et al. (2026), \"Dronabinol for nightmares in post-traumatic stress disorder: a randomized controlled trial\", Nature Medicine, online ahead of print 5 August 2026",
+    "year": 2026,
+    "link": "https://doi.org/10.1038/s41591-026-04546-9"
+  },
+  "tldr": "In a 171-person German trial, a prescription THC liquid taken before bed cut PTSD nightmares more than placebo did, and about a third of the people who took it stopped having them altogether.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "For a lot of people with post-traumatic stress disorder, the worst part of the day arrives at night. The trauma comes back as a nightmare, sleep falls apart, and the dread of going to bed becomes its own problem. Doctors have very little to offer that targets this directly. Antidepressants help the broader disorder while often leaving the nightmares intact. Prazosin, a blood-pressure drug used off-label for years, looked good in small studies and then failed a large one. So a group of German psychiatrists tested a different candidate: THC itself, in prescription form, taken at bedtime."
+    },
+    {
+      "h": "What they did",
+      "body": "They ran a multicenter trial across four German university medical centers, led from Charité in Berlin. A total of 171 adults with PTSD and recurring nightmares were randomly sorted into two groups: 87 got dronabinol, a pharmaceutical version of THC given as drops, and 84 got a placebo that looked and tasted the same. Neither the patients nor the doctors rating them knew who got which. The dose started at 2.5 milligrams before bed and was raised over four weeks to a personalized level as high as 15 milligrams, then held steady for six more weeks. Average age was 38, and about four in five participants were women."
+    },
+    {
+      "h": "What they found",
+      "body": "The main measure was a single clinician-scored item, rated zero to eight, capturing how often nightmares came and how bad they were. Over ten weeks the dronabinol group fell about 3.7 points on that scale while the placebo group fell about 2.2, a gap of 1.50 points that was statistically solid and moderate in size. Roughly 37 percent of the dronabinol group reported no nightmares at all by week ten, against about 15 percent on placebo. Side effects were common in both arms, running near 90 percent with dronabinol and 77 percent with placebo, mostly mild things like dry mouth, dizziness, tiredness and nausea."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "Cannabis research is crowded with small, loosely controlled studies, and this is one of the larger properly randomized, double-blind, placebo-controlled tests of a cannabinoid against a specific psychiatric symptom. The target matters too. Nightmares are a defining feature of PTSD with no medication approved to treat them, so a positive result fills a real gap. Researchers had reason to look here: the body's own cannabinoid system is tangled up in how fear memories are processed and in how sleep is regulated. And dronabinol is an already-approved drug in the United States and Germany for other conditions, so the path from result to prescription pad is unusually short."
+    },
+    {
+      "h": "The catch",
+      "body": "THC is noticeable when you take it, which means the blinding probably leaked, and the main outcome rests on a clinician's rating of what patients describe. Sleep was never measured in a lab. Ten weeks says nothing about a year, and tolerance and dependence over long use remain open questions, though a standard withdrawal checklist found no meaningful signal after stopping. Overall PTSD severity and depression did not clearly improve. Seven people on dronabinol had a serious adverse event against none on placebo, which the investigators judged unrelated to the drug. The participants were mostly women who survived civilian trauma, so combat veterans are not directly represented. The trial was investigator-initiated with an unrestricted grant from Bionorica SE, which also supplied the medication."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Dronabinol",
+      "def": "A prescription form of THC, the intoxicating molecule in cannabis, manufactured to a known and consistent dose rather than harvested from a plant."
+    },
+    {
+      "term": "Double-blind, placebo-controlled",
+      "def": "A trial design where half the participants get a dummy treatment and nobody involved knows who got what until the study ends, which keeps expectations from quietly creating the result."
+    },
+    {
+      "term": "Clinician-administered rating",
+      "def": "A trained interviewer scores a symptom on a fixed scale after talking with the patient, so the number is more consistent across people than a self-filled questionnaire while still resting on what the patient reports."
+    }
+  ],
+  "takeaways": [
+    "A bedtime dose of prescription THC beat placebo on PTSD nightmares in a real randomized trial, with about a third of the treated group reporting none at all by week ten.",
+    "The effect was specific: nightmares improved while overall PTSD severity and depression did not clearly move.",
+    "A drug you can feel is hard to blind, so a chunk of the gap over placebo could be expectation doing the work, and the ten-week window leaves long-term safety untested."
+  ],
+  "quiz": [
+    {
+      "q": "Why is blinding especially difficult in a trial of THC?",
+      "choices": [
+        "Because THC cannot be manufactured at a consistent dose",
+        "Because THC produces effects the person taking it can feel, so many participants can guess which group they are in",
+        "Because placebo drops are illegal in Germany",
+        "Because the doctors administering it are required to know the assignment"
+      ],
+      "answer": 1,
+      "why": "A placebo works by being indistinguishable. THC has noticeable effects, so a participant who feels something can reasonably conclude they got the real drug, and belief in a treatment reliably improves symptoms people report themselves. That is why a moderate effect on a self-described symptom deserves more caution here than the same effect on, say, a blood test."
+    },
+    {
+      "q": "What did the trial fail to show?",
+      "choices": [
+        "That dronabinol reduced nightmare frequency and intensity more than placebo",
+        "That most side effects were mild",
+        "That overall PTSD severity and depression clearly improved",
+        "That the drug could be given as drops before bed"
+      ],
+      "answer": 2,
+      "why": "The nightmare measure moved, and the broader picture stayed murky: the researchers could not conclusively show that overall PTSD severity or accompanying depression got better. That narrows the claim to something useful and specific. Relief from the nightmares themselves is worth a great deal to someone dreading sleep, and it falls well short of treating the disorder."
+    },
+    {
+      "q": "Why does it matter that dronabinol is already an approved drug for other conditions?",
+      "choices": [
+        "It means the trial did not need a placebo group",
+        "It means doctors could prescribe it off-label today rather than waiting years for a new drug approval",
+        "It proves the drug is safe for long-term use in PTSD",
+        "It means the results apply to smoked cannabis as well"
+      ],
+      "answer": 1,
+      "why": "New molecules take a decade and a fortune to reach patients. An approved drug has already cleared manufacturing and basic safety review, so a positive trial in a new condition can change practice quickly through off-label prescribing. Approval for one use says nothing about long-term safety in another, and these results come from a purified, dosed THC preparation rather than from cannabis you smoke."
+    }
+  ]
+}
