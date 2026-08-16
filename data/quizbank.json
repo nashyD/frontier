@@ -3454,5 +3454,53 @@
     ],
     "answer": 1,
     "why": "New molecules take a decade and a fortune to reach patients. An approved drug has already cleared manufacturing and basic safety review, so a positive trial in a new condition can change practice quickly through off-label prescribing. Approval for one use says nothing about long-term safety in another, and these results come from a purified, dosed THC preparation rather than from cannabis you smoke."
+  },
+  {
+    "qid": "2026-08-16-pm#0",
+    "lessonId": "2026-08-16-pm",
+    "lessonTitle": "Twenty minutes on a bike rescued memory after a night without sleep",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "When did the exercise and the nap happen relative to the memory task?",
+    "choices": [
+      "Right after studying the photos, to help the brain file them away",
+      "Before studying the photos, so the question was whether they protected the ability to take information in",
+      "Three days later, right before the recognition test",
+      "Every night for a week leading up to the study"
+    ],
+    "answer": 1,
+    "why": "The interventions came first, then a 30-minute wait, then encoding. That ordering is what makes this study unusual. Most sleep-and-memory research looks at what sleep does after learning, when memories are being consolidated. Here the target was the intake stage, which is the part that sleep loss reliably damages and the part you cannot skip when you have to learn something while exhausted."
+  },
+  {
+    "qid": "2026-08-16-pm#1",
+    "lessonId": "2026-08-16-pm",
+    "lessonTitle": "Twenty minutes on a bike rescued memory after a night without sleep",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "Why can't the study tell us how much of the sleep-loss damage was undone?",
+    "choices": [
+      "Because the memory test was given three days later",
+      "Because the groups were randomly assigned",
+      "Because every participant was sleep deprived, so there was no well-rested group to measure against",
+      "Because the researchers did not record brain activity"
+    ],
+    "answer": 2,
+    "why": "All three groups went 30 hours without sleep, so the comparison is between sleep-deprived people who did something and sleep-deprived people who did nothing. Without a group that slept normally, there is no yardstick for full performance. The interventions clearly beat doing nothing; whether that closes the gap to a rested brain or barely dents it is a question this design cannot answer."
+  },
+  {
+    "qid": "2026-08-16-pm#2",
+    "lessonId": "2026-08-16-pm",
+    "lessonTitle": "Twenty minutes on a bike rescued memory after a night without sleep",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What did the brain recordings add beyond the memory scores?",
+    "choices": [
+      "They showed the nap and the exercise produced identical brain activity",
+      "They showed two different patterns of brain activity predicted memory in the two groups, so similar results came from different mechanisms",
+      "They showed the control group had no measurable brain activity",
+      "They proved exercise causes the brain to grow new cells"
+    ],
+    "answer": 1,
+    "why": "Behavior alone would have suggested the nap and the bike were doing the same job. The EEG separated them: sleep-pressure rhythms predicted memory after napping, while memory-specific signals at the moment each photo appeared predicted it after exercise. Different machinery landing on the same outcome is what neuroscientists call degeneracy, and it hints that the two interventions might help different people, or stack."
   }
 ]

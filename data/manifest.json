@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-16-pm",
+    "date": "2026-08-16",
+    "slot": "pm",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "title": "Twenty minutes on a bike rescued memory after a night without sleep",
+    "tldr": "After 30 hours awake, people who cycled hard for 20 minutes or napped for 90 remembered about a fifth more of what they studied than people who did neither, and their brains got there by two different routes.",
+    "readMinutes": 5,
+    "citation": "Lotlikar, M. S., Ayotte, B., Choi, A., Seo, F., Robertson, E. M., Dal Maso, F. & Roig, M. (2026), \"Protecting episodic memory after sleep loss: Similar benefits of exercise and naps via distinct neural contributions\", PNAS 123(32), e2528246123, published online 7 August 2026",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-15-pm",
     "date": "2026-08-15",
     "slot": "pm",
