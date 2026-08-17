@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-17-pm",
+    "date": "2026-08-17",
+    "slot": "pm",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "title": "They pulled entangled light straight out of sunshine",
+    "tldr": "Physicists concentrated raw sunlight onto a small crystal and got genuinely entangled pairs of photons out the other side, a trick the textbooks said required a laser.",
+    "readMinutes": 5,
+    "citation": "Li, C., Brar, J., Küblböck, M., Upham, J., Fattahi, H. & Boyd, R. W. (2026), \"Generating quantum entanglement from sunlight\", Optica 13(8), 1508-1514, published 6 August 2026",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-16-pm",
     "date": "2026-08-16",
     "slot": "pm",

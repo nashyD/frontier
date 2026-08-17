@@ -3502,5 +3502,53 @@
     ],
     "answer": 1,
     "why": "Behavior alone would have suggested the nap and the bike were doing the same job. The EEG separated them: sleep-pressure rhythms predicted memory after napping, while memory-specific signals at the moment each photo appeared predicted it after exercise. Different machinery landing on the same outcome is what neuroscientists call degeneracy, and it hints that the two interventions might help different people, or stack."
+  },
+  {
+    "qid": "2026-08-17-pm#0",
+    "lessonId": "2026-08-17-pm",
+    "lessonTitle": "They pulled entangled light straight out of sunshine",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "What long-standing assumption did this experiment undercut?",
+    "choices": [
+      "That entanglement only exists between particles that touch",
+      "That making entangled photons requires the orderly, single-color light of a laser",
+      "That sunlight contains no photons energetic enough to split",
+      "That Bell's inequality can be violated by ordinary light"
+    ],
+    "answer": 1,
+    "why": "Every standard entanglement source since the 1960s has been pumped by a laser, and the coherence of laser light was taken to be part of what made the trick work. This experiment kept the crystal and the physics and swapped in a light source with essentially no coherence, and the entanglement still appeared. The assumption turned out to be convenience rather than necessity."
+  },
+  {
+    "qid": "2026-08-17-pm#1",
+    "lessonId": "2026-08-17-pm",
+    "lessonTitle": "They pulled entangled light straight out of sunshine",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "Why does the disorder in sunlight fail to ruin the entanglement?",
+    "choices": [
+      "The concentrator turns sunlight into laser light before it reaches the crystal",
+      "The crystal filters out every color except one, recreating a laser",
+      "The entanglement lives in polarization, which stays intact as long as the incoming light is cleanly polarized, independent of the jumbled colors and timing",
+      "The detectors mathematically remove the disorder after the fact"
+    ],
+    "answer": 2,
+    "why": "Light carries several independent properties: its color, the timing of its waves, its direction, and its polarization. Sunlight is a mess in the first few and can still be tidy in polarization. Since the entanglement being measured here is polarization entanglement, the mess in the other properties rides along harmlessly. That separation is the conceptual heart of the result."
+  },
+  {
+    "qid": "2026-08-17-pm#2",
+    "lessonId": "2026-08-17-pm",
+    "lessonTitle": "They pulled entangled light straight out of sunshine",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "Which statement fairly describes the limits of the demonstration?",
+    "choices": [
+      "It failed to produce any entangled photons and only showed the method might work someday",
+      "It replaced the laser while keeping the tracker, tent, lab optics, and single-photon detectors, and cleared the Bell test by a slim margin",
+      "It has already been deployed on a satellite for quantum communication",
+      "It produced brighter and higher-quality entanglement than any laser source"
+    ],
+    "answer": 1,
+    "why": "The entanglement was real and measured, so the first choice is wrong, and the fidelity of 94 percent sits below what good laser sources reach, so the last is wrong too. What actually happened is narrower and still interesting: one component of a complicated apparatus got swapped for the sun, under weak seasonal light with clouds passing, and the quantum signature survived by a modest margin."
   }
 ]
