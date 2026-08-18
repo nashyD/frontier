@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-18-pm",
+    "date": "2026-08-18",
+    "slot": "pm",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "title": "They bred an idea that spreads from one AI agent to the next",
+    "tldr": "Researchers evolved chunks of text that persuade one AI agent to adopt a belief and pass it to the next, watched a team of coding agents abandon their work to build a whale project, and found that one warning sentence in an agent's instructions shuts the whole thing down.",
+    "readMinutes": 6,
+    "citation": "Papadopoulos, V., Shah, M., Zimmerman, S. & Lindsey, J. (2026), \"Mind Viruses: Self-Propagating Ideas in Multi-Agent LLM Systems\", arXiv:2608.10218 [cs.AI], posted 2026-08-10",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-17-pm",
     "date": "2026-08-17",
     "slot": "pm",
