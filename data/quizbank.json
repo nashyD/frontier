@@ -3598,5 +3598,53 @@
     ],
     "answer": 2,
     "why": "The warning paragraph rendered agents essentially immune, and it even worked when the team tried evolving payloads specifically to defeat it. In several runs the warned agent turned the tables and persuaded the infected agent to clean out its own instruction file. More frequent memory wipes do not help, because the message survives in the agent's files."
+  },
+  {
+    "qid": "2026-08-19-pm#0",
+    "lessonId": "2026-08-19-pm",
+    "lessonTitle": "A million genomes, one broken gene, and 60 percent lower odds of metabolic disease",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "Why did the researchers focus on variants that truncate a protein partway through?",
+    "choices": [
+      "Those variants are the most common kind in the population",
+      "They are the ones most likely to switch a gene off, so carriers show what life without that gene looks like",
+      "They are the easiest mutations to correct with gene editing",
+      "They only appear in people with metabolic disease"
+    ],
+    "answer": 1,
+    "why": "A truncated protein usually stops working. That makes each carrier a lifelong natural experiment in having the gene turned off, which is exactly the readout you want if you are asking whether blocking that gene with a drug would help or hurt."
+  },
+  {
+    "qid": "2026-08-19-pm#1",
+    "lessonId": "2026-08-19-pm",
+    "lessonTitle": "A million genomes, one broken gene, and 60 percent lower odds of metabolic disease",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What does FNIP1 normally do, and why does that make it appealing as a drug target?",
+    "choices": [
+      "It boosts energy expenditure, so a drug would need to enhance it",
+      "It suppresses energy expenditure, so a drug would need to block it",
+      "It transports cholesterol, so a drug would need to reroute it",
+      "It has no known function, so any drug effect would be a surprise"
+    ],
+    "answer": 1,
+    "why": "FNIP1 acts as a brake on energy expenditure and mitochondrial metabolism. Taking a brake off means blocking a protein, and blocking is what most drug molecules do well. Boosting a protein's activity is a much harder engineering problem."
+  },
+  {
+    "qid": "2026-08-19-pm#2",
+    "lessonId": "2026-08-19-pm",
+    "lessonTitle": "A million genomes, one broken gene, and 60 percent lower odds of metabolic disease",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What is the biggest reason to hold this result loosely?",
+    "choices": [
+      "The sample size was too small to detect anything",
+      "The blood measure they used has never been linked to disease",
+      "The human evidence is a correlation drawn from a very small group of rare carriers, with causation supported only by cells and mice",
+      "The gene had never been studied before"
+    ],
+    "answer": 2,
+    "why": "A million exomes sounds enormous, and the variants are rare enough that only a couple hundred people carried one. The healthier profile in those carriers is an association. The causal case comes from silencing the gene in human liver cells and in mice, which is suggestive and still a long way from a working drug in people."
   }
 ]

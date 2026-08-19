@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-19-pm",
+    "date": "2026-08-19",
+    "slot": "pm",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "title": "A million genomes, one broken gene, and 60 percent lower odds of metabolic disease",
+    "tldr": "Reading the genes of a million people turned up a rare broken copy of FNIP1, which acts as a brake on calorie burning, and the people who carry it have less liver fat, better blood sugar, and roughly 60 percent lower odds of cardiometabolic disease.",
+    "readMinutes": 5,
+    "citation": "Hindy, G., Adam, R. C., Sosina, O., Pryce, D., Blair, D., Herman, J., Lee, J., Dornbos, P. and colleagues, with Baras, A., Verweij, N., Gusarova, V. & Lotta, L. A. (2026), \"FNIP1 variants are associated with favourable metabolism in 1 million humans\", Nature",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-18-pm",
     "date": "2026-08-18",
     "slot": "pm",

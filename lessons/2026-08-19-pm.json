@@ -1,0 +1,82 @@
+{
+  "id": "2026-08-19-pm",
+  "date": "2026-08-19",
+  "slot": "pm",
+  "topic": "biohacking",
+  "topicLabel": "Biohacking",
+  "title": "A million genomes, one broken gene, and 60 percent lower odds of metabolic disease",
+  "study": {
+    "citation": "Hindy, G., Adam, R. C., Sosina, O., Pryce, D., Blair, D., Herman, J., Lee, J., Dornbos, P. and colleagues, with Baras, A., Verweij, N., Gusarova, V. & Lotta, L. A. (2026), \"FNIP1 variants are associated with favourable metabolism in 1 million humans\", Nature",
+    "year": 2026,
+    "link": "https://doi.org/10.1038/s41586-026-10864-2"
+  },
+  "tldr": "Reading the genes of a million people turned up a rare broken copy of FNIP1, which acts as a brake on calorie burning, and the people who carry it have less liver fat, better blood sugar, and roughly 60 percent lower odds of cardiometabolic disease.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Two people can eat the same food and end up in very different metabolic shape. Some of that gap is habit and circumstance, and some of it is inherited. Heart disease, type 2 diabetes, and fatty liver all share a common engine problem: the body stores energy it should be burning. If a gene somewhere is holding that engine back, then people born with a broken copy of it would be walking proof of what happens when the brake comes off. A large team went looking for exactly those people."
+    },
+    {
+      "h": "What they did",
+      "body": "They ran exome sequencing on 1,032,116 people from America, Europe, and Asia. The exome is the roughly 2 percent of your DNA that spells out proteins, so sequencing it is a cheap way to catch the mutations most likely to break something. They hunted for variants that truncate a protein partway through, which usually means the gene stops working. Then they asked which of those broken genes went along with a low triglyceride-to-HDL ratio, a cheap blood measure that runs high in people whose bodies are stockpiling fat and running low on the good cholesterol. They followed the leads into human liver cells and mice."
+    },
+    {
+      "h": "What they found",
+      "body": "Fifty-nine genes cleared the statistical bar, and most of them are known controllers of energy handling in the liver and fat tissue. Twenty-three of the fifty-nine are already targets of approved or in-development drugs, which is a good sign the method works. The standout was FNIP1, a gene that acts as a suppressor of energy expenditure. Its broken versions are ultra rare, showing up in about one in ten thousand copies of the gene. Carriers had a lower triglyceride-to-HDL ratio, less fat in the liver, lower blood sugar, healthier fat distribution, and around 60 percent lower odds of cardiometabolic disease. Silencing FNIP1 in human liver cells set off fat breakdown, and silencing it in mice on a high-fat diet blunted weight gain and improved insulin sensitivity."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This is drug discovery run backwards. The usual path guesses at a target, then spends a decade finding out whether hitting it helps or hurts. Here the experiment already ran: a few hundred people spent their whole lives with the gene switched off, and their blood work and disease records are the readout. That trick has paid off before. Rare people with broken PCSK9 turned out to have very low LDL cholesterol and rare heart attacks, and the cholesterol drugs built from that observation now sit in pharmacies. FNIP1 has the shape of a good target too, since a drug would need to block it rather than boost it, and blocking is the easier thing for a molecule to do."
+    },
+    {
+      "h": "The catch",
+      "body": "The human half of this is a correlation. Carriers were healthier, and the evidence that the gene caused it comes from cells and mice. The variants are so rare that even a million people yield only a couple hundred carriers, so the disease numbers rest on a thin base. Mice carry backup genes that humans handle differently, which the authors flag. Liver safety is a live worry, because losing a partner protein of FNIP1 has caused liver injury and tumors in mice. Inheriting two broken copies instead of one causes a serious syndrome with missing B cells and a thickened heart. Several authors work for a company that would sell the eventual drug. Nothing here changes what to eat tonight."
+    }
+  ],
+  "terms": [
+    { "term": "Exome sequencing", "def": "Reading only the small slice of DNA, about 2 percent of it, that actually spells out proteins, which is where a broken letter is most likely to break something you can measure." },
+    { "term": "Protein-truncating variant", "def": "A mutation that cuts a protein off partway through, like a sentence ending mid-word, so the gene usually stops doing its job." },
+    { "term": "Triglyceride-to-HDL ratio", "def": "A number from a standard cholesterol panel that divides circulating fat by the good cholesterol; it tends to be high in people whose bodies are storing energy instead of burning it." }
+  ],
+  "takeaways": [
+    "People born with a rare broken copy of FNIP1 have less liver fat, better blood sugar, and about 60 percent lower odds of cardiometabolic disease.",
+    "Rare gene breakage is a natural experiment that has already run for a lifetime, which is why sequencing a million people is now a shortcut into the drug pipeline.",
+    "The gene is a brake on energy burning, so a future drug would work by blocking it, and that is the direction molecules are best at."
+  ],
+  "quiz": [
+    {
+      "q": "Why did the researchers focus on variants that truncate a protein partway through?",
+      "choices": [
+        "Those variants are the most common kind in the population",
+        "They are the ones most likely to switch a gene off, so carriers show what life without that gene looks like",
+        "They are the easiest mutations to correct with gene editing",
+        "They only appear in people with metabolic disease"
+      ],
+      "answer": 1,
+      "why": "A truncated protein usually stops working. That makes each carrier a lifelong natural experiment in having the gene turned off, which is exactly the readout you want if you are asking whether blocking that gene with a drug would help or hurt."
+    },
+    {
+      "q": "What does FNIP1 normally do, and why does that make it appealing as a drug target?",
+      "choices": [
+        "It boosts energy expenditure, so a drug would need to enhance it",
+        "It suppresses energy expenditure, so a drug would need to block it",
+        "It transports cholesterol, so a drug would need to reroute it",
+        "It has no known function, so any drug effect would be a surprise"
+      ],
+      "answer": 1,
+      "why": "FNIP1 acts as a brake on energy expenditure and mitochondrial metabolism. Taking a brake off means blocking a protein, and blocking is what most drug molecules do well. Boosting a protein's activity is a much harder engineering problem."
+    },
+    {
+      "q": "What is the biggest reason to hold this result loosely?",
+      "choices": [
+        "The sample size was too small to detect anything",
+        "The blood measure they used has never been linked to disease",
+        "The human evidence is a correlation drawn from a very small group of rare carriers, with causation supported only by cells and mice",
+        "The gene had never been studied before"
+      ],
+      "answer": 2,
+      "why": "A million exomes sounds enormous, and the variants are rare enough that only a couple hundred people carried one. The healthier profile in those carriers is an association. The causal case comes from silencing the gene in human liver cells and in mice, which is suggestive and still a long way from a working drug in people."
+    }
+  ]
+}
