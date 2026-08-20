@@ -3646,5 +3646,53 @@
     ],
     "answer": 2,
     "why": "A million exomes sounds enormous, and the variants are rare enough that only a couple hundred people carried one. The healthier profile in those carriers is an association. The causal case comes from silencing the gene in human liver cells and in mice, which is suggestive and still a long way from a working drug in people."
+  },
+  {
+    "qid": "2026-08-20-pm#0",
+    "lessonId": "2026-08-20-pm",
+    "lessonTitle": "What a chatbot tells you to do with your money",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "What made the difference between a small effect and a large one in the simulations?",
+    "choices": [
+      "Using a larger and more capable model",
+      "Whether the person asked once or came back each period as life changed",
+      "Whether the person had a financial advisor as well",
+      "Adding crypto to the list of available assets"
+    ],
+    "answer": 1,
+    "why": "A single conversation moved stock market participation by five to ten percentage points and the average equity share by about five. Feeding the model updated circumstances every period and following the answer each time produced near-universal participation and equity shares up to forty percentage points above observed behavior. The mechanism is ordinary compounding on top of repeated correction, which is also why the advice has to be re-asked rather than saved once and filed away."
+  },
+  {
+    "qid": "2026-08-20-pm#1",
+    "lessonId": "2026-08-20-pm",
+    "lessonTitle": "What a chatbot tells you to do with your money",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "The researchers took prompts, changed nothing except attaching a gender label, and re-ran them. What did that isolate?",
+    "choices": [
+      "The share of the gap coming from the model itself, which was about a third",
+      "The total gender gap in recommended equity shares",
+      "The effect of financial literacy on the advice",
+      "Whether the model recognized the prompt as artificial"
+    ],
+    "answer": 0,
+    "why": "Holding the prompt fixed and varying only the label strips out everything the user contributed, so whatever moves is the model's own doing. That accounted for roughly one third of the gender difference in investment advice. The other two thirds came from men and women writing different prompts in the first place, which is the part an audit of the model would completely miss."
+  },
+  {
+    "qid": "2026-08-20-pm#2",
+    "lessonId": "2026-08-20-pm",
+    "lessonTitle": "What a chatbot tells you to do with your money",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "What is the paper's clearest limitation?",
+    "choices": [
+      "The sample was too small to detect any differences",
+      "The advice was never converted into numbers, so it could not be compared",
+      "It measures the advice given and leaves open whether anyone would act on it",
+      "The authors only tested models released before 2024"
+    ],
+    "answer": 2,
+    "why": "Everything downstream of the recommendation is a simulation. The paper characterizes what GPT-5.2 tells people to do and then models what would happen if they complied every time, which is a strong assumption about human behavior that no part of this study tests. The million-dollar retirement figures describe a modeled life. It is also a preprint tied to one model whose answers vary between runs."
   }
 ]

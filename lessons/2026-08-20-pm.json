@@ -1,0 +1,91 @@
+{
+  "id": "2026-08-20-pm",
+  "date": "2026-08-20",
+  "slot": "pm",
+  "topic": "finance",
+  "topicLabel": "Finance & Markets",
+  "title": "What a chatbot tells you to do with your money",
+  "study": {
+    "citation": "Choukhmane, T., de Silva, T., Lin, W. & Akuzawa, M. (2026), \"AI Financial Advice: Supply, Demand, and Life Cycle Implications\", arXiv:2608.01607 [econ.GN]",
+    "year": 2026,
+    "link": "https://arxiv.org/abs/2608.01607"
+  },
+  "tldr": "Four economists had 952 Americans type their own money questions into GPT-5.2, then simulated a lifetime of following the answers, and found advice that points roughly where economists point while handing lower stock allocations to anyone whose prompt is labeled as written by a woman.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Financial advice used to arrive with a fee, a license, and a person on the other side of a desk. A lot of it now comes from a chatbot: free, instant, and answering whatever you happen to type at midnight. Four economists wanted to know what that advice actually says when ordinary people ask in their own words, and what would happen to someone who followed it for forty years. Two separate forces shape the answer you get. One is what a person thinks to ask. The other is what the model chooses to say back."
+    },
+    {
+      "h": "What they did",
+      "body": "They recruited a thousand American adults through Prolific, a panel that pays people to take surveys, and kept the 952 whose answers cleared authenticity and detail checks. Each wrote three prompts in their own words: one describing their financial situation, one asking how much to spend and save, one asking how to invest. Those went to GPT-5.2. A second pass turned each prose reply into numbers, a dollar figure for spending and a split across bonds, diversified stock funds, individual stocks, and riskier things like crypto and gold. Those numbers drove a life cycle simulation with realistic wages, job loss, and market returns, the model re-asked each period as circumstances changed."
+    },
+    {
+      "h": "What they found",
+      "body": "Asked once, the advice nudges. Stock market participation rises five to ten percentage points, and the average share of savings held in stocks by about five. Followed every period for a lifetime, it compounds. Nearly everyone ends up owning stocks, equity shares run as much as forty percentage points above what people actually do, virtually everyone has more than ten thousand dollars banked by age thirty, and stock holdings climb through early working life then ease down after forty-five, roughly the shape textbooks prescribe. The advice also shows its seams. Thirty-one percent of recommended saving rates are multiples of ten percent, and over ninety-eight percent of withdrawals sit at or below four percent of assets."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "The interesting part is where the differences come from. Recommendations vary systematically by gender, by financial literacy, and by whether someone had used AI for money questions before. Sampling prompts written by men yields about five percent more simulated wealth at age sixty than sampling prompts written by women. Two thirds of that gap in investment advice traces to what men and women type. The remaining third shows up when the researchers attach a gender label to otherwise identical prompts and watch the recommendation move. Auditing the model catches a third of the problem. The rest sits upstream, in the question itself."
+    },
+    {
+      "h": "The catch",
+      "body": "This is a preprint posted August 3, 2026, with no peer review yet. It measures the advice a model gives, and whether anyone acts on advice like this is a separate question the paper does not answer, so those simulated retirement balances are modeled lives. The results attach to GPT-5.2 in particular, and repeated queries produce different answers, which the authors state plainly. The Prolific sample over-represents the unemployed and thins out above age seventy. And the advice has a real hole: after a simulated job loss cuts income roughly in half, recommended spending falls by about as much, even with the cash cushion it built sitting there for exactly that moment."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Life cycle theory",
+      "def": "The standard economic picture of how a person should handle money over a lifetime: build a cash cushion, hold more stocks while young and earning, then shift toward safer assets as retirement approaches."
+    },
+    {
+      "term": "Equity share",
+      "def": "The fraction of your savings held in stocks, with the rest sitting in bonds or cash."
+    },
+    {
+      "term": "Demand side and supply side",
+      "def": "Here, the two places an advice gap can come from: what the user asks for, and what the model offers in response."
+    }
+  ],
+  "takeaways": [
+    "The advice points roughly where economists point, and almost all of the benefit comes from following it repeatedly as your circumstances change instead of once.",
+    "Most of the gap between what men and women got told traces back to what they typed. A more specific prompt does work that no model update will do for you.",
+    "Advice can sound tailored while running on round numbers: ten percent saving rates, four percent withdrawals. Worth checking whether the answer moved because your situation did."
+  ],
+  "quiz": [
+    {
+      "q": "What made the difference between a small effect and a large one in the simulations?",
+      "choices": [
+        "Using a larger and more capable model",
+        "Whether the person asked once or came back each period as life changed",
+        "Whether the person had a financial advisor as well",
+        "Adding crypto to the list of available assets"
+      ],
+      "answer": 1,
+      "why": "A single conversation moved stock market participation by five to ten percentage points and the average equity share by about five. Feeding the model updated circumstances every period and following the answer each time produced near-universal participation and equity shares up to forty percentage points above observed behavior. The mechanism is ordinary compounding on top of repeated correction, which is also why the advice has to be re-asked rather than saved once and filed away."
+    },
+    {
+      "q": "The researchers took prompts, changed nothing except attaching a gender label, and re-ran them. What did that isolate?",
+      "choices": [
+        "The share of the gap coming from the model itself, which was about a third",
+        "The total gender gap in recommended equity shares",
+        "The effect of financial literacy on the advice",
+        "Whether the model recognized the prompt as artificial"
+      ],
+      "answer": 0,
+      "why": "Holding the prompt fixed and varying only the label strips out everything the user contributed, so whatever moves is the model's own doing. That accounted for roughly one third of the gender difference in investment advice. The other two thirds came from men and women writing different prompts in the first place, which is the part an audit of the model would completely miss."
+    },
+    {
+      "q": "What is the paper's clearest limitation?",
+      "choices": [
+        "The sample was too small to detect any differences",
+        "The advice was never converted into numbers, so it could not be compared",
+        "It measures the advice given and leaves open whether anyone would act on it",
+        "The authors only tested models released before 2024"
+      ],
+      "answer": 2,
+      "why": "Everything downstream of the recommendation is a simulation. The paper characterizes what GPT-5.2 tells people to do and then models what would happen if they complied every time, which is a strong assumption about human behavior that no part of this study tests. The million-dollar retirement figures describe a modeled life. It is also a preprint tied to one model whose answers vary between runs."
+    }
+  ]
+}

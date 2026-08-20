@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-20-pm",
+    "date": "2026-08-20",
+    "slot": "pm",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "title": "What a chatbot tells you to do with your money",
+    "tldr": "Four economists had 952 Americans type their own money questions into GPT-5.2, then simulated a lifetime of following the answers, and found advice that points roughly where economists point while handing lower stock allocations to anyone whose prompt is labeled as written by a woman.",
+    "readMinutes": 5,
+    "citation": "Choukhmane, T., de Silva, T., Lin, W. & Akuzawa, M. (2026), \"AI Financial Advice: Supply, Demand, and Life Cycle Implications\", arXiv:2608.01607 [econ.GN]",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-19-pm",
     "date": "2026-08-19",
     "slot": "pm",
