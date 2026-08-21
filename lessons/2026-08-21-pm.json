@@ -1,0 +1,91 @@
+{
+  "id": "2026-08-21-pm",
+  "date": "2026-08-21",
+  "slot": "pm",
+  "topic": "cannabis",
+  "topicLabel": "Cannabis Science",
+  "title": "Half the CBD oils on European shelves didn't match their own label",
+  "study": {
+    "citation": "Binova, Z., Maly, M., Drabova, L., Gomersall, V., Zlechovcova, M., Benesova, M., Hajslova, J. & Benes, F. (2026), \"Poorly labeled CBD and related cannabinoid oils marketed in Europe: a hidden risk for consumers? Insights from a long-term study\", Analytical and Bioanalytical Chemistry, online ahead of print 18 August 2026",
+    "year": 2026,
+    "link": "https://doi.org/10.1007/s00216-026-06734-5"
+  },
+  "tldr": "Food chemists in Prague ran 186 CBD oils sold in Europe through a mass spectrometer and found that about half missed the CBD amount printed on the bottle, several carried intoxicating cannabinoids nobody declared, and every last one contained combustion contaminants.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "CBD oil is sold all over Europe as a food supplement, in pharmacies, corner shops and websites, with a confident number on the bottle telling you how much cannabidiol you are buying. Cannabidiol is the cannabis compound that does not get you high. The category grew very fast and sits in a regulatory gray zone, so nobody checks those bottles the way a pharmacist checks a prescription. A group of food chemists at the University of Chemistry and Technology in Prague decided to find out what is actually inside them, and whether the label on the front means anything at all."
+    },
+    {
+      "h": "What they did",
+      "body": "Over about a decade they collected 186 CBD and related cannabinoid oils sold on the European market, then ran every one through an instrument that pairs ultra high performance liquid chromatography with high resolution mass spectrometry. In plain terms, the machine first pulls a drop of oil apart into its individual chemicals, then weighs each chemical precisely enough to name it. That let the team measure how much cannabidiol was really present, spot other cannabinoids nobody had advertised, and hunt for polycyclic aromatic hydrocarbons, a family of contaminants that forms when plant material gets heated or burned. Patterns among the trace cannabinoids also let them infer where each product's CBD probably came from."
+    },
+    {
+      "h": "What they found",
+      "body": "Of the 181 products the team could check against a declared CBD amount, 86 failed to match it, so roughly half the market was selling a number it did not deliver. What else turned up was more surprising. Alongside the familiar form of THC, the intoxicating compound in cannabis, several oils carried less commonly monitored relatives including delta-8 and delta-10 THC, and one product marketed as full spectrum contained HHC, a semi-synthetic cannabinoid. Taken at their own recommended dosage, 72 of the 186 would push a consumer past the European Food Safety Authority's acute reference dose for THC. Polycyclic aromatic hydrocarbons showed up in every single sample, and 101 of them exceeded the European limit for oil-based food supplements."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "CBD occupies an awkward legal slot. Much of Europe treats it as a supplement rather than a medicine, which means the machinery that catches a mislabeled pill mostly does not reach it. Unglamorous measurement work like this is how regulators learn whether that gap matters in practice, and it lands at a moment when semi-synthetic cannabinoids such as HHC and delta-8 keep appearing on shelves faster than any rulebook can name them. The analytical side has quietly caught up too: a single instrument run can now fingerprint a product's likely origin, flag an undeclared intoxicant, and count contaminants at the same time."
+    },
+    {
+      "h": "The catch",
+      "body": "This is a survey of products rather than a study of people. Nobody tracked whether a single consumer came to harm. Crossing an acute reference dose is a reason to pay attention rather than proof of poisoning, since those thresholds are deliberately set well below the level where effects are expected. The samples were gathered across roughly ten years, so a bottle bought last month is not necessarily one of the bottles tested, and the published summary does not spell out how the products were chosen or which countries they came from. The paper is also online ahead of print, so the fully typeset version is still on its way."
+    }
+  ],
+  "terms": [
+    {
+      "term": "High resolution mass spectrometry",
+      "def": "A lab technique that weighs individual molecules so precisely that each one can be identified by its mass, which is how chemists tell a labeled ingredient from an unlabeled lookalike."
+    },
+    {
+      "term": "Acute reference dose",
+      "def": "The amount of a substance a person can take in over a single day without expected harm, set by regulators with a deliberate safety margin below the level where any effect shows up."
+    },
+    {
+      "term": "Polycyclic aromatic hydrocarbons",
+      "def": "A family of chemicals formed when organic material is heated or burned, some of which are considered carcinogenic, which is why food rules cap how much of them a product may contain."
+    }
+  ],
+  "takeaways": [
+    "About half of the European CBD oils tested carried a cannabidiol number on the label that the lab could not confirm in the bottle.",
+    "Several products contained intoxicating cannabinoids nobody declared, including delta-8, delta-10 and one case of HHC in an oil sold as full spectrum.",
+    "In a market without prescription-grade oversight, the label is a marketing claim until somebody with a mass spectrometer checks it."
+  ],
+  "quiz": [
+    {
+      "q": "When the researchers say 86 of 181 products \"did not contain the declared amount of CBD,\" what does that establish?",
+      "choices": [
+        "Those products contained no cannabidiol whatsoever",
+        "The measured cannabidiol content disagreed with what the label promised",
+        "Those products were contaminated with THC",
+        "Those products were sold illegally"
+      ],
+      "answer": 1,
+      "why": "The finding is a mismatch between label and contents. The summary does not say which direction each miss went, so a product could have held less cannabidiol than promised or more. Both matter for different reasons: too little means you paid for something you did not get, and too much means a dose nobody planned for. Reading a result for exactly what it claims, and no further, is most of the skill in reading science."
+    },
+    {
+      "q": "Why is it notable that polycyclic aromatic hydrocarbons appeared in all 186 samples?",
+      "choices": [
+        "They are cannabinoids that produce intoxication",
+        "They are contaminants formed by heating or burning plant material, and more than half the samples exceeded the European limit for oil-based supplements",
+        "They prove the oils were diluted with synthetic additives",
+        "They are added deliberately to preserve the oil"
+      ],
+      "answer": 1,
+      "why": "These chemicals have nothing to do with the cannabis plant's active compounds. They ride along from processing, and Europe caps how much of them a food supplement may contain because some are considered carcinogenic. Finding them everywhere points at how the oils are made rather than at what they are made from, and 101 samples over the legal limit turns a processing detail into a consumer question."
+    },
+    {
+      "q": "The team calculated that 72 of 186 products would carry a consumer past the European Food Safety Authority's acute reference dose for THC. Why does that stop short of saying those products harmed anyone?",
+      "choices": [
+        "Because the reference dose only applies to prescription medicines",
+        "Because a reference dose is a conservative threshold set below the level where effects are expected, and no consumers were actually studied",
+        "Because THC has no effects when taken orally",
+        "Because the calculation used a dose nobody follows"
+      ],
+      "answer": 1,
+      "why": "Regulators build a safety margin into these numbers on purpose, so crossing one flags a product worth scrutiny rather than an injury. This study weighed molecules in bottles and never followed a person who drank from them. The honest reading is that a meaningful slice of the market delivers more THC than a food product is supposed to, which is a strong reason for oversight and a weak basis for any claim about actual harm."
+    }
+  ]
+}

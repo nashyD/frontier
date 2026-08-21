@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-21-pm",
+    "date": "2026-08-21",
+    "slot": "pm",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "title": "Half the CBD oils on European shelves didn't match their own label",
+    "tldr": "Food chemists in Prague ran 186 CBD oils sold in Europe through a mass spectrometer and found that about half missed the CBD amount printed on the bottle, several carried intoxicating cannabinoids nobody declared, and every last one contained combustion contaminants.",
+    "readMinutes": 4,
+    "citation": "Binova, Z., Maly, M., Drabova, L., Gomersall, V., Zlechovcova, M., Benesova, M., Hajslova, J. & Benes, F. (2026), \"Poorly labeled CBD and related cannabinoid oils marketed in Europe: a hidden risk for consumers? Insights from a long-term study\", Analytical and Bioanalytical Chemistry, online ahead of print 18 August 2026",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-20-pm",
     "date": "2026-08-20",
     "slot": "pm",

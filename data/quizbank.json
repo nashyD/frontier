@@ -3694,5 +3694,53 @@
     ],
     "answer": 2,
     "why": "Everything downstream of the recommendation is a simulation. The paper characterizes what GPT-5.2 tells people to do and then models what would happen if they complied every time, which is a strong assumption about human behavior that no part of this study tests. The million-dollar retirement figures describe a modeled life. It is also a preprint tied to one model whose answers vary between runs."
+  },
+  {
+    "qid": "2026-08-21-pm#0",
+    "lessonId": "2026-08-21-pm",
+    "lessonTitle": "Half the CBD oils on European shelves didn't match their own label",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "When the researchers say 86 of 181 products \"did not contain the declared amount of CBD,\" what does that establish?",
+    "choices": [
+      "Those products contained no cannabidiol whatsoever",
+      "The measured cannabidiol content disagreed with what the label promised",
+      "Those products were contaminated with THC",
+      "Those products were sold illegally"
+    ],
+    "answer": 1,
+    "why": "The finding is a mismatch between label and contents. The summary does not say which direction each miss went, so a product could have held less cannabidiol than promised or more. Both matter for different reasons: too little means you paid for something you did not get, and too much means a dose nobody planned for. Reading a result for exactly what it claims, and no further, is most of the skill in reading science."
+  },
+  {
+    "qid": "2026-08-21-pm#1",
+    "lessonId": "2026-08-21-pm",
+    "lessonTitle": "Half the CBD oils on European shelves didn't match their own label",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Why is it notable that polycyclic aromatic hydrocarbons appeared in all 186 samples?",
+    "choices": [
+      "They are cannabinoids that produce intoxication",
+      "They are contaminants formed by heating or burning plant material, and more than half the samples exceeded the European limit for oil-based supplements",
+      "They prove the oils were diluted with synthetic additives",
+      "They are added deliberately to preserve the oil"
+    ],
+    "answer": 1,
+    "why": "These chemicals have nothing to do with the cannabis plant's active compounds. They ride along from processing, and Europe caps how much of them a food supplement may contain because some are considered carcinogenic. Finding them everywhere points at how the oils are made rather than at what they are made from, and 101 samples over the legal limit turns a processing detail into a consumer question."
+  },
+  {
+    "qid": "2026-08-21-pm#2",
+    "lessonId": "2026-08-21-pm",
+    "lessonTitle": "Half the CBD oils on European shelves didn't match their own label",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "The team calculated that 72 of 186 products would carry a consumer past the European Food Safety Authority's acute reference dose for THC. Why does that stop short of saying those products harmed anyone?",
+    "choices": [
+      "Because the reference dose only applies to prescription medicines",
+      "Because a reference dose is a conservative threshold set below the level where effects are expected, and no consumers were actually studied",
+      "Because THC has no effects when taken orally",
+      "Because the calculation used a dose nobody follows"
+    ],
+    "answer": 1,
+    "why": "Regulators build a safety margin into these numbers on purpose, so crossing one flags a product worth scrutiny rather than an injury. This study weighed molecules in bottles and never followed a person who drank from them. The honest reading is that a meaningful slice of the market delivers more THC than a food product is supposed to, which is a strong reason for oversight and a weak basis for any claim about actual harm."
   }
 ]
