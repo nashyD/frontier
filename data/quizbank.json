@@ -3742,5 +3742,53 @@
     ],
     "answer": 1,
     "why": "Regulators build a safety margin into these numbers on purpose, so crossing one flags a product worth scrutiny rather than an injury. This study weighed molecules in bottles and never followed a person who drank from them. The honest reading is that a meaningful slice of the market delivers more THC than a food product is supposed to, which is a strong reason for oversight and a weak basis for any claim about actual harm."
+  },
+  {
+    "qid": "2026-08-23-pm#0",
+    "lessonId": "2026-08-23-pm",
+    "lessonTitle": "They built a reader that skips words for the same reasons you do",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What was the model given, and what was it left to work out for itself?",
+    "choices": [
+      "It was given rules for when to skip and backtrack, and worked out reading speed",
+      "It was given a goal, limited memory and vision, and costs for looking, and worked out the eye-movement strategies itself",
+      "It was given recordings of human eye movements to copy directly",
+      "It was given the full text at once and asked to summarize it"
+    ],
+    "answer": 1,
+    "why": "This is the whole point of the study. The researchers hand-coded no rule saying short predictable words get skipped or that confusing words trigger a backward glance. They specified the objective, the limits and the costs, then let the system learn a strategy through trial and error. The human-like habits appeared as the efficient answer to that setup, which is a much stronger claim than a model tuned until it matches the data."
+  },
+  {
+    "qid": "2026-08-23-pm#1",
+    "lessonId": "2026-08-23-pm",
+    "lessonTitle": "They built a reader that skips words for the same reasons you do",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What happened when the researchers removed the model's resource limits?",
+    "choices": [
+      "It read faster and comprehended more than any human",
+      "It crashed and produced no readable behavior",
+      "Its strategic eye movements disappeared, since with perfect memory and full view of the page there was nothing to economize",
+      "It began skipping every word"
+    ],
+    "answer": 2,
+    "why": "Handing the agent unlimited memory and full visual access to the text removed the pressure that made selective looking worthwhile. The careful allocation of glances stopped. This is the load-bearing result for the theory: the human patterns exist because of the constraints, so taking the constraints away should erase them, and it did."
+  },
+  {
+    "qid": "2026-08-23-pm#2",
+    "lessonId": "2026-08-23-pm",
+    "lessonTitle": "They built a reader that skips words for the same reasons you do",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "In the new eye-tracking experiment, what did time pressure do to readers?",
+    "choices": [
+      "They skipped more words, made fewer backward glances, and understood less",
+      "They slowed down and read more carefully to compensate",
+      "They skipped more words but comprehension stayed the same",
+      "They made more backward glances to double-check what they had read"
+    ],
+    "answer": 0,
+    "why": "With 30, 60 or 90 seconds on the clock, readers traded accuracy for speed in a specific way. Skipping went up, regressions went down, and both recall and multiple-choice scores fell. The backward glance is the repair mechanism for confusion, so cutting it is exactly where comprehension leaks. The model, run under the same clock, shifted the same way."
   }
 ]

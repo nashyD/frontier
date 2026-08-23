@@ -1,0 +1,91 @@
+{
+  "id": "2026-08-23-pm",
+  "date": "2026-08-23",
+  "slot": "pm",
+  "topic": "learning",
+  "topicLabel": "Learning & Cognition",
+  "title": "They built a reader that skips words for the same reasons you do",
+  "study": {
+    "citation": "Bai, Y., Jin, X., Zhao, S. & Oulasvirta, A. (2026), \"Hierarchical resource rationality explains human reading behaviour\", Nature Human Behaviour, published online 10 August 2026",
+    "year": 2026,
+    "link": "https://doi.org/10.1038/s41562-026-02534-0"
+  },
+  "tldr": "A computer model that treats every glance as a cost-benefit decision reproduced the way real people read, right down to which words they skip and how their comprehension collapses when you rush them.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Your eyes do something strange while you read this. They jump rather than glide, they land on some words and fly straight over others, and every so often they hop backwards to a word you already passed. Researchers have described these patterns for decades and built models of them. Those models split into two camps: one explains where the eyes go, the other explains how meaning gets built. The link between the two has stayed murky. A team spanning Hong Kong, Singapore and Finland asked whether one idea could produce both."
+    },
+    {
+      "h": "What they did",
+      "body": "They built a simulated reader with a strict budget. It cannot see the whole page at once, its memory is limited, and every glance costs it time and effort. Its only goal is to understand the text as well as it can while spending as little as possible. The budget applies at three nested levels: which letters to look at to identify a word, which word to move to next, and which sentence to reread. Each level learned its own strategy by trial and error, with no rules about skipping or backtracking written in by hand. They then tested it against eight datasets of human eye movements and a fresh experiment of their own."
+    },
+    {
+      "h": "What they found",
+      "body": "The simulated reader drifted into human habits on its own. It lingered on long words and hurried past short, common, predictable ones. It skipped words its context had already given away, and it jumped backwards when a word was hard to fit into the sentence so far. Give it background knowledge or a well-organized text and it recalled more. The sharpest test was the new experiment: 39 adults read short texts with 30, 60 or 90 seconds on the clock while an eye tracker watched, then took a recall and multiple-choice test. Under time pressure the humans skipped more, backtracked less, and understood less. The model did the same three things."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "The claim underneath is bigger than reading. Nobody taught this system the rules of reading. It was handed a goal, a budget, and uncertainty, and human-looking behavior fell out of the optimization. When the researchers removed the budget by giving it perfect memory and full sight of the page, the strategic eye movements vanished, because there was nothing left to economize. When they made it short-sighted about future payoff, it got stuck fussing over words in front of it. That suggests the quirks of reading are the shape that limited hardware takes when it is trying to do well, and the same logic may govern writing, sport, and other layered skills."
+    },
+    {
+      "h": "The catch",
+      "body": "A model reproducing a pattern is evidence for an idea, and it falls short of proof that brains work this way. Other explanations can produce the same curves. The new experiment is small, 32 people for the comprehension results and 28 for the eye movements, and English only, with the older datasets in German and French. The model is aimed at the average reader, so it does not yet account for individual differences in skill, background or motivation. Comprehension was scored with recall and multiple-choice questions, which miss most of what people actually read for. The authors list all of this themselves and call for tests across more genres, languages and kinds of reader."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Fixation",
+      "def": "The brief pause, usually a fraction of a second, when your eyes stop on a word and actually take it in; the fast jumps between pauses are called saccades."
+    },
+    {
+      "term": "Regression",
+      "def": "An eye movement backwards to something you already read, usually triggered when a new word refuses to fit the sense you had built so far."
+    },
+    {
+      "term": "Resource rationality",
+      "def": "The idea that people behave optimally given real limits on time, attention and memory, so behavior that looks sloppy is often the best available deal under those limits."
+    }
+  ],
+  "takeaways": [
+    "Skipping words and glancing backwards are what an efficient reader does when looking costs time and memory is small.",
+    "Rushing a reader has a predictable signature: more skipped words, fewer backward glances to repair confusion, and worse recall afterwards.",
+    "Give a bounded system a goal and a budget and human-shaped behavior can emerge without anyone programming the habits in, which is a useful lens for anyone building agents."
+  ],
+  "quiz": [
+    {
+      "q": "What was the model given, and what was it left to work out for itself?",
+      "choices": [
+        "It was given rules for when to skip and backtrack, and worked out reading speed",
+        "It was given a goal, limited memory and vision, and costs for looking, and worked out the eye-movement strategies itself",
+        "It was given recordings of human eye movements to copy directly",
+        "It was given the full text at once and asked to summarize it"
+      ],
+      "answer": 1,
+      "why": "This is the whole point of the study. The researchers hand-coded no rule saying short predictable words get skipped or that confusing words trigger a backward glance. They specified the objective, the limits and the costs, then let the system learn a strategy through trial and error. The human-like habits appeared as the efficient answer to that setup, which is a much stronger claim than a model tuned until it matches the data."
+    },
+    {
+      "q": "What happened when the researchers removed the model's resource limits?",
+      "choices": [
+        "It read faster and comprehended more than any human",
+        "It crashed and produced no readable behavior",
+        "Its strategic eye movements disappeared, since with perfect memory and full view of the page there was nothing to economize",
+        "It began skipping every word"
+      ],
+      "answer": 2,
+      "why": "Handing the agent unlimited memory and full visual access to the text removed the pressure that made selective looking worthwhile. The careful allocation of glances stopped. This is the load-bearing result for the theory: the human patterns exist because of the constraints, so taking the constraints away should erase them, and it did."
+    },
+    {
+      "q": "In the new eye-tracking experiment, what did time pressure do to readers?",
+      "choices": [
+        "They skipped more words, made fewer backward glances, and understood less",
+        "They slowed down and read more carefully to compensate",
+        "They skipped more words but comprehension stayed the same",
+        "They made more backward glances to double-check what they had read"
+      ],
+      "answer": 0,
+      "why": "With 30, 60 or 90 seconds on the clock, readers traded accuracy for speed in a specific way. Skipping went up, regressions went down, and both recall and multiple-choice scores fell. The backward glance is the repair mechanism for confusion, so cutting it is exactly where comprehension leaks. The model, run under the same clock, shifted the same way."
+    }
+  ]
+}

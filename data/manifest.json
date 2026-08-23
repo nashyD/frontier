@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-23-pm",
+    "date": "2026-08-23",
+    "slot": "pm",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "title": "They built a reader that skips words for the same reasons you do",
+    "tldr": "A computer model that treats every glance as a cost-benefit decision reproduced the way real people read, right down to which words they skip and how their comprehension collapses when you rush them.",
+    "readMinutes": 5,
+    "citation": "Bai, Y., Jin, X., Zhao, S. & Oulasvirta, A. (2026), \"Hierarchical resource rationality explains human reading behaviour\", Nature Human Behaviour, published online 10 August 2026",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-21-pm",
     "date": "2026-08-21",
     "slot": "pm",
