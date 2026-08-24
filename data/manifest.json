@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-24-pm",
+    "date": "2026-08-24",
+    "slot": "pm",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "title": "The star that laps a black hole every 8.7 years",
+    "tldr": "Astronomers found a Sun-like star whipping around the Milky Way's black hole at 8% the speed of light, close enough that the hole's spin should start to bend its path.",
+    "readMinutes": 5,
+    "citation": "Abd El Dayem, K. et al. / GRAVITY+ Collaboration (2026), \"Discovery of a star sensitive to the spin of Sagittarius A*\", Nature",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-23-pm",
     "date": "2026-08-23",
     "slot": "pm",

@@ -1,0 +1,91 @@
+{
+  "id": "2026-08-24-pm",
+  "date": "2026-08-24",
+  "slot": "pm",
+  "topic": "frontier",
+  "topicLabel": "Frontier Science",
+  "title": "The star that laps a black hole every 8.7 years",
+  "study": {
+    "citation": "Abd El Dayem, K. et al. / GRAVITY+ Collaboration (2026), \"Discovery of a star sensitive to the spin of Sagittarius A*\", Nature",
+    "year": 2026,
+    "link": "https://doi.org/10.1038/s41586-026-10894-w"
+  },
+  "tldr": "Astronomers found a Sun-like star whipping around the Milky Way's black hole at 8% the speed of light, close enough that the hole's spin should start to bend its path.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "At the center of our galaxy sits Sagittarius A*, a black hole about four million times the mass of the Sun. We know its mass well. We do not know how fast it spins. Spin matters because Einstein's theory says a rotating black hole does something stranger than pulling: it drags the fabric of space around with it, like a spoon turning in honey. To catch that, you need a clock close enough to feel the swirl. For decades the best clocks were stars looping around the hole, and none of them passed close enough."
+    },
+    {
+      "h": "What they did",
+      "body": "A team using the Very Large Telescope in Chile combined light from four separate 8-meter telescopes into one instrument, GRAVITY+, which acts like a single telescope far larger than any of them. That gives a resolution the team compares to picking out a car on the surface of the Moon. The crowded heart of the galaxy is the hard part: the target star is faint, buried in the glare of brighter neighbors, which the researchers describe as trying to hear a fly buzz over a symphony orchestra. They pushed a new data-analysis method through years of images, first spotting the star in the spring of 2023 and then tracing it backward through data going to 2017."
+    },
+    {
+      "h": "What they found",
+      "body": "The star, named S301, circles Sagittarius A* once every 8.7 years, the shortest orbit anyone has measured around our black hole. Its path is a stretched oval, and at closest approach it comes within roughly 12 times the Earth-Sun distance of the hole, about eight times nearer than any star tracked before. Whipping through that turn it hits around 25,000 kilometers per second, better than 8 percent of the speed of light. The star itself is unremarkable, a main-sequence star in the neighborhood of 1.1 to 1.5 solar masses. Its orbit is what makes it extraordinary."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "Spin is one of only two numbers a black hole really has, and ours has stayed hidden. A star this close swings through the region where a spinning hole twists space hardest, so the twist should show up as a slow wobble in the plane of its orbit that nothing in Newton's gravity can explain. The team expects a direct measurement of the black hole's rotation within about a decade, once they have watched enough of the orbit and added velocity measurements from the Extremely Large Telescope now under construction. That would be a clean test of general relativity in the most extreme gravity we can reach, and it would tell us something about how the hole grew."
+    },
+    {
+      "h": "The catch",
+      "body": "The spin has not been measured. This paper reports the discovery of the tool, and the number everyone wants comes later. S301's next close pass is in 2031, and the team wants at least two full orbits before it trusts the wobble, which puts the payoff years out. The star was extracted from a very noisy field with a fresh analysis method, so independent groups will want to confirm it. And the researchers think S301 arrived by accident, likely half of a binary pair torn apart by the black hole, which means finding another one is luck rather than a plan."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Sagittarius A*",
+      "def": "The supermassive black hole at the center of the Milky Way, roughly four million times the mass of our Sun, about 27,000 light-years away."
+    },
+    {
+      "term": "Frame dragging",
+      "def": "Einstein's prediction that a spinning massive object pulls the space around it into a slow swirl, so orbits near it get twisted along with the rotation."
+    },
+    {
+      "term": "Interferometry",
+      "def": "Combining the light from several telescopes so that the group behaves like one much bigger telescope, which sharpens fine detail enormously."
+    }
+  ],
+  "takeaways": [
+    "We have known the mass of our galaxy's black hole for years and still cannot say how fast it turns.",
+    "A close, fast orbit is a measuring instrument: the tighter the loop, the more relativity shows up in the path.",
+    "The discovery here is a decade-long opportunity rather than a finished answer, which is how a lot of real frontier work actually lands."
+  ],
+  "quiz": [
+    {
+      "q": "Why does S301 matter more than the stars astronomers were already tracking?",
+      "choices": [
+        "It is far brighter, so it is easier to observe",
+        "It passes much closer to the black hole, where relativistic effects are strongest",
+        "It is the only star known to orbit a black hole",
+        "It is much more massive than the Sun"
+      ],
+      "answer": 1,
+      "why": "S301 swings within about 12 Earth-Sun distances of Sagittarius A*, roughly eight times closer than any previously tracked star. Gravity's strange effects grow sharply as you approach, so a closer orbit carries a much stronger signal. The star is actually very faint and fairly ordinary in mass."
+    },
+    {
+      "q": "What does 'frame dragging' describe?",
+      "choices": [
+        "Light being bent as it passes a massive object",
+        "A star losing mass to a black hole",
+        "A spinning mass pulling the surrounding space into a swirl",
+        "The stretching of an orbit into an oval"
+      ],
+      "answer": 2,
+      "why": "A rotating black hole does more than pull inward; it twists the space around itself, so nearby orbits get carried along with the rotation. Measuring that twist in S301's path is how the team plans to read out the black hole's spin."
+    },
+    {
+      "q": "What did this paper actually establish?",
+      "choices": [
+        "The spin rate of Sagittarius A* has been measured",
+        "General relativity has been shown to fail near black holes",
+        "A star with a suitable orbit was discovered, with the spin measurement still ahead",
+        "Sagittarius A* is heavier than previously thought"
+      ],
+      "answer": 2,
+      "why": "The result is the discovery of S301 and its 8.7-year orbit. The spin measurement needs more of the orbit plus new velocity data, and the team puts it roughly a decade out. Reporting the tool before the answer is normal in this kind of long-baseline astronomy."
+    }
+  ]
+}

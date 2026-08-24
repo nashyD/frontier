@@ -3790,5 +3790,53 @@
     ],
     "answer": 0,
     "why": "With 30, 60 or 90 seconds on the clock, readers traded accuracy for speed in a specific way. Skipping went up, regressions went down, and both recall and multiple-choice scores fell. The backward glance is the repair mechanism for confusion, so cutting it is exactly where comprehension leaks. The model, run under the same clock, shifted the same way."
+  },
+  {
+    "qid": "2026-08-24-pm#0",
+    "lessonId": "2026-08-24-pm",
+    "lessonTitle": "The star that laps a black hole every 8.7 years",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "Why does S301 matter more than the stars astronomers were already tracking?",
+    "choices": [
+      "It is far brighter, so it is easier to observe",
+      "It passes much closer to the black hole, where relativistic effects are strongest",
+      "It is the only star known to orbit a black hole",
+      "It is much more massive than the Sun"
+    ],
+    "answer": 1,
+    "why": "S301 swings within about 12 Earth-Sun distances of Sagittarius A*, roughly eight times closer than any previously tracked star. Gravity's strange effects grow sharply as you approach, so a closer orbit carries a much stronger signal. The star is actually very faint and fairly ordinary in mass."
+  },
+  {
+    "qid": "2026-08-24-pm#1",
+    "lessonId": "2026-08-24-pm",
+    "lessonTitle": "The star that laps a black hole every 8.7 years",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "What does 'frame dragging' describe?",
+    "choices": [
+      "Light being bent as it passes a massive object",
+      "A star losing mass to a black hole",
+      "A spinning mass pulling the surrounding space into a swirl",
+      "The stretching of an orbit into an oval"
+    ],
+    "answer": 2,
+    "why": "A rotating black hole does more than pull inward; it twists the space around itself, so nearby orbits get carried along with the rotation. Measuring that twist in S301's path is how the team plans to read out the black hole's spin."
+  },
+  {
+    "qid": "2026-08-24-pm#2",
+    "lessonId": "2026-08-24-pm",
+    "lessonTitle": "The star that laps a black hole every 8.7 years",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "What did this paper actually establish?",
+    "choices": [
+      "The spin rate of Sagittarius A* has been measured",
+      "General relativity has been shown to fail near black holes",
+      "A star with a suitable orbit was discovered, with the spin measurement still ahead",
+      "Sagittarius A* is heavier than previously thought"
+    ],
+    "answer": 2,
+    "why": "The result is the discovery of S301 and its 8.7-year orbit. The spin measurement needs more of the orbit plus new velocity data, and the team puts it roughly a decade out. Reporting the tool before the answer is normal in this kind of long-baseline astronomy."
   }
 ]
