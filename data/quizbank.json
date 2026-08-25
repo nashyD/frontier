@@ -3838,5 +3838,53 @@
     ],
     "answer": 2,
     "why": "The result is the discovery of S301 and its 8.7-year orbit. The spin measurement needs more of the orbit plus new velocity data, and the team puts it roughly a decade out. Reporting the tool before the answer is normal in this kind of long-baseline astronomy."
+  },
+  {
+    "qid": "2026-08-25-pm#0",
+    "lessonId": "2026-08-25-pm",
+    "lessonTitle": "Every AI model carries a birthmark from the model it grew out of",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What is the lineage score actually comparing between two models?",
+    "choices": [
+      "How similar their answers are on a shared set of test prompts",
+      "The leftover weight structure specific to each checkpoint, after removing the pattern every trained model shares",
+      "The names and dates listed in each model's documentation",
+      "How much memory each model uses when it runs"
+    ],
+    "answer": 1,
+    "why": "Every model built from stacked correction blocks picks up the same generic structure during training, so that shared piece carries no information about parentage. The authors strip it out and compare only what is left over, which is the part shaped by one particular training history."
+  },
+  {
+    "qid": "2026-08-25-pm#1",
+    "lessonId": "2026-08-25-pm",
+    "lessonTitle": "Every AI model carries a birthmark from the model it grew out of",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "Why does a distilled model score as unrelated to the model it was trained to imitate?",
+    "choices": [
+      "Distillation makes the two models behave very differently",
+      "The method refuses to score models of different sizes",
+      "A distilled model's weights are built from scratch, so they never inherit the ancestor's trace",
+      "Distilled models are always quantized, which erases the score"
+    ],
+    "answer": 2,
+    "why": "The score reads inherited weight structure, and distillation copies behavior while growing an entirely new set of weights. The paper reports that distillation raised teacher-student agreement on answers and still produced no ancestry signal, which is both the method's cleanest demonstration and its most useful blind spot to know about."
+  },
+  {
+    "qid": "2026-08-25-pm#2",
+    "lessonId": "2026-08-25-pm",
+    "lessonTitle": "Every AI model carries a birthmark from the model it grew out of",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What happened when the researchers tried to hide a model's ancestry by shuffling its internal units and rescaling its weights without changing its outputs?",
+    "choices": [
+      "The new score stayed the same while ordinary weight comparison mostly failed",
+      "Both the new score and ordinary weight comparison failed",
+      "The model stopped working entirely",
+      "The new score flagged every unrelated model as a relative"
+    ],
+    "answer": 0,
+    "why": "Those edits reorder and rescale the numbers while leaving the model's behavior untouched, which is enough to wreck a naive side-by-side comparison of weights. The authors' score is built to ignore exactly that kind of cosmetic change, so it held steady through the laundering while the baselines lost most of their signal."
   }
 ]

@@ -1,0 +1,91 @@
+{
+  "id": "2026-08-25-pm",
+  "date": "2026-08-25",
+  "slot": "pm",
+  "topic": "ai",
+  "topicLabel": "Artificial Intelligence",
+  "title": "Every AI model carries a birthmark from the model it grew out of",
+  "study": {
+    "citation": "Thakur, A. S. & Khoury, R. (2026), \"Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification\", arXiv:2608.14929 [cs.CL], posted 2026-08-14",
+    "year": 2026,
+    "link": "https://arxiv.org/abs/2608.14929"
+  },
+  "tldr": "Two researchers found a mark hidden in a model's weights that survives fine-tuning, shrinking, and deliberate scrambling, so you can tell from the numbers alone whether one open model was built out of another.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Thousands of open AI models sit on the internet for anyone to download, and most of them are descendants. Somebody took a released model, trained it a little further on new data, shrank it to run on cheaper hardware, blended it with a second model, and posted the result under a new name. Often the paperwork says nothing about where it came from. That matters for licenses, for security, and for anyone trying to trace a bad behavior back to its origin. So the authors asked a blunt question: with no documentation and no test prompts, can the raw numbers inside two models tell you whether they share an ancestor?"
+    },
+    {
+      "h": "What they did",
+      "body": "A modern language model is built from stacked blocks, and each block adds a small correction to a running total that flows through the network. The authors noticed that this design makes every trained model look alike in one particular way, a generic family resemblance that says nothing about parentage. So they subtract it. What remains is the leftover structure specific to that one checkpoint, a saved snapshot of a model's weights. They measure how closely two checkpoints' leftovers line up, block by block, and turn that into a single score near zero for strangers and near one for relatives."
+    },
+    {
+      "h": "What they found",
+      "body": "On their test benches, small stacked networks and a compact version of GPT-2, the score cleanly separated real descendants from unrelated models with no overlap at all. Fine-tuned copies, blended copies, pruned copies with connections cut away, and quantized copies with the numbers stored more coarsely all showed the mark. Then they tried laundering: shuffling the internal units and rescaling weights in ways that leave a model's answers untouched. Ordinary weight comparison mostly collapsed under that treatment. The new score did not move, and it ran about seventy-six times faster than the toughest competing method."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "The interesting part is what the mark tracks. Two models can behave almost identically and still score as strangers here, because the score reads the history written into the weights during training. In a case study on public checkpoints, three models documented as built from Llama 2 scored clearly above the noise, while seven models trained independently from scratch, including OpenLLaMA, Amber, Baichuan, InternLM, and Yi, landed essentially at zero. The same telltale structure showed up across six model families. Provenance for open weights has mostly relied on trust and paperwork, and this is a check that needs neither."
+    },
+    {
+      "h": "The catch",
+      "body": "It is a preprint with no peer review yet, and the controlled experiments ran on tiny models by today's standards. The method needs the actual weight files and two checkpoints shaped alike, with the same depth and width, so it says nothing about a model you can only reach through an API. Older network designs are out of scope. The signal fades under rough handling: cutting away most of a model's connections or training it heavily on new data weakens the score, though it stayed detectable. And distillation, where somebody trains a fresh model to copy another model's answers, leaves no mark at all, which is exactly the copying route a determined imitator would take."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Weights",
+      "def": "The billions of stored numbers that make up a trained model, adjusted during training and shipped as the model file."
+    },
+    {
+      "term": "Checkpoint",
+      "def": "A saved snapshot of a model's weights at one moment, the thing you actually download when you get an open model."
+    },
+    {
+      "term": "Distillation",
+      "def": "Training a brand-new model from scratch to imitate the answers of an existing one, copying its behavior while building fresh weights."
+    }
+  ],
+  "takeaways": [
+    "Training leaves a durable trace in a model's weights, and that trace survives fine-tuning, pruning, quantizing, and merging.",
+    "Behaving the same and being related are separate things: a model trained to imitate another scores as a stranger by this measure.",
+    "Anyone shipping open models can now check ancestry from the weight files alone, with no prompts, no test set, and no cooperation from the uploader."
+  ],
+  "quiz": [
+    {
+      "q": "What is the lineage score actually comparing between two models?",
+      "choices": [
+        "How similar their answers are on a shared set of test prompts",
+        "The leftover weight structure specific to each checkpoint, after removing the pattern every trained model shares",
+        "The names and dates listed in each model's documentation",
+        "How much memory each model uses when it runs"
+      ],
+      "answer": 1,
+      "why": "Every model built from stacked correction blocks picks up the same generic structure during training, so that shared piece carries no information about parentage. The authors strip it out and compare only what is left over, which is the part shaped by one particular training history."
+    },
+    {
+      "q": "Why does a distilled model score as unrelated to the model it was trained to imitate?",
+      "choices": [
+        "Distillation makes the two models behave very differently",
+        "The method refuses to score models of different sizes",
+        "A distilled model's weights are built from scratch, so they never inherit the ancestor's trace",
+        "Distilled models are always quantized, which erases the score"
+      ],
+      "answer": 2,
+      "why": "The score reads inherited weight structure, and distillation copies behavior while growing an entirely new set of weights. The paper reports that distillation raised teacher-student agreement on answers and still produced no ancestry signal, which is both the method's cleanest demonstration and its most useful blind spot to know about."
+    },
+    {
+      "q": "What happened when the researchers tried to hide a model's ancestry by shuffling its internal units and rescaling its weights without changing its outputs?",
+      "choices": [
+        "The new score stayed the same while ordinary weight comparison mostly failed",
+        "Both the new score and ordinary weight comparison failed",
+        "The model stopped working entirely",
+        "The new score flagged every unrelated model as a relative"
+      ],
+      "answer": 0,
+      "why": "Those edits reorder and rescale the numbers while leaving the model's behavior untouched, which is enough to wreck a naive side-by-side comparison of weights. The authors' score is built to ignore exactly that kind of cosmetic change, so it held steady through the laundering while the baselines lost most of their signal."
+    }
+  ]
+}

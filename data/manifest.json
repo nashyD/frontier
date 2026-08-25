@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-25-pm",
+    "date": "2026-08-25",
+    "slot": "pm",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "title": "Every AI model carries a birthmark from the model it grew out of",
+    "tldr": "Two researchers found a mark hidden in a model's weights that survives fine-tuning, shrinking, and deliberate scrambling, so you can tell from the numbers alone whether one open model was built out of another.",
+    "readMinutes": 5,
+    "citation": "Thakur, A. S. & Khoury, R. (2026), \"Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification\", arXiv:2608.14929 [cs.CL], posted 2026-08-14",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-24-pm",
     "date": "2026-08-24",
     "slot": "pm",
