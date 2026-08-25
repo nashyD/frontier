@@ -1,0 +1,8 @@
+{
+  "date": "2026-08-25",
+  "title": "Frontier — August 25, 2026",
+  "summary": "Two researchers found a mark hidden inside a model's weights that survives fine-tuning, pruning, quantizing, and deliberate scrambling, so you can tell from the numbers alone whether one open AI model was built out of another.",
+  "file": "audio/2026-08-25.mp3",
+  "durationSec": 321,
+  "bytes": 3853197
+}
