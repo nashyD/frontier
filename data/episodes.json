@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-08-26",
+    "title": "Frontier — August 26, 2026",
+    "summary": "Maya and Theo dig into a new Nature Medicine study that graded sixteen biological age tests across fifty-one human trials, and found that prescription drugs and diet-and-exercise moved the newer clocks while over-the-counter supplements barely did.",
+    "file": "audio/2026-08-26.mp3",
+    "durationSec": 336,
+    "bytes": 4037517
+  },
+  {
     "date": "2026-08-25",
     "title": "Frontier — August 25, 2026",
     "summary": "Two researchers found a mark hidden inside a model's weights that survives fine-tuning, pruning, quantizing, and deliberate scrambling, so you can tell from the numbers alone whether one open AI model was built out of another.",
