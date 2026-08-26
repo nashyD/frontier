@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-26-pm",
+    "date": "2026-08-26",
+    "slot": "pm",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "title": "Somebody finally graded the biological age tests",
+    "tldr": "A Yale team pooled 51 human trials and ran the same set of biological age tests on every one, and the tests that predict how fast you are aging moved for metformin, anti-inflammatory biologics, and serious diet-plus-exercise programs, while over-the-counter supplements barely registered.",
+    "readMinutes": 5,
+    "citation": "Sehgal, R., Borrus, D., Armstrong, J. F. et al. & Higgins-Chen, A. (2026), \"Responsiveness of epigenetic aging biomarkers to longevity interventions in humans\", Nature Medicine, doi:10.1038/s41591-026-04562-9, published online 2026-08-21",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-25-pm",
     "date": "2026-08-25",
     "slot": "pm",

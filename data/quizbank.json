@@ -3886,5 +3886,53 @@
     ],
     "answer": 0,
     "why": "Those edits reorder and rescale the numbers while leaving the model's behavior untouched, which is enough to wreck a naive side-by-side comparison of weights. The authors' score is built to ignore exactly that kind of cosmetic change, so it held steady through the laundering while the baselines lost most of their signal."
+  },
+  {
+    "qid": "2026-08-26-pm#0",
+    "lessonId": "2026-08-26-pm",
+    "lessonTitle": "Somebody finally graded the biological age tests",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "Why does it matter whether epigenetic clocks respond to interventions at all?",
+    "choices": [
+      "Because insurance companies require the tests before covering longevity drugs",
+      "Because aging outcomes take decades to observe, so researchers want a short-term measurement that stands in for them",
+      "Because the clocks are the only way to measure DNA methylation",
+      "Because a clock that never moves would mean aging cannot be slowed"
+    ],
+    "answer": 1,
+    "why": "Proving an intervention slows aging the hard way means waiting years for disease and death to show up, which makes trials enormous and slow. A biomarker that shifts within months would let researchers screen candidates first. Responsiveness is the entry requirement for that role, which is exactly what this study tested."
+  },
+  {
+    "qid": "2026-08-26-pm#1",
+    "lessonId": "2026-08-26-pm",
+    "lessonTitle": "Somebody finally graded the biological age tests",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What distinguished the clocks that responded from the ones that mostly did not?",
+    "choices": [
+      "The responsive ones were trained to predict mortality risk or pace of aging, while the quiet ones were trained to predict chronological age",
+      "The responsive ones used blood while the others used saliva",
+      "The responsive ones were newer and therefore more expensive",
+      "The responsive ones were tested only on healthy people"
+    ],
+    "answer": 0,
+    "why": "The first generation of clocks was built to guess how many birthdays you have had, and a good intervention does not change your birthday. Later clocks were trained on health outcomes like mortality risk and pace of aging, so they track something an intervention can actually shift. DunedinPACE, PCGrimAge, GrimAge version 2, PCPhenoAge, and SystemsAge were among the responsive group."
+  },
+  {
+    "qid": "2026-08-26-pm#2",
+    "lessonId": "2026-08-26-pm",
+    "lessonTitle": "Somebody finally graded the biological age tests",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "According to the authors, what would still be required before these biomarkers count as valid stand-ins for aging?",
+    "choices": [
+      "Approval from a consumer testing company",
+      "Getting all 16 clocks to agree on the same number",
+      "Linking the biomarker changes to real outcomes like disease, healthspan, or lifespan",
+      "Running every trial for at least ten years"
+    ],
+    "answer": 2,
+    "why": "Responsiveness shows a marker is sensitive to something, and it says nothing about whether that something is aging. The missing step is evidence that people whose markers improve actually go on to get sick less or live longer. Until that link exists, a lower number is a promising signal rather than a proven benefit."
   }
 ]

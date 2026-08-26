@@ -1,0 +1,91 @@
+{
+  "id": "2026-08-26-pm",
+  "date": "2026-08-26",
+  "slot": "pm",
+  "topic": "biohacking",
+  "topicLabel": "Biohacking",
+  "title": "Somebody finally graded the biological age tests",
+  "study": {
+    "citation": "Sehgal, R., Borrus, D., Armstrong, J. F. et al. & Higgins-Chen, A. (2026), \"Responsiveness of epigenetic aging biomarkers to longevity interventions in humans\", Nature Medicine, doi:10.1038/s41591-026-04562-9, published online 2026-08-21",
+    "year": 2026,
+    "link": "https://doi.org/10.1038/s41591-026-04562-9"
+  },
+  "tldr": "A Yale team pooled 51 human trials and ran the same set of biological age tests on every one, and the tests that predict how fast you are aging moved for metformin, anti-inflammatory biologics, and serious diet-plus-exercise programs, while over-the-counter supplements barely registered.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "You can mail a tube of blood to a company and get back a biological age. The number comes from an epigenetic clock, a formula that reads chemical tags on your DNA. Dozens of these clocks exist, and people are already using them to judge whether a supplement stack or a fasting protocol is working. Underneath the consumer curiosity sits a serious scientific problem: aging trials that wait for people to get sick or die take decades. If a clock reliably moved when an intervention worked, researchers could run those trials in months. Does any clock actually move?"
+    },
+    {
+      "h": "What they did",
+      "body": "The team built TranslAGE, a harmonized database of 51 longitudinal human intervention studies, some public and some obtained privately. Longitudinal means the same people were measured before and after, so each person is their own comparison. Every blood sample got run through the same panel: 16 well-known epigenetic clocks plus 94 other DNA methylation measures, roughly 110 readouts in total. Running one identical panel across every study is the point, because past results were impossible to compare when each lab used its own clock. The interventions sorted into four buckets: prescription drugs, lifestyle programs, over-the-counter supplements, and medical procedures."
+    },
+    {
+      "h": "What they found",
+      "body": "The clocks split by what they were trained to predict. Older ones built to guess your birthday, like the original Horvath and Hannum clocks, mostly sat still. Newer ones trained on mortality risk or on pace of aging, including DunedinPACE, PCGrimAge, GrimAge version 2, PCPhenoAge, and SystemsAge, responded across the board. Metformin, the cheap old diabetes drug, produced some of the largest shifts, concentrated in inflammation, brain, and metabolic subscores. Drugs that block TNF, an inflammatory signal, moved nearly every second-generation marker in people with arthritis or inflammatory bowel disease. Diet-and-exercise programs moved them more modestly. Supplements did little."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "Aging research has a measurement problem that money cannot fix: the outcome everyone cares about is decades away. A blood marker that shifts within a trial would change what is fundable and testable, which is why the field calls it a surrogate endpoint. This paper is the first systematic grading of the whole clock zoo on identical footing, and it hands trial designers a shortlist. The explainable clocks matter too, because they report subscores by body system, so a result can say which part of the body responded rather than handing back one opaque number."
+    },
+    {
+      "h": "The catch",
+      "body": "A clock that moves has cleared the lowest bar, and clearing it proves nothing about living longer. Nobody has yet shown that pushing one of these numbers down leads to less disease or more years, and the authors say so plainly. The pooled trials were mostly small and were designed for other purposes. Sicker populations showed bigger shifts, which may reflect recovery from illness rather than slowed aging. Several authors have financial stakes, including employment at a company selling these tests and patents on the clocks, all disclosed in the paper. It is also online ahead of print."
+    }
+  ],
+  "terms": [
+    {
+      "term": "DNA methylation",
+      "def": "Small chemical tags that sit on your DNA and influence which genes are switched on, in a pattern that shifts with age, illness, and habits."
+    },
+    {
+      "term": "Epigenetic clock",
+      "def": "A formula that reads those tags in a blood sample and returns an age-like number, usually built by finding which tags best predict age or death risk."
+    },
+    {
+      "term": "Surrogate endpoint",
+      "def": "A quick measurement used as a stand-in for the slow outcome you actually care about, valid only once someone proves the stand-in tracks the real thing."
+    }
+  ],
+  "takeaways": [
+    "Biological age tests are not interchangeable: the ones trained on mortality and pace of aging respond to interventions, while the original ones trained on chronological age mostly sit still.",
+    "In the pooled human data, prescription drugs and serious diet-and-exercise programs moved the needle, and over-the-counter supplements barely did.",
+    "A moving number is evidence that a test is sensitive, and it is still unproven that pushing the number down buys you healthier years."
+  ],
+  "quiz": [
+    {
+      "q": "Why does it matter whether epigenetic clocks respond to interventions at all?",
+      "choices": [
+        "Because insurance companies require the tests before covering longevity drugs",
+        "Because aging outcomes take decades to observe, so researchers want a short-term measurement that stands in for them",
+        "Because the clocks are the only way to measure DNA methylation",
+        "Because a clock that never moves would mean aging cannot be slowed"
+      ],
+      "answer": 1,
+      "why": "Proving an intervention slows aging the hard way means waiting years for disease and death to show up, which makes trials enormous and slow. A biomarker that shifts within months would let researchers screen candidates first. Responsiveness is the entry requirement for that role, which is exactly what this study tested."
+    },
+    {
+      "q": "What distinguished the clocks that responded from the ones that mostly did not?",
+      "choices": [
+        "The responsive ones were trained to predict mortality risk or pace of aging, while the quiet ones were trained to predict chronological age",
+        "The responsive ones used blood while the others used saliva",
+        "The responsive ones were newer and therefore more expensive",
+        "The responsive ones were tested only on healthy people"
+      ],
+      "answer": 0,
+      "why": "The first generation of clocks was built to guess how many birthdays you have had, and a good intervention does not change your birthday. Later clocks were trained on health outcomes like mortality risk and pace of aging, so they track something an intervention can actually shift. DunedinPACE, PCGrimAge, GrimAge version 2, PCPhenoAge, and SystemsAge were among the responsive group."
+    },
+    {
+      "q": "According to the authors, what would still be required before these biomarkers count as valid stand-ins for aging?",
+      "choices": [
+        "Approval from a consumer testing company",
+        "Getting all 16 clocks to agree on the same number",
+        "Linking the biomarker changes to real outcomes like disease, healthspan, or lifespan",
+        "Running every trial for at least ten years"
+      ],
+      "answer": 2,
+      "why": "Responsiveness shows a marker is sensitive to something, and it says nothing about whether that something is aging. The missing step is evidence that people whose markers improve actually go on to get sick less or live longer. Until that link exists, a lower number is a promising signal rather than a proven benefit."
+    }
+  ]
+}
