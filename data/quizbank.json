@@ -3934,5 +3934,53 @@
     ],
     "answer": 2,
     "why": "Responsiveness shows a marker is sensitive to something, and it says nothing about whether that something is aging. The missing step is evidence that people whose markers improve actually go on to get sick less or live longer. Until that link exists, a lower number is a promising signal rather than a proven benefit."
+  },
+  {
+    "qid": "2026-08-27-pm#0",
+    "lessonId": "2026-08-27-pm",
+    "lessonTitle": "One number inside the model decides whether it says buy or sell",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "Why did the researchers feed each model equal amounts of bullish and bearish evidence?",
+    "choices": [
+      "To make the task harder so the models would fail more often",
+      "So that any lean toward buy or sell had to come from the model itself",
+      "To match the mix of news a real investor sees in a week",
+      "Because the models refused to answer one-sided prompts"
+    ],
+    "answer": 1,
+    "why": "Balanced evidence is the whole trick. If the good news and the bad news cancel out by construction, a model with no built-in lean should land near an even split of buys and sells across hundreds of tickers. Every step away from that split is the model's own disposition showing up, which is what lets a single score measure the bias at all."
+  },
+  {
+    "qid": "2026-08-27-pm#1",
+    "lessonId": "2026-08-27-pm",
+    "lessonTitle": "One number inside the model decides whether it says buy or sell",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "What exactly did the intervention change?",
+    "choices": [
+      "The model's weights, through a short round of fine-tuning",
+      "The wording of the prompt, using a hidden system instruction",
+      "One intermediate number the model computes while reading, adjusted while it runs",
+      "The training data the model originally learned from"
+    ],
+    "answer": 2,
+    "why": "The team added a fixed amount to a single coordinate of one layer's activations at every word position, leaving the weights and the prompt untouched. That is why they call it a dial: the same model, unmodified on disk, produces a steadily more bullish or more bearish stance depending on one number set while it runs."
+  },
+  {
+    "qid": "2026-08-27-pm#2",
+    "lessonId": "2026-08-27-pm",
+    "lessonTitle": "One number inside the model decides whether it says buy or sell",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "Which limitation would stop you from using this on a commercial chatbot today?",
+    "choices": [
+      "The method only works on models smaller than one billion parameters",
+      "It requires access to the model's internal activations, which closed APIs do not expose",
+      "It degrades the model's general reasoning too much to be usable",
+      "It only works on a single company at a time"
+    ],
+    "answer": 1,
+    "why": "The intervention reaches inside the network while it is running, so you need the weights and the ability to hook into a layer. Every model tested was open-weight, and the authors say plainly the approach applies only where that access exists. The general benchmarks, for what it is worth, barely moved, so capability loss was not the blocker here."
   }
 ]

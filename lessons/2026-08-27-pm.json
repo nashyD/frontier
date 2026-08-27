@@ -1,0 +1,91 @@
+{
+  "id": "2026-08-27-pm",
+  "date": "2026-08-27",
+  "slot": "pm",
+  "topic": "finance",
+  "topicLabel": "Finance & Markets",
+  "title": "One number inside the model decides whether it says buy or sell",
+  "study": {
+    "citation": "Park, S., Park, S., Lee, H., Kwon, G., Ahn, W., Choi, J., Lopez-Lira, A., Kim, Y., Choi, C., Kong, H. & Lee, Y. (2026), \"Your AI, On a Dial: Controlling Investment Bias in LLMs with a Single Neuron\", arXiv:2608.22852 [cs.AI]",
+    "year": 2026,
+    "link": "https://arxiv.org/abs/2608.22852"
+  },
+  "tldr": "Eleven researchers found one number inside each of five open AI models that works like a dial from bearish to bullish, and turning it flipped up to a third of the model's buy-or-sell calls while the prompt, the weights, and the evidence stayed exactly the same.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Language models now read filings and news and hand back verdicts on stocks. Earlier work had already shown these models come with leanings baked in, and this team confirmed it in a blunt way: hand a model an even split of good news and bad news about a company and ask it to choose, and two of the five models tested said buy close to four times as often as they said sell. So where does that tilt actually live? The researchers wanted to know whether it is smeared across the whole network or sitting in a spot you could reach and turn."
+    },
+    {
+      "h": "What they did",
+      "body": "They built 427 stock tickers into a test. For each one, the model got equal amounts of matched bullish and bearish evidence in scrambled order and had to answer buy or sell. Balanced evidence means a fair coin should land near an even split, so any lean is the model's own. Then they went inside. A model computes millions of intermediate numbers while reading, and the team added a fixed amount to exactly one of them at every word. They screened those numbers for which ones the buy-sell decision was most sensitive to, tuned the promising ones on half the tickers, and kept whichever held up on the other half."
+    },
+    {
+      "h": "What they found",
+      "body": "In all five models tested, that single number behaved like a volume knob: turn it up and the model got steadily more bullish, turn it down and it got steadily more bearish. Dialing the two most lopsided models to an even split changed about thirty percent of their verdicts. The written reasoning moved with the verdict, so the same evidence came back emphasizing downside risk. In an agent setup, the dial changed which searches the model ran and which evidence it quoted. Across seven general and finance benchmarks, scores barely moved."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "Two things here matter for anyone building on top of these models. The first is that a stance this consequential turned out to be reachable at one coordinate, which is a striking claim about how these systems store their dispositions. The second is a control result: when the team stretched the input to a very long document, a system prompt telling the model to stay neutral faded as the context grew, while the internal setting held steady. And the flip side is a warning. Whoever runs the model can set its lean quietly, and the prose explanation will follow along sounding like ordinary analysis."
+    },
+    {
+      "h": "The catch",
+      "body": "This is a preprint posted August 24, 2026, under review and not yet refereed. The technique needs access to a model's internals, so it works on open-weight models and stays out of reach for anything behind a closed API. The setting is specific: each model needs its own calibration, and the numbers were tuned for binary buy-or-sell calls under balanced evidence, so other tasks would need redoing. Neutral here means an equal count of buys and sells, which is a bookkeeping definition rather than good judgment. The portfolio test is explicitly illustrative, over a limited window, with no trading costs and no claim of profit."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Neuron",
+      "def": "One of the many individual numbers a model computes on the fly while reading a piece of text, each one nudging what it says next."
+    },
+    {
+      "term": "Inference time",
+      "def": "The moment a model is actually answering you, long after its training finished and its weights were frozen."
+    },
+    {
+      "term": "Investment-bias score",
+      "def": "A single figure running from minus one to plus one: minus one means the model always says sell, plus one means it always says buy, zero means it splits evenly when the evidence is balanced."
+    }
+  ],
+  "takeaways": [
+    "Handed evenly balanced good and bad news, two of the five models said buy roughly four times for every one sell. A model's default stance is a real ingredient in whatever it tells you.",
+    "The written rationale followed the dial. Confident, well-argued prose can be downstream of a verdict that was already tilted before the reasoning started.",
+    "A system prompt asking for neutrality weakened as the document got longer, while the internal setting stayed put. Instructions buried in a long context are a weaker lever than they feel like."
+  ],
+  "quiz": [
+    {
+      "q": "Why did the researchers feed each model equal amounts of bullish and bearish evidence?",
+      "choices": [
+        "To make the task harder so the models would fail more often",
+        "So that any lean toward buy or sell had to come from the model itself",
+        "To match the mix of news a real investor sees in a week",
+        "Because the models refused to answer one-sided prompts"
+      ],
+      "answer": 1,
+      "why": "Balanced evidence is the whole trick. If the good news and the bad news cancel out by construction, a model with no built-in lean should land near an even split of buys and sells across hundreds of tickers. Every step away from that split is the model's own disposition showing up, which is what lets a single score measure the bias at all."
+    },
+    {
+      "q": "What exactly did the intervention change?",
+      "choices": [
+        "The model's weights, through a short round of fine-tuning",
+        "The wording of the prompt, using a hidden system instruction",
+        "One intermediate number the model computes while reading, adjusted while it runs",
+        "The training data the model originally learned from"
+      ],
+      "answer": 2,
+      "why": "The team added a fixed amount to a single coordinate of one layer's activations at every word position, leaving the weights and the prompt untouched. That is why they call it a dial: the same model, unmodified on disk, produces a steadily more bullish or more bearish stance depending on one number set while it runs."
+    },
+    {
+      "q": "Which limitation would stop you from using this on a commercial chatbot today?",
+      "choices": [
+        "The method only works on models smaller than one billion parameters",
+        "It requires access to the model's internal activations, which closed APIs do not expose",
+        "It degrades the model's general reasoning too much to be usable",
+        "It only works on a single company at a time"
+      ],
+      "answer": 1,
+      "why": "The intervention reaches inside the network while it is running, so you need the weights and the ability to hook into a layer. Every model tested was open-weight, and the authors say plainly the approach applies only where that access exists. The general benchmarks, for what it is worth, barely moved, so capability loss was not the blocker here."
+    }
+  ]
+}

@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-27-pm",
+    "date": "2026-08-27",
+    "slot": "pm",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "title": "One number inside the model decides whether it says buy or sell",
+    "tldr": "Eleven researchers found one number inside each of five open AI models that works like a dial from bearish to bullish, and turning it flipped up to a third of the model's buy-or-sell calls while the prompt, the weights, and the evidence stayed exactly the same.",
+    "readMinutes": 5,
+    "citation": "Park, S., Park, S., Lee, H., Kwon, G., Ahn, W., Choi, J., Lopez-Lira, A., Kim, Y., Choi, C., Kong, H. & Lee, Y. (2026), \"Your AI, On a Dial: Controlling Investment Bias in LLMs with a Single Neuron\", arXiv:2608.22852 [cs.AI]",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-26-pm",
     "date": "2026-08-26",
     "slot": "pm",
