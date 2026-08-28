@@ -3982,5 +3982,53 @@
     ],
     "answer": 1,
     "why": "The intervention reaches inside the network while it is running, so you need the weights and the ability to hook into a layer. Every model tested was open-weight, and the authors say plainly the approach applies only where that access exists. The general benchmarks, for what it is worth, barely moved, so capability loss was not the blocker here."
+  },
+  {
+    "qid": "2026-08-28-pm#0",
+    "lessonId": "2026-08-28-pm",
+    "lessonTitle": "They gave people a big dose of THC in a psychedelic clinic and some of them thought it was mushrooms",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Why did the researchers stage the THC sessions with the same preparation and surroundings as a psilocybin trial?",
+    "choices": [
+      "To make the THC absorb faster",
+      "Because set and setting shape a drug experience, so holding them constant lets the drug itself be the thing that varies",
+      "Because regulators require identical rooms for all drug studies",
+      "To keep the participants from getting bored"
+    ],
+    "answer": 1,
+    "why": "If you compare a THC session in a plain exam room against a psilocybin session with music, a guide and hours of preparation, you learn nothing about the drugs. You learn about the rooms. Running both inside the same staging is what makes the comparison mean something, and it is also why the finding cuts two ways: the experience may reflect the molecule, the elaborate context, or both working together."
+  },
+  {
+    "qid": "2026-08-28-pm#1",
+    "lessonId": "2026-08-28-pm",
+    "lessonTitle": "They gave people a big dose of THC in a psychedelic clinic and some of them thought it was mushrooms",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "The team gave THC as both synthetic dronabinol and a whole-plant cannabis extract. What does it establish that both produced a similar experience?",
+    "choices": [
+      "That the effect does not depend on some other compound found only in whole cannabis",
+      "That whole-plant cannabis is safer than synthetic THC",
+      "That psilocybin and THC are chemically related",
+      "That the participants were faking their reports"
+    ],
+    "answer": 0,
+    "why": "Cannabis contains hundreds of compounds beyond THC, and a reasonable objection would be that one of those, rather than THC itself, drives a psychedelic-feeling experience. Dronabinol is THC alone with nothing else along for the ride. Getting a similar result from both forms points the finger at the THC molecule, which is a small but real piece of causal reasoning built into the design."
+  },
+  {
+    "qid": "2026-08-28-pm#2",
+    "lessonId": "2026-08-28-pm",
+    "lessonTitle": "They gave people a big dose of THC in a psychedelic clinic and some of them thought it was mushrooms",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "What is the strongest reason to hold this result loosely?",
+    "choices": [
+      "The study used a placebo, which makes results unreliable",
+      "The participants knew which drug they were taking",
+      "Only four people took part, and just two of them received the highest dose",
+      "The findings were never registered as a clinical trial"
+    ],
+    "answer": 2,
+    "why": "The design is sound, blinded and registered. The limit is arithmetic. With four participants there is no way to estimate how often this happens, who it happens to, or whether tolerance changes it, and a single unusual person moves the whole picture. The authors say as much and label the work preliminary. A small, careful study that reports an interesting effect honestly is exactly the kind of result that should send somebody off to run a larger one."
   }
 ]

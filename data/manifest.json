@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-28-pm",
+    "date": "2026-08-28",
+    "slot": "pm",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "title": "They gave people a big dose of THC in a psychedelic clinic and some of them thought it was mushrooms",
+    "tldr": "Johns Hopkins researchers ran four people through psilocybin, THC and placebo sessions staged exactly like a psychedelic trial, and a large oral dose of THC produced an experience the participants could not reliably tell apart from mushrooms.",
+    "readMinutes": 4,
+    "citation": "Barrett, F. S., Wolinsky, D., Daily, Z., Ciancio, J., Arthur, K. & Vandrey, R. (2026), \"Pilot study comparing the effects of high dose THC to high dose psilocybin and placebo in the set and setting of a classic psychedelic therapy session\", Psychopharmacology, published online 27 August 2026",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-27-pm",
     "date": "2026-08-27",
     "slot": "pm",

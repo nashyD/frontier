@@ -1,0 +1,91 @@
+{
+  "id": "2026-08-28-pm",
+  "date": "2026-08-28",
+  "slot": "pm",
+  "topic": "cannabis",
+  "topicLabel": "Cannabis Science",
+  "title": "They gave people a big dose of THC in a psychedelic clinic and some of them thought it was mushrooms",
+  "study": {
+    "citation": "Barrett, F. S., Wolinsky, D., Daily, Z., Ciancio, J., Arthur, K. & Vandrey, R. (2026), \"Pilot study comparing the effects of high dose THC to high dose psilocybin and placebo in the set and setting of a classic psychedelic therapy session\", Psychopharmacology, published online 27 August 2026",
+    "year": 2026,
+    "link": "https://doi.org/10.1007/s00213-026-07138-0"
+  },
+  "tldr": "Johns Hopkins researchers ran four people through psilocybin, THC and placebo sessions staged exactly like a psychedelic trial, and a large oral dose of THC produced an experience the participants could not reliably tell apart from mushrooms.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "People who swallow a large amount of cannabis sometimes describe something that sounds less like being stoned and more like a full psychedelic trip. Those stories have circulated for years with almost no controlled work behind them. Nobody could say what dose it takes, or what the experience actually resembles from the inside. A team at the Johns Hopkins Center for Psychedelic and Consciousness Research decided to test it directly, and they narrowed it to one blunt question: if you give somebody a big oral dose of THC inside the full staging of a psilocybin study, what does that person think they just took?"
+    },
+    {
+      "h": "What they did",
+      "body": "Four healthy adults, ages 31 to 47, came to the lab for several sessions each. On each visit they swallowed one of three things: a placebo, 25 milligrams of psilocybin, which is the active compound in psychedelic mushrooms, or 25 milligrams of delta-9-THC, the compound in cannabis that produces the high. Two of the four also sat through a 50 milligram THC session. The THC came in two forms across sessions, synthetic dronabinol and a whole-plant cannabis extract that was about 90 percent THC. Neither the participant nor the staff knew which was in the capsule. Every session ran with the preparation, expectation and setting of a standard psychedelic trial. Afterward the researchers asked each person which drug they believed they had received."
+    },
+    {
+      "h": "What they found",
+      "body": "At 25 milligrams, both forms of THC produced a subjective experience the team described as similar to 25 milligrams of psilocybin. The guessing part is what makes it land. Synthetic dronabinol was mistaken for a classic hallucinogen by two different participants, one who had used psychedelics before and one who never had. Heart and blood pressure measures and general safety were tracked through each session. This is a brief report on a pilot, so the result is qualitative rather than a tidy score: under this staging, a large oral dose of THC was genuinely hard to tell apart from a psychedelic."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "THC and psilocybin work through different machinery in the brain. THC acts on cannabinoid receptors, while psilocybin converts into a compound that acts on a serotonin receptor. Two different locks, and yet an experience people struggled to distinguish. That says something uncomfortable and useful about psychedelic research, which leans hard on blinding participants to what they took while everyone in the room expects something enormous to happen. It also has an everyday edge. A 25 milligram oral dose is no laboratory curiosity, and people encounter doses in that neighborhood in edible cannabis products."
+    },
+    {
+      "h": "The catch",
+      "body": "Four people. Two of them for the 50 milligram arm. That is small enough that it cannot tell you how common this effect is, whether it depends on how much cannabis somebody already uses, or how a daily user would react. A fifth participant might have called it obviously cannabis and nobody would know. The authors say plainly that sample size limits the findings and call the data preliminary. It is a brief report on a pilot study, registered as NCT06772753 and posted online on 27 August 2026. Read it as a well-run hint that earns a bigger trial."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Set and setting",
+      "def": "The mindset a person brings to a drug and the physical and social surroundings they take it in, both of which can shape the experience as much as the chemical does."
+    },
+    {
+      "term": "Within-subject crossover",
+      "def": "A study design where every participant takes every condition on separate visits, so each person acts as their own comparison instead of being matched against a different group."
+    },
+    {
+      "term": "Dronabinol",
+      "def": "Pharmaceutical-grade synthetic delta-9-THC, the same molecule cannabis produces, made in a lab so the dose is exact and nothing else from the plant rides along."
+    }
+  ],
+  "takeaways": [
+    "A 25 milligram oral dose of THC produced an experience these participants likened to the same dose of psilocybin, and two of them guessed they had taken a classic hallucinogen.",
+    "It happened with both pure synthetic THC and a whole-plant extract, which points at the molecule rather than at some other ingredient in cannabis.",
+    "With four participants, this is a signal worth chasing rather than a settled fact, and it is a reminder that the room and the expectation are part of the dose."
+  ],
+  "quiz": [
+    {
+      "q": "Why did the researchers stage the THC sessions with the same preparation and surroundings as a psilocybin trial?",
+      "choices": [
+        "To make the THC absorb faster",
+        "Because set and setting shape a drug experience, so holding them constant lets the drug itself be the thing that varies",
+        "Because regulators require identical rooms for all drug studies",
+        "To keep the participants from getting bored"
+      ],
+      "answer": 1,
+      "why": "If you compare a THC session in a plain exam room against a psilocybin session with music, a guide and hours of preparation, you learn nothing about the drugs. You learn about the rooms. Running both inside the same staging is what makes the comparison mean something, and it is also why the finding cuts two ways: the experience may reflect the molecule, the elaborate context, or both working together."
+    },
+    {
+      "q": "The team gave THC as both synthetic dronabinol and a whole-plant cannabis extract. What does it establish that both produced a similar experience?",
+      "choices": [
+        "That the effect does not depend on some other compound found only in whole cannabis",
+        "That whole-plant cannabis is safer than synthetic THC",
+        "That psilocybin and THC are chemically related",
+        "That the participants were faking their reports"
+      ],
+      "answer": 0,
+      "why": "Cannabis contains hundreds of compounds beyond THC, and a reasonable objection would be that one of those, rather than THC itself, drives a psychedelic-feeling experience. Dronabinol is THC alone with nothing else along for the ride. Getting a similar result from both forms points the finger at the THC molecule, which is a small but real piece of causal reasoning built into the design."
+    },
+    {
+      "q": "What is the strongest reason to hold this result loosely?",
+      "choices": [
+        "The study used a placebo, which makes results unreliable",
+        "The participants knew which drug they were taking",
+        "Only four people took part, and just two of them received the highest dose",
+        "The findings were never registered as a clinical trial"
+      ],
+      "answer": 2,
+      "why": "The design is sound, blinded and registered. The limit is arithmetic. With four participants there is no way to estimate how often this happens, who it happens to, or whether tolerance changes it, and a single unusual person moves the whole picture. The authors say as much and label the work preliminary. A small, careful study that reports an interesting effect honestly is exactly the kind of result that should send somebody off to run a larger one."
+    }
+  ]
+}
