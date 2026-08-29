@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-29-pm",
+    "date": "2026-08-29",
+    "slot": "pm",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "title": "Most people teach on autopilot, and one small question snaps them out of it",
+    "tldr": "Given the chance to give one piece of advice, a lot of people hand out generic tips instead of figuring out what the learner is actually missing, and asking them to guess the gaps first fixes it.",
+    "readMinutes": 5,
+    "citation": "Harootonian, S. K., Griffiths, T. L., Niv, Y. & Ho, M. K. (2026), \"Mentalizing and heuristics as distinct cognitive strategies in human teaching\", Nature Human Behaviour, published online 26 August 2026",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-28-pm",
     "date": "2026-08-28",
     "slot": "pm",

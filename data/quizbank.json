@@ -4030,5 +4030,53 @@
     ],
     "answer": 2,
     "why": "The design is sound, blinded and registered. The limit is arithmetic. With four participants there is no way to estimate how often this happens, who it happens to, or whether tolerance changes it, and a single unusual person moves the whole picture. The authors say as much and label the work preliminary. A small, careful study that reports an interesting effect honestly is exactly the kind of result that should send somebody off to run a larger one."
+  },
+  {
+    "qid": "2026-08-29-pm#0",
+    "lessonId": "2026-08-29-pm",
+    "lessonTitle": "Most people teach on autopilot, and one small question snaps them out of it",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What was the shortcut that low-scoring participants relied on?",
+    "choices": [
+      "Always revealing the arrow closest to the learner's starting point",
+      "Pointing at an arrow near the highest-value dots, regardless of what the learner already knew",
+      "Copying whatever arrow the learner had already walked",
+      "Revealing the arrow that took the longest route"
+    ],
+    "answer": 1,
+    "why": "The shortcut keys off the reward numbers printed on the board, which are right there in front of you, and it completely ignores the one thing that makes teaching useful: the gap between what you know and what the learner knows. Big numbers are easy to spot. Working out which arrow is missing from somebody else's map takes real effort, and that effort is exactly what the shortcut skips."
+  },
+  {
+    "qid": "2026-08-29-pm#1",
+    "lessonId": "2026-08-29-pm",
+    "lessonTitle": "Most people teach on autopilot, and one small question snaps them out of it",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What happened to people whose practice rounds were rigged so the shortcut always gave the right answer?",
+    "choices": [
+      "They noticed the trick and switched strategies once the rounds changed",
+      "They scored the same as everyone else on the later rounds",
+      "They kept using the shortcut on later rounds where it was wrong, and scored worse than the other group",
+      "They stopped teaching altogether"
+    ],
+    "answer": 2,
+    "why": "This is the sharpest result in the paper. An environment that rewards a lazy rule quietly trains you into it, and since nobody in the study ever got feedback, there was no moment where the rule announced that it had stopped working. The other group, whose practice punished the shortcut, arrived at the same later rounds teaching better."
+  },
+  {
+    "qid": "2026-08-29-pm#2",
+    "lessonId": "2026-08-29-pm",
+    "lessonTitle": "Most people teach on autopilot, and one small question snaps them out of it",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "Which intervention improved teaching after the prompting stopped?",
+    "choices": [
+      "Marking three arrows the learner probably did not know about",
+      "Marking three arrows connected to the highest-value dots",
+      "Being told their score after every round",
+      "Being given more time per round"
+    ],
+    "answer": 0,
+    "why": "Asking people to guess the learner's blind spots forces the mental-state step they would otherwise skip, and the habit survived into rounds where nobody asked. The other prompt in the experiment, marking arrows near the biggest numbers, did the opposite and drove participants further into the shortcut. The direction of a nudge matters as much as its presence."
   }
 ]

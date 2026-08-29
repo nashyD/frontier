@@ -1,0 +1,91 @@
+{
+  "id": "2026-08-29-pm",
+  "date": "2026-08-29",
+  "slot": "pm",
+  "topic": "learning",
+  "topicLabel": "Learning & Cognition",
+  "title": "Most people teach on autopilot, and one small question snaps them out of it",
+  "study": {
+    "citation": "Harootonian, S. K., Griffiths, T. L., Niv, Y. & Ho, M. K. (2026), \"Mentalizing and heuristics as distinct cognitive strategies in human teaching\", Nature Human Behaviour, published online 26 August 2026",
+    "year": 2026,
+    "link": "https://doi.org/10.1038/s41562-026-02540-2"
+  },
+  "tldr": "Given the chance to give one piece of advice, a lot of people hand out generic tips instead of figuring out what the learner is actually missing, and asking them to guess the gaps first fixes it.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Picture a basketball coach watching a new player miss shot after shot. She could study how the player is holding the ball, work out what they misunderstand, and correct that one thing. Or she could say what she says to everybody: get closer to the basket. The first kind of advice is better and it is also expensive, because it means building a picture of somebody else's mind before you open your mouth. A team at Princeton and NYU wanted to know when people pay that price and when they take the cheap route."
+    },
+    {
+      "h": "What they did",
+      "body": "They built a puzzle called the Graph Teaching Task. You see a web of dots connected by arrows, each dot worth some points, and a learner has already walked from the top dot to the bottom collecting points along the way. You are told the learner only knows some of the arrows and took the best route they knew about. You can see every arrow. Your job is to reveal exactly one arrow that would help them the most if they walked again. You never find out whether it worked. Three groups of adults recruited online played this: 100 people, then 253, then 759."
+    },
+    {
+      "h": "What they found",
+      "body": "Scores split into two humps. One cluster of people taught close to the best possible arrow. The other cluster hovered near a much lower score, and their choices matched a shortcut: point at an arrow near the biggest pile of points, whether or not the learner already knew it. Then the researchers rigged the practice rounds. For half the participants the shortcut happened to give the right answer every time during practice. Those people kept using it on the later rounds where it was wrong, and scored worse than the group whose practice had punished it."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "The fix was almost embarrassingly small. In a third experiment, before each practice round some participants were asked to mark three arrows they thought the learner did not know about. No feedback, no scoring, just the question. That habit carried into the later rounds where nobody prompted them anymore, and they taught better regardless of how their practice had been rigged. The mirror-image nudge, asking people to mark three arrows near the highest-value dots, pushed them deeper into the shortcut and made them worse. Reading a learner's mind looks less like a talent and more like a step people skip when nothing makes them take it."
+    },
+    {
+      "h": "The catch",
+      "body": "Nobody in this study ever learned whether their advice helped, and the authors flag that as a real gap, since actual teaching comes with a student's face in front of you. A web of dots and arrows is a long way from a classroom or a one-on-one tutoring session. The strategies were inferred by fitting competing models to each person's choices rather than observed directly, and the authors note that people may have been blending both approaches in ways the models score crudely. Whether one round of prompting changes how anybody teaches a week later is untested."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Mentalizing",
+      "def": "Working out what is going on in somebody else's head, including what they know and what they are missing, and then acting on that picture."
+    },
+    {
+      "term": "Heuristic",
+      "def": "A rule of thumb that gets you a decent answer fast without much thinking, like teaching whatever tip usually helps most people."
+    },
+    {
+      "term": "Scaffolding",
+      "def": "A temporary prop that makes a hard mental step easier, with the idea that the habit sticks after the prop is removed."
+    }
+  ],
+  "takeaways": [
+    "Tailored advice beats generic advice, and the reason people give generic advice anyway is that modeling somebody else's mind takes effort they would rather not spend.",
+    "A shortcut that worked during practice keeps getting used after it stops working, because nothing about it feels wrong from the inside.",
+    "Before you explain something, ask yourself what the other person is missing. The question alone shifted how these participants taught, even after the prompting stopped."
+  ],
+  "quiz": [
+    {
+      "q": "What was the shortcut that low-scoring participants relied on?",
+      "choices": [
+        "Always revealing the arrow closest to the learner's starting point",
+        "Pointing at an arrow near the highest-value dots, regardless of what the learner already knew",
+        "Copying whatever arrow the learner had already walked",
+        "Revealing the arrow that took the longest route"
+      ],
+      "answer": 1,
+      "why": "The shortcut keys off the reward numbers printed on the board, which are right there in front of you, and it completely ignores the one thing that makes teaching useful: the gap between what you know and what the learner knows. Big numbers are easy to spot. Working out which arrow is missing from somebody else's map takes real effort, and that effort is exactly what the shortcut skips."
+    },
+    {
+      "q": "What happened to people whose practice rounds were rigged so the shortcut always gave the right answer?",
+      "choices": [
+        "They noticed the trick and switched strategies once the rounds changed",
+        "They scored the same as everyone else on the later rounds",
+        "They kept using the shortcut on later rounds where it was wrong, and scored worse than the other group",
+        "They stopped teaching altogether"
+      ],
+      "answer": 2,
+      "why": "This is the sharpest result in the paper. An environment that rewards a lazy rule quietly trains you into it, and since nobody in the study ever got feedback, there was no moment where the rule announced that it had stopped working. The other group, whose practice punished the shortcut, arrived at the same later rounds teaching better."
+    },
+    {
+      "q": "Which intervention improved teaching after the prompting stopped?",
+      "choices": [
+        "Marking three arrows the learner probably did not know about",
+        "Marking three arrows connected to the highest-value dots",
+        "Being told their score after every round",
+        "Being given more time per round"
+      ],
+      "answer": 0,
+      "why": "Asking people to guess the learner's blind spots forces the mental-state step they would otherwise skip, and the habit survived into rounds where nobody asked. The other prompt in the experiment, marking arrows near the biggest numbers, did the opposite and drove participants further into the shortcut. The direction of a nudge matters as much as its presence."
+    }
+  ]
+}
