@@ -4078,5 +4078,53 @@
     ],
     "answer": 0,
     "why": "Asking people to guess the learner's blind spots forces the mental-state step they would otherwise skip, and the habit survived into rounds where nobody asked. The other prompt in the experiment, marking arrows near the biggest numbers, did the opposite and drove participants further into the shortcut. The direction of a nudge matters as much as its presence."
+  },
+  {
+    "qid": "2026-08-30-pm#0",
+    "lessonId": "2026-08-30-pm",
+    "lessonTitle": "The mouthless worm that digests bacterial plastic",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "What did the worm's enzyme do to the microbial storage polymer?",
+    "choices": [
+      "Made the worm grow larger granules of it",
+      "Cut it into single units that feed into ordinary metabolism",
+      "Converted it into a harder, more durable plastic",
+      "Blocked bacteria from producing any more of it"
+    ],
+    "answer": 1,
+    "why": "Lab assays plus mass spectrometry showed the enzyme breaking the polymer into individual hydroxyalkanoate molecules, which then enter metabolic pathways animals already run. That is what makes the stored carbon usable food rather than inert filler."
+  },
+  {
+    "qid": "2026-08-30-pm#1",
+    "lessonId": "2026-08-30-pm",
+    "lessonTitle": "The mouthless worm that digests bacterial plastic",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "Why does finding the enzyme in nine animal phyla plus protists matter so much?",
+    "choices": [
+      "It proves the enzyme evolved separately in each group",
+      "It shows the enzyme only works in marine environments",
+      "It suggests the ability is very old, tracing back to the common ancestor of animals",
+      "It means bacteria borrowed the gene from animals"
+    ],
+    "answer": 2,
+    "why": "An enzyme scattered across such distant branches of the tree of life is more easily explained by deep shared inheritance than by dozens of independent inventions. That is why the authors propose the last common ancestor of animals already had it."
+  },
+  {
+    "qid": "2026-08-30-pm#2",
+    "lessonId": "2026-08-30-pm",
+    "lessonTitle": "The mouthless worm that digests bacterial plastic",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "What is the honest limitation of the sweep across 66-plus species?",
+    "choices": [
+      "The species were identified by gene sequence, with function tested only on a few",
+      "The genomes used were all from extinct animals",
+      "The study never identified any enzyme at all",
+      "Every species was tested live and none of them worked"
+    ],
+    "answer": 0,
+    "why": "A genome match tells you an animal carries a gene shaped like the enzyme. Confirming it works took separate lab tests, done on a small selection including a sponge, an earthworm and a springtail. Whether the rest use it in daily life is still unknown."
   }
 ]

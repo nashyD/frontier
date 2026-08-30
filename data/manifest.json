@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-08-30-pm",
+    "date": "2026-08-30",
+    "slot": "pm",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "title": "The mouthless worm that digests bacterial plastic",
+    "tldr": "A gutless marine worm makes an enzyme that breaks down the plastic-like carbon pantry bacteria store inside themselves, and the same enzyme turns out to be scattered across the animal kingdom.",
+    "readMinutes": 5,
+    "citation": "Zeidler, C., Gruber-Vodicka, H. R., Michellod, D. et al., Dubilier, N. & Sogin, M. (2026), \"Animal degradation of microbial storage polyhydroxyalkanoates\", Nature Ecology & Evolution",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-29-pm",
     "date": "2026-08-29",
     "slot": "pm",

@@ -1,0 +1,91 @@
+{
+  "id": "2026-08-30-pm",
+  "date": "2026-08-30",
+  "slot": "pm",
+  "topic": "frontier",
+  "topicLabel": "Frontier Science",
+  "title": "The mouthless worm that digests bacterial plastic",
+  "study": {
+    "citation": "Zeidler, C., Gruber-Vodicka, H. R., Michellod, D. et al., Dubilier, N. & Sogin, M. (2026), \"Animal degradation of microbial storage polyhydroxyalkanoates\", Nature Ecology & Evolution",
+    "year": 2026,
+    "link": "https://doi.org/10.1038/s41559-026-03153-8"
+  },
+  "tldr": "A gutless marine worm makes an enzyme that breaks down the plastic-like carbon pantry bacteria store inside themselves, and the same enzyme turns out to be scattered across the animal kingdom.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Huge numbers of microbes keep a pantry inside themselves. When food is plentiful they spin spare carbon into granules of a plastic-like polymer called polyhydroxyalkanoate, or PHA, and live off it when times get lean. Industry uses the very same polymers to make biodegradable plastic. For decades the textbook said only bacteria and fungi carry the enzyme that cuts those granules back apart, which meant an enormous store of carbon sitting in sediments, soils and guts was closed to animals. Nobody had gone looking in animal genomes to check whether that was really true."
+    },
+    {
+      "h": "What they did",
+      "body": "The team started with Olavius algarvensis, a thread-thin worm from Mediterranean seafloor sand that has no mouth and no gut at all. It farms bacteria under its skin and digests them for a living, and one of its dominant bacterial partners stashes up to 42 percent of its cellular carbon as these storage granules. The researchers found a candidate gene in the worm, built the enzyme it codes for in the lab, fed it the polymer, and used mass spectrometry to identify the fragments that came out. They also stained the worm to see where the gene was switched on, then swept animal genomes for matches."
+    },
+    {
+      "h": "What they found",
+      "body": "The worm's enzyme chopped the polymer into single hydroxyalkanoate units, small molecules that slot straight into ordinary metabolism. The gene was active in the worm's outer skin layer, exactly where it digests its bacterial partners. The genome sweep then turned up related enzymes in more than 66 gut-bearing animal species across nine phyla, plus 19 single-celled protists from three major groups. Enzymes taken from distant branches of the tree, including a sponge, an earthworm and a springtail, worked on the polymer in lab tests too."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "This opens a route for carbon that was assumed shut. Microbial storage polymer is everywhere microbes are, and if animals can crack it open themselves, some of the carbon we thought only bacteria could recycle moves directly into animal food webs. The spread across nine phyla and into protists points to something ancient, which is why the authors suggest the last common ancestor of all animals already carried this enzyme. There is a practical thread as well: since commercial PHA bioplastics are built from the same polymers, animals may be quietly part of what breaks that material down."
+    },
+    {
+      "h": "The catch",
+      "body": "Most of those 66-plus species were flagged by sequence, meaning their genomes carry a gene shaped like a known enzyme. That is a strong lead and it falls short of proof that a living animal uses it that way. Function was confirmed on a handful of enzymes in a dish rather than in animals feeding on polymer. How common the process is in the wild and how much carbon it actually moves both remain open, and the researchers say so plainly. The bioplastic angle is a reasonable extension of the finding rather than something this study measured."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Polyhydroxyalkanoate (PHA)",
+      "def": "A plastic-like polymer that many microbes build inside their own cells as a carbon-and-energy pantry; industry makes biodegradable plastic from the same stuff."
+    },
+    {
+      "term": "Depolymerase",
+      "def": "An enzyme that cuts a long chain molecule back down into the single repeating units it was built from."
+    },
+    {
+      "term": "Symbiont",
+      "def": "An organism living in permanent partnership with another; here, the bacteria farmed under the worm's skin that it also eats."
+    }
+  ],
+  "takeaways": [
+    "A carbon reserve the textbooks called off-limits to animals turns out to be on the menu.",
+    "The same enzyme showed up in sponges, earthworms, springtails and dozens more, hinting animals have carried it since their common origin.",
+    "Finding the gene is the easy half; showing that wild animals actually use it is the work still ahead."
+  ],
+  "quiz": [
+    {
+      "q": "What did the worm's enzyme do to the microbial storage polymer?",
+      "choices": [
+        "Made the worm grow larger granules of it",
+        "Cut it into single units that feed into ordinary metabolism",
+        "Converted it into a harder, more durable plastic",
+        "Blocked bacteria from producing any more of it"
+      ],
+      "answer": 1,
+      "why": "Lab assays plus mass spectrometry showed the enzyme breaking the polymer into individual hydroxyalkanoate molecules, which then enter metabolic pathways animals already run. That is what makes the stored carbon usable food rather than inert filler."
+    },
+    {
+      "q": "Why does finding the enzyme in nine animal phyla plus protists matter so much?",
+      "choices": [
+        "It proves the enzyme evolved separately in each group",
+        "It shows the enzyme only works in marine environments",
+        "It suggests the ability is very old, tracing back to the common ancestor of animals",
+        "It means bacteria borrowed the gene from animals"
+      ],
+      "answer": 2,
+      "why": "An enzyme scattered across such distant branches of the tree of life is more easily explained by deep shared inheritance than by dozens of independent inventions. That is why the authors propose the last common ancestor of animals already had it."
+    },
+    {
+      "q": "What is the honest limitation of the sweep across 66-plus species?",
+      "choices": [
+        "The species were identified by gene sequence, with function tested only on a few",
+        "The genomes used were all from extinct animals",
+        "The study never identified any enzyme at all",
+        "Every species was tested live and none of them worked"
+      ],
+      "answer": 0,
+      "why": "A genome match tells you an animal carries a gene shaped like the enzyme. Confirming it works took separate lab tests, done on a small selection including a sponge, an earthworm and a springtail. Whether the rest use it in daily life is still unknown."
+    }
+  ]
+}
