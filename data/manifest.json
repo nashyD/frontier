@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-09-01-pm",
+    "date": "2026-09-01",
+    "slot": "pm",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "title": "The AI knows which instruction should win, then follows the other one",
+    "tldr": "When an app's hidden rules clash with what a user types, some models side with the user almost every time, and a look inside shows the machinery had already worked out that a fight was happening.",
+    "readMinutes": 5,
+    "citation": "Balp-Straffon, E., Hsu, C.-H., Gadhvi, R., Dev, S., McDougall, C. S. & Mujumdar, A. (2026), \"How Language Models Choose Sides: Internal Representations of Instruction Hierarchy\", arXiv:2608.28648 [cs.AI], ICML 2026 Mechanistic Interpretability workshop, posted 2026-08-16",
+    "quizCount": 3
+  },
+  {
     "id": "2026-08-30-pm",
     "date": "2026-08-30",
     "slot": "pm",

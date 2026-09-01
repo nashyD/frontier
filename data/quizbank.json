@@ -4126,5 +4126,53 @@
     ],
     "answer": 0,
     "why": "A genome match tells you an animal carries a gene shaped like the enzyme. Confirming it works took separate lab tests, done on a small selection including a sponge, an earthworm and a springtail. Whether the rest use it in daily life is still unknown."
+  },
+  {
+    "qid": "2026-09-01-pm#0",
+    "lessonId": "2026-09-01-pm",
+    "lessonTitle": "The AI knows which instruction should win, then follows the other one",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What exactly did the researchers put into conflict?",
+    "choices": [
+      "Two different AI models answering the same question",
+      "An instruction in the hidden system channel against the opposite instruction typed by the user",
+      "A model's answer against a human expert's answer",
+      "Two instructions given to the model at different points during its training"
+    ],
+    "answer": 1,
+    "why": "The setup mirrors the everyday situation inside any AI product: the builder's hidden rules on one side, the user's typed request on the other. Making the two flatly incompatible, and checking the outcome with an automatic verifier, turns a vague worry about instruction hierarchy into something you can measure."
+  },
+  {
+    "qid": "2026-09-01-pm#1",
+    "lessonId": "2026-09-01-pm",
+    "lessonTitle": "The AI knows which instruction should win, then follows the other one",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "Llama-3.1-8B followed the user's side in about nine out of ten conflicts. What did looking inside the model reveal?",
+    "choices": [
+      "Its internal activity showed no trace of the conflict at all",
+      "The conflict and its outcome were readable from its internal activity with high accuracy",
+      "The model was running out of memory during conflict trials",
+      "The system instruction never reached the model in the first place"
+    ],
+    "answer": 1,
+    "why": "A simple readout trained on the model's running internal total predicted the winner at 97 percent balanced accuracy, well above a baseline that had only the trial setup to go on. The disobedience therefore sits downstream of understanding: the machinery registers the fight and its resolution, and the output still lands on the user's side."
+  },
+  {
+    "qid": "2026-09-01-pm#2",
+    "lessonId": "2026-09-01-pm",
+    "lessonTitle": "The AI knows which instruction should win, then follows the other one",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What happened when the researchers nudged the model's internal state along the directions their readout had found?",
+    "choices": [
+      "Compliance with the system instruction rose from roughly 13 percent to roughly 53 percent",
+      "The model stopped producing readable text",
+      "Compliance with the system instruction fell to zero",
+      "Nothing changed, because those directions carried no causal weight"
+    ],
+    "answer": 0,
+    "why": "The nudge moved real behavior, which is stronger evidence than a readout on its own, since it shows those internal directions help cause the outcome. It also stopped well short of a fix, because nearly half the trials still disobeyed, and directions chosen mainly to separate the two cases on paper steered poorly."
   }
 ]

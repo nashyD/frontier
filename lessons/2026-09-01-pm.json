@@ -1,0 +1,91 @@
+{
+  "id": "2026-09-01-pm",
+  "date": "2026-09-01",
+  "slot": "pm",
+  "topic": "ai",
+  "topicLabel": "Artificial Intelligence",
+  "title": "The AI knows which instruction should win, then follows the other one",
+  "study": {
+    "citation": "Balp-Straffon, E., Hsu, C.-H., Gadhvi, R., Dev, S., McDougall, C. S. & Mujumdar, A. (2026), \"How Language Models Choose Sides: Internal Representations of Instruction Hierarchy\", arXiv:2608.28648 [cs.AI], ICML 2026 Mechanistic Interpretability workshop, posted 2026-08-16",
+    "year": 2026,
+    "link": "https://arxiv.org/abs/2608.28648"
+  },
+  "tldr": "When an app's hidden rules clash with what a user types, some models side with the user almost every time, and a look inside shows the machinery had already worked out that a fight was happening.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Every AI product you use runs on two sets of instructions at once. The company that built it writes a hidden system prompt laying down the rules, and then you type your own request. The whole design assumes the hidden rules outrank whatever you say. That assumption is what keeps a customer service bot from being talked out of its job by one clever sentence. So a group of researchers asked the simplest version of a question nobody had measured carefully: when the two sets of instructions flatly contradict each other, which one actually wins, and does the model even register that a fight is happening?"
+    },
+    {
+      "h": "What they did",
+      "body": "They wrote 41 pairs of instructions that cannot both be obeyed. Answer in JSON or in plain prose. Bullets or numbers. English or Spanish. Past tense or present. Formal or casual. First person or third. Each pair comes with a small automatic checker, so there is no judgment call about who won. They put one instruction in the hidden system channel and its opposite in the user's message, then ran eight open models through the whole set: four versions of Gemma, two Llamas, Qwen2.5-7B, and gpt-oss-20b. Control runs placed both instructions in the same channel, which separates genuine channel authority from the plain effect of one instruction sitting closer to the end."
+    },
+    {
+      "h": "What they found",
+      "body": "The eight models split three ways. Three treated the hidden channel as authority and obeyed it more than position alone would predict, with Gemma-4-31B the strongest of them. Two barely noticed which channel an instruction arrived in. Three leaned the opposite way and sided with the user more than position predicts. Llama-3.1-8B was the extreme case, following the system instruction in roughly one conflict trial out of ten. Same instructions, same conflicts, wildly different loyalties. Nothing visible from the outside of these models tells you which group you are dealing with."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "Then they opened the models up. As a model computes, information piles up in a running total that every layer reads from and writes back to. The researchers trained a simple statistical readout on that running total, and it predicted which instruction was about to win with 97 percent balanced accuracy, seventeen percentage points better than a baseline that knew only the setup of the trial. The conflict is represented internally. The disobedient model had already worked out what was going on. Using directions found that way, the team nudged the internal state mid-computation and lifted real compliance with the system instruction from about 0.13 to 0.53."
+    },
+    {
+      "h": "The catch",
+      "body": "This is a workshop paper from the ICML 2026 mechanistic interpretability track, so it is early work with light review. Every model tested is open-weight and most are small, which leaves out the closed frontier systems most people actually use. The 41 conflicts are all about style and formatting, and a scrap over Spanish versus English sits a long way from a scrap over a safety rule, so treat this as a clean measurement of a mechanism and stop short of calling it a headline about jailbreaks. The steering fix ran on one model at one layer, and it still left almost half the trials disobedient."
+    }
+  ],
+  "terms": [
+    {
+      "term": "System prompt",
+      "def": "The hidden set of instructions an app's builder hands the model before you type anything, meant to set the ground rules for the whole conversation."
+    },
+    {
+      "term": "Residual stream",
+      "def": "The running total of information a model carries through its layers as it computes, which every layer both reads from and adds to."
+    },
+    {
+      "term": "Probe",
+      "def": "A small statistical readout trained on a model's internal activity to guess what the model is doing, used as a window into the computation."
+    }
+  ],
+  "takeaways": [
+    "A system prompt is a strong suggestion. One model in this test obeyed it in roughly one conflicting trial out of ten.",
+    "Ignoring a rule and failing to notice a rule are separate failures. Here the conflict and its outcome were readable inside the model at 97 percent accuracy while the behavior went the other way.",
+    "If you build on open models, test the case where a user's message contradicts your system prompt. Loyalty varied enormously across eight models from three families."
+  ],
+  "quiz": [
+    {
+      "q": "What exactly did the researchers put into conflict?",
+      "choices": [
+        "Two different AI models answering the same question",
+        "An instruction in the hidden system channel against the opposite instruction typed by the user",
+        "A model's answer against a human expert's answer",
+        "Two instructions given to the model at different points during its training"
+      ],
+      "answer": 1,
+      "why": "The setup mirrors the everyday situation inside any AI product: the builder's hidden rules on one side, the user's typed request on the other. Making the two flatly incompatible, and checking the outcome with an automatic verifier, turns a vague worry about instruction hierarchy into something you can measure."
+    },
+    {
+      "q": "Llama-3.1-8B followed the user's side in about nine out of ten conflicts. What did looking inside the model reveal?",
+      "choices": [
+        "Its internal activity showed no trace of the conflict at all",
+        "The conflict and its outcome were readable from its internal activity with high accuracy",
+        "The model was running out of memory during conflict trials",
+        "The system instruction never reached the model in the first place"
+      ],
+      "answer": 1,
+      "why": "A simple readout trained on the model's running internal total predicted the winner at 97 percent balanced accuracy, well above a baseline that had only the trial setup to go on. The disobedience therefore sits downstream of understanding: the machinery registers the fight and its resolution, and the output still lands on the user's side."
+    },
+    {
+      "q": "What happened when the researchers nudged the model's internal state along the directions their readout had found?",
+      "choices": [
+        "Compliance with the system instruction rose from roughly 13 percent to roughly 53 percent",
+        "The model stopped producing readable text",
+        "Compliance with the system instruction fell to zero",
+        "Nothing changed, because those directions carried no causal weight"
+      ],
+      "answer": 0,
+      "why": "The nudge moved real behavior, which is stronger evidence than a readout on its own, since it shows those internal directions help cause the outcome. It also stopped well short of a fix, because nearly half the trials still disobeyed, and directions chosen mainly to separate the two cases on paper steered poorly."
+    }
+  ]
+}
