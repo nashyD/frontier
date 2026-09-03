@@ -4174,5 +4174,53 @@
     ],
     "answer": 0,
     "why": "The nudge moved real behavior, which is stronger evidence than a readout on its own, since it shows those internal directions help cause the outcome. It also stopped well short of a fix, because nearly half the trials still disobeyed, and directions chosen mainly to separate the two cases on paper steered poorly."
+  },
+  {
+    "qid": "2026-09-03-pm#0",
+    "lessonId": "2026-09-03-pm",
+    "lessonTitle": "Same ten percent lost, three diets, one very different liver",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "Why did the researchers give every participant all of their food and steer the groups toward the same amount of weight loss?",
+    "choices": [
+      "To make the ketogenic diet easier to follow than the others",
+      "Because insurance required supervised feeding for prediabetes studies",
+      "So that any difference between groups would come from the macronutrients rather than from who lost more weight",
+      "Because liver fat can only be measured in people eating provided meals"
+    ],
+    "answer": 2,
+    "why": "In a normal diet trial, the group that adheres best loses the most weight, and weight loss improves nearly everything, so the diet composition and the weight loss get tangled together. Handing out every meal pushed adherence above 95 percent in all three arms and matching the roughly ten percent weight loss removed the confound, leaving the macronutrients as the thing being tested."
+  },
+  {
+    "qid": "2026-09-03-pm#1",
+    "lessonId": "2026-09-03-pm",
+    "lessonTitle": "Same ten percent lost, three diets, one very different liver",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "What was the main pattern in the results?",
+    "choices": [
+      "Muscle insulin sensitivity improved similarly on all three diets, while liver measures improved most on the very-low-carbohydrate diet",
+      "The ketogenic group lost substantially more weight than the other two groups",
+      "Only the Mediterranean diet improved insulin sensitivity anywhere in the body",
+      "All three diets produced identical results on every measurement"
+    ],
+    "answer": 0,
+    "why": "Muscle insulin sensitivity rose by roughly half in every group, which tracks the shared ten percent weight loss. The liver told a different story: hepatic insulin sensitivity rose two to three times more on the ketogenic diet, liver fat fell about 67 percent against roughly 45 percent elsewhere, and 24-hour glucose fell about 20 percent against about 8 percent."
+  },
+  {
+    "qid": "2026-09-03-pm#2",
+    "lessonId": "2026-09-03-pm",
+    "lessonTitle": "Same ten percent lost, three diets, one very different liver",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "q": "Which caveat most limits how confidently you should read the liver fat and prediabetes numbers?",
+    "choices": [
+      "The participants did not actually have prediabetes",
+      "Those outcomes were exploratory in a trial of fourteen people per group and were not corrected for multiple comparisons",
+      "Liver fat was estimated from a questionnaire",
+      "The ketogenic group was measured months after the others"
+    ],
+    "answer": 1,
+    "why": "The trial's two primary endpoints were muscle and liver insulin sensitivity. Everything else, including the headline liver fat drop and the prediabetes remission rates, was exploratory, and running many comparisons without adjusting for them raises the odds that some differences are noise. With fourteen completers per arm, those figures are a strong signal worth following up rather than a final answer."
   }
 ]

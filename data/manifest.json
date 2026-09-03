@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-09-03-pm",
+    "date": "2026-09-03",
+    "slot": "pm",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking",
+    "title": "Same ten percent lost, three diets, one very different liver",
+    "tldr": "A Washington University team fed 55 people with obesity, prediabetes, and a fatty liver one of three very different diets until every group had lost about ten percent of their body weight, and the muscles improved about equally across the board while the liver improved dramatically more on the very-low-carbohydrate arm.",
+    "readMinutes": 5,
+    "citation": "Petersen, M. C., Smith, G. I., Farabi, S. S., Palacios, H., Shankaran, M., Hellerstein, M. K., Patterson, B. W. & Klein, S. (2026), \"Effect of diet macronutrient content on the cardiometabolic response to weight loss: A randomized clinical trial\", Cell Metabolism, doi:10.1016/j.cmet.2026.07.020, published online 2026-08-27",
+    "quizCount": 3
+  },
+  {
     "id": "2026-09-01-pm",
     "date": "2026-09-01",
     "slot": "pm",

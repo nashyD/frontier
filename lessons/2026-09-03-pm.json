@@ -1,0 +1,91 @@
+{
+  "id": "2026-09-03-pm",
+  "date": "2026-09-03",
+  "slot": "pm",
+  "topic": "biohacking",
+  "topicLabel": "Biohacking",
+  "title": "Same ten percent lost, three diets, one very different liver",
+  "study": {
+    "citation": "Petersen, M. C., Smith, G. I., Farabi, S. S., Palacios, H., Shankaran, M., Hellerstein, M. K., Patterson, B. W. & Klein, S. (2026), \"Effect of diet macronutrient content on the cardiometabolic response to weight loss: A randomized clinical trial\", Cell Metabolism, doi:10.1016/j.cmet.2026.07.020, published online 2026-08-27",
+    "year": 2026,
+    "link": "https://doi.org/10.1016/j.cmet.2026.07.020"
+  },
+  "tldr": "A Washington University team fed 55 people with obesity, prediabetes, and a fatty liver one of three very different diets until every group had lost about ten percent of their body weight, and the muscles improved about equally across the board while the liver improved dramatically more on the very-low-carbohydrate arm.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "Losing weight improves almost every number a doctor checks, which makes it maddeningly hard to tell whether the food you ate on the way down mattered at all. Diet arguments stall right here. Keto people point at blood sugar, Mediterranean people point at the heart, plant-forward people point at cholesterol, and each camp can find a trial where their group happened to lose more weight. A team at Washington University in St. Louis asked the cleaner version of the question: if three very different diets all produce the same ten percent weight loss, does the choice of diet still change anything underneath?"
+    },
+    {
+      "h": "What they did",
+      "body": "They enrolled 55 adults with obesity plus prediabetes and a fatty liver, meaning blood sugar was already creeping upward and fat had accumulated inside liver cells. Each person was randomly assigned to a very-low-carbohydrate ketogenic diet, a Mediterranean diet, or a very-low-fat plant-forward diet. The researchers supplied one hundred percent of their food for about five months with weekly dietitian check-ins, steering calories so every group landed near ten percent weight loss. Then they measured insulin sensitivity in muscle and in the liver separately, imaged liver fat, and tracked glucose and insulin across full 24-hour days. Forty-two people finished, fourteen per group."
+    },
+    {
+      "h": "What they found",
+      "body": "Everybody won something. Muscle insulin sensitivity, which is how readily muscle pulls sugar out of the blood when insulin gives the order, improved by roughly half in all three groups. The liver is where the diets split apart. Hepatic insulin sensitivity rose two to three times more on the ketogenic arm. Liver fat fell about 67 percent there against roughly 45 percent in the other two, the liver's own fat-building line slowed most, and average glucose across a whole day dropped about 20 percent versus about 8 percent. Half the ketogenic group no longer met the definition of prediabetes, against 29 and 7 percent. LDL cholesterol and apolipoprotein B came out even."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "Most diet trials are secretly adherence contests: whichever group sticks to the plan loses more weight and wins on paper, and the macronutrients never get tested on their own. Delivering every meal and matching the weight loss strips that out. The result draws a line straight through the body, with muscle responding mostly to the pounds coming off and the liver responding to what the food was made of. That matters right now, because fatty liver disease has become one of the most common chronic conditions on earth and there is a scramble to treat it. It also lets a doctor choose a diet by which organ is struggling."
+    },
+    {
+      "h": "The catch",
+      "body": "Fourteen people per group is small. Only the two insulin-sensitivity measurements were the trial's stated primary outcomes; the liver fat, glucose, and prediabetes figures were exploratory and were not corrected for testing many things at once, so treat them as strong hints rather than settled numbers. Every meal was handed to participants and adherence topped 95 percent, which resembles nobody's actual kitchen. Five months says little about five years, and nobody tracked heart attacks or liver failure. The design also cannot say whether ketosis itself did the work or whether cutting carbohydrate partway would land in the same place. The senior author discloses advisory and research ties to several drug companies."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Insulin sensitivity",
+      "def": "How well your tissues obey insulin, the hormone that tells muscle to take sugar out of the blood and tells the liver to stop releasing more of it."
+    },
+    {
+      "term": "Fatty liver",
+      "def": "A condition where fat droplets build up inside liver cells, common in obesity and prediabetes, and linked over years to scarring and liver failure."
+    },
+    {
+      "term": "Ketogenic diet",
+      "def": "An eating pattern that cuts carbohydrate low enough that the body starts running partly on ketones, a fuel the liver makes out of fat."
+    }
+  ],
+  "takeaways": [
+    "When three very different diets are matched to the same ten percent weight loss, muscle improves about equally on all of them, so a big share of the benefit really is just the weight.",
+    "The liver is the organ that noticed the difference: liver fat, hepatic insulin sensitivity, all-day glucose, and prediabetes remission all favored the very-low-carbohydrate arm.",
+    "Cholesterol markers stayed even across the three diets over five months, and the trial was far too small and too short to settle what any of this does to hearts and livers over decades."
+  ],
+  "quiz": [
+    {
+      "q": "Why did the researchers give every participant all of their food and steer the groups toward the same amount of weight loss?",
+      "choices": [
+        "To make the ketogenic diet easier to follow than the others",
+        "Because insurance required supervised feeding for prediabetes studies",
+        "So that any difference between groups would come from the macronutrients rather than from who lost more weight",
+        "Because liver fat can only be measured in people eating provided meals"
+      ],
+      "answer": 2,
+      "why": "In a normal diet trial, the group that adheres best loses the most weight, and weight loss improves nearly everything, so the diet composition and the weight loss get tangled together. Handing out every meal pushed adherence above 95 percent in all three arms and matching the roughly ten percent weight loss removed the confound, leaving the macronutrients as the thing being tested."
+    },
+    {
+      "q": "What was the main pattern in the results?",
+      "choices": [
+        "Muscle insulin sensitivity improved similarly on all three diets, while liver measures improved most on the very-low-carbohydrate diet",
+        "The ketogenic group lost substantially more weight than the other two groups",
+        "Only the Mediterranean diet improved insulin sensitivity anywhere in the body",
+        "All three diets produced identical results on every measurement"
+      ],
+      "answer": 0,
+      "why": "Muscle insulin sensitivity rose by roughly half in every group, which tracks the shared ten percent weight loss. The liver told a different story: hepatic insulin sensitivity rose two to three times more on the ketogenic diet, liver fat fell about 67 percent against roughly 45 percent elsewhere, and 24-hour glucose fell about 20 percent against about 8 percent."
+    },
+    {
+      "q": "Which caveat most limits how confidently you should read the liver fat and prediabetes numbers?",
+      "choices": [
+        "The participants did not actually have prediabetes",
+        "Those outcomes were exploratory in a trial of fourteen people per group and were not corrected for multiple comparisons",
+        "Liver fat was estimated from a questionnaire",
+        "The ketogenic group was measured months after the others"
+      ],
+      "answer": 1,
+      "why": "The trial's two primary endpoints were muscle and liver insulin sensitivity. Everything else, including the headline liver fat drop and the prediabetes remission rates, was exploratory, and running many comparisons without adjusting for them raises the odds that some differences are noise. With fourteen completers per arm, those figures are a strong signal worth following up rather than a final answer."
+    }
+  ]
+}
