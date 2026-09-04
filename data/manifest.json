@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-09-04-pm",
+    "date": "2026-09-04",
+    "slot": "pm",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "title": "The founder's extra votes are worth paying for, for about ten years",
+    "tldr": "Companies that hand their founder super-voting shares get a real valuation bump that holds for about five years and is gone by year ten, while the extra inventing those founders do sticks around the whole time.",
+    "readMinutes": 5,
+    "citation": "Kim, H., Levit, D. & Michaely, R. (2026), \"The Dynamic Trade-Off of Dual-Class Shares\", arXiv:2608.25972 [econ.GN]",
+    "quizCount": 3
+  },
+  {
     "id": "2026-09-03-pm",
     "date": "2026-09-03",
     "slot": "pm",

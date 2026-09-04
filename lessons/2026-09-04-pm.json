@@ -1,0 +1,91 @@
+{
+  "id": "2026-09-04-pm",
+  "date": "2026-09-04",
+  "slot": "pm",
+  "topic": "finance",
+  "topicLabel": "Finance & Markets",
+  "title": "The founder's extra votes are worth paying for, for about ten years",
+  "study": {
+    "citation": "Kim, H., Levit, D. & Michaely, R. (2026), \"The Dynamic Trade-Off of Dual-Class Shares\", arXiv:2608.25972 [econ.GN]",
+    "year": 2026,
+    "link": "https://arxiv.org/abs/2608.25972"
+  },
+  "tldr": "Companies that hand their founder super-voting shares get a real valuation bump that holds for about five years and is gone by year ten, while the extra inventing those founders do sticks around the whole time.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "When a company goes public with two classes of stock, the founder's shares carry extra votes, sometimes ten apiece, while everyone else gets one. Alphabet is built this way. So is Meta. More than forty percent of US companies that went public in 2025 used the structure, and dual-class firms made up over nine percent of US stock market value from 2013 through 2022, up from a shade over two percent in the early 1980s. Critics say permanent founder control invites bad behavior. If that were the whole story, why do young companies keep choosing it?"
+    },
+    {
+      "h": "What they did",
+      "body": "Three economists built a record of who held the votes at US public companies going back to 1971, pulling from company disclosures, news archives, old Moody's Manuals, and the standard stock and accounting databases. About 1,150 firms have used dual-class shares at some point. Roughly 230 of them switched into the structure and about 350 switched out. Those switches are the experiment. The team tracked each switcher against otherwise similar companies that stayed put, comparing the two groups before and after. Valuation came from Tobin's q. Founder effort was measured by patents and the citations those patents earned."
+    },
+    {
+      "h": "What they found",
+      "body": "In the year a company adopted dual-class shares, its Tobin's q rose about 0.21 above the comparison group, a real bump on a ratio that averages a little over two. The premium mostly held for five years. By year ten it had essentially vanished. Patent output rose and stayed up. Unifications ran the mirror image: valuation dipped, then returned to where it started, while patents fell and stayed down. The market seems to sense the difference. Young firms announcing an adoption gained 2.9 percent on average, and older ones came in 3.5 percentage points below that."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "Earlier research mostly asked whether dual-class shares are good or bad on average and got a muddle. Asking when turns the muddle into a shape: useful early, expensive late. The price of a vote fits that story, since superior-voting shares trade at a premium averaging around five percent and that premium climbs as firms age. The result also lands on live policy. Regulators have pushed for sunset provisions that retire the extra votes automatically. Among firms that unified, those with a sunset showed no clear valuation effect while those without showed the drop, which hints that sunsets dull the very incentive the structure creates."
+    },
+    {
+      "h": "The catch",
+      "body": "This is a working paper posted to arXiv in late August 2026. It has been presented at conferences and revised, and it has not been through journal review. Tobin's q is a rough instrument, and finance researchers have written whole papers about how easily it misleads. Patents stand in for founder effort, a proxy with obvious gaps. The deeper issue is that nobody assigned these switches at random; companies chose them, at moments of their own choosing. Roughly 230 adoptions spread over fifty years is a modest pile of events. The evidence fits a causal story without nailing it shut."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Dual-class shares",
+      "def": "A setup where a company issues two kinds of stock: one carrying extra votes, usually held by founders and insiders, and one carrying a single vote for everyone else."
+    },
+    {
+      "term": "Tobin's q",
+      "def": "The market value of a company's capital divided by its accounting book value, so a number above one roughly means investors think the assets are worth more than what was paid for them."
+    },
+    {
+      "term": "Sunset provision",
+      "def": "A clause that automatically converts the founder's extra-vote shares into ordinary shares once a set number of years passes or the founder sells out."
+    }
+  ],
+  "takeaways": [
+    "The dual-class valuation premium showed up immediately and was gone by about year ten. Founder control looks like a young company's tool with a shelf life.",
+    "Patent output rose after adoption and fell after unification. Whatever the extra votes do to a founder shows up in what the company actually builds.",
+    "Sunset clauses may carry a hidden cost. Firms that had one showed no valuation drop when they unified, which fits the idea that the promise of lasting control is part of what motivates a founder early on."
+  ],
+  "quiz": [
+    {
+      "q": "What made the switches into and out of dual-class shares useful as evidence?",
+      "choices": [
+        "Stock exchanges assigned the structures at random",
+        "Each switching firm could be compared with similar firms that stayed put, before and after the switch",
+        "Every US dual-class company switched at least once",
+        "All the switches happened in the same year, which held the economy constant"
+      ],
+      "answer": 1,
+      "why": "The design leans on a comparison of comparisons. You watch the switchers and a control group of similar non-switchers over the same years, then ask whether the two groups pulled apart at the moment of the switch. The authors also show the two groups were tracking each other beforehand, which is the check that keeps the comparison honest."
+    },
+    {
+      "q": "What happened to valuation and to patent output after a company adopted dual-class shares?",
+      "choices": [
+        "Both rose and stayed elevated for decades",
+        "Both dropped right away",
+        "Valuation rose and then faded over roughly ten years, while patent output rose and stayed up",
+        "Valuation was flat while patent output collapsed"
+      ],
+      "answer": 2,
+      "why": "The gap between those two paths is the paper's core. The inventing keeps going, which the authors read as the founder still putting in the firm-specific effort the structure was meant to encourage. Meanwhile the value that effort adds gets eaten away by the perks and protections a controlling founder can extract as the company matures, so the valuation edge closes."
+    },
+    {
+      "q": "Why does the sunset-provision result complicate the case for mandating sunsets?",
+      "choices": [
+        "It showed sunsets push companies to leave the stock market entirely",
+        "Firms with a sunset showed no valuation drop when they unified, hinting the promise of lasting control is part of the early incentive",
+        "It showed sunset clauses are impossible to enforce in court",
+        "It showed founders reliably ignore their own sunset clauses"
+      ],
+      "answer": 1,
+      "why": "If a company had a sunset from the start, the founder never expected control to last, so the incentive effect was weaker all along and giving up the extra votes costs little. Sunsets are usually pitched as a free fix for the late-stage problem. This result suggests they also shave off the early-stage benefit, which is a tradeoff the debate has mostly skipped."
+    }
+  ]
+}

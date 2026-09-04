@@ -4222,5 +4222,53 @@
     ],
     "answer": 1,
     "why": "The trial's two primary endpoints were muscle and liver insulin sensitivity. Everything else, including the headline liver fat drop and the prediabetes remission rates, was exploratory, and running many comparisons without adjusting for them raises the odds that some differences are noise. With fourteen completers per arm, those figures are a strong signal worth following up rather than a final answer."
+  },
+  {
+    "qid": "2026-09-04-pm#0",
+    "lessonId": "2026-09-04-pm",
+    "lessonTitle": "The founder's extra votes are worth paying for, for about ten years",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "What made the switches into and out of dual-class shares useful as evidence?",
+    "choices": [
+      "Stock exchanges assigned the structures at random",
+      "Each switching firm could be compared with similar firms that stayed put, before and after the switch",
+      "Every US dual-class company switched at least once",
+      "All the switches happened in the same year, which held the economy constant"
+    ],
+    "answer": 1,
+    "why": "The design leans on a comparison of comparisons. You watch the switchers and a control group of similar non-switchers over the same years, then ask whether the two groups pulled apart at the moment of the switch. The authors also show the two groups were tracking each other beforehand, which is the check that keeps the comparison honest."
+  },
+  {
+    "qid": "2026-09-04-pm#1",
+    "lessonId": "2026-09-04-pm",
+    "lessonTitle": "The founder's extra votes are worth paying for, for about ten years",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "What happened to valuation and to patent output after a company adopted dual-class shares?",
+    "choices": [
+      "Both rose and stayed elevated for decades",
+      "Both dropped right away",
+      "Valuation rose and then faded over roughly ten years, while patent output rose and stayed up",
+      "Valuation was flat while patent output collapsed"
+    ],
+    "answer": 2,
+    "why": "The gap between those two paths is the paper's core. The inventing keeps going, which the authors read as the founder still putting in the firm-specific effort the structure was meant to encourage. Meanwhile the value that effort adds gets eaten away by the perks and protections a controlling founder can extract as the company matures, so the valuation edge closes."
+  },
+  {
+    "qid": "2026-09-04-pm#2",
+    "lessonId": "2026-09-04-pm",
+    "lessonTitle": "The founder's extra votes are worth paying for, for about ten years",
+    "topic": "finance",
+    "topicLabel": "Finance & Markets",
+    "q": "Why does the sunset-provision result complicate the case for mandating sunsets?",
+    "choices": [
+      "It showed sunsets push companies to leave the stock market entirely",
+      "Firms with a sunset showed no valuation drop when they unified, hinting the promise of lasting control is part of the early incentive",
+      "It showed sunset clauses are impossible to enforce in court",
+      "It showed founders reliably ignore their own sunset clauses"
+    ],
+    "answer": 1,
+    "why": "If a company had a sunset from the start, the founder never expected control to last, so the incentive effect was weaker all along and giving up the extra votes costs little. Sunsets are usually pitched as a free fix for the late-stage problem. This result suggests they also shave off the early-stage benefit, which is a tradeoff the debate has mostly skipped."
   }
 ]
