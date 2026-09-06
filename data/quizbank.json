@@ -4270,5 +4270,53 @@
     ],
     "answer": 1,
     "why": "If a company had a sunset from the start, the founder never expected control to last, so the incentive effect was weaker all along and giving up the extra votes costs little. Sunsets are usually pitched as a free fix for the late-stage problem. This result suggests they also shave off the early-stage benefit, which is a tradeoff the debate has mostly skipped."
+  },
+  {
+    "qid": "2026-09-06-pm#0",
+    "lessonId": "2026-09-06-pm",
+    "lessonTitle": "They vaped 120 people to see if weed really melts stress. The placebo worked too.",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Self-rated stress dropped in the placebo condition by roughly as much as in the THC conditions. What does that pattern most directly suggest?",
+    "choices": [
+      "The placebo secretly contained THC",
+      "Much of the felt calm came from expectation and the situation rather than from the drug",
+      "Cannabis raises stress",
+      "The stress ratings were measured incorrectly"
+    ],
+    "answer": 1,
+    "why": "A placebo group exists precisely to catch this. If the people who got nothing active report the same improvement as the people who got 40 milligrams, then the improvement cannot be credited to the molecule. Sitting down, being taken care of, going through the ritual of vaping and believing something is coming will all move a self-report. That is the whole reason the comparison group is there."
+  },
+  {
+    "qid": "2026-09-06-pm#1",
+    "lessonId": "2026-09-06-pm",
+    "lessonTitle": "They vaped 120 people to see if weed really melts stress. The placebo worked too.",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "Why did the researchers measure cortisol, skin conductance and heart rate instead of just asking people how stressed they felt?",
+    "choices": [
+      "Because self-reports are always dishonest",
+      "Because the equipment was available and it made the study look thorough",
+      "Because those systems can move independently, so the feeling and the physiology can disagree",
+      "Because cortisol is the only real measure of stress"
+    ],
+    "answer": 2,
+    "why": "Stress is a bundle of loosely connected processes. A hormone response can be dampened while the heart speeds up, and neither has to match what a person says on a rating scale. That is exactly what happened here. Measuring several channels on the same clock is what let the team see that the calm people reported and the state of their body were telling different stories."
+  },
+  {
+    "qid": "2026-09-06-pm#2",
+    "lessonId": "2026-09-06-pm",
+    "lessonTitle": "They vaped 120 people to see if weed really melts stress. The placebo worked too.",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "q": "What is the biggest reason to be careful generalizing this result to the population at large?",
+    "choices": [
+      "The study had no placebo group",
+      "Only 120 people took part, which is too few for any conclusion",
+      "The doses were unrealistically small",
+      "Every participant was already a regular cannabis user, so tolerance shapes every measurement"
+    ],
+    "answer": 3,
+    "why": "The design is solid: randomized, double-blind and placebo-controlled, with 120 participants and doses in the range people actually use. The limit is who was in the room. Regular users have adapted cannabinoid systems, and their hormone and heart responses to a given dose can differ from someone who rarely uses. This tells you about the stress physiology of experienced users, and an occasional user remains an open question."
   }
 ]

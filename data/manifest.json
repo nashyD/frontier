@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-09-06-pm",
+    "date": "2026-09-06",
+    "slot": "pm",
+    "topic": "cannabis",
+    "topicLabel": "Cannabis Science",
+    "title": "They vaped 120 people to see if weed really melts stress. The placebo worked too.",
+    "tldr": "A Washington State team had 120 regular users vape placebo, 20 milligrams of THC or 40 milligrams, then tracked four different stress signals at once: everyone reported feeling calmer including the placebo group, while the body underneath was doing several contradictory things.",
+    "readMinutes": 4,
+    "citation": "Cuttler, C., Proctor, M. A., Glodosky, N. C., Rahimi Azghan, R., Fisher, Z. D. G., Ghasemzadeh, H. & McLaughlin, R. J. (2026), \"Multimodal examination of the acute effects of cannabis on subjective and physiological stress-related outcomes: a randomized placebo-controlled laboratory study\", Neuropsychopharmacology, published online 22 August 2026",
+    "quizCount": 3
+  },
+  {
     "id": "2026-09-04-pm",
     "date": "2026-09-04",
     "slot": "pm",
