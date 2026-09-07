@@ -4318,5 +4318,53 @@
     ],
     "answer": 3,
     "why": "The design is solid: randomized, double-blind and placebo-controlled, with 120 participants and doses in the range people actually use. The limit is who was in the room. Regular users have adapted cannabinoid systems, and their hormone and heart responses to a given dose can differ from someone who rarely uses. This tells you about the stress physiology of experienced users, and an occasional user remains an open question."
+  },
+  {
+    "qid": "2026-09-07-pm#0",
+    "lessonId": "2026-09-07-pm",
+    "lessonTitle": "Once you fully trust the reminder, your head quietly lets the plan go",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "What did the thought probes reveal about the group whose reminders had been perfectly reliable?",
+    "choices": [
+      "They reported thinking about the hidden job less often and about the word game more often",
+      "They reported more mind-wandering than everyone else",
+      "They reported thinking about the hidden job more often, out of anxiety",
+      "Their reports were identical to the no-reminder group"
+    ],
+    "answer": 0,
+    "why": "This is the core measurement. Attention didn't leak away into daydreaming, which stayed flat across all the groups. It moved from the waiting plan onto the task in front of them. That's what makes the result more interesting than plain distraction: the reminder freed up mental room, and the participants spent it on the job at hand, right up until the reminder wasn't there."
+  },
+  {
+    "qid": "2026-09-07-pm#1",
+    "lessonId": "2026-09-07-pm",
+    "lessonTitle": "Once you fully trust the reminder, your head quietly lets the plan go",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "Which group held onto the plan in their own head?",
+    "choices": [
+      "The group given no reminder instructions at all",
+      "The group told the reminder would appear about half the time",
+      "The group told the reminder would always appear",
+      "Nobody did once a reminder was mentioned"
+    ],
+    "answer": 1,
+    "why": "Unreliability kept them honest. When you can't count on the external copy, dropping your internal one is a bad bet, so they kept both. That group also came out fine when the reminder failed, landing about level with people who never had one. The lesson is about certainty: a support has to be trusted completely before you stop backing it up yourself."
+  },
+  {
+    "qid": "2026-09-07-pm#2",
+    "lessonId": "2026-09-07-pm",
+    "lessonTitle": "Once you fully trust the reminder, your head quietly lets the plan go",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "q": "How do the authors characterize the finding that the fully reliable group ended up below the no-reminder baseline?",
+    "choices": [
+      "As definitive proof that reminders damage memory",
+      "As an artifact they discarded from the paper",
+      "As suggestive but statistically equivocal, needing cautious interpretation",
+      "As the largest effect in the study"
+    ],
+    "answer": 2,
+    "why": "The evidence for that specific comparison was weak enough that the authors flagged it themselves rather than leaning on it. It's a useful habit to notice: the most quotable line in a study is often the one standing on the thinnest support. The stronger, better-supported result is the shift in what people reported thinking about, which was substantial and clear."
   }
 ]

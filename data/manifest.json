@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-09-07-pm",
+    "date": "2026-09-07",
+    "slot": "pm",
+    "topic": "learning",
+    "topicLabel": "Learning & Cognition",
+    "title": "Once you fully trust the reminder, your head quietly lets the plan go",
+    "tldr": "When a reminder proves perfectly reliable, people stop keeping the plan in mind at all, and if the reminder then vanishes they may end up worse off than if they had never had one.",
+    "readMinutes": 5,
+    "citation": "Dupre, C. & Ball, B. H. (2026), \"Let it go: How trusted reminders alter intention maintenance\", Psychonomic Bulletin & Review 33(7), article 211, published online 18 August 2026",
+    "quizCount": 3
+  },
+  {
     "id": "2026-09-06-pm",
     "date": "2026-09-06",
     "slot": "pm",

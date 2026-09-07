@@ -1,0 +1,91 @@
+{
+  "id": "2026-09-07-pm",
+  "date": "2026-09-07",
+  "slot": "pm",
+  "topic": "learning",
+  "topicLabel": "Learning & Cognition",
+  "title": "Once you fully trust the reminder, your head quietly lets the plan go",
+  "study": {
+    "citation": "Dupre, C. & Ball, B. H. (2026), \"Let it go: How trusted reminders alter intention maintenance\", Psychonomic Bulletin & Review 33(7), article 211, published online 18 August 2026",
+    "year": 2026,
+    "link": "https://doi.org/10.3758/s13423-026-02985-6"
+  },
+  "tldr": "When a reminder proves perfectly reliable, people stop keeping the plan in mind at all, and if the reminder then vanishes they may end up worse off than if they had never had one.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "You set a phone alarm to take the trash out at eight. Does your brain keep holding onto that plan in the background as a backup, or does it hand the job over to the phone and move on? Psychologists call the second option offloading, and it's a real bet: cheaper in effort, ruinous if the phone dies. Two researchers at the University of Texas at Arlington wanted to catch the moment a person stops holding the plan themselves, and see what that costs when the reminder disappears."
+    },
+    {
+      "h": "What they did",
+      "body": "Three hundred twenty undergraduates sat through a dull word game, judging whether strings of letters were real words. Buried inside it was a second job: memorize a word pair like DUNE and MANOR, then hit the spacebar whenever DUNE appeared and type MANOR. Some people were told a reminder would be waiting at the top of the screen in yellow. Every so often the game paused and asked what they had just been thinking about: the word game, the hidden job, or something else entirely. That question is the whole trick. It samples what's in mind, moment to moment, while the plan is still waiting."
+    },
+    {
+      "h": "What they found",
+      "body": "Everyone came back for a second session. In the first, reminders helped and people still reported thinking about the hidden job just as often, so the reminder sat alongside the plan in their head. By the second session, the group whose reminders had worked every single time had gone quiet: they reported thinking about the job far less, and reported focusing on the word game more. Their daydreaming didn't increase. The attention shifted straight from the plan to the task in front of them. Then the reminder was pulled without warning, and those people caught fewer of their targets than people who had never been given a reminder at all."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "The group told the reminder would only show up half the time behaved differently. They kept the plan in mind, and when the reminder failed they landed no worse than the people who had never had one. What caused the letting go was certainty about the reminder. That points at a design principle for anything we lean on to remember for us, from calendars to checklists to whatever an assistant is holding for you. A support that never fails teaches you to stop keeping your own copy, and the authors point at aviation and healthcare as places where that tradeoff is more than an inconvenience."
+    },
+    {
+      "h": "The catch",
+      "body": "The most dramatic piece, falling below the no-reminder baseline, was statistically marginal. The authors say plainly that it should be read as suggestive and wait for replication. The waiting period here was minutes inside a lab task, and real intentions stretch across days and tangle with everything else you're doing. The reminders were handed to participants rather than chosen by them, which is backwards from how anybody actually uses a phone. And the thought probe forced one answer from three, so a rise in one category is partly a bookkeeping consequence of a drop in another."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Prospective memory",
+      "def": "Remembering to do a thing later, at the right moment, while you're busy with something else."
+    },
+    {
+      "term": "Cognitive offloading",
+      "def": "Handing a mental job to something outside your head, like a sticky note, a calendar, or an alarm."
+    },
+    {
+      "term": "Thought probe",
+      "def": "A question that interrupts you mid-task to ask what you were just thinking about, sampling the mind in real time while it is happening."
+    }
+  ],
+  "takeaways": [
+    "A reminder you half-trust gets duplicated in your head. A reminder you fully trust replaces what was in your head.",
+    "People stayed focused and performed well the whole time. They had simply released the plan to a system that then wasn't there.",
+    "If a reminder is load-bearing, make sure it can't silently disappear, because by then you've stopped carrying a spare."
+  ],
+  "quiz": [
+    {
+      "q": "What did the thought probes reveal about the group whose reminders had been perfectly reliable?",
+      "choices": [
+        "They reported thinking about the hidden job less often and about the word game more often",
+        "They reported more mind-wandering than everyone else",
+        "They reported thinking about the hidden job more often, out of anxiety",
+        "Their reports were identical to the no-reminder group"
+      ],
+      "answer": 0,
+      "why": "This is the core measurement. Attention didn't leak away into daydreaming, which stayed flat across all the groups. It moved from the waiting plan onto the task in front of them. That's what makes the result more interesting than plain distraction: the reminder freed up mental room, and the participants spent it on the job at hand, right up until the reminder wasn't there."
+    },
+    {
+      "q": "Which group held onto the plan in their own head?",
+      "choices": [
+        "The group given no reminder instructions at all",
+        "The group told the reminder would appear about half the time",
+        "The group told the reminder would always appear",
+        "Nobody did once a reminder was mentioned"
+      ],
+      "answer": 1,
+      "why": "Unreliability kept them honest. When you can't count on the external copy, dropping your internal one is a bad bet, so they kept both. That group also came out fine when the reminder failed, landing about level with people who never had one. The lesson is about certainty: a support has to be trusted completely before you stop backing it up yourself."
+    },
+    {
+      "q": "How do the authors characterize the finding that the fully reliable group ended up below the no-reminder baseline?",
+      "choices": [
+        "As definitive proof that reminders damage memory",
+        "As an artifact they discarded from the paper",
+        "As suggestive but statistically equivocal, needing cautious interpretation",
+        "As the largest effect in the study"
+      ],
+      "answer": 2,
+      "why": "The evidence for that specific comparison was weak enough that the authors flagged it themselves rather than leaning on it. It's a useful habit to notice: the most quotable line in a study is often the one standing on the thinnest support. The stronger, better-supported result is the shift in what people reported thinking about, which was substantial and clear."
+    }
+  ]
+}
