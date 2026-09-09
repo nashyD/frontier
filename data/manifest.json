@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-09-09-pm",
+    "date": "2026-09-09",
+    "slot": "pm",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "title": "Antarctica gained ice for three years, and the cause sat in the tropics",
+    "tldr": "East Antarctica piled on so much snow between 2021 and 2023 that it briefly cancelled out the West's ice losses, and the trigger was a patch of unusually warm ocean near Indonesia thousands of miles away.",
+    "readMinutes": 5,
+    "citation": "Wang, Y., Ding, Q., Li, X., Ballinger, T. J., Nakayama, Y., Topál, D. & Steig, E. J. (2026), \"Multiyear tropical warm pool warming drives slowdown in Antarctic mass loss\", Nature 656, 897-904",
+    "quizCount": 3
+  },
+  {
     "id": "2026-09-07-pm",
     "date": "2026-09-07",
     "slot": "pm",

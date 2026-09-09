@@ -1,0 +1,91 @@
+{
+  "id": "2026-09-09-pm",
+  "date": "2026-09-09",
+  "slot": "pm",
+  "topic": "frontier",
+  "topicLabel": "Frontier Science",
+  "title": "Antarctica gained ice for three years, and the cause sat in the tropics",
+  "study": {
+    "citation": "Wang, Y., Ding, Q., Li, X., Ballinger, T. J., Nakayama, Y., Topál, D. & Steig, E. J. (2026), \"Multiyear tropical warm pool warming drives slowdown in Antarctic mass loss\", Nature 656, 897-904",
+    "year": 2026,
+    "link": "https://doi.org/10.1038/s41586-026-10912-x"
+  },
+  "tldr": "East Antarctica piled on so much snow between 2021 and 2023 that it briefly cancelled out the West's ice losses, and the trigger was a patch of unusually warm ocean near Indonesia thousands of miles away.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "For most of the past few decades Antarctica has been shedding ice into the ocean, and that loss has been one of the bigger contributors to rising seas. Almost all of it comes from West Antarctica, where warm water eats at glaciers from below. Then something odd happened. From 2021 through 2023 the continent's books nearly balanced. East Antarctica gained enough snow to offset the West's losses, and the total rate of ice loss slowed. The obvious explanation was that a warmer world holds more moisture and dumps more snow on Antarctica. The authors wanted to test whether that was really what happened."
+    },
+    {
+      "h": "What they did",
+      "body": "They combined two kinds of evidence. First, observations: satellite and weather records of how much snow fell where, how the air circulated over the Southern Ocean, and where the moisture in that snow originally evaporated from. Second, model experiments. Climate models let you run a controlled trial on a planet. The team ran simulations where they nudged the sea surface temperature in one specific region and left everything else alone, then watched what the atmosphere over Antarctica did in response. That is how you separate a cause from a coincidence when you only have one real Earth to observe."
+    },
+    {
+      "h": "What they found",
+      "body": "The trail led to the tropical warm pool, the pool of very warm surface water around Indonesia and the western Pacific. It stayed unusually warm for three years running, warmer than the two decades before it. Heat rising from that water sent a chain of atmospheric ripples arcing south, a pattern called a Rossby wave train. Where the chain reached Antarctica it parked a zone of high pressure over the eastern side. That pressure pattern steered moist air off the mid-latitude Indian Ocean onto Queen Mary Land and Wilkes Land, where it fell as heavy snow and thickened the ice sheet."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "It is a clean demonstration that the poles keep time with the tropics. A warm patch of ocean near the equator reorganised the weather at the bottom of the planet strongly enough to move hundreds of billions of tons of water onto an ice sheet. It also matters for how we read the news. A few years of Antarctic ice gain looks like good news for sea level, and this work shows the gain came from a circulation pattern that comes and goes rather than from a lasting shift. Understanding the difference is what makes short records interpretable at all."
+    },
+    {
+      "h": "The catch",
+      "body": "The authors are direct that the gain is probably temporary. Warm spells of this kind in the tropical warm pool show up roughly once a decade in both the observational record and long model runs, so the snow that arrived with this one can leave with the next swing. Three years is also a very short window against an ice sheet that responds over centuries, and the conclusion rests partly on models, which are approximations of the real atmosphere. The finding says nothing about West Antarctica's underlying melt, which continued the whole time."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Tropical warm pool",
+      "def": "The permanently very warm patch of surface ocean around Indonesia and the western Pacific, the warmest large stretch of open sea on Earth."
+    },
+    {
+      "term": "Rossby wave train",
+      "def": "A chain of high and low pressure systems that spreads out from a disturbance in the atmosphere, letting weather in one part of the world push weather thousands of miles away."
+    },
+    {
+      "term": "Surface mass balance",
+      "def": "The running tally of an ice sheet's gains and losses at its surface — snow added on one side of the ledger, melt and wind-blown loss on the other."
+    }
+  ],
+  "takeaways": [
+    "A three-year warm spell near Indonesia rerouted enough moisture to briefly stall Antarctica's ice loss.",
+    "Climate models earn their keep here as controlled experiments, letting researchers change one thing and watch what follows.",
+    "A short run of surprising data usually needs a mechanism attached before you can tell whether it will last."
+  ],
+  "quiz": [
+    {
+      "q": "What set off the chain of events that added ice to East Antarctica?",
+      "choices": [
+        "A volcanic eruption in the Southern Ocean",
+        "Three years of unusually warm surface water in the tropical Pacific and around Indonesia",
+        "A sudden cooling of the air directly above Antarctica",
+        "Melting sea ice releasing moisture near the coast"
+      ],
+      "answer": 1,
+      "why": "The tropical warm pool stayed hotter than usual from 2021 to 2023. Heat rising from that ocean launched a pattern of atmospheric pressure systems that travelled south and changed the winds over East Antarctica, which is what redirected the snow."
+    },
+    {
+      "q": "Where did the extra snow's moisture mainly come from?",
+      "choices": [
+        "The mid-latitude Indian Ocean",
+        "Melted ice from West Antarctica",
+        "The tropical warm pool itself",
+        "The Atlantic near South America"
+      ],
+      "answer": 0,
+      "why": "The tropics supplied the atmospheric trigger, and the water itself evaporated much closer to Antarctica, off the mid-latitude Indian Ocean. The new pressure pattern acted like a redirected pipe, aiming that moist air at Queen Mary Land and Wilkes Land."
+    },
+    {
+      "q": "Why do the authors expect the ice gain to be temporary?",
+      "choices": [
+        "The snow that fell was too warm to freeze permanently",
+        "Satellites cannot measure Antarctic ice for more than a few years",
+        "Warm spells like this one in the tropical warm pool recur roughly once a decade and then fade",
+        "West Antarctica has already stopped losing ice"
+      ],
+      "answer": 2,
+      "why": "Both the observational record and long model simulations show multiyear warm periods in the warm pool arriving about once every ten years. Since the ice gain rides on that cycle rather than on a lasting change in the climate system, it is expected to reverse as the cycle turns."
+    }
+  ]
+}

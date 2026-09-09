@@ -4366,5 +4366,53 @@
     ],
     "answer": 2,
     "why": "The evidence for that specific comparison was weak enough that the authors flagged it themselves rather than leaning on it. It's a useful habit to notice: the most quotable line in a study is often the one standing on the thinnest support. The stronger, better-supported result is the shift in what people reported thinking about, which was substantial and clear."
+  },
+  {
+    "qid": "2026-09-09-pm#0",
+    "lessonId": "2026-09-09-pm",
+    "lessonTitle": "Antarctica gained ice for three years, and the cause sat in the tropics",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "What set off the chain of events that added ice to East Antarctica?",
+    "choices": [
+      "A volcanic eruption in the Southern Ocean",
+      "Three years of unusually warm surface water in the tropical Pacific and around Indonesia",
+      "A sudden cooling of the air directly above Antarctica",
+      "Melting sea ice releasing moisture near the coast"
+    ],
+    "answer": 1,
+    "why": "The tropical warm pool stayed hotter than usual from 2021 to 2023. Heat rising from that ocean launched a pattern of atmospheric pressure systems that travelled south and changed the winds over East Antarctica, which is what redirected the snow."
+  },
+  {
+    "qid": "2026-09-09-pm#1",
+    "lessonId": "2026-09-09-pm",
+    "lessonTitle": "Antarctica gained ice for three years, and the cause sat in the tropics",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "Where did the extra snow's moisture mainly come from?",
+    "choices": [
+      "The mid-latitude Indian Ocean",
+      "Melted ice from West Antarctica",
+      "The tropical warm pool itself",
+      "The Atlantic near South America"
+    ],
+    "answer": 0,
+    "why": "The tropics supplied the atmospheric trigger, and the water itself evaporated much closer to Antarctica, off the mid-latitude Indian Ocean. The new pressure pattern acted like a redirected pipe, aiming that moist air at Queen Mary Land and Wilkes Land."
+  },
+  {
+    "qid": "2026-09-09-pm#2",
+    "lessonId": "2026-09-09-pm",
+    "lessonTitle": "Antarctica gained ice for three years, and the cause sat in the tropics",
+    "topic": "frontier",
+    "topicLabel": "Frontier Science",
+    "q": "Why do the authors expect the ice gain to be temporary?",
+    "choices": [
+      "The snow that fell was too warm to freeze permanently",
+      "Satellites cannot measure Antarctic ice for more than a few years",
+      "Warm spells like this one in the tropical warm pool recur roughly once a decade and then fade",
+      "West Antarctica has already stopped losing ice"
+    ],
+    "answer": 2,
+    "why": "Both the observational record and long model simulations show multiyear warm periods in the warm pool arriving about once every ten years. Since the ice gain rides on that cycle rather than on a lasting change in the climate system, it is expected to reverse as the cycle turns."
   }
 ]
