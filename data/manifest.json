@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-09-10-pm",
+    "date": "2026-09-10",
+    "slot": "pm",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "title": "The Best Way to Catch an AI Agent Before It Fails: Read Its Mind",
+    "tldr": "A new study finds that peeking at an AI agent's internal activity while it works predicts whether a multi-step task will succeed far better than just asking the AI how confident it feels.",
+    "readMinutes": 5,
+    "citation": "Mammen, P. M., Joswin, E. & Medicherla, S. (2026), \"Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations\", arXiv:2609.09448 [cs.AI], accepted NeurIPS 2026",
+    "quizCount": 3
+  },
+  {
     "id": "2026-09-09-pm",
     "date": "2026-09-09",
     "slot": "pm",

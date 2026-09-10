@@ -4414,5 +4414,53 @@
     ],
     "answer": 2,
     "why": "Both the observational record and long model simulations show multiyear warm periods in the warm pool arriving about once every ten years. Since the ice gain rides on that cycle rather than on a lasting change in the climate system, it is expected to reverse as the cycle turns."
+  },
+  {
+    "qid": "2026-09-10-pm#0",
+    "lessonId": "2026-09-10-pm",
+    "lessonTitle": "The Best Way to Catch an AI Agent Before It Fails: Read Its Mind",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What did the researchers read, in addition to the AI's own stated confidence, to try to predict whether an agent's coding attempt would succeed?",
+    "choices": [
+      "The AI's internal residual-stream activity at each step",
+      "The programmer's independent code review",
+      "The total time the agent spent on the task",
+      "A second, unrelated AI's guess"
+    ],
+    "answer": 0,
+    "why": "The paper's core method reads the model's internal residual-stream representations — its numerical \"thoughts\" — rather than relying only on its outward confidence or output."
+  },
+  {
+    "qid": "2026-09-10-pm#1",
+    "lessonId": "2026-09-10-pm",
+    "lessonTitle": "The Best Way to Catch an AI Agent Before It Fails: Read Its Mind",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "How did the internal-representation methods compare to the AI's own token-level confidence at predicting task success?",
+    "choices": [
+      "They performed about the same",
+      "They performed worse in every case tested",
+      "They performed better in every one of the nine model-and-task combinations tested",
+      "They only worked for Python tasks"
+    ],
+    "answer": 2,
+    "why": "The study reports that an internal-representation method beat both confidence baselines on AUROC or Brier score in all nine combinations of three models and three task types."
+  },
+  {
+    "qid": "2026-09-10-pm#2",
+    "lessonId": "2026-09-10-pm",
+    "lessonTitle": "The Best Way to Catch an AI Agent Before It Fails: Read Its Mind",
+    "topic": "ai",
+    "topicLabel": "Artificial Intelligence",
+    "q": "What is a key practical limitation of this approach?",
+    "choices": [
+      "It requires access to a model's internal activations, which is not possible when calling a model through an ordinary API",
+      "It only works on very large frontier models",
+      "It slows down the AI's response time significantly",
+      "It requires the AI to explain its reasoning in plain English first"
+    ],
+    "answer": 0,
+    "why": "The method reads hidden internal states that only whoever runs the model directly can access; a user calling a model purely through an API cannot get at them, and the models tested were smaller open-weight ones, not large frontier systems."
   }
 ]

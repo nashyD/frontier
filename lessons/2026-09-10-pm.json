@@ -1,0 +1,91 @@
+{
+  "id": "2026-09-10-pm",
+  "date": "2026-09-10",
+  "slot": "pm",
+  "topic": "ai",
+  "topicLabel": "Artificial Intelligence",
+  "title": "The Best Way to Catch an AI Agent Before It Fails: Read Its Mind",
+  "study": {
+    "citation": "Mammen, P. M., Joswin, E. & Medicherla, S. (2026), \"Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations\", arXiv:2609.09448 [cs.AI], accepted NeurIPS 2026",
+    "year": 2026,
+    "link": "https://arxiv.org/abs/2609.09448"
+  },
+  "tldr": "A new study finds that peeking at an AI agent's internal activity while it works predicts whether a multi-step task will succeed far better than just asking the AI how confident it feels.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "h": "The question",
+      "body": "AI \"agents\" — systems that take a sequence of actions on their own, running commands, querying databases, writing and testing code — are starting to run with less supervision. A single agentic task can burn through many steps before it finishes correctly or goes wrong, so a genuinely useful safety feature would be a way to tell, partway through, whether a run is headed for failure so a human can step in. The obvious approach is to ask the AI how confident it is or watch how sure its wording sounds. Does that actually work for these longer, multi-step jobs? Three researchers set out to test it directly."
+    },
+    {
+      "h": "What they did",
+      "body": "They built AI coding agents out of three open language models and set them loose on three kinds of hands-on programming tasks: writing Linux shell commands, writing SQL database queries, and writing and debugging Python functions. Each task took several rounds of the AI trying something, seeing the result, and adjusting. For every attempt, the researchers recorded not just what the AI said out loud but its residual stream — the AI's internal numerical representation of what it is \"thinking\" at each step, before that becomes words. They tested whether patterns in that hidden layer could predict success better than the AI's own stated confidence."
+    },
+    {
+      "h": "What they found",
+      "body": "Judging by the AI's own word-level confidence — how sure its predicted words looked, or how it described its confidence out loud — the ability to tell winning attempts from losing ones was barely better than a coin flip in several cases. Reading the internal representations instead did substantially better across the board: in every one of the nine model-and-task combinations tested, a method built from the AI's internal state beat both confidence baselines at separating attempts headed for success from ones headed for failure. A version that reads the internal state right at the moment the AI commits to an action was consistently the strongest single signal."
+    },
+    {
+      "h": "Why it's on the frontier",
+      "body": "As companies hand more real work to AI agents — writing code, managing databases, eventually scheduling or trading — knowing when to trust an unsupervised run matters as much as making the AI capable in the first place. This method costs almost nothing extra: the internal states it reads are already being computed as the AI generates its response, so a system could flag a likely failure in a fraction of a millisecond and pause for a human before the agent goes any further. It is a concrete demonstration that a language model's hidden activity carries information about its own eventual success that its outward words do not fully reveal."
+    },
+    {
+      "h": "The catch",
+      "body": "This was tested only on smaller, open-weight coding models (7 to 14 billion parameters) doing three specific programming tasks; the large closed models most people use day to day, and messier jobs like web browsing, still need testing. The best scores, measured by AUROC (0.5 is a coin flip, 1.0 is perfect), topped out around 0.8: a real improvement, but far from a guarantee. Reading a model's internal state also requires direct access to its internals, something only whoever runs the model has — a user calling it through an ordinary API cannot do this. The paper is a fresh NeurIPS 2026 submission awaiting final peer review."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Residual stream",
+      "def": "The internal, layer-by-layer numerical representation inside a language model that carries information forward as it processes and generates text, before any of it becomes actual words."
+    },
+    {
+      "term": "AUROC",
+      "def": "A score from 0 to 1 for how well a signal tells two groups apart — here, attempts that will succeed from ones that will fail. 0.5 means no better than a coin flip; 1.0 means perfect separation."
+    },
+    {
+      "term": "AI agent",
+      "def": "An AI system that takes a sequence of actions on its own — running commands, calling tools, checking results — rather than just answering a single question."
+    }
+  ],
+  "takeaways": [
+    "An AI agent's own stated confidence is a weak predictor of whether a multi-step task will actually succeed.",
+    "Reading a model's internal activity at the moment it commits to an action predicts success far better, and costs almost nothing extra to compute.",
+    "The technique only works if you can see inside the model, so it is a tool for whoever runs the AI, not for someone calling it through an API."
+  ],
+  "quiz": [
+    {
+      "q": "What did the researchers read, in addition to the AI's own stated confidence, to try to predict whether an agent's coding attempt would succeed?",
+      "choices": [
+        "The AI's internal residual-stream activity at each step",
+        "The programmer's independent code review",
+        "The total time the agent spent on the task",
+        "A second, unrelated AI's guess"
+      ],
+      "answer": 0,
+      "why": "The paper's core method reads the model's internal residual-stream representations — its numerical \"thoughts\" — rather than relying only on its outward confidence or output."
+    },
+    {
+      "q": "How did the internal-representation methods compare to the AI's own token-level confidence at predicting task success?",
+      "choices": [
+        "They performed about the same",
+        "They performed worse in every case tested",
+        "They performed better in every one of the nine model-and-task combinations tested",
+        "They only worked for Python tasks"
+      ],
+      "answer": 2,
+      "why": "The study reports that an internal-representation method beat both confidence baselines on AUROC or Brier score in all nine combinations of three models and three task types."
+    },
+    {
+      "q": "What is a key practical limitation of this approach?",
+      "choices": [
+        "It requires access to a model's internal activations, which is not possible when calling a model through an ordinary API",
+        "It only works on very large frontier models",
+        "It slows down the AI's response time significantly",
+        "It requires the AI to explain its reasoning in plain English first"
+      ],
+      "answer": 0,
+      "why": "The method reads hidden internal states that only whoever runs the model directly can access; a user calling a model purely through an API cannot get at them, and the models tested were smaller open-weight ones, not large frontier systems."
+    }
+  ]
+}
