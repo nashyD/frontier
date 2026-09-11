@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-09-11",
+    "title": "Frontier — September 11, 2026",
+    "summary": "A single protein called PD-L2 lets aging zombie cells hide from the immune system, and blocking it in old mice improved blood sugar control and grip strength.",
+    "file": "audio/2026-09-11.mp3",
+    "durationSec": 270,
+    "bytes": 3246093
+  },
+  {
     "date": "2026-09-10",
     "title": "Frontier — September 10, 2026",
     "summary": "Can an AI agent tell when it's about to fail? A new study finds that reading a model's internal activity mid-task predicts success far better than its own stated confidence.",
