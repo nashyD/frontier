@@ -4462,5 +4462,53 @@
     ],
     "answer": 0,
     "why": "The method reads hidden internal states that only whoever runs the model directly can access; a user calling a model purely through an API cannot get at them, and the models tested were smaller open-weight ones, not large frontier systems."
+  },
+  {
+    "qid": "2026-09-11-pm#0",
+    "lessonId": "2026-09-11-pm",
+    "lessonTitle": "A Single Protein Lets Zombie Cells Hide From Your Immune System",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking & Longevity",
+    "q": "What role does the protein PD-L2 appear to play in aging, according to this study?",
+    "choices": [
+      "It directly kills senescent cells",
+      "It acts as a signal that hides senescent cells from immune clearance",
+      "It is a hormone that controls metabolism",
+      "It repairs DNA damage in old cells"
+    ],
+    "answer": 1,
+    "why": "The study found PD-L2 functions like a \"do not eat me\" badge on senescent cells, similar to how some tumors use it, letting these cells evade the immune system's normal cleanup process."
+  },
+  {
+    "qid": "2026-09-11-pm#1",
+    "lessonId": "2026-09-11-pm",
+    "lessonTitle": "A Single Protein Lets Zombie Cells Hide From Your Immune System",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking & Longevity",
+    "q": "What happened when researchers gave an antibody that blocks PD-L2 to mice that were already old, rather than breeding mice without the gene from birth?",
+    "choices": [
+      "Nothing changed compared to untreated old mice",
+      "It only worked in young mice",
+      "It still reduced senescent cell buildup and improved insulin sensitivity and grip strength",
+      "It increased the number of senescent cells"
+    ],
+    "answer": 2,
+    "why": "The antibody treatment given to already-old wild-type mice reproduced the benefits seen in mice genetically lacking PD-L2 from birth, suggesting a treatment window can exist later in life as well as earlier."
+  },
+  {
+    "qid": "2026-09-11-pm#2",
+    "lessonId": "2026-09-11-pm",
+    "lessonTitle": "A Single Protein Lets Zombie Cells Hide From Your Immune System",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking & Longevity",
+    "q": "What is the main limitation of this study when it comes to applying the findings to humans?",
+    "choices": [
+      "The study included no human data of any kind",
+      "The functional treatment benefits (less senescent cell buildup, better insulin sensitivity, stronger grip) were shown only in mice, while human evidence was limited to cell and blood-marker correlations",
+      "The senolytic drugs used are illegal for human use",
+      "PD-L2 has never been studied in any other medical context"
+    ],
+    "answer": 1,
+    "why": "While human cells and blood samples showed PD-L2 patterns consistent with the mouse biology, the actual demonstrated benefits of blocking PD-L2, improved insulin sensitivity and grip strength, come entirely from mouse experiments."
   }
 ]

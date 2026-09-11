@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-09-11-pm",
+    "date": "2026-09-11",
+    "slot": "pm",
+    "topic": "biohacking",
+    "topicLabel": "Biohacking & Longevity",
+    "title": "A Single Protein Lets Zombie Cells Hide From Your Immune System",
+    "tldr": "Aging cells seem to wear a molecular disguise called PD-L2 that hides them from the immune system, and blocking that disguise in old mice cleared out more of these cells and improved their blood sugar control and grip strength.",
+    "readMinutes": 5,
+    "citation": "Chaib, S. et al. & Kirkland, J. L. (2026), \"Blocking PD-L2 prevents senescent cell accumulation and age-related dysfunction\", Cell Metabolism, doi:10.1016/j.cmet.2026.08.014",
+    "quizCount": 3
+  },
+  {
     "id": "2026-09-10-pm",
     "date": "2026-09-10",
     "slot": "pm",
